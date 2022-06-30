@@ -288,7 +288,7 @@ def probe_lm(relation, subject_entities, output_dir: Path, batch_size=20):
         results += x
 
         # Sleep is needed becase we make many API calls. We can make 60 calls every minute
-        if idx % 3:
+        if idx % 5:
             time.sleep(5)
 
     ### saving the prompt outputs separately for each relation type
