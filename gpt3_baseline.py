@@ -1,11 +1,12 @@
 import argparse
-import os
+import time
 from pathlib import Path
+
 import pandas as pd
+
 from utils.model import gpt3
 
-SAMPLE_SIZE = 5
-
+SAMPLE_SIZE = 200
 
 RELATIONS = {
     "CountryBordersWithCountry",
@@ -70,14 +71,14 @@ Which are the official languages of {subject_entity}?
 What states border San Marino?
 ['San Leo', 'Acquaviva', 'Borgo Maggiore', 'Chiesanuova', 'Fiorentino']
 
-What states border Texas?
-['Chihuahua', 'New Mexico, 'Nuevo León', 'Tamaulipas', 'Coahuila', 'Louisiana', 'Arkansas', 'Oklahoma']
+What states border Whales?
+['England']
 
 What states border Liguria?
 ['Tuscany', 'Auvergne-Rhoone-Alpes', 'Piedmont', 'Emilia-Romagna']
 
-What states border Mecklenberg-western pomerania?
-['Brandenburg', 'Pomeranian', 'Schleswig-holstein', 'Lower Saxony']
+What states border Mecklenberg-Western Pomerania?
+['Brandenburg', 'Pomeranian', 'Schleswig-Holstein', 'Lower Saxony']
 
 What states border {subject_entity}?
 """
@@ -85,10 +86,10 @@ What states border {subject_entity}?
     elif relation == "RiverBasinsCountry":
         prompt = f"""
 What countries does the river Drava cross?
-['hungary', 'italy', 'austria', 'slovenia', 'croatia']
+['Hungary', 'Italy', 'Austria', 'Slovenia', 'Croatia']
 
 What countries does the river Huai river cross?
-['china']
+['China']
 
 What countries does the river Paraná river cross?
 ['Bolivia', 'Paraguay', 'Argentina', 'Brazil']
@@ -212,9 +213,6 @@ How did Bob Saget die?
 How did Jamal Khashoggi die?
 ['Murder']
 
-How did Tupac Shakur die?
-['Drive-by']
-
 How did {subject_entity} die? 
 """
 
@@ -249,7 +247,7 @@ def probe_lm(relation, subject_entities, output_dir: Path):
         # TODO: Batching (Thiviyan)
 
         # TODO: Generate examples in the prompt automatically (Thiviyan)
-        #
+
         # TODO: Rephrase prompt automatically (Dimitris)
 
         ### creating a specific prompt for the given relation
@@ -274,6 +272,10 @@ def probe_lm(relation, subject_entities, output_dir: Path):
 
         if index == SAMPLE_SIZE:
             break
+
+        # Sleep is needed becase we make many API calls. We can make 60 calls every minute
+        if index % 60:
+            time.sleep(10)
 
     ### saving the prompt outputs separately for each relation type
     results_df = pd.DataFrame(results)  # .sort_values(by=["SubjectEntity"], ascending=(True, False))
