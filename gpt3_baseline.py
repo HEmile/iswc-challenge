@@ -41,9 +41,11 @@ def gpt3(prompt):
         'token_logprobs']
 
 
-def clean_up(text):
+def clean_up(probe_outputs):
     """ functions to clean up api output """
-    return text.strip()
+    probe_outputs = probe_outputs.strip()
+    probe_outputs = probe_outputs[2:-2].split("', '")
+    return probe_outputs
 
 
 def create_prompt(subject_entity, relation):
@@ -245,11 +247,9 @@ def probe_lm(relation, subject_entities, output_dir: Path):
         print(f"Probing the GPT3 language model "
               f"for {subject_entity} (subject-entity) and {relation} relation")
 
-        # TODO: transform empty and nan to NONE (Jan)
+        # TODO: transform empty and nan to NONE (Dimitris)
 
         # TODO: Batching (Thiviyan)
-
-        # TODO: take list of predictions and explode into many rows (Dimitris)
 
         # TODO: Generate examples in the prompt automatically (Thiviyan)
         #
@@ -264,15 +264,16 @@ def probe_lm(relation, subject_entities, output_dir: Path):
         # TODO: Check Logic consistency (Emile, Sel)
 
         ### saving the outputs and the likelihood scores received with the sample prompt
-        results.append(
-            {
-                "Prompt": prompt,
-                "SubjectEntity": subject_entity,
-                "Relation": relation,
-                "ObjectEntity": probe_outputs,
-                "Probability": logprob,
-            }
-        )
+        for probe_output in probe_outputs:
+            results.append(
+                {
+                    "Prompt": prompt,
+                    "SubjectEntity": subject_entity,
+                    "Relation": relation,
+                    "ObjectEntity": probe_output,
+                    "Probability": logprob,
+                }
+            )
 
         if index == SAMPLE_SIZE:
             break
