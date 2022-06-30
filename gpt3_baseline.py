@@ -31,6 +31,11 @@ def clean_up(probe_outputs):
     return probe_outputs
 
 
+def convert_nan(probe_outputs):
+    probe_outputs = [None for x in probe_outputs if x == 'NONE']
+    return probe_outputs
+
+
 def create_prompt(subject_entity, relation):
     ### depending on the relation, we fix the prompt
     if relation == "CountryBordersWithCountry":
@@ -255,6 +260,8 @@ def probe_lm(relation, subject_entities, output_dir: Path):
         ### probing the language model and obtaining the ranked tokens in the masked_position
         text, tokens, logprob = gpt3(prompt)  # TODO Figure out what the hell to do with probabilities
         probe_outputs = clean_up(text)
+
+        probe_outputs = convert_nan(probe_outputs)
 
         # TODO: Check Logic consistency (Emile, Sel)
 
