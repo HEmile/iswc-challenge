@@ -54,8 +54,8 @@ def create_prompt(subject_entity, relation):
     ### depending on the relation, we fix the prompt
     if relation == "CountryBordersWithCountry":
         prompt = f"""
-Which countries neighbour Niger?
-['Burkina Faso', 'Benin', 'Libya', 'Mali', 'Algeria', 'Chad', 'Nigeria']
+Which countries neighbour Dominica?
+['Venezuela']
 
 Which countries neighbour North Korea?
 ['South Korea', 'China', 'Russia']
@@ -71,63 +71,66 @@ Which countries neighbour {subject_entity}?
 
     elif relation == "CountryOfficialLanguage":
         prompt = f"""
-Which are the official languages of Finland?
-['swedish', 'finnish']
+Which are the official languages of Suriname?
+['Dutch']
 
-Which are the official languages of India?
-['english', 'hindi']
+Which are the official languages of Canada?
+['English', 'French']
 
-Which are the official languages of Norway?
-['norwegian', 'nynorsk', 'sami', 'sámi', 'bokmal', 'nynorsk']
+Which are the official languages of Singapore?
+['English', 'Malay', 'Mandarin', 'Tamil']
 
-Which are the official languages of Granada?
-['grenadian creole english', 'english', 'creole', 'grenadian']
+Which are the official languages of Sri Lanka?
+['Sinhala', 'Tamil']
 
 Which are the official languages of {subject_entity}?        
 """
     elif relation == "StateSharesBorderState":
         prompt = f"""
 What states border San Marino?
-['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
+['San Leo', 'Acquaviva', 'Borgo Maggiore', 'Chiesanuova', 'Fiorentino']
 
 What states border Texas?
-['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
+['Chihuahua', 'New Mexico, 'Nuevo León', 'Tamaulipas', 'Coahuila', 'Louisiana', 'Arkansas', 'Oklahoma']
 
 What states border Liguria?
-['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
+['Tuscany', 'Auvergne-Rhoone-Alpes', 'Piedmont', 'Emilia-Romagna']
 
 What states border Mecklenberg-western pomerania?
-['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
+['Brandenburg', 'Pomeranian', 'Schleswig-holstein', 'Lower Saxony']
 
 What states border {subject_entity}?
 """
 
     elif relation == "RiverBasinsCountry":
         prompt = f"""
-Which instruments does Liam Gallagher play?
-['maraca', 'guitar']
+What countries does the river Drava cross?
+['hungary', 'italy', 'austria', 'slovenia', 'croatia']
 
-Which instruments does Liam Gallagher play?
-['upright piano', 'piano', 'guitar', 'harmonica']
+What countries does the river Huai river cross?
+['china']
 
-Which instruments does Jay Park play?
-['NONE']
+What countries does the river Paraná river cross?
+['Bolivia', 'Paraguay', 'Argentina', 'Brazil']
 
-Which instruments does Axl Rose play?
-['guitar', 'piano', 'pander', 'bass']
+What countries does the river Oise cross?
+['Belgium', 'France']
 
-Which instruments does Neil Young play?
-['guitar']
-
-Which instruments does {subject_entity} play?
+What countries does the river {subject_entity} cross?
 """
 
     elif relation == "ChemicalCompoundElement":
         prompt = f"""
-What are all the chemical elements that make up the molecule water?
-['Hydrogen', 'Water']
+What are all the chemical elements that make up the molecule Water?
+['Hydrogen', 'Oxygen']
 
-What are all the chemical elements that make up the molecule aspirin?
+What are all the chemical elements that make up the molecule Bismuth subsalicylate	?
+['Bismuth']
+
+What are all the chemical elements that make up the molecule Sodium Bicarbonate	?
+['Hydrogen', 'Oxygen', 'Sodium', 'Carbon']
+
+What are all the chemical elements that make up the molecule Aspirin?
 ['Oxygen', 'Carbon', 'Hydrogen']
 
 What are all the chemical elements that make up the molecule {subject_entity}?
@@ -164,9 +167,6 @@ What is {subject_entity}'s profession?
         prompt = f"""
 Which instruments does Liam Gallagher play?
 ['maraca', 'guitar']
-
-Which instruments does Liam Gallagher play?
-['upright piano', 'piano', 'guitar', 'harmonica']
 
 Which instruments does Jay Park play?
 ['NONE']
