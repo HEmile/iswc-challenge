@@ -5,6 +5,9 @@ from typing import List
 
 
 def logical_integrity(results: List[dict]):
+    prompts = []
+    for result in results:
+        prompts.append(positive_negative_prompt_pairs(result["Relation"], result["SubjectEntity"], result["ObjectEntity"]))
     pass
 
 def positive_negative_prompt_pairs(relation, subject_entity, object_entity):
