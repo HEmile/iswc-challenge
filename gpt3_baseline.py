@@ -30,7 +30,7 @@ def clean_up(probe_outputs):
 
 
 def convert_nan(probe_outputs):
-    probe_outputs = [None for x in probe_outputs if x == 'None']
+    probe_outputs = [None for x in probe_outputs if x == 'NONE']
     return probe_outputs
 
 
