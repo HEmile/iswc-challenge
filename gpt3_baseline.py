@@ -1,13 +1,11 @@
 import argparse
 import os
 from pathlib import Path
-
-import openai
 import pandas as pd
+from utils import gpt3
 
 SAMPLE_SIZE = 5
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
 
 RELATIONS = {
     "CountryBordersWithCountry",
@@ -23,22 +21,6 @@ RELATIONS = {
     "PersonCauseOfDeath",
     "CompanyParentOrganization",
 }
-
-
-def gpt3(prompt):
-    """ functions to call GPT3 predictions """
-    response = openai.Completion.create(
-        model="text-davinci-002",
-        prompt=prompt,
-        temperature=0,
-        max_tokens=20,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0,
-        logprobs=1
-    )
-    return response.choices[0]['text'], response.choices[0]['logprobs']['tokens'], response.choices[0]['logprobs'][
-        'token_logprobs']
 
 
 def clean_up(text):
