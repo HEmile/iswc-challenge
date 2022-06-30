@@ -1,11 +1,12 @@
 import argparse
 import time
 from pathlib import Path
+
 import pandas as pd
+
 from utils.model import gpt3
 
 SAMPLE_SIZE = 200
-
 
 RELATIONS = {
     "CountryBordersWithCountry",
@@ -31,8 +32,13 @@ def clean_up(probe_outputs):
 
 
 def convert_nan(probe_outputs):
-    probe_outputs = [None for x in probe_outputs if x == 'NONE']
-    return probe_outputs
+    new_probe_outputs = []
+    for item in probe_outputs:
+        if item == 'NONE':
+            new_probe_outputs.append(None)
+        else:
+            new_probe_outputs.append(item)
+    return new_probe_outputs
 
 
 def create_prompt(subject_entity, relation):
@@ -253,10 +259,6 @@ def probe_lm(relation, subject_entities, output_dir: Path, batch_size=20):
             print(f"Probing the GPT3 language model "
                   f"for {subject_entity} (subject-entity) and {relation} relation")
 
-            # TODO: transform empty and nan to NONE (Jan)
-
-            # TODO: take list of predictions and explode into many rows (Dimitris)
-
             # TODO: Generate examples in the prompt automatically (Thiviyan)
             #
             # TODO: Rephrase prompt automatically (Dimitris)
@@ -269,8 +271,7 @@ def probe_lm(relation, subject_entities, output_dir: Path, batch_size=20):
 
         for prediction in predictions:
             prediction['text'] = clean_up(prediction['text'])
-
-        probe_outputs = convert_nan(probe_outputs)
+            prediction['text'] = convert_nan(prediction['text'])
 
         # TODO: Check Logic consistency (Emile, Sel)
 
