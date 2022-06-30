@@ -168,9 +168,6 @@ What is {subject_entity}'s profession?
 Which instruments does Liam Gallagher play?
 ['maraca', 'guitar']
 
-Which instruments does Liam Gallagher play?
-['upright piano', 'piano', 'guitar', 'harmonica']
-
 Which instruments does Jay Park play?
 ['NONE']
 
