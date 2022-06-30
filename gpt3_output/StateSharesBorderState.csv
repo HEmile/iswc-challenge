@@ -1,0 +1,91 @@
+Prompt,SubjectEntity,Relation,ObjectEntity,Probability
+"
+What states border San Marino?
+['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
+
+What states border Texas?
+['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
+
+What states border Liguria?
+['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
+
+What states border Mecklenberg-western pomerania?
+['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
+
+What states border Andalusia?
+",Andalusia,StateSharesBorderState,"['castilla-la mancha', 'extremadura', 'murcia', 'mel","[-0.0048860065, -0.7704693, -0.5150887, -0.31495434, -0.00096046674, -6.146545e-05, -3.869565e-05, -0.00018629384, -7.4460135e-05, -0.2827576, -3.97704e-05, -1.8841804e-07, -1.8601542e-06, -0.0003917514, -3.3689823e-05, -0.038679324, -5.460492e-07, -0.057725724, -0.00066589756, -0.5786233]"
+"
+What states border San Marino?
+['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
+
+What states border Texas?
+['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
+
+What states border Liguria?
+['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
+
+What states border Mecklenberg-western pomerania?
+['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
+
+What states border Auvergne?
+",Auvergne,StateSharesBorderState,"['rhone-alpes', 'centre-val de loire', 'bourgogne","[-0.0668978, -1.1250595, -0.0934202, -0.005993931, -0.00031811238, -0.00095688767, -0.00015923065, -0.00015338662, -1.03631, -1.1991961e-05, -0.42182395, -0.020408375, -0.0021277207, -0.00010796247, -3.7863996e-05, -0.00019929133, -0.00013562171, -0.31436902, -3.9055147e-05, -2.4543265e-06]"
+"
+What states border San Marino?
+['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
+
+What states border Texas?
+['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
+
+What states border Liguria?
+['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
+
+What states border Mecklenberg-western pomerania?
+['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
+
+What states border Basel-stadt?
+",Basel-stadt,StateSharesBorderState,"['basel-landschaft', 'solothurn', 'jura', 'aarg","[-0.0010184594, -1.0289661, -1.0681599e-05, -0.00020739941, -0.059295256, -6.7307614e-05, -1.3823812e-06, -0.000787282, -0.00047433955, -0.35167807, -2.6538237e-05, -6.6619094e-07, -8.483411e-05, -0.00015219547, -0.089755744, -1.2828294e-05, -0.021012206, -0.00012119652, -0.7066671, -5.675771e-06]"
+"
+What states border San Marino?
+['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
+
+What states border Texas?
+['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
+
+What states border Liguria?
+['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
+
+What states border Mecklenberg-western pomerania?
+['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
+
+What states border Basilicata?
+",Basilicata,StateSharesBorderState,"['campania', 'puglia', 'calabria']","[-0.00851403, -1.114525, -0.00015112259, -0.00024537253, -0.00013097163, -0.69115657, -4.3227457e-05, -3.4089344e-06, -0.038317196, -0.00013884035, -0.02909071, -0.0009858207, -3.1185496e-05, -0.19975133, -0.003737361, -2.3162208]"
+"
+What states border San Marino?
+['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
+
+What states border Texas?
+['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
+
+What states border Liguria?
+['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
+
+What states border Mecklenberg-western pomerania?
+['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
+
+What states border Basque autonomous community?
+",Basque autonomous community,StateSharesBorderState,"['navarre', 'france', 'aragon']","[-0.003372414, -0.22782776, -0.0015488476, -1.4854846e-05, -6.6949986e-05, -0.39344284, -0.008869005, -0.21998294, -3.7743856e-05, -0.6147052, -0.0003090478, -0.0762646, -7.398424e-05, -2.3845263, -1.0736026, -0.6703288]"
+"
+What states border San Marino?
+['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
+
+What states border Texas?
+['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
+
+What states border Liguria?
+['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
+
+What states border Mecklenberg-western pomerania?
+['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
+
+What states border Bavaria?
+",Bavaria,StateSharesBorderState,"['tyrol', 'salzburg', 'upper austria', 'lower austria', '","[-0.01117528, -0.89739203, -6.6619094e-07, -3.023464e-05, -6.0038692e-05, -0.27496997, 0, -1.3823812e-06, -1.3185924e-05, -6.0276172e-05, -0.26117107, -0.030847918, -0.000108796, -1.5214344e-05, -3.869565e-05, -0.89634174, -0.010527358, -2.4543265e-06, -9.091469e-05, -0.00011905076]"

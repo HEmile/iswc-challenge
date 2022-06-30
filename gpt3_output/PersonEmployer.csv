@@ -1,0 +1,55 @@
+Prompt,SubjectEntity,Relation,ObjectEntity,Probability
+"
+Where is or was Susan Wojcicki employed?
+['Google']
+
+Where is or was Steve Wozniak employed?
+['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari, Atari Inc']
+
+Where is or was Adam Savage employed?
+",Adam Savage,PersonEmployer,"['MythBusters', 'Industrial Light & Magic', 'JPL']","[-0.0065788035, -0.283437, -0.26906145, -7.8540467e-07, -0.25428703, -0.0002192039, -1.0141791, -0.00010844024, -0.0002547938, -0.043039933, -0.0057275514, -0.21010363, -3.2855354e-05, -1.2014931, -1.7285616, -0.30254593, -0.055945925, -2.0903332, -1.0485703, -0.684154]"
+"
+Where is or was Susan Wojcicki employed?
+['Google']
+
+Where is or was Steve Wozniak employed?
+['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari, Atari Inc']
+
+Where is or was Alexis Ohanian employed?
+",Alexis Ohanian,PersonEmployer,"['Reddit', 'Initech', 'Y Combinator']","[-0.006630881, -0.58152467, -0.05525324, -0.0003133412, -0.42016515, -0.6522719, -0.92155814, -0.0005733325, -1.7829033, -0.0025278258, -6.031526e-06, -6.1516675e-06, -0.13510342, -0.009863719, -2.0580783, -1.101047]"
+"
+Where is or was Susan Wojcicki employed?
+['Google']
+
+Where is or was Steve Wozniak employed?
+['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari, Atari Inc']
+
+Where is or was Amber Rudd employed?
+",Amber Rudd,PersonEmployer,"['J.P. Morgan', 'RBS', 'Deutsche Bank', 'Henderson","[-0.008950976, -0.1691178, -0.0065635033, -0.005668865, -0.0004974163, -0.0066922656, -0.14804284, -0.00022337619, -1.8767389, -0.7953013, -0.97681844, -2.7611111e-05, -0.9164289, -0.0050339, -0.0036154971, -0.18702835, -0.0008044011, -1.6638389, -0.58623254, -7.124244e-05]"
+"
+Where is or was Susan Wojcicki employed?
+['Google']
+
+Where is or was Steve Wozniak employed?
+['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari, Atari Inc']
+
+Where is or was Aylin Nazlıaka employed?
+",Aylin Nazlıaka,PersonEmployer,['Google'],"[-0.03957312, -1.6794871, -0.40459216, -0.047783628, -1.9610505, -1.0878787, -0.6853401, -1.2234182]"
+"
+Where is or was Susan Wojcicki employed?
+['Google']
+
+Where is or was Steve Wozniak employed?
+['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari, Atari Inc']
+
+Where is or was Bill Browder employed?
+",Bill Browder,PersonEmployer,['Hermitage Capital Management'],"[-0.012124034, -0.650105, -0.00025443616, -4.883026e-05, -0.009544376, -0.01291083, -0.4413553, -0.009099171]"
+"
+Where is or was Susan Wojcicki employed?
+['Google']
+
+Where is or was Steve Wozniak employed?
+['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari, Atari Inc']
+
+Where is or was Bob Iger employed?
+",Bob Iger,PersonEmployer,"['The Walt Disney Company', 'ABC', 'Capital Cities/ABC Inc.']","[-0.012027446, -0.44317693, -0.0002124071, -9.0080226e-05, -0.0029290495, -0.38090754, -0.00037278878, -0.32972473, -0.97997105, -0.00035728698, -0.04468711, -7.698572e-06, -0.0039755628, -2.6298881e-05, -0.35145798, -0.20999794, -0.0052838004, -0.0022420539, -2.0483637, -1.0600965]"

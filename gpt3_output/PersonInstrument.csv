@@ -1,0 +1,289 @@
+Prompt,SubjectEntity,Relation,ObjectEntity,Probability
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does A. J. McLean play?
+",A. J. McLean,PersonInstrument,['drums'],"[-0.014742479, -1.1436219, 0, -0.6287887, -0.0019959004, -2.3400512, -0.9888798, -0.66677916]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Arnel Pineda play?
+",Arnel Pineda,PersonInstrument,"['guitar', 'bass', 'drums']","[-0.029722035, -0.36290425, -4.5135734e-05, -0.00015672446, -0.62125784, -1.5567284e-05, -1.0108383, -0.1758992, -2.8921473e-05, -0.41945553, 0, -0.33218852, -0.000116546435, -2.2939193, -1.0104051, -0.66931427]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Bang Yong-guk play?
+",Bang Yong-guk,PersonInstrument,['NONE'],"[-0.016352993, -0.9189808, -0.00044082504, -9.639735e-05, -0.00025789507, -2.2209792, -1.0269316, -0.66905916]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Billie Joe Armstrong play?
+",Billie Joe Armstrong,PersonInstrument,"['guitar', 'piano', 'bass']","[-0.0077169496, -0.036775377, -2.4750101e-05, -6.754697e-05, -0.19475392, -0.00011750104, -0.849015, -1.7236207e-05, -0.23814356, -4.1200903e-05, -0.3515354, -0.5160766, -0.01916018, -2.3377976, -0.9751175, -0.66531736]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Billy Corgan play?
+",Billy Corgan,PersonInstrument,"['guitar', 'bass', 'keyboards', 'drums']","[-0.0077713104, -0.07183727, -3.6195077e-05, -5.1810483e-05, -0.313124, -8.924483e-05, -0.7141726, -0.08102059, -0.0001011657, -0.44528362, -0.4705373, -0.5609509, -4.5494293e-05, -0.05086459, 0, -0.36266103, -0.0018638595, -2.2826293, -1.0118597, -0.66851723]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Björk play?
+",Björk,PersonInstrument,"['flute', 'piano', 'synthesizer', 'keyboard']","[-0.0015113588, -0.9365968, -0.001600725, -0.040882446, -4.883026e-05, -1.4431286, -0.00013216372, -0.2319758, -3.142485e-05, -1.2863744, -9.966347e-06, -1.8841804e-07, -0.0020153117, -0.45110655, -1.37819625e-05, -1.8078187, -0.33724836, -0.3496301, -0.0003496548, -2.272438]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Byun Baek-hyun play?
+",Byun Baek-hyun,PersonInstrument,['NONE'],"[-0.072644405, -0.6894075, -0.0005173354, -0.00040665813, -0.0004964617, -2.261872, -1.0456971, -0.6654365]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Chester Bennington play?
+",Chester Bennington,PersonInstrument,"['guitar', 'piano']","[-0.023167375, -0.3627753, -5.2765092e-05, -5.896488e-05, -0.44675726, -2.1529595e-05, -0.8046812, -0.00015827699, -0.60762227, -0.0014622909, -2.287064, -0.9849665, -0.6664091, -1.2006696, -0.13141027, -0.00011237507]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does China Anne McClain play?
+",China Anne McClain,PersonInstrument,['NONE'],"[-0.14171724, -0.5679959, -0.0023044844, -0.00013991416, -0.00040463064, -2.2681572, -1.0142682, -0.66913396]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Cho Kyuhyun play?
+",Cho Kyuhyun,PersonInstrument,['piano'],"[-0.008849041, -0.890838, -5.2525735e-05, -0.3585423, -0.00060929876, -2.2462456, -1.0052012, -0.6667365]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Chris Daughtry play?
+",Chris Daughtry,PersonInstrument,"['guitar', 'bass', 'drums']","[-0.029116299, -0.16834292, -4.0009756e-05, -9.759038e-05, -0.6369828, -0.00013597934, -0.4467442, -0.22331586, -0.00011964774, -0.17376883, 0, -0.5933193, -0.00043140285, -2.269297, -0.9880028, -0.667012]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Corey Taylor play?
+",Corey Taylor,PersonInstrument,"['guitar', 'bass', 'drums', 'vocals']","[-0.018190164, -0.31762844, -2.4866502e-05, -7.028876e-05, -0.10715837, -0.0001011657, -0.26882154, -0.12804592, -0.00017103326, -1.0771403, 0, -0.648613, -7.1719274e-05, -0.9015489, -1.8841804e-07, -0.030117907, -0.0006060773, -2.3304584, -1.0059655, -0.6704913]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Courtney Love play?
+",Courtney Love,PersonInstrument,['guitar'],"[-0.0047707106, -0.14866175, -1.6402679e-05, -7.481963e-05, -0.56437856, -0.0019836586, -2.2827013, -0.9965626]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Duff McKagan play?
+",Duff McKagan,PersonInstrument,"['bass', 'guitar']","[-0.014403793, -0.229167, -0.5784597, -2.784859e-05, -0.14604741, -3.2906587e-06, -1.1430258e-06, -0.48258254, -0.09449075, -2.3308063, -1.0266335, -0.6706719, -1.2020097, -0.13015176, -0.000102479804, -3.170517e-06]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Gary Barlow play?
+",Gary Barlow,PersonInstrument,"['piano', 'guitar']","[-0.016916426, -0.6019875, -8.948419e-05, -0.2917006, -5.5745302e-05, -0.28925338, -1.1398727e-05, -5.264588e-05, -0.52145594, -0.004269616, -2.3946016, -1.0088425, -0.66882056, -1.1941708, -0.13064992, -0.00010760485]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Gerard Way play?
+",Gerard Way,PersonInstrument,"['guitar', 'bass', 'keyboard']","[-0.014862254, -0.28905767, -4.8233283e-05, -9.854499e-05, -0.34993026, -3.7266083e-05, -0.45395523, -0.24148014, -8.423619e-05, -0.8156096, -0.28162974, -0.627991, -0.002221564, -2.167422, -0.62818336, -0.00067842286]"

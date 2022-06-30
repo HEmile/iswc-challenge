@@ -1,18 +1,11 @@
 import argparse
 import os
 from pathlib import Path
-
-import openai
 import pandas as pd
-import torch
+from utils import gpt3
 
 SAMPLE_SIZE = 5
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-### using GPU if available
-device = torch.device(torch.device("cuda:0" if torch.cuda.is_available() else "cpu"))
-torch.manual_seed(1000)
 
 RELATIONS = {
     "CountryBordersWithCountry",
@@ -28,21 +21,6 @@ RELATIONS = {
     "PersonCauseOfDeath",
     "CompanyParentOrganization",
 }
-
-
-def gpt3(prompt):
-    """ functions to call GPT3 predictions """
-    response = openai.Completion.create(
-        model="text-davinci-002",
-        prompt=prompt,
-        temperature=0,
-        max_tokens=20,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0,
-        logprobs=1
-    )
-    return response.choices[0]['text'], response.choices[0]['logprobs']['tokens'], response.choices[0]['logprobs']['token_logprobs']
 
 
 def clean_up(text):
@@ -249,8 +227,14 @@ def probe_lm(relation, subject_entities, output_dir: Path):
         print(f"Probing the GPT3 language model "
               f"for {subject_entity} (subject-entity) and {relation} relation")
 
-        # TODO: Generate examples in the prompt automatically (Thiviyan)
+        # TODO: transform empty and nan to NONE (Jan)
 
+        # TODO: Batching (Thiviyan)
+
+        # TODO: take list of predictions and explode into many rows (Dimitris)
+
+        # TODO: Generate examples in the prompt automatically (Thiviyan)
+        #
         # TODO: Rephrase prompt automatically (Dimitris)
 
         ### creating a specific prompt for the given relation
@@ -276,7 +260,7 @@ def probe_lm(relation, subject_entities, output_dir: Path):
             break
 
     ### saving the prompt outputs separately for each relation type
-    results_df = pd.DataFrame(results) #.sort_values(by=["SubjectEntity"], ascending=(True, False))
+    results_df = pd.DataFrame(results)  # .sort_values(by=["SubjectEntity"], ascending=(True, False))
 
     if output_dir.exists():
         assert output_dir.is_dir()

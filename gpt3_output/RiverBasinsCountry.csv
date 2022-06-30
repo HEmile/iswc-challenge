@@ -1,0 +1,289 @@
+Prompt,SubjectEntity,Relation,ObjectEntity,Probability
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Alagón river play?
+",Alagón river,RiverBasinsCountry,NONE,"[-0.44365698, -0.24712226, -0.004442207, -3.7386224e-05, -2.2440915, -1.0110651, -0.6683133, -1.1960791]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Apurímac river play?
+",Apurímac river,RiverBasinsCountry,['NONE'],"[-0.19635156, -0.014490812, -0.001161306, -1.9621319e-05, -1.5327929e-05, -2.1945019, -1.014359, -0.67085415]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Brenta play?
+",Brenta,RiverBasinsCountry,['NONE'],"[-0.115272954, -1.0851723, -0.009779332, -0.0001118973, -0.00016769636, -2.0971012, -1.4005853, -3.1251302]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Büyük menderes river play?
+",Büyük menderes river,RiverBasinsCountry,['NONE'],"[-0.52070314, -0.09661216, -0.0038572038, -5.6340414e-05, -0.0001064137, -2.1235325, -1.0353409, -0.662882]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Dahme play?
+",Dahme,RiverBasinsCountry,['NONE'],"[-0.07213748, -1.0600717, -0.018396987, -0.00018450571, -0.00023488217, -2.2065291, -1.0236945, -0.6679737]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Danube play?
+",Danube,RiverBasinsCountry,['NONE'],"[-0.07037642, -1.328311, -0.006410762, -0.00017198599, -8.6144464e-05, -2.1845386, -1.0106965, -0.6674153]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Didi liakhvi river play?
+",Didi liakhvi river,RiverBasinsCountry,['NONE'],"[-0.58832484, -0.81852174, -0.8928391, -0.004844497, -0.00019607085, -5.675771e-06, -2.3268354, -0.9938381]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Dniester play?
+",Dniester,RiverBasinsCountry,['NONE'],"[-0.72839177, -0.6807392, -0.047397263, -7.291136e-05, -9.9022756e-05, -2.2106342, -1.0246046, -0.6624608]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Donets play?
+",Donets,RiverBasinsCountry,['NONE'],"[-0.05283241, -1.2220862, -0.007137719, -0.0002644525, -0.00018617464, -2.1967287, -1.0084345, -0.6662896]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Dordogne play?
+",Dordogne,RiverBasinsCountry,['NONE'],"[-0.2506646, -0.33413887, -0.0070463554, -5.503005e-05, -1.7236207e-05, -2.219824, -1.024568, -0.66526407]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Gadar river play?
+",Gadar river,RiverBasinsCountry,['NONE'],"[-0.4718278, -0.04581565, -0.0036422391, -4.048565e-05, -4.3465872e-05, -2.1622257, -1.4535156, -3.0874147]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Gambia river play?
+",Gambia river,RiverBasinsCountry,['NONE'],"[-0.11428845, -0.03229308, -0.001960484, -2.6893982e-05, -1.37819625e-05, -2.2210414, -1.4502404, -3.1777108]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Han river play?
+",Han river,RiverBasinsCountry,['NONE'],"[-0.45518482, -0.070088685, -0.0022250277, -6.4566746e-05, -0.0003230018, -2.1597605, -1.4258686, -3.1378875]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Iguazu river play?
+",Iguazu river,RiverBasinsCountry,['NONE'],"[-0.053933326, -0.013211805, -0.0011837445, -1.1278585e-05, -4.46589e-05, -2.2814746, -1.0020101, -0.6667189]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Inn play?
+",Inn,RiverBasinsCountry,['NONE'],"[-0.07945669, -1.3795582, -0.06485356, -0.00013443055, -0.0012723082, -2.189124, -1.0054928, -0.66546947]"
+"
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
+
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does Japurá river play?
+",Japurá river,RiverBasinsCountry,['NONE'],"[-0.21905917, -0.049692802, -0.0010695333, -2.1768952e-05, -2.0218295e-05, -2.1829998, -1.022408, -0.6692842]"
