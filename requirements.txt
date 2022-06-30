@@ -1,0 +1,6 @@
+jupyter==1.0.0
+pandas==1.4.2
+torch==1.12.0
+transformers==4.20.1
+openai==0.20.0
+
