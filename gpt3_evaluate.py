@@ -22,6 +22,7 @@ RELATIONS = {
     "CompanyParentOrganization",
 }
 
+
 ### Precision = how much of the LM's predictions match with ground truth (GT) - |LM intersection GT| / |LM|
 def precision(x, y):
     count = 0
@@ -52,6 +53,9 @@ def f1_score(x, y):
 
 ### converting the LM predictions into lower case and removing punctuations
 def clean_predictions(x):
+    if type(x) == float:
+        print(f'error on {x}')
+        return
     return x.lower().strip().replace(".", "").replace(",", "").replace("-", "")
 
 
@@ -68,42 +72,31 @@ def evaluate(input_dir: Path, ground_truth_dir: Path, results_dir: Path):
     for fname in input_dir.glob("*.csv"):
         prompt_df = pd.read_csv(fname)
         ### getting the relation name from the file name
-        # relation = fname.split("/")[-1].split(".")[0]
         relation = fname.stem
 
         if relation not in RELATIONS:
-            sys.stderr.write(
-                f'\nWARNING: Ignored: Filename: "{fname.absolute()}" --- "{relation}" is not a valid relation\n\n'
-            )
+            sys.stderr.write(f'\nWARNING: Ignored" '
+                             f'Filename: "{fname.absolute()}" --- "{relation}" is not a valid relation\n\n')
             continue
 
         ground_truth_df = pd.read_csv(ground_truth_dir / f"{relation}.csv")
-        ground_truth_df["ObjectEntity"] = ground_truth_df["ObjectEntity"].apply(
-            literal_eval
-        )
+        ground_truth_df["ObjectEntity"] = ground_truth_df["ObjectEntity"].apply(literal_eval)
 
+        # looping through entities
         res_df = []
-        for entity, ground_truth_objects in ground_truth_df.groupby(["SubjectEntity"])[
-            "ObjectEntity"
-        ]:
+        for entity, ground_truth_objects in ground_truth_df.groupby(["SubjectEntity"])["ObjectEntity"]:
             ground_truth_objects = ground_truth_objects.tolist()
-            predictions = prompt_df[prompt_df["SubjectEntity"] == entity][
-                "ObjectEntity"
-            ].tolist()
-            # print ('SubjectEntity: %s' % entity, 'Ground Truth: %s' % ground_truth_objects, 'Predictions: %s' % predictions)
-            if len(predictions) == 0:
+            predictions = prompt_df[prompt_df["SubjectEntity"] == entity]["ObjectEntity"].tolist()
+            print('SubjectEntity: %s' % entity, 'Ground Truth: %s' % ground_truth_objects,
+                  'Predictions: %s' % predictions)
+
+            if len(predictions) == 0 or np.nan in predictions:
                 ### if no predictions obtained for the subject-entity, then F1-score is 0
-                res_df.append(
-                    {"SubjectEntity": entity, "Relation": relation, "F1-score": 0}
-                )
+                res_df.append({"SubjectEntity": entity, "Relation": relation, "F1-score": 0})
             else:
-                predictions = [clean_predictions(x) for x in predictions]
-                f1 = f1_score(
-                    predictions, ground_truth_objects
-                )  ### calculating F1-score for the given subject-entity
-                res_df.append(
-                    {"SubjectEntity": entity, "Relation": relation, "F1-score": f1}
-                )
+                predictions = [clean_predictions(x) for x in predictions] # if type(x) != str
+                f1 = f1_score(predictions, ground_truth_objects)  ### calculating F1-score for the given subject-entity
+                res_df.append({"SubjectEntity": entity, "Relation": relation, "F1-score": f1})
 
         ### storing the results separately for each relation
         res_df = pd.DataFrame(res_df)
@@ -127,7 +120,7 @@ def main():
     parser.add_argument(
         "--input_dir",
         type=str,
-        default="./baseline/",
+        default="./gpt3_output/",
         help="input directory containing the baseline or your method output",
     )
     parser.add_argument(
@@ -139,7 +132,7 @@ def main():
     parser.add_argument(
         "--results_dir",
         type=str,
-        default="./results/",
+        default="./gpt3_results/",
         help="results directory for storing the F1 scores for baseline or your method",
     )
     args = parser.parse_args()

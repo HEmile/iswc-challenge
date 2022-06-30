@@ -150,15 +150,21 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 
-baseline/
+gpt3_baseline/
 bert_base_output/
 bert_large_output/
-prompt_output_bert_base/
-prompt_output_bert_large/
-prompt_output_bert_large_cased/
-prompt_output_roberta_base/
 roberta_base_output/
 thres1_output/
 thres2_output/
 thres3_output/
+gpt3_output/
 
+prompt_output_bert_base/
+prompt_output_bert_large/
+prompt_output_bert_large_cased/
+prompt_output_roberta_base/
+
+
+
+bert_large_results/
+gpt3_results/

@@ -1,18 +1,11 @@
 import argparse
 import os
 from pathlib import Path
-
-import openai
 import pandas as pd
-import torch
+from utils.model import gpt3
 
 SAMPLE_SIZE = 5
 
-openai.api_key = os.getenv("OPENAI_API_KEY")
-
-### using GPU if available
-device = torch.device(torch.device("cuda:0" if torch.cuda.is_available() else "cpu"))
-torch.manual_seed(1000)
 
 RELATIONS = {
     "CountryBordersWithCountry",
@@ -30,24 +23,11 @@ RELATIONS = {
 }
 
 
-def gpt3(prompt):
-    """ functions to call GPT3 predictions """
-    response = openai.Completion.create(
-        model="text-davinci-002",
-        prompt=prompt,
-        temperature=0,
-        max_tokens=20,
-        top_p=1,
-        frequency_penalty=0,
-        presence_penalty=0,
-        logprobs=1
-    )
-    return response.choices[0]['text'], response.choices[0]['logprobs']['tokens'], response.choices[0]['logprobs']['token_logprobs']
-
-
-def clean_up(text):
+def clean_up(probe_outputs):
     """ functions to clean up api output """
-    return text.strip()
+    probe_outputs = probe_outputs.strip()
+    probe_outputs = probe_outputs[2:-2].split("', '")
+    return probe_outputs
 
 
 def create_prompt(subject_entity, relation):
@@ -264,8 +244,12 @@ def probe_lm(relation, subject_entities, output_dir: Path):
         print(f"Probing the GPT3 language model "
               f"for {subject_entity} (subject-entity) and {relation} relation")
 
-        # TODO: Generate examples in the prompt automatically (Thiviyan)
+        # TODO: transform empty and nan to NONE (Dimitris)
 
+        # TODO: Batching (Thiviyan)
+
+        # TODO: Generate examples in the prompt automatically (Thiviyan)
+        #
         # TODO: Rephrase prompt automatically (Dimitris)
 
         ### creating a specific prompt for the given relation
@@ -277,21 +261,22 @@ def probe_lm(relation, subject_entities, output_dir: Path):
         # TODO: Check Logic consistency (Emile, Sel)
 
         ### saving the outputs and the likelihood scores received with the sample prompt
-        results.append(
-            {
-                "Prompt": prompt,
-                "SubjectEntity": subject_entity,
-                "Relation": relation,
-                "ObjectEntity": probe_outputs,
-                "Probability": logprob,
-            }
-        )
+        for probe_output in probe_outputs:
+            results.append(
+                {
+                    "Prompt": prompt,
+                    "SubjectEntity": subject_entity,
+                    "Relation": relation,
+                    "ObjectEntity": probe_output,
+                    "Probability": logprob,
+                }
+            )
 
         if index == SAMPLE_SIZE:
             break
 
     ### saving the prompt outputs separately for each relation type
-    results_df = pd.DataFrame(results) #.sort_values(by=["SubjectEntity"], ascending=(True, False))
+    results_df = pd.DataFrame(results)  # .sort_values(by=["SubjectEntity"], ascending=(True, False))
 
     if output_dir.exists():
         assert output_dir.is_dir()

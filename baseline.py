@@ -1,5 +1,4 @@
 import argparse
-import os
 from pathlib import Path
 
 import pandas as pd
@@ -169,7 +168,7 @@ def main():
     parser.add_argument(
         "--baseline_output_dir",
         type=str,
-        default="./baseline/",
+        default="./bert_large_output/",
         help="output directory to store the baseline output",
     )
     args = parser.parse_args()

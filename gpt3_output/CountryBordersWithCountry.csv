@@ -1,0 +1,91 @@
+Prompt,SubjectEntity,Relation,ObjectEntity,Probability
+"
+Which countries neighbour Niger?
+['Burkina Faso', 'Benin', 'Libya', 'Mali', 'Algeria', 'Chad', 'Nigeria']
+
+Which countries neighbour North Korea?
+['South Korea', 'China', 'Russia']
+
+Which countries neighbour Serbia?
+['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
+
+Which countries neighbour Fiji?
+['NONE']
+
+Which countries neighbour Andorra?
+",Andorra,CountryBordersWithCountry,"['France', 'Spain']","[-0.00093803304, -0.622299, -0.00034464613, -3.3928238e-05, -0.0069137663, -0.0017674835, -0.005695659, -2.2545793]"
+"
+Which countries neighbour Niger?
+['Burkina Faso', 'Benin', 'Libya', 'Mali', 'Algeria', 'Chad', 'Nigeria']
+
+Which countries neighbour North Korea?
+['South Korea', 'China', 'Russia']
+
+Which countries neighbour Serbia?
+['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
+
+Which countries neighbour Fiji?
+['NONE']
+
+Which countries neighbour Angola?
+",Angola,CountryBordersWithCountry,"['Namibia', 'Zambia', 'Democratic Republic of the Congo', 'Republic of","[-0.0042681196, -0.67626345, -0.02149277, -1.022884e-06, -0.0004957474, -8.1136764e-05, -0.94547313, -0.00268159, -6.827632e-08, -0.0001506467, -3.023464e-05, -1.072286, -7.8540467e-07, -7.818713e-06, -0.032360062, -5.460492e-07, -0.00095247134, -0.000502546, -0.4682267, 0]"
+"
+Which countries neighbour Niger?
+['Burkina Faso', 'Benin', 'Libya', 'Mali', 'Algeria', 'Chad', 'Nigeria']
+
+Which countries neighbour North Korea?
+['South Korea', 'China', 'Russia']
+
+Which countries neighbour Serbia?
+['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
+
+Which countries neighbour Fiji?
+['NONE']
+
+Which countries neighbour Australia?
+",Australia,CountryBordersWithCountry,['NONE'],"[-0.0036936272, -0.8645465, -0.00027649727, -7.362661e-05, -0.0011802847, -2.1843476, -1.0571405, -0.6819303]"
+"
+Which countries neighbour Niger?
+['Burkina Faso', 'Benin', 'Libya', 'Mali', 'Algeria', 'Chad', 'Nigeria']
+
+Which countries neighbour North Korea?
+['South Korea', 'China', 'Russia']
+
+Which countries neighbour Serbia?
+['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
+
+Which countries neighbour Fiji?
+['NONE']
+
+Which countries neighbour Bahrain?
+",Bahrain,CountryBordersWithCountry,"['Qatar', 'Saudi Arabia']","[-0.0029499694, -0.4474494, -1.2622395e-06, -0.00017329915, -1.3542607e-05, -0.015144571, -6.827632e-08, -0.04743083, -0.0018088631, -2.282338, -1.0642599, -0.68484384, -1.1802986, -0.13222522, -0.00011726356, -3.7684315e-06]"
+"
+Which countries neighbour Niger?
+['Burkina Faso', 'Benin', 'Libya', 'Mali', 'Algeria', 'Chad', 'Nigeria']
+
+Which countries neighbour North Korea?
+['South Korea', 'China', 'Russia']
+
+Which countries neighbour Serbia?
+['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
+
+Which countries neighbour Fiji?
+['NONE']
+
+Which countries neighbour Barbados?
+",Barbados,CountryBordersWithCountry,['NONE'],"[-0.00096130127, -0.15421389, -4.2392992e-05, -1.6282536e-05, -0.0005653418, -2.1989098, -1.0480243, -0.6827802]"
+"
+Which countries neighbour Niger?
+['Burkina Faso', 'Benin', 'Libya', 'Mali', 'Algeria', 'Chad', 'Nigeria']
+
+Which countries neighbour North Korea?
+['South Korea', 'China', 'Russia']
+
+Which countries neighbour Serbia?
+['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
+
+Which countries neighbour Fiji?
+['NONE']
+
+Which countries neighbour Belize?
+",Belize,CountryBordersWithCountry,"['Mexico', 'Guatemala']","[-0.00036742157, -0.40636736, -0.0001735385, -0.00028496297, -0.00095259154, -1.9765537e-06, -4.277735e-07, -0.0029321576, -0.01607457, -2.246738, -1.0658737, -0.68143827, -1.1925027, -0.13191137, -0.00012930272, -4.361666e-06]"

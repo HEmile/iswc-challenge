@@ -1,0 +1,73 @@
+Prompt,SubjectEntity,Relation,ObjectEntity,Probability
+"
+Which languages does Aamir Khan speak?
+['hindi', 'english', 'urdu']
+
+Which languages does Pharrell Williams speak?
+['english']
+
+Which languages does Shakira speak?
+['catalan', 'english', 'portuguese', 'spanish']
+
+Which languages does A. R. Rahman speak?
+",A. R. Rahman,PersonLanguage,"['tamil', 'telugu', 'malayalam', 'hindi', '","[-0.00066971505, -0.8627691, -1.1514188e-05, 0, -0.002274851, -1.0561456e-05, -0.35790905, -1.8841804e-07, -0.00046801867, -1.0800813e-05, -0.40301228, -7.8540467e-07, -6.6294406e-06, -0.0014884952, -3.883893e-06, -0.42984995, -9.72699e-06, 0, -0.007354094, -8.7733215e-06]"
+"
+Which languages does Aamir Khan speak?
+['hindi', 'english', 'urdu']
+
+Which languages does Pharrell Williams speak?
+['english']
+
+Which languages does Shakira speak?
+['catalan', 'english', 'portuguese', 'spanish']
+
+Which languages does Abdullah Gül speak?
+",Abdullah Gül,PersonLanguage,"['english', 'turkish']","[-0.0014591877, -0.44413215, -0.0043699453, -1.2622395e-06, -0.6604346, -6.827632e-08, -0.057585925, -0.003553106]"
+"
+Which languages does Aamir Khan speak?
+['hindi', 'english', 'urdu']
+
+Which languages does Pharrell Williams speak?
+['english']
+
+Which languages does Shakira speak?
+['catalan', 'english', 'portuguese', 'spanish']
+
+Which languages does Adele speak?
+",Adele,PersonLanguage,['english'],"[-0.00053206563, -0.00441233, -0.015987357, -0.009053639, -2.113579, -1.0403813, -0.68714076, -1.188578]"
+"
+Which languages does Aamir Khan speak?
+['hindi', 'english', 'urdu']
+
+Which languages does Pharrell Williams speak?
+['english']
+
+Which languages does Shakira speak?
+['catalan', 'english', 'portuguese', 'spanish']
+
+Which languages does Akon speak?
+",Akon,PersonLanguage,"['english', 'french', 'wolof']","[-0.0009033114, -0.04231868, -0.015946534, -0.000113805574, -0.06546627, -0.00034726874, -0.40910113, -1.6165199e-05, -0.1313716, -1.402038e-05, -8.296486e-06, -0.008519802, -0.0007628254, -2.007544, -0.6290695, -0.00078382215]"
+"
+Which languages does Aamir Khan speak?
+['hindi', 'english', 'urdu']
+
+Which languages does Pharrell Williams speak?
+['english']
+
+Which languages does Shakira speak?
+['catalan', 'english', 'portuguese', 'spanish']
+
+Which languages does Akshay Kumar speak?
+",Akshay Kumar,PersonLanguage,"['hindi', 'punjabi']","[-0.0060937153, -0.11120092, -1.8601542e-06, -6.3900848e-06, -0.1406495, -2.0815281e-05, -0.71848553, -2.9311614e-06, 0, -0.24572524, -0.002701432, -1.9823925, -0.62457, -0.0006618426, -1.9612565, -0.0068799164]"
+"
+Which languages does Aamir Khan speak?
+['hindi', 'english', 'urdu']
+
+Which languages does Pharrell Williams speak?
+['english']
+
+Which languages does Shakira speak?
+['catalan', 'english', 'portuguese', 'spanish']
+
+Which languages does Avril Lavigne speak?
+",Avril Lavigne,PersonLanguage,"['english', 'french']","[-0.0005777479, -0.025839552, -0.1798148, -1.3422466e-05, -0.0006579059, -6.635395e-05, -0.003299574, -0.005775211]"
