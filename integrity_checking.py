@@ -12,8 +12,13 @@ def logical_integrity(relation, batch, object_predictions):
     prompts = []
     for i, subject in enumerate(batch):
         for object in object_predictions[i]['text']:
+            if not object:
+                continue
             prompts.append(positive_negative_prompt_pairs(relation, subject, object))
-    predictions = gpt3(prompts)
+    predictions = []
+    for ndx in range(0, len(prompts), 20):
+        predictions.extend(gpt3(prompts[ndx:min(ndx+20, len(prompts))]))
+    # predictions = gpt3(prompts)
     for i, prediction in enumerate(predictions):
         print(prompts[i])
         print(prediction['text'])

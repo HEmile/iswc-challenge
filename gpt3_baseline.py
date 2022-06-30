@@ -9,7 +9,7 @@ from integrity_checking import logical_integrity
 
 SAMPLE_SIZE = 5
 
-RELATIONS = {
+RELATIONS = [
     "CountryBordersWithCountry",
     "CountryOfficialLanguage",
     "StateSharesBorderState",
@@ -22,7 +22,7 @@ RELATIONS = {
     "PersonPlaceOfDeath",
     "PersonCauseOfDeath",
     "CompanyParentOrganization",
-}
+]
 
 
 def clean_up(probe_outputs):
