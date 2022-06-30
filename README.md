@@ -25,7 +25,7 @@ Please use Python 3.10
 
 - Look at failure cases 
   - Wrong formatting?
-- Dataset statistics
+- Dataset statistics (nice to include in the paper)
   - The number of answers per relation
   - Count the number of 'None' per relation
 - Improve precision via logic integrity
