@@ -1,0 +1,73 @@
+Prompt,SubjectEntity,Relation,ObjectEntity,Probability
+"
+What is Danny DeVito's profession?
+['director', 'film director'] 
+
+What is Christina Aguilera's profession?
+['artist', 'recording artist']
+
+What is Donald Trump's profession?
+['businessperson', 'conspiracy theorist', 'politician']
+
+What is Akon's profession?
+",Akon,PersonProfession,"['artist', 'musician', 'record producer', 'songwriter']","[-0.02143224, -1.1282763, -0.0013382577, -0.00045680837, -1.1943629, -3.0826937e-05, -0.06388487, -9.4849514e-05, -0.22576725, -0.00022611799, -0.09305661, -1.2468796e-05, -0.13522275, -1.8841804e-07, -0.07522836, -0.0011491937]"
+"
+What is Danny DeVito's profession?
+['director', 'film director'] 
+
+What is Christina Aguilera's profession?
+['artist', 'recording artist']
+
+What is Donald Trump's profession?
+['businessperson', 'conspiracy theorist', 'politician']
+
+What is Akshay Kumar's profession?
+",Akshay Kumar,PersonProfession,"['actor', 'producer']","[-0.047163613, -0.028818231, -0.12437263, -0.0010768116, -0.2431365, -5.460492e-07, -0.3806565, -0.009256715]"
+"
+What is Danny DeVito's profession?
+['director', 'film director'] 
+
+What is Christina Aguilera's profession?
+['artist', 'recording artist']
+
+What is Donald Trump's profession?
+['businessperson', 'conspiracy theorist', 'politician']
+
+What is Al Gore's profession?
+",Al Gore,PersonProfession,"['activist', 'businessperson', 'politician']","[-0.00566203, -1.0186101, -0.00054065336, -0.0006644661, -0.00012846824, -0.99849814, -0.00015243483, -0.001038325, -5.860725e-05, -0.6123898, -8.176345e-06, -0.28558892, -0.014532902, -2.2706246, -1.0390881, -0.6854653]"
+"
+What is Danny DeVito's profession?
+['director', 'film director'] 
+
+What is Christina Aguilera's profession?
+['artist', 'recording artist']
+
+What is Donald Trump's profession?
+['businessperson', 'conspiracy theorist', 'politician']
+
+What is André-Pierre Gignac's profession?
+",André-Pierre Gignac,PersonProfession,['association football player'],"[-0.013492694, -0.44195855, -2.0966954e-06, -0.019437758, -0.00068945857, -0.21425988, -0.014839144, -2.344421]"
+"
+What is Danny DeVito's profession?
+['director', 'film director'] 
+
+What is Christina Aguilera's profession?
+['artist', 'recording artist']
+
+What is Donald Trump's profession?
+['businessperson', 'conspiracy theorist', 'politician']
+
+What is Ashley Tisdale's profession?
+",Ashley Tisdale,PersonProfession,"['actress', 'singer']","[-0.010692779, -0.35661045, -1.022884e-06, -0.08809293, -0.00027566, -0.72865725, -6.6619094e-07, -0.43437508, -0.01151529, -2.2779374, -1.0407994, -0.6889478, -1.2171619, -0.12507932, -0.00012751458, -2.4543265e-06]"
+"
+What is Danny DeVito's profession?
+['director', 'film director'] 
+
+What is Christina Aguilera's profession?
+['artist', 'recording artist']
+
+What is Donald Trump's profession?
+['businessperson', 'conspiracy theorist', 'politician']
+
+What is Bryan Cranston's profession?
+",Bryan Cranston,PersonProfession,"['actor', 'producer', 'screenwriter']","[-0.005974385, -0.018151319, -0.37097546, -0.0001492143, -0.91384816, -6.827632e-08, -0.26413533, -0.00017997579, -0.7435355, -2.8138238e-06, -0.23770432, -0.011976594, -2.2010064, -1.0732332, -0.6869533, -1.2208269]"
