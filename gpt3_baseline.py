@@ -4,7 +4,7 @@ from pathlib import Path
 import pandas as pd
 from utils.model import gpt3
 
-SAMPLE_SIZE = 5
+SAMPLE_SIZE = 200
 
 
 RELATIONS = {
@@ -220,44 +220,51 @@ What is the parent company of {subject_entity}?
     return prompt
 
 
-def probe_lm(relation, subject_entities, output_dir: Path):
+def probe_lm(relation, subject_entities, output_dir: Path, batch_size=20):
     ### for every subject-entity in the entities list, we probe the LM using the below sample prompts
+
+    # Trim list & batch entities
+    subject_entities = subject_entities[:SAMPLE_SIZE]
+    batches = [subject_entities[x:x + batch_size] for x in range(0, len(subject_entities), batch_size)]
+
     results = []
-    for index, subject_entity in enumerate(subject_entities):
-        print(f"Probing the GPT3 language model "
-              f"for {subject_entity} (subject-entity) and {relation} relation")
+    for _, batch in enumerate(batches):
+        prompts = []
+        for index, subject_entity in enumerate(batch):
+            print(f"Probing the GPT3 language model "
+                  f"for {subject_entity} (subject-entity) and {relation} relation")
 
-        # TODO: transform empty and nan to NONE (Jan)
+            # TODO: transform empty and nan to NONE (Jan)
 
-        # TODO: Batching (Thiviyan)
+            # TODO: take list of predictions and explode into many rows (Dimitris)
 
-        # TODO: take list of predictions and explode into many rows (Dimitris)
+            # TODO: Generate examples in the prompt automatically (Thiviyan)
+            #
+            # TODO: Rephrase prompt automatically (Dimitris)
 
-        # TODO: Generate examples in the prompt automatically (Thiviyan)
-        #
-        # TODO: Rephrase prompt automatically (Dimitris)
+            ### creating a specific prompt for the given relation
+            prompts.append(create_prompt(subject_entity, relation))
 
-        ### creating a specific prompt for the given relation
-        prompt = create_prompt(subject_entity, relation)
         ### probing the language model and obtaining the ranked tokens in the masked_position
-        text, tokens, logprob = gpt3(prompt)  # TODO Figure out what the hell to do with probabilities
-        probe_outputs = clean_up(text)
+        predictions = gpt3(prompts)  # TODO Figure out what the hell to do with probabilities
+
+        for prediction in predictions:
+            prediction['text'] = clean_up(prediction['text'])
 
         # TODO: Check Logic consistency (Emile, Sel)
 
         ### saving the outputs and the likelihood scores received with the sample prompt
-        results.append(
+        x = [
             {
-                "Prompt": prompt,
+                "Prompt": prompts[index],
                 "SubjectEntity": subject_entity,
                 "Relation": relation,
-                "ObjectEntity": probe_outputs,
-                "Probability": logprob,
+                "ObjectEntity": predictions[index]['text'],
+                "Probability": predictions[index]['logprob'],
             }
-        )
-
-        if index == SAMPLE_SIZE:
-            break
+            for index, subject_entity in enumerate(batch)
+        ]
+        results += x
 
     ### saving the prompt outputs separately for each relation type
     results_df = pd.DataFrame(results)  # .sort_values(by=["SubjectEntity"], ascending=(True, False))
