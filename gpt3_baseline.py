@@ -2,7 +2,7 @@ import argparse
 import os
 from pathlib import Path
 import pandas as pd
-from utils import gpt3
+from utils.model import gpt3
 
 SAMPLE_SIZE = 5
 
