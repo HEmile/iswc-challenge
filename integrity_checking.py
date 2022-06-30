@@ -3,12 +3,21 @@
 # See with what probabilities it predicts true or false
 from typing import List
 
+from pandas import DataFrame
 
-def logical_integrity(results: List[dict]):
+from utils.model import gpt3, clean_up
+
+
+def logical_integrity(relation, subject, object_predictions):
     prompts = []
-    for result in results:
-        prompts.append(positive_negative_prompt_pairs(result["Relation"], result["SubjectEntity"], result["ObjectEntity"]))
-    pass
+    for object in object_predictions:
+        prompts.append(relation, subject, object)
+    for prompt in prompts:
+        text, tokens, logprob = gpt3(prompt)
+        print(text)
+        print(tokens)
+        print(logprob)
+        print("\n")
 
 def positive_negative_prompt_pairs(relation, subject_entity, object_entity):
     ### depending on the relation, we fix the prompt

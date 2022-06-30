@@ -5,8 +5,9 @@ from pathlib import Path
 import pandas as pd
 
 from utils.model import gpt3
+from integrity_checking import logical_integrity
 
-SAMPLE_SIZE = 200
+SAMPLE_SIZE = 5
 
 RELATIONS = {
     "CountryBordersWithCountry",
@@ -272,6 +273,7 @@ def probe_lm(relation, subject_entities, output_dir: Path, batch_size=20):
         for prediction in predictions:
             prediction['text'] = clean_up(prediction['text'])
             prediction['text'] = convert_nan(prediction['text'])
+        logical_integrity(relation, subject_entity, probe_outputs)
 
         # TODO: Check Logic consistency (Emile, Sel)
 
