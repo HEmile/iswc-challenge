@@ -28,6 +28,7 @@ Please use Python 3.10
 - Improve precision via logic integrity
     - personEmployer
 - Improve recall via
+  - Reduce temperature and generate multiple samples (k=3?)
   - Rephrase prompts?
 - General improvements 
   - Can we use the logprob?
