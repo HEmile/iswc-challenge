@@ -1,10 +1,12 @@
 import argparse
-import os
+import time
 from pathlib import Path
+
 import pandas as pd
+
 from utils.model import gpt3
 
-SAMPLE_SIZE = 5
+SAMPLE_SIZE = 200
 
 RELATIONS = {
     "CountryBordersWithCountry",
@@ -74,14 +76,14 @@ Which are the official languages of {subject_entity}?
 What states border San Marino?
 ['San Leo', 'Acquaviva', 'Borgo Maggiore', 'Chiesanuova', 'Fiorentino']
 
-What states border Texas?
-['Chihuahua', 'New Mexico, 'Nuevo León', 'Tamaulipas', 'Coahuila', 'Louisiana', 'Arkansas', 'Oklahoma']
+What states border Whales?
+['England']
 
 What states border Liguria?
 ['Tuscany', 'Auvergne-Rhoone-Alpes', 'Piedmont', 'Emilia-Romagna']
 
-What states border Mecklenberg-western pomerania?
-['Brandenburg', 'Pomeranian', 'Schleswig-holstein', 'Lower Saxony']
+What states border Mecklenberg-Western Pomerania?
+['Brandenburg', 'Pomeranian', 'Schleswig-Holstein', 'Lower Saxony']
 
 What states border {subject_entity}?
 """
@@ -89,10 +91,10 @@ What states border {subject_entity}?
     elif relation == "RiverBasinsCountry":
         prompt = f"""
 What countries does the river Drava cross?
-['hungary', 'italy', 'austria', 'slovenia', 'croatia']
+['Hungary', 'Italy', 'Austria', 'Slovenia', 'Croatia']
 
 What countries does the river Huai river cross?
-['china']
+['China']
 
 What countries does the river Paraná river cross?
 ['Bolivia', 'Paraguay', 'Argentina', 'Brazil']
@@ -122,13 +124,16 @@ What are all the chemical elements that make up the molecule {subject_entity}?
     elif relation == "PersonLanguage":
         prompt = f"""
 Which languages does Aamir Khan speak?
-['hindi', 'english', 'urdu']
+['Hindi', 'English', 'Urdu']
 
 Which languages does Pharrell Williams speak?
-['english']
+['English']
 
 Which languages does Shakira speak?
-['catalan', 'english', 'portuguese', 'spanish']
+['Catalan', 'English', 'Portuguese', 'Spanish']
+
+Which languages does Shakira speak?
+['Catalan', 'English', 'Portuguese', 'Spanish', 'Italian', 'French']
 
 Which languages does {subject_entity} speak?
 """
@@ -136,13 +141,16 @@ Which languages does {subject_entity} speak?
     elif relation == "PersonProfession":
         prompt = f"""
 What is Danny DeVito's profession?
-['director', 'film director'] 
+['Comedian', 'Film Director', 'Voice Actor', 'Actor', 'Film Producer', 'Film Actor', 'Dub Actor', 'Activist', 'Television Actor' ] 
 
-What is Christina Aguilera's profession?
-['artist', 'recording artist']
+What is David Guetta's profession?
+['DJ']
 
-What is Donald Trump's profession?
-['businessperson', 'conspiracy theorist', 'politician']
+What is Gary Lineker's profession?
+['Commentator', 'Association Football Player', 'Journalist', 'Broadcaster']
+
+What is Gwyneth Paltrow's profession?
+['Film Actor','Musician']
 
 What is {subject_entity}'s profession?
 """
@@ -150,16 +158,16 @@ What is {subject_entity}'s profession?
     elif relation == "PersonInstrument":
         prompt = f"""
 Which instruments does Liam Gallagher play?
-['maraca', 'guitar']
+['Maraca', 'Guitar']
 
 Which instruments does Jay Park play?
 ['NONE']
 
 Which instruments does Axl Rose play?
-['guitar', 'piano', 'pander', 'bass']
+['Guitar', 'Piano', 'Pander', 'Bass']
 
 Which instruments does Neil Young play?
-['guitar']
+['Guitar']
 
 Which instruments does {subject_entity} play?
 """
@@ -169,7 +177,13 @@ Where is or was Susan Wojcicki employed?
 ['Google']
 
 Where is or was Steve Wozniak employed?
-['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari, Atari Inc']
+['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari']
+
+Where is or was Yukio Hatoyama employed?
+['Senshu University','Tokyo Institute of Technology']
+
+Where is or was Yahtzee Croshaw employed?
+['PC Gamer', 'Hyper', 'Escapist']
 
 Where is or was {subject_entity} employed?
 """
@@ -178,37 +192,31 @@ Where is or was {subject_entity} employed?
 What is the place of death of Barack Obama?
 ['NONE']
 
-What is the place of death of Ennio morricone?
-['rome']
+What is the place of death of Ennio Morricone?
+['Rome']
 
-What is the place of death of Elvis presley?
-['graceland']
-
-What is the place of death of Elon musk?
+What is the place of death of Elon Musk?
 ['NONE']
 
 What is the place of death of Prince?
-['chanhassen']
+['Chanhassen']
 
 What is the place of death of {subject_entity}? 
 """
 
     elif relation == "PersonCauseOfDeath":
         prompt = f"""
-How did Aretha Franklin die?
-['pancreatic cancer', 'cancer']
+How did André Leon Talley die?
+['Infarction']
 
-How did Bill Gates die?
+How did Angela Merkel die?
 ['NONE']
 
-How did Ennio Morricone die?
-['femoral fracture', 'fracture']
+How did Bob Saget die?
+['Injury', 'Blunt Trauma']
 
-How did Frank Sinatra die?
-['myocardial infarction', 'infarction']
-
-How did Michelle Obama die?
-['NONE']
+How did Jamal Khashoggi die?
+['Murder']
 
 How did {subject_entity} die? 
 """
@@ -216,10 +224,16 @@ How did {subject_entity} die?
     elif relation == "CompanyParentOrganization":
         prompt = f"""
 What is the parent company of Microsoft?
-['None']
+['NONE']
 
 What is the parent company of Sony?
-['sony group', 'sony']
+['Sony Group']
+
+What is the parent company of Saab?
+['Saab Group', 'Saab-Scania', 'Spyker N.V.', 'National Electric Vehicle Sweden'', 'General Motors']
+
+What is the parent company of Max Motors?
+['NONE']
 
 What is the parent company of {subject_entity}?
 """
@@ -238,7 +252,7 @@ def probe_lm(relation, subject_entities, output_dir: Path):
         # TODO: Batching (Thiviyan)
 
         # TODO: Generate examples in the prompt automatically (Thiviyan)
-        #
+
         # TODO: Rephrase prompt automatically (Dimitris)
 
         ### creating a specific prompt for the given relation
@@ -265,6 +279,10 @@ def probe_lm(relation, subject_entities, output_dir: Path):
 
         if index == SAMPLE_SIZE:
             break
+
+        # Sleep is needed becase we make many API calls. We can make 60 calls every minute
+        if index % 60:
+            time.sleep(10)
 
     ### saving the prompt outputs separately for each relation type
     results_df = pd.DataFrame(results)  # .sort_values(by=["SubjectEntity"], ascending=(True, False))
