@@ -32,8 +32,13 @@ def clean_up(probe_outputs):
 
 
 def convert_nan(probe_outputs):
-    probe_outputs = [None for x in probe_outputs if x == 'None']
-    return probe_outputs
+    new_probe_outputs = []
+    for item in probe_outputs:
+        if item == 'NONE':
+            new_probe_outputs.append(None)
+        else:
+            new_probe_outputs.append(item)
+    return new_probe_outputs
 
 
 def create_prompt(subject_entity, relation):
@@ -240,49 +245,52 @@ What is the parent company of {subject_entity}?
     return prompt
 
 
-def probe_lm(relation, subject_entities, output_dir: Path):
+def probe_lm(relation, subject_entities, output_dir: Path, batch_size=20):
     ### for every subject-entity in the entities list, we probe the LM using the below sample prompts
+
+    # Trim list & batch entities
+    subject_entities = subject_entities[:SAMPLE_SIZE]
+    batches = [subject_entities[x:x + batch_size] for x in range(0, len(subject_entities), batch_size)]
+
     results = []
-    for index, subject_entity in enumerate(subject_entities):
-        print(f"Probing the GPT3 language model "
-              f"for {subject_entity} (subject-entity) and {relation} relation")
+    for idx, batch in enumerate(batches):
+        prompts = []
+        for index, subject_entity in enumerate(batch):
+            print(f"Probing the GPT3 language model "
+                  f"for {subject_entity} (subject-entity) and {relation} relation")
 
-        # TODO: transform empty and nan to NONE (Dimitris)
+            # TODO: Generate examples in the prompt automatically (Thiviyan)
+            #
+            # TODO: Rephrase prompt automatically (Dimitris)
 
-        # TODO: Batching (Thiviyan)
+            ### creating a specific prompt for the given relation
+            prompts.append(create_prompt(subject_entity, relation))
 
-        # TODO: Generate examples in the prompt automatically (Thiviyan)
-
-        # TODO: Rephrase prompt automatically (Dimitris)
-
-        ### creating a specific prompt for the given relation
-        prompt = create_prompt(subject_entity, relation)
         ### probing the language model and obtaining the ranked tokens in the masked_position
-        text, tokens, logprob = gpt3(prompt)  # TODO Figure out what the hell to do with probabilities
-        probe_outputs = clean_up(text)
+        predictions = gpt3(prompts)  # TODO Figure out what the hell to do with probabilities
 
-        probe_outputs = convert_nan(probe_outputs)
+        for prediction in predictions:
+            prediction['text'] = clean_up(prediction['text'])
+            prediction['text'] = convert_nan(prediction['text'])
 
         # TODO: Check Logic consistency (Emile, Sel)
 
         ### saving the outputs and the likelihood scores received with the sample prompt
-        for probe_output in probe_outputs:
-            results.append(
-                {
-                    "Prompt": prompt,
-                    "SubjectEntity": subject_entity,
-                    "Relation": relation,
-                    "ObjectEntity": probe_output,
-                    "Probability": logprob,
-                }
-            )
-
-        if index == SAMPLE_SIZE:
-            break
+        x = [
+            {
+                "Prompt": prompts[index],
+                "SubjectEntity": subject_entity,
+                "Relation": relation,
+                "ObjectEntity": predictions[index]['text'],
+                "Probability": predictions[index]['logprob'],
+            }
+            for index, subject_entity in enumerate(batch)
+        ]
+        results += x
 
         # Sleep is needed becase we make many API calls. We can make 60 calls every minute
-        if index % 60:
-            time.sleep(10)
+        if idx % 5:
+            time.sleep(5)
 
     ### saving the prompt outputs separately for each relation type
     results_df = pd.DataFrame(results)  # .sort_values(by=["SubjectEntity"], ascending=(True, False))

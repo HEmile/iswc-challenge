@@ -10,11 +10,17 @@ def gpt3(prompt):
         model="text-davinci-002",
         prompt=prompt,
         temperature=0,
-        max_tokens=20,
+        max_tokens=100,
         top_p=1,
         frequency_penalty=0,
         presence_penalty=0,
         logprobs=1
     )
-    return response.choices[0]['text'], response.choices[0]['logprobs']['tokens'], response.choices[0]['logprobs'][
-        'token_logprobs']
+    return [
+        {
+            'text': i['text'],
+            'tokens': i['logprobs']['tokens'],
+            'logprob': i['logprobs']['token_logprobs']
+        }
+        for i in response.choices
+    ]
