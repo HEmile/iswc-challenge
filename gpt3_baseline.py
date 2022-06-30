@@ -273,7 +273,7 @@ def probe_lm(relation, subject_entities, output_dir: Path, batch_size=20):
         for prediction in predictions:
             prediction['text'] = clean_up(prediction['text'])
             prediction['text'] = convert_nan(prediction['text'])
-        logical_integrity(relation, subject_entity, probe_outputs)
+        logical_integrity(relation, batch, predictions)
 
         # TODO: Check Logic consistency (Emile, Sel)
 

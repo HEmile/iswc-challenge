@@ -8,15 +8,15 @@ from pandas import DataFrame
 from utils.model import gpt3, clean_up
 
 
-def logical_integrity(relation, subject, object_predictions):
+def logical_integrity(relation, batch, object_predictions):
     prompts = []
-    for object in object_predictions:
-        prompts.append(relation, subject, object)
-    for prompt in prompts:
-        text, tokens, logprob = gpt3(prompt)
-        print(text)
-        print(tokens)
-        print(logprob)
+    for i, subject in enumerate(batch):
+        for object in object_predictions[i]['text']:
+            prompts.append(positive_negative_prompt_pairs(relation, subject, object))
+    predictions = gpt3(prompts)
+    for i, prediction in enumerate(predictions):
+        print(prompts[i])
+        print(prediction['text'])
         print("\n")
 
 def positive_negative_prompt_pairs(relation, subject_entity, object_entity):
