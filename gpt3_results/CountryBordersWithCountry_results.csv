@@ -1,48 +1,48 @@
-SubjectEntity,Relation,F1-score
-Andorra,CountryBordersWithCountry,0
-Angola,CountryBordersWithCountry,0
-Australia,CountryBordersWithCountry,0
-Bahrain,CountryBordersWithCountry,0
-Barbados,CountryBordersWithCountry,0
-Belize,CountryBordersWithCountry,0
-Bolivia,CountryBordersWithCountry,0
-Bosnia and herzegovina,CountryBordersWithCountry,0
-Bulgaria,CountryBordersWithCountry,0
-Central african republic,CountryBordersWithCountry,0
-Comoros,CountryBordersWithCountry,0
-Costa rica,CountryBordersWithCountry,0
-Cuba,CountryBordersWithCountry,0
-Djibouti,CountryBordersWithCountry,0
-Dominican republic,CountryBordersWithCountry,0
-Eritrea,CountryBordersWithCountry,0
-Estonia,CountryBordersWithCountry,0
-Georgia,CountryBordersWithCountry,0
-Germany,CountryBordersWithCountry,0
-Ghana,CountryBordersWithCountry,0
-Grenada,CountryBordersWithCountry,0
-Guyana,CountryBordersWithCountry,0
-Ivory coast,CountryBordersWithCountry,0
-Japan,CountryBordersWithCountry,0
-Kingdom of denmark,CountryBordersWithCountry,0
-Kingdom of the netherlands,CountryBordersWithCountry,0
-Morocco,CountryBordersWithCountry,0
-Mozambique,CountryBordersWithCountry,0
-Myanmar,CountryBordersWithCountry,0
-Pakistan,CountryBordersWithCountry,0
-Poland,CountryBordersWithCountry,0
-Portugal,CountryBordersWithCountry,0
-Rwanda,CountryBordersWithCountry,0
-Saint vincent and the grenadines,CountryBordersWithCountry,0
-Samoa,CountryBordersWithCountry,0
-San marino,CountryBordersWithCountry,0
-Saudi arabia,CountryBordersWithCountry,0
-Somalia,CountryBordersWithCountry,0
-Thailand,CountryBordersWithCountry,0
-Togo,CountryBordersWithCountry,0
-Turkey,CountryBordersWithCountry,0
-Uganda,CountryBordersWithCountry,0
-United kingdom,CountryBordersWithCountry,0
-Uzbekistan,CountryBordersWithCountry,0
-Venezuela,CountryBordersWithCountry,0
-Zimbabwe,CountryBordersWithCountry,0
-gambia,CountryBordersWithCountry,0
+SubjectEntity,Relation,Precision,Recall,F1-score
+Andorra,CountryBordersWithCountry,1.0,1.0,1.0
+Angola,CountryBordersWithCountry,0.6,0.6,0.6
+Australia,CountryBordersWithCountry,0.0,0.0,0.0
+Bahrain,CountryBordersWithCountry,0.5,0.5,0.5
+Barbados,CountryBordersWithCountry,1.0,1.0,1.0
+Belize,CountryBordersWithCountry,1.0,1.0,1.0
+Bolivia,CountryBordersWithCountry,1.0,1.0,1.0
+Bosnia and herzegovina,CountryBordersWithCountry,0.6,1.0,0.7499999999999999
+Bulgaria,CountryBordersWithCountry,1.0,0.8333333333333334,0.9090909090909091
+Central african republic,CountryBordersWithCountry,1.0,0.8333333333333334,0.9090909090909091
+Comoros,CountryBordersWithCountry,0.75,0.6,0.6666666666666665
+Costa rica,CountryBordersWithCountry,1.0,1.0,1.0
+Cuba,CountryBordersWithCountry,0.0,0.0,0.0
+Djibouti,CountryBordersWithCountry,0.75,1.0,0.8571428571428571
+Dominican republic,CountryBordersWithCountry,0.5,0.3333333333333333,0.4
+Eritrea,CountryBordersWithCountry,1.0,1.0,1.0
+Estonia,CountryBordersWithCountry,0.6666666666666666,1.0,0.8
+Georgia,CountryBordersWithCountry,0.8,1.0,0.888888888888889
+Germany,CountryBordersWithCountry,1.0,0.8888888888888888,0.9411764705882353
+Ghana,CountryBordersWithCountry,0.5,0.6666666666666666,0.5714285714285715
+Grenada,CountryBordersWithCountry,1.0,1.0,1.0
+Guyana,CountryBordersWithCountry,1.0,1.0,1.0
+Ivory coast,CountryBordersWithCountry,1.0,1.0,1.0
+Japan,CountryBordersWithCountry,0.75,0.42857142857142855,0.5454545454545454
+Kingdom of denmark,CountryBordersWithCountry,1.0,0.14285714285714285,0.25
+Kingdom of the netherlands,CountryBordersWithCountry,1.0,0.6,0.7499999999999999
+Morocco,CountryBordersWithCountry,1.0,1.0,1.0
+Mozambique,CountryBordersWithCountry,1.0,0.8571428571428571,0.923076923076923
+Myanmar,CountryBordersWithCountry,1.0,1.0,1.0
+Pakistan,CountryBordersWithCountry,1.0,1.0,1.0
+Poland,CountryBordersWithCountry,1.0,1.0,1.0
+Portugal,CountryBordersWithCountry,0.3333333333333333,0.5,0.4
+Rwanda,CountryBordersWithCountry,1.0,1.0,1.0
+Saint vincent and the grenadines,CountryBordersWithCountry,0.0,0.0,0.0
+Samoa,CountryBordersWithCountry,0.0,0.0,0.0
+San marino,CountryBordersWithCountry,1.0,1.0,1.0
+Saudi arabia,CountryBordersWithCountry,1.0,0.7,0.8235294117647058
+Somalia,CountryBordersWithCountry,1.0,1.0,1.0
+Thailand,CountryBordersWithCountry,0.8,0.6666666666666666,0.7272727272727272
+Togo,CountryBordersWithCountry,1.0,1.0,1.0
+Turkey,CountryBordersWithCountry,1.0,1.0,1.0
+Uganda,CountryBordersWithCountry,1.0,0.7142857142857143,0.8333333333333333
+United kingdom,CountryBordersWithCountry,1.0,1.0,1.0
+Uzbekistan,CountryBordersWithCountry,1.0,1.0,1.0
+Venezuela,CountryBordersWithCountry,1.0,0.21428571428571427,0.35294117647058826
+Zimbabwe,CountryBordersWithCountry,1.0,1.0,1.0
+gambia,CountryBordersWithCountry,0.3333333333333333,1.0,0.5

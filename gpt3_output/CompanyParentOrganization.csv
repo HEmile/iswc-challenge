@@ -1,55 +1,54 @@
-Prompt,SubjectEntity,Relation,ObjectEntity,Probability
-"
-            What is the parent company of Microsoft?
-            ['None']
-    
-            What is the parent company of Sony?
-            ['sony group', 'sony']
-    
-            What is the parent company of Abadal?
-        ",Abadal,CompanyParentOrganization,['None'],"[-0.18880157, -0.1289035, -0.8018938, -0.16090074, -0.00042985313, -0.1953486, -0.8221186, -1.3719639]"
-"
-            What is the parent company of Microsoft?
-            ['None']
-    
-            What is the parent company of Sony?
-            ['sony group', 'sony']
-    
-            What is the parent company of Aixam?
-        ",Aixam,CompanyParentOrganization,['None'],"[-0.3713689, -0.08687979, -0.42892826, -1.2780409, -0.0004436879, -0.096676305, -0.8229849, -1.3435062]"
-"
-            What is the parent company of Microsoft?
-            ['None']
-    
-            What is the parent company of Sony?
-            ['sony group', 'sony']
-    
-            What is the parent company of Alex von falkenhausen motorenbau?
-        ",Alex von falkenhausen motorenbau,CompanyParentOrganization,['None'],"[-0.16138232, -0.0993969, -0.4511408, -0.8046506, -0.0010751426, -0.22177705, -0.80696785, -1.8896894]"
-"
-            What is the parent company of Microsoft?
-            ['None']
-    
-            What is the parent company of Sony?
-            ['sony group', 'sony']
-    
-            What is the parent company of Alvis car and engineering company ltd?
-        ",Alvis car and engineering company ltd,CompanyParentOrganization,['None'],"[-0.36130428, -0.11427261, -0.2783783, -0.30873862, -0.0005524597, -0.12335496, -0.8502999, -1.6152053]"
-"
-            What is the parent company of Microsoft?
-            ['None']
-    
-            What is the parent company of Sony?
-            ['sony group', 'sony']
-    
-            What is the parent company of Amphicar?
-        ",Amphicar,CompanyParentOrganization,['None'],"[-0.10662401, -0.08040314, -0.5404228, -0.08846129, -0.0005750042, -0.052568145, -0.9087237, -1.375666]"
-"
-            What is the parent company of Microsoft?
-            ['None']
-    
-            What is the parent company of Sony?
-            ['sony group', 'sony']
-    
-            What is the parent company of Artés de arcos?
-        ",Artés de arcos,CompanyParentOrganization,['None'],"[-0.08334721, -0.10297017, -0.640852, -0.17659326, -0.00047147667, -0.12958822, -0.8383253, -1.2858299]"
+SubjectEntity,Relation,ObjectEntity
+Abadal,CompanyParentOrganization,NONE
+Aixam,CompanyParentOrganization,NONE
+Alex von falkenhausen motorenbau,CompanyParentOrganization,NONE
+Alvis car and engineering company ltd,CompanyParentOrganization,NONE
+Amphicar,CompanyParentOrganization,NONE
+Artés de arcos,CompanyParentOrganization,NONE
+Aston martin lagonda,CompanyParentOrganization,NONE
+Austro-daimler,CompanyParentOrganization,NONE
+Automobilwerk eisenach,CompanyParentOrganization,NONE
+Bell,CompanyParentOrganization,NONE
+Bertone,CompanyParentOrganization,NONE
+Cadillac,CompanyParentOrganization,General Motors
+Central motors,CompanyParentOrganization,NONE
+Changan automobile,CompanyParentOrganization,Changan Automobile Group
+Delage,CompanyParentOrganization,NONE
+Duesenberg,CompanyParentOrganization,Duesenberg Motors Company
+Fábrica nacional de motores,CompanyParentOrganization,NONE
+Gaz,CompanyParentOrganization,NONE
+Gucci,CompanyParentOrganization,Kering
+Guerry et bourguignon,CompanyParentOrganization,NONE
+Hanomag,CompanyParentOrganization,NONE
+Hyundai motor company,CompanyParentOrganization,Hyundai Motor Group
+Industrieverband fahrzeugbau,CompanyParentOrganization,NONE
+Industrija motornih vozil,CompanyParentOrganization,NONE
+Itala,CompanyParentOrganization,NONE
+Jensen motors,CompanyParentOrganization,NONE
+Kaipan,CompanyParentOrganization,NONE
+Kia,CompanyParentOrganization,Hyundai Motor Group
+Kojima engineering,CompanyParentOrganization,NONE
+La ponette,CompanyParentOrganization,NONE
+Lada zapad tolyatti,CompanyParentOrganization,AvtoVAZ
+Lagonda,CompanyParentOrganization,NONE
+Locomobile company of america,CompanyParentOrganization,NONE
+Lotus cars,CompanyParentOrganization,Geely Holding Group
+Mg car company limited,CompanyParentOrganization,NONE
+Moskvitch,CompanyParentOrganization,NONE
+Nardi,CompanyParentOrganization,NONE
+Nsu,CompanyParentOrganization,NONE
+Peugeot,CompanyParentOrganization,Groupe PSA
+Saipa,CompanyParentOrganization,NONE
+Scripps-booth,CompanyParentOrganization,NONE
+Simca,CompanyParentOrganization,Simca
+Simca,CompanyParentOrganization,Chrysler Europe
+Simca,CompanyParentOrganization,Peugeot
+Simca,CompanyParentOrganization,PSA Peugeot Citroën
+Società torinese automobili elettrici,CompanyParentOrganization,NONE
+Towarzystwo budowy samochodów as,CompanyParentOrganization,NONE
+Valmet automotive,CompanyParentOrganization,NONE
+Velorex,CompanyParentOrganization,NONE
+Volkswagen,CompanyParentOrganization,Volkswagen Group
+Yamaha motor company,CompanyParentOrganization,Yamaha Corporation
+Zanella fratelli,CompanyParentOrganization,NONE
+Élan motorsport technologies,CompanyParentOrganization,NONE

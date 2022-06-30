@@ -1,73 +1,125 @@
-Prompt,SubjectEntity,Relation,ObjectEntity,Probability
-"
-Which languages does Aamir Khan speak?
-['hindi', 'english', 'urdu']
-
-Which languages does Pharrell Williams speak?
-['english']
-
-Which languages does Shakira speak?
-['catalan', 'english', 'portuguese', 'spanish']
-
-Which languages does A. R. Rahman speak?
-",A. R. Rahman,PersonLanguage,"['tamil', 'telugu', 'malayalam', 'hindi', '","[-0.00066971505, -0.8627691, -1.1514188e-05, 0, -0.002274851, -1.0561456e-05, -0.35790905, -1.8841804e-07, -0.00046801867, -1.0800813e-05, -0.40301228, -7.8540467e-07, -6.6294406e-06, -0.0014884952, -3.883893e-06, -0.42984995, -9.72699e-06, 0, -0.007354094, -8.7733215e-06]"
-"
-Which languages does Aamir Khan speak?
-['hindi', 'english', 'urdu']
-
-Which languages does Pharrell Williams speak?
-['english']
-
-Which languages does Shakira speak?
-['catalan', 'english', 'portuguese', 'spanish']
-
-Which languages does Abdullah Gül speak?
-",Abdullah Gül,PersonLanguage,"['english', 'turkish']","[-0.0014591877, -0.44413215, -0.0043699453, -1.2622395e-06, -0.6604346, -6.827632e-08, -0.057585925, -0.003553106]"
-"
-Which languages does Aamir Khan speak?
-['hindi', 'english', 'urdu']
-
-Which languages does Pharrell Williams speak?
-['english']
-
-Which languages does Shakira speak?
-['catalan', 'english', 'portuguese', 'spanish']
-
-Which languages does Adele speak?
-",Adele,PersonLanguage,['english'],"[-0.00053206563, -0.00441233, -0.015987357, -0.009053639, -2.113579, -1.0403813, -0.68714076, -1.188578]"
-"
-Which languages does Aamir Khan speak?
-['hindi', 'english', 'urdu']
-
-Which languages does Pharrell Williams speak?
-['english']
-
-Which languages does Shakira speak?
-['catalan', 'english', 'portuguese', 'spanish']
-
-Which languages does Akon speak?
-",Akon,PersonLanguage,"['english', 'french', 'wolof']","[-0.0009033114, -0.04231868, -0.015946534, -0.000113805574, -0.06546627, -0.00034726874, -0.40910113, -1.6165199e-05, -0.1313716, -1.402038e-05, -8.296486e-06, -0.008519802, -0.0007628254, -2.007544, -0.6290695, -0.00078382215]"
-"
-Which languages does Aamir Khan speak?
-['hindi', 'english', 'urdu']
-
-Which languages does Pharrell Williams speak?
-['english']
-
-Which languages does Shakira speak?
-['catalan', 'english', 'portuguese', 'spanish']
-
-Which languages does Akshay Kumar speak?
-",Akshay Kumar,PersonLanguage,"['hindi', 'punjabi']","[-0.0060937153, -0.11120092, -1.8601542e-06, -6.3900848e-06, -0.1406495, -2.0815281e-05, -0.71848553, -2.9311614e-06, 0, -0.24572524, -0.002701432, -1.9823925, -0.62457, -0.0006618426, -1.9612565, -0.0068799164]"
-"
-Which languages does Aamir Khan speak?
-['hindi', 'english', 'urdu']
-
-Which languages does Pharrell Williams speak?
-['english']
-
-Which languages does Shakira speak?
-['catalan', 'english', 'portuguese', 'spanish']
-
-Which languages does Avril Lavigne speak?
-",Avril Lavigne,PersonLanguage,"['english', 'french']","[-0.0005777479, -0.025839552, -0.1798148, -1.3422466e-05, -0.0006579059, -6.635395e-05, -0.003299574, -0.005775211]"
+SubjectEntity,Relation,ObjectEntity
+A. R. Rahman,PersonLanguage,Tamil
+A. R. Rahman,PersonLanguage,Hindi
+A. R. Rahman,PersonLanguage,Telugu
+A. R. Rahman,PersonLanguage,Malayalam
+A. R. Rahman,PersonLanguage,Kannada
+A. R. Rahman,PersonLanguage,Bengali
+A. R. Rahman,PersonLanguage,Marathi
+Abdullah Gül,PersonLanguage,Turkish
+Abdullah Gül,PersonLanguage,English
+Abdullah Gül,PersonLanguage,French
+Adele,PersonLanguage,English
+Akon,PersonLanguage,English
+Akon,PersonLanguage,French
+Akon,PersonLanguage,Wolof
+Akshay Kumar,PersonLanguage,Hindi
+Akshay Kumar,PersonLanguage,Punjabi
+Akshay Kumar,PersonLanguage,Bengali
+Avril Lavigne,PersonLanguage,English
+Avril Lavigne,PersonLanguage,French
+Barack Obama,PersonLanguage,English
+Barack Obama,PersonLanguage,French
+Barack Obama,PersonLanguage,German
+Barack Obama,PersonLanguage,Indonesian
+Barack Obama,PersonLanguage,Italian
+Barack Obama,PersonLanguage,Swahili
+Barack Obama,PersonLanguage,Wolof
+Beyoncé,PersonLanguage,English
+Bill Clinton,PersonLanguage,English
+Blaise Matuidi,PersonLanguage,French
+Blaise Matuidi,PersonLanguage,Italian
+Blaise Matuidi,PersonLanguage,Spanish
+Blaise Matuidi,PersonLanguage,Portuguese
+Buzz Aldrin,PersonLanguage,English
+Donald Trump,PersonLanguage,English
+Donald Tusk,PersonLanguage,Polish
+Donald Tusk,PersonLanguage,English
+Donald Tusk,PersonLanguage,German
+Donald Tusk,PersonLanguage,French
+Eminem,PersonLanguage,English
+Emma Watson,PersonLanguage,English
+Emma Watson,PersonLanguage,French
+Genelia D'Souza,PersonLanguage,Hindi
+Genelia D'Souza,PersonLanguage,Marathi
+Genelia D'Souza,PersonLanguage,English
+Genelia D'Souza,PersonLanguage,Bengali
+Genelia D'Souza,PersonLanguage,Telugu
+George Harrison,PersonLanguage,English
+Henrique Capriles Radonski,PersonLanguage,Spanish
+Henrique Capriles Radonski,PersonLanguage,English
+Henrique Capriles Radonski,PersonLanguage,Portuguese
+Hugo Chávez,PersonLanguage,Spanish
+Jeremy Renner,PersonLanguage,English
+Jessie J,PersonLanguage,English
+Jim Carrey,PersonLanguage,English
+Joe Biden,PersonLanguage,English
+John Cena,PersonLanguage,English
+Jose Michimani,PersonLanguage,Spanish
+Jose Michimani,PersonLanguage,Quechua
+Jose Michimani,PersonLanguage,Aymara
+Kobe Bryant,PersonLanguage,English
+Kobe Bryant,PersonLanguage,Italian
+Maria Sharapova,PersonLanguage,English
+Maria Sharapova,PersonLanguage,Russian
+Mariah Carey,PersonLanguage,English
+Mick Foley,PersonLanguage,English
+Miranda Cosgrove,PersonLanguage,English
+Mohammed bin Rashid Al Maktoum,PersonLanguage,Arabic
+Mohammed bin Rashid Al Maktoum,PersonLanguage,English
+Mohammed bin Rashid Al Maktoum,PersonLanguage,Urdu
+Mohammed bin Rashid Al Maktoum,PersonLanguage,Hindi
+Novak Djokovic,PersonLanguage,Serbian
+Novak Djokovic,PersonLanguage,English
+Novak Djokovic,PersonLanguage,German
+Novak Djokovic,PersonLanguage,French
+Oscar dos Santos Emboaba Júnior,PersonLanguage,Portuguese
+Oscar dos Santos Emboaba Júnior,PersonLanguage,Spanish
+Paris Hilton,PersonLanguage,English
+Patrick Stewart,PersonLanguage,English
+Patrick Stewart,PersonLanguage,French
+Pau Gasol,PersonLanguage,Catalan
+Pau Gasol,PersonLanguage,Spanish
+Pau Gasol,PersonLanguage,English
+Paulo Coelho,PersonLanguage,Portuguese
+Paulo Coelho,PersonLanguage,English
+Paulo Coelho,PersonLanguage,Spanish
+Paulo Coelho,PersonLanguage,French
+Rafael Nadal,PersonLanguage,Spanish
+Rafael Nadal,PersonLanguage,Catalan
+Rafael Nadal,PersonLanguage,English
+Rafael Nadal,PersonLanguage,French
+Ricky Gervais,PersonLanguage,English
+Rihanna,PersonLanguage,English
+Rihanna,PersonLanguage,Creole
+Sachin,PersonLanguage,Hindi
+Sachin,PersonLanguage,Marathi
+Sachin,PersonLanguage,English
+Salman Khan,PersonLanguage,Hindi
+Salman Khan,PersonLanguage,Urdu
+Samir Nasri,PersonLanguage,French
+Samir Nasri,PersonLanguage,Arabic
+Selena Gomez,PersonLanguage,English
+Selena Gomez,PersonLanguage,Spanish
+Skrillex,PersonLanguage,English
+Thiago Alcântara,PersonLanguage,Spanish
+Thiago Alcântara,PersonLanguage,Catalan
+Thiago Alcântara,PersonLanguage,Portuguese
+Thiago Alcântara,PersonLanguage,English
+Vladimir Putin,PersonLanguage,Russian
+Vladimir Putin,PersonLanguage,English
+Vladimir Putin,PersonLanguage,German
+Vladimir Putin,PersonLanguage,French
+Wiz Khalifa,PersonLanguage,English
+Zac Efron,PersonLanguage,English
+Zlatan Ibrahimović,PersonLanguage,Bosnian
+Zlatan Ibrahimović,PersonLanguage,Croatian
+Zlatan Ibrahimović,PersonLanguage,English
+Zlatan Ibrahimović,PersonLanguage,French
+Zlatan Ibrahimović,PersonLanguage,German
+Zlatan Ibrahimović,PersonLanguage,Italian
+Zlatan Ibrahimović,PersonLanguage,Montenegrin
+Zlatan Ibrahimović,PersonLanguage,Serbian
+Zlatan Ibrahimović,PersonLanguage,Slovenian
+Zlatan Ibrahimović,PersonLanguage,Spanish
+Zlatan Ibrahimović,PersonLanguage,Swedish

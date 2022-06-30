@@ -1,61 +1,159 @@
-Prompt,SubjectEntity,Relation,ObjectEntity,Probability
-"
-            What are all the chemical elements that make up the molecule water?
-            ['Hydrogen', 'Water']
-    
-            What are all the chemical elements that make up the molecule aspirin?
-            ['Oxygen', 'Carbon', 'Hydrogen']
-    
-            What are all the chemical elements that make up the molecule Acetone?
-
-        ",Acetone,ChemicalCompoundElement,"['Oxygen', 'Carbon', 'Hydrogen']","[-0.010963861, -0.41408086, -0.04689579, -0.50559986, -6.909574e-05, -1.6207987e-06, -0.00031608582, -3.988961e-05, -0.020983962, -1.676031e-05, -0.0005943874, -8.352281e-05, -0.00055162434, -1.9860674e-05, -0.0049717794, -4.406191e-05]"
-"
-            What are all the chemical elements that make up the molecule water?
-            ['Hydrogen', 'Water']
-    
-            What are all the chemical elements that make up the molecule aspirin?
-            ['Oxygen', 'Carbon', 'Hydrogen']
-    
-            What are all the chemical elements that make up the molecule Adenosine diphosphate ribose?
-
-        ",Adenosine diphosphate ribose,ChemicalCompoundElement,"['Adenosine', 'Diphosphate', 'Ribose']","[-0.008601558, -0.18985975, -0.08783617, -0.872622, -0.043714385, -2.4543265e-06, -0.015818093, -2.319758e-05, -0.13077444, -7.100402e-05, -0.00015636964, -2.1889093e-05, -0.0003438117, -4.6445148e-05, -4.4181128e-05, -1.9143545e-05, -4.0040345e-06, -0.00534618, -0.000114518014, -1.5337285]"
-"
-            What are all the chemical elements that make up the molecule water?
-            ['Hydrogen', 'Water']
-    
-            What are all the chemical elements that make up the molecule aspirin?
-            ['Oxygen', 'Carbon', 'Hydrogen']
-    
-            What are all the chemical elements that make up the molecule Aluminium chlorohydrate?
-
-        ",Aluminium chlorohydrate,ChemicalCompoundElement,"['Aluminium', 'Chlorine', 'Hydrogen', 'Oxygen']","[-0.021106986, -0.57497406, -0.08814832, -0.25904194, -0.04520557, -0.0006832541, -3.643162e-05, -0.03624662, -6.5092986e-06, -0.0010447716, -6.468596e-05, -0.00014432582, -0.028350448, -1.9028084e-05, -0.042710498, -3.5001114e-05, -0.06992228, -9.055464e-07, -2.5744682e-06, -0.0049327263]"
-"
-            What are all the chemical elements that make up the molecule water?
-            ['Hydrogen', 'Water']
-    
-            What are all the chemical elements that make up the molecule aspirin?
-            ['Oxygen', 'Carbon', 'Hydrogen']
-    
-            What are all the chemical elements that make up the molecule Aluminum iodide?
-
-        ",Aluminum iodide,ChemicalCompoundElement,"['Aluminum', 'Iodide']","[-0.012076674, -0.40548283, -0.067217074, -0.092218705, -0.0029001758, -3.7266083e-05, -3.6670972e-05, -0.0011320681, -5.675771e-06, -0.6176884, -0.00027065416, -5.4314798e-05, -1.5735252, -0.98809284, -0.67333275, -1.1785691]"
-"
-            What are all the chemical elements that make up the molecule water?
-            ['Hydrogen', 'Water']
-    
-            What are all the chemical elements that make up the molecule aspirin?
-            ['Oxygen', 'Carbon', 'Hydrogen']
-    
-            What are all the chemical elements that make up the molecule Aminomethylpropanol?
-
-        ",Aminomethylpropanol,ChemicalCompoundElement,"['Oxygen', 'Carbon', 'Hydrogen', 'Nitrogen']","[-0.010472666, -0.43814164, -0.016669244, -0.9147536, -1.7834122e-05, -2.8138238e-06, -0.00033605937, -4.4539687e-05, -0.22515854, -1.5925843e-05, -4.4181128e-05, -5.109523e-05, -0.01279841, -4.1320116e-05, -0.33072802, -2.5703772e-05, -0.13753912, -3.452334e-05, -0.18456009, -0.00019690624]"
-"
-            What are all the chemical elements that make up the molecule water?
-            ['Hydrogen', 'Water']
-    
-            What are all the chemical elements that make up the molecule aspirin?
-            ['Oxygen', 'Carbon', 'Hydrogen']
-    
-            What are all the chemical elements that make up the molecule Ammonia?
-
-        ",Ammonia,ChemicalCompoundElement,"['Nitrogen', 'Hydrogen']","[-0.010928727, -0.6938864, -0.03405045, -0.1474431, -1.2828294e-05, -0.00055472564, -6.802381e-05, -0.003985438, -1.2112103e-05, -0.0005411302, -0.00010581859, -1.506017, -1.0283016, -0.6712088, -1.1834145, -0.13685687]"
+SubjectEntity,Relation,ObjectEntity
+Acetone,ChemicalCompoundElement,Oxygen
+Acetone,ChemicalCompoundElement,Carbon
+Acetone,ChemicalCompoundElement,Hydrogen
+Adenosine diphosphate ribose,ChemicalCompoundElement,Oxygen
+Adenosine diphosphate ribose,ChemicalCompoundElement,Carbon
+Adenosine diphosphate ribose,ChemicalCompoundElement,Hydrogen
+Adenosine diphosphate ribose,ChemicalCompoundElement,Nitrogen
+Adenosine diphosphate ribose,ChemicalCompoundElement,Phosphorus
+Aluminium chlorohydrate,ChemicalCompoundElement,Aluminium
+Aluminium chlorohydrate,ChemicalCompoundElement,Chlorine
+Aluminium chlorohydrate,ChemicalCompoundElement,Hydrogen
+Aluminum iodide,ChemicalCompoundElement,Aluminum
+Aluminum iodide,ChemicalCompoundElement,Iodine
+Aminomethylpropanol,ChemicalCompoundElement,Oxygen
+Aminomethylpropanol,ChemicalCompoundElement,Carbon
+Aminomethylpropanol,ChemicalCompoundElement,Hydrogen
+Aminomethylpropanol,ChemicalCompoundElement,Nitrogen
+Ammonia,ChemicalCompoundElement,Nitrogen
+Ammonia,ChemicalCompoundElement,Hydrogen
+Atracurium besylate,ChemicalCompoundElement,Atracurium
+Atracurium besylate,ChemicalCompoundElement,Oxygen
+Atracurium besylate,ChemicalCompoundElement,Hydrogen
+Azathioprine,ChemicalCompoundElement,Nitrogen
+Azathioprine,ChemicalCompoundElement,Carbon
+Azathioprine,ChemicalCompoundElement,Hydrogen
+Azathioprine,ChemicalCompoundElement,Sulfur
+Azulene,ChemicalCompoundElement,Carbon
+Azulene,ChemicalCompoundElement,Hydrogen
+Carbonic acid,ChemicalCompoundElement,Oxygen
+Carbonic acid,ChemicalCompoundElement,Carbon
+Carbonic acid,ChemicalCompoundElement,Hydrogen
+Cetyl alcohol,ChemicalCompoundElement,Carbon
+Cetyl alcohol,ChemicalCompoundElement,Hydrogen
+Chlorophyll f,ChemicalCompoundElement,Magnesium
+Chlorophyll f,ChemicalCompoundElement,Oxygen
+Chlorophyll f,ChemicalCompoundElement,Hydrogen
+Chlorophyll f,ChemicalCompoundElement,Carbon
+Chlorophyll f,ChemicalCompoundElement,Nitrogen
+Coumarin,ChemicalCompoundElement,Oxygen
+Coumarin,ChemicalCompoundElement,Carbon
+Coumarin,ChemicalCompoundElement,Hydrogen
+Cupric phosphate,ChemicalCompoundElement,Oxygen
+Cupric phosphate,ChemicalCompoundElement,Hydrogen
+Cupric phosphate,ChemicalCompoundElement,Phosphorus
+Cupric phosphate,ChemicalCompoundElement,Copper
+Cyclopropane,ChemicalCompoundElement,Carbon
+Cyclopropane,ChemicalCompoundElement,Hydrogen
+Ecdysone,ChemicalCompoundElement,Oxygen
+Ecdysone,ChemicalCompoundElement,Carbon
+Ecdysone,ChemicalCompoundElement,Hydrogen
+Ethyl acetoacetate,ChemicalCompoundElement,Oxygen
+Ethyl acetoacetate,ChemicalCompoundElement,Carbon
+Ethyl acetoacetate,ChemicalCompoundElement,Hydrogen
+Ethyl acetoacetate,ChemicalCompoundElement,Ethyl
+Flavin adenine dinucleotide,ChemicalCompoundElement,Flavin
+Flavin adenine dinucleotide,ChemicalCompoundElement,Adenine
+Flavin adenine dinucleotide,ChemicalCompoundElement,Dinucleotide
+Glucagon,ChemicalCompoundElement,Oxygen
+Glucagon,ChemicalCompoundElement,Carbon
+Glucagon,ChemicalCompoundElement,Hydrogen
+Glucagon,ChemicalCompoundElement,Nitrogen
+Glutathione,ChemicalCompoundElement,Glutamic acid
+Glutathione,ChemicalCompoundElement,Cysteine
+Glutathione,ChemicalCompoundElement,Glycine
+Gold trichloride,ChemicalCompoundElement,Gold
+Gold trichloride,ChemicalCompoundElement,Chlorine
+Heptadecane,ChemicalCompoundElement,Carbon
+Heptadecane,ChemicalCompoundElement,Hydrogen
+Heroin,ChemicalCompoundElement,Oxygen
+Heroin,ChemicalCompoundElement,Carbon
+Heroin,ChemicalCompoundElement,Hydrogen
+Hexadecane,ChemicalCompoundElement,Carbon
+Hexadecane,ChemicalCompoundElement,Hydrogen
+Hydrazine,ChemicalCompoundElement,Hydrogen
+Hydrazine,ChemicalCompoundElement,Nitrogen
+Hydroxocobalamin,ChemicalCompoundElement,Oxygen
+Hydroxocobalamin,ChemicalCompoundElement,Cobalt
+Hydroxocobalamin,ChemicalCompoundElement,Hydrogen
+Hyponitrous acid,ChemicalCompoundElement,Oxygen
+Hyponitrous acid,ChemicalCompoundElement,Nitrogen
+Hyponitrous acid,ChemicalCompoundElement,Hydrogen
+Icosane,ChemicalCompoundElement,Carbon
+Icosane,ChemicalCompoundElement,Hydrogen
+Imatinib,ChemicalCompoundElement,Oxygen
+Imatinib,ChemicalCompoundElement,Carbon
+Imatinib,ChemicalCompoundElement,Hydrogen
+Imatinib,ChemicalCompoundElement,Nitrogen
+Lysergic acid diethylamide,ChemicalCompoundElement,Oxygen
+Lysergic acid diethylamide,ChemicalCompoundElement,Carbon
+Lysergic acid diethylamide,ChemicalCompoundElement,Hydrogen
+Lysergic acid diethylamide,ChemicalCompoundElement,Nitrogen
+Lysergic acid diethylamide,ChemicalCompoundElement,Lysergic acid
+Maleic acid,ChemicalCompoundElement,Oxygen
+Maleic acid,ChemicalCompoundElement,Carbon
+Maleic acid,ChemicalCompoundElement,Hydrogen
+Mercuric fluoride,ChemicalCompoundElement,Mercury
+Mercuric fluoride,ChemicalCompoundElement,Fluorine
+Mercurous fluoride,ChemicalCompoundElement,Mercury
+Mercurous fluoride,ChemicalCompoundElement,Fluorine
+Metformin,ChemicalCompoundElement,Hydrogen
+Metformin,ChemicalCompoundElement,Carbon
+Metformin,ChemicalCompoundElement,Oxygen
+Metformin,ChemicalCompoundElement,Nitrogen
+Methacrylic acid,ChemicalCompoundElement,Oxygen
+Methacrylic acid,ChemicalCompoundElement,Carbon
+Methacrylic acid,ChemicalCompoundElement,Hydrogen
+Motilin,ChemicalCompoundElement,Oxygen
+Motilin,ChemicalCompoundElement,Carbon
+Motilin,ChemicalCompoundElement,Hydrogen
+Mustard gas,ChemicalCompoundElement,Sulfur
+Mustard gas,ChemicalCompoundElement,Chlorine
+Mustard gas,ChemicalCompoundElement,Fluorine
+Mustard gas,ChemicalCompoundElement,Carbon
+Mustard gas,ChemicalCompoundElement,Hydrogen
+Nonadecane,ChemicalCompoundElement,Carbon
+Nonadecane,ChemicalCompoundElement,Hydrogen
+Pethidine,ChemicalCompoundElement,Oxygen
+Pethidine,ChemicalCompoundElement,Carbon
+Pethidine,ChemicalCompoundElement,Hydrogen
+Pethidine,ChemicalCompoundElement,Nitrogen
+Rubidium hydroxide,ChemicalCompoundElement,Rubidium
+Rubidium hydroxide,ChemicalCompoundElement,Oxygen
+Rubidium hydroxide,ChemicalCompoundElement,Hydrogen
+Sodium hydroxide,ChemicalCompoundElement,Sodium
+Sodium hydroxide,ChemicalCompoundElement,Hydrogen
+Sodium hydroxide,ChemicalCompoundElement,Oxygen
+Sodium tripolyphosphate,ChemicalCompoundElement,Sodium
+Sodium tripolyphosphate,ChemicalCompoundElement,Oxygen
+Sodium tripolyphosphate,ChemicalCompoundElement,Phosphorus
+Sulfuric acid,ChemicalCompoundElement,Sulfur
+Sulfuric acid,ChemicalCompoundElement,Oxygen
+Sulfuric acid,ChemicalCompoundElement,Hydrogen
+Tabun,ChemicalCompoundElement,Phosphorus
+Tabun,ChemicalCompoundElement,Chlorine
+Tabun,ChemicalCompoundElement,Fluorine
+Tabun,ChemicalCompoundElement,Carbon
+Tabun,ChemicalCompoundElement,Hydrogen
+Tenoxicam,ChemicalCompoundElement,Oxygen
+Tenoxicam,ChemicalCompoundElement,Carbon
+Tenoxicam,ChemicalCompoundElement,Hydrogen
+Tenoxicam,ChemicalCompoundElement,Nitrogen
+Tnt,ChemicalCompoundElement,Oxygen
+Tnt,ChemicalCompoundElement,Carbon
+Tnt,ChemicalCompoundElement,Hydrogen
+Tnt,ChemicalCompoundElement,Nitrogen
+Triethylamine,ChemicalCompoundElement,Hydrogen
+Triethylamine,ChemicalCompoundElement,Carbon
+Triethylamine,ChemicalCompoundElement,Nitrogen
+Triphenylphosphine,ChemicalCompoundElement,Oxygen
+Triphenylphosphine,ChemicalCompoundElement,Carbon
+Triphenylphosphine,ChemicalCompoundElement,Hydrogen
+Triphenylphosphine,ChemicalCompoundElement,Phosphorus
+Vinylidene fluoride,ChemicalCompoundElement,Fluorine
+Vinylidene fluoride,ChemicalCompoundElement,Hydrogen
+Vinylidene fluoride,ChemicalCompoundElement,Carbon
+Zeaxanthin,ChemicalCompoundElement,Oxygen
+Zeaxanthin,ChemicalCompoundElement,Carbon
+Zeaxanthin,ChemicalCompoundElement,Hydrogen

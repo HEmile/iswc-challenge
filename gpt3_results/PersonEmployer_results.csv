@@ -1,51 +1,51 @@
-SubjectEntity,Relation,F1-score
-Adam Savage,PersonEmployer,0
-Alexis Ohanian,PersonEmployer,0
-Amber Rudd,PersonEmployer,0
-Aylin Nazlıaka,PersonEmployer,0
-Bill Browder,PersonEmployer,0
-Bob Iger,PersonEmployer,0
-Chelsea Clinton,PersonEmployer,0
-Chris Anderson,PersonEmployer,0
-Chris Sacca,PersonEmployer,0
-Cindy McCain,PersonEmployer,0
-Dana White,PersonEmployer,0
-Devin Nunes,PersonEmployer,0
-Dick Costolo,PersonEmployer,0
-Donny Deutsch,PersonEmployer,0
-Doug Ducey,PersonEmployer,0
-Douglas G. Hurley,PersonEmployer,0
-Edd China,PersonEmployer,0
-François Legault,PersonEmployer,0
-Guido van Rossum,PersonEmployer,0
-Harsh Goenka,PersonEmployer,0
-Heizō Takenaka,PersonEmployer,0
-Joel Spolsky,PersonEmployer,0
-John Doerr,PersonEmployer,0
-John McAfee,PersonEmployer,0
-John Romero,PersonEmployer,0
-Kanye West,PersonEmployer,0
-Karen L. Nyberg,PersonEmployer,0
-Kent Beck,PersonEmployer,0
-Kristalina Georgieva,PersonEmployer,0
-L. Brent Bozell III,PersonEmployer,0
-Lana Rhoades,PersonEmployer,0
-Marcos Pontes,PersonEmployer,0
-Michael Bloomberg,PersonEmployer,0
-Michael J. Massimino,PersonEmployer,0
-Mike Pompeo,PersonEmployer,0
-Muhammad Yunus,PersonEmployer,0
-Naftali Bennett,PersonEmployer,0
-Nandan Nilekani,PersonEmployer,0
-Nicole Stott,PersonEmployer,0
-Oleksandr Turchynov,PersonEmployer,0
-Oprah Winfrey,PersonEmployer,0
-Pedro Duque,PersonEmployer,0
-Reid Hoffman,PersonEmployer,0
-Serena Williams,PersonEmployer,0
-Sergio Melnick,PersonEmployer,0
-Shane Kimbrough,PersonEmployer,0
-Steve Forbes,PersonEmployer,0
-Turki Al-Sheikh,PersonEmployer,0
-Wendell Pierce,PersonEmployer,0
-Wishnutama,PersonEmployer,0
+SubjectEntity,Relation,Precision,Recall,F1-score
+Adam Savage,PersonEmployer,0.0,0.0,0.0
+Alexis Ohanian,PersonEmployer,0.3333333333333333,0.5,0.4
+Amber Rudd,PersonEmployer,0.25,1.0,0.4
+Aylin Nazlıaka,PersonEmployer,0.0,0.0,0.0
+Bill Browder,PersonEmployer,1.0,0.3333333333333333,0.5
+Bob Iger,PersonEmployer,0.5,0.5,0.5
+Chelsea Clinton,PersonEmployer,0.0,0.0,0.0
+Chris Anderson,PersonEmployer,0.3333333333333333,1.0,0.5
+Chris Sacca,PersonEmployer,0.3333333333333333,1.0,0.5
+Cindy McCain,PersonEmployer,0.0,0.0,0.0
+Dana White,PersonEmployer,1.0,1.0,1.0
+Devin Nunes,PersonEmployer,0.0,0.0,0.0
+Dick Costolo,PersonEmployer,0.5,1.0,0.6666666666666666
+Donny Deutsch,PersonEmployer,0.0,0.0,0.0
+Doug Ducey,PersonEmployer,0.16666666666666666,0.3333333333333333,0.2222222222222222
+Douglas G. Hurley,PersonEmployer,0.5,1.0,0.6666666666666666
+Edd China,PersonEmployer,0.0,0.0,0.0
+François Legault,PersonEmployer,0.3333333333333333,0.2,0.25
+Guido van Rossum,PersonEmployer,0.0,0.0,0.0
+Harsh Goenka,PersonEmployer,0.0,0.0,0.0
+Heizō Takenaka,PersonEmployer,0.5,0.3333333333333333,0.4
+Joel Spolsky,PersonEmployer,0.5,1.0,0.6666666666666666
+John Doerr,PersonEmployer,0.0,0.0,0.0
+John McAfee,PersonEmployer,0.25,0.14285714285714285,0.18181818181818182
+John Romero,PersonEmployer,0.3333333333333333,0.5,0.4
+Kanye West,PersonEmployer,0.0,0.0,0.0
+Karen L. Nyberg,PersonEmployer,0.0,0.0,0.0
+Kent Beck,PersonEmployer,0.0,0.0,0.0
+Kristalina Georgieva,PersonEmployer,0.0,0.0,0.0
+L. Brent Bozell III,PersonEmployer,1.0,0.6,0.7499999999999999
+Lana Rhoades,PersonEmployer,0.0,0.0,0.0
+Marcos Pontes,PersonEmployer,0.5,1.0,0.6666666666666666
+Michael Bloomberg,PersonEmployer,0.0,0.0,0.0
+Michael J. Massimino,PersonEmployer,0.0,0.0,0.0
+Mike Pompeo,PersonEmployer,0.14285714285714285,1.0,0.25
+Muhammad Yunus,PersonEmployer,0.0,0.0,0.0
+Naftali Bennett,PersonEmployer,0.0,0.0,0.0
+Nandan Nilekani,PersonEmployer,0.5,0.5,0.5
+Nicole Stott,PersonEmployer,0.0,0.0,0.0
+Oleksandr Turchynov,PersonEmployer,0.0,0.0,0.0
+Oprah Winfrey,PersonEmployer,0.3333333333333333,0.2,0.25
+Pedro Duque,PersonEmployer,1.0,0.5,0.6666666666666666
+Reid Hoffman,PersonEmployer,0.5,0.6666666666666666,0.5714285714285715
+Serena Williams,PersonEmployer,0.0,0.0,0.0
+Sergio Melnick,PersonEmployer,0.0,0.0,0.0
+Shane Kimbrough,PersonEmployer,0.0,0.0,0.0
+Steve Forbes,PersonEmployer,0.5,0.5,0.5
+Turki Al-Sheikh,PersonEmployer,0.0,0.0,0.0
+Wendell Pierce,PersonEmployer,0.0,0.0,0.0
+Wishnutama,PersonEmployer,0.3333333333333333,0.125,0.18181818181818182

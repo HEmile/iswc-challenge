@@ -47,16 +47,19 @@ def f1_score(x, y):
     p = precision(x, y)
     r = recall(x, y)
     if p == r == 0:
-        return 0
-    return (2 * p * r) / (p + r)
+        return 0, 0, 0
+    f1 = (2 * p * r) / (p + r)
+    return p, r, f1
 
 
 ### converting the LM predictions into lower case and removing punctuations
 def clean_predictions(x):
     if type(x) == float:
-        print(f'error on {x}')
         return
-    return x.lower().strip().replace(".", "").replace(",", "").replace("-", "")
+    elif x == 'NONE':
+        return x
+    else:
+        return x.lower().strip().replace(".", "").replace(",", "").replace("-", "")
 
 
 def evaluate(input_dir: Path, ground_truth_dir: Path, results_dir: Path):
@@ -65,8 +68,9 @@ def evaluate(input_dir: Path, ground_truth_dir: Path, results_dir: Path):
     else:
         results_dir.mkdir(parents=True, exist_ok=True)
 
-    ### dictionary (key:relation, val:F1-score) to store average F1 scores across all subject-entities for a given relation
-    average_f1 = {}
+    # dictionary (key:relation, val:F1-score)
+    # to store average F1 scores across all subject-entities for a given relation
+    average_metrics = {'f1': {}, 'recall': {}, 'precision': {}}
 
     ### looping over all the files in the input directory
     for fname in input_dir.glob("*.csv"):
@@ -90,27 +94,33 @@ def evaluate(input_dir: Path, ground_truth_dir: Path, results_dir: Path):
             print('SubjectEntity: %s' % entity, 'Ground Truth: %s' % ground_truth_objects,
                   'Predictions: %s' % predictions)
 
-            if len(predictions) == 0 or np.nan in predictions:
+            if len(predictions) == 0:
                 ### if no predictions obtained for the subject-entity, then F1-score is 0
-                res_df.append({"SubjectEntity": entity, "Relation": relation, "F1-score": 0})
+                # TODO bug?
+                res_df.append({"SubjectEntity": entity, "Relation": relation,
+                               "Precision": 0, "Recall": 0, "F1-score": 0})
             else:
-                predictions = [clean_predictions(x) for x in predictions] # if type(x) != str
-                f1 = f1_score(predictions, ground_truth_objects)  ### calculating F1-score for the given subject-entity
-                res_df.append({"SubjectEntity": entity, "Relation": relation, "F1-score": f1})
+                predictions = [clean_predictions(x) for x in predictions]
+                # calculating F1-score for the given subject-entity
+                prec, reca, f1 = f1_score(predictions, ground_truth_objects)
+                res_df.append({"SubjectEntity": entity, "Relation": relation,
+                               "Precision": prec, "Recall": reca, "F1-score": f1})
 
         ### storing the results separately for each relation
         res_df = pd.DataFrame(res_df)
         res_df.to_csv(results_dir / f"{relation}_results.csv", index=False)
 
         ### calculating the averaged F1-score across all subject-entities
-        average_f1[relation] = res_df["F1-score"].mean()
+        average_metrics['f1'][relation] = res_df["F1-score"].mean()
+        average_metrics['recall'][relation] = res_df["Recall"].mean()
+        average_metrics['precision'][relation] = res_df["Precision"].mean()
 
     ### calculating the final F1-score averaged across all the relations
     ### NOTE: this score will be used to rank the participating systems
-    f1 = round(np.mean(list(average_f1.values())) * 100, 2)
+    f1 = round(np.mean(list(average_metrics['f1'].values())) * 100, 2)
 
     print("average F1-score for each relation:")
-    pprint.pprint(average_f1)
+    pprint.pprint(average_metrics)
 
     print("Final F1-score: {} %".format(f1))
 

@@ -1,109 +1,51 @@
-Prompt,SubjectEntity,Relation,ObjectEntity,Probability
-"
-How did Aretha Franklin die?
-['pancreatic cancer', 'cancer']
-
-How did Bill Gates die?
-['NONE']
-
-How did Ennio Morricone die?
-['femoral fracture', 'fracture']
-
-How did Frank Sinatra die?
-['myocardial infarction', 'infarction']
-
-How did Michelle Obama die?
-['NONE']
-
-How did Adele die? 
-",Adele,PersonCauseOfDeath,['NONE'],"[-0.033193868, -0.0045155506, -2.2958224e-05, -0.0005940307, -0.0008940038, -1.9351056, -1.1294657, -0.6752241]"
-"
-How did Aretha Franklin die?
-['pancreatic cancer', 'cancer']
-
-How did Bill Gates die?
-['NONE']
-
-How did Ennio Morricone die?
-['femoral fracture', 'fracture']
-
-How did Frank Sinatra die?
-['myocardial infarction', 'infarction']
-
-How did Michelle Obama die?
-['NONE']
-
-How did Ahmed zewail die? 
-",Ahmed zewail,PersonCauseOfDeath,['cancer'],"[-0.018411376, -0.70894647, -0.07127097, -0.001614876, -1.9053653, -1.2353307, -0.10950834, -0.048331816]"
-"
-How did Aretha Franklin die?
-['pancreatic cancer', 'cancer']
-
-How did Bill Gates die?
-['NONE']
-
-How did Ennio Morricone die?
-['femoral fracture', 'fracture']
-
-How did Frank Sinatra die?
-['myocardial infarction', 'infarction']
-
-How did Michelle Obama die?
-['NONE']
-
-How did Aretha franklin die? 
-",Aretha franklin,PersonCauseOfDeath,"['pancreatic cancer', 'cancer']","[-0.46047357, -0.027379943, -9.370307e-06, -0.00025431695, -8.483411e-05, -0.00016543045, -0.015110867, -0.0006656601, -0.00070126774, -0.00028854018, -0.0057237744, -2.1349068, -1.1414598, -0.11683332, -0.046834577, -0.19283183]"
-"
-How did Aretha Franklin die?
-['pancreatic cancer', 'cancer']
-
-How did Bill Gates die?
-['NONE']
-
-How did Ennio Morricone die?
-['femoral fracture', 'fracture']
-
-How did Frank Sinatra die?
-['myocardial infarction', 'infarction']
-
-How did Michelle Obama die?
-['NONE']
-
-How did Avicii die? 
-",Avicii,PersonCauseOfDeath,"['suicide', 'suicide by self-inflicted knife wounds']","[-0.006634242, -0.25546348, -5.460492e-07, -0.34662205, -2.9280032e-05, -1.0013602, -0.0025123484, -0.03194207, -0.9849427, -0.0014658737, -0.0016052624, -0.00032765282, -1.2028234, -0.3682347, -0.012462132, -0.0047278292]"
-"
-How did Aretha Franklin die?
-['pancreatic cancer', 'cancer']
-
-How did Bill Gates die?
-['NONE']
-
-How did Ennio Morricone die?
-['femoral fracture', 'fracture']
-
-How did Frank Sinatra die?
-['myocardial infarction', 'infarction']
-
-How did Michelle Obama die?
-['NONE']
-
-How did Benjamin Netanyahu die? 
-",Benjamin Netanyahu,PersonCauseOfDeath,['NONE'],"[-0.034516834, -0.008244394, -3.3212986e-05, -0.00043545783, -0.0023552654, -1.702315, -1.2364628, -0.10891646]"
-"
-How did Aretha Franklin die?
-['pancreatic cancer', 'cancer']
-
-How did Bill Gates die?
-['NONE']
-
-How did Ennio Morricone die?
-['femoral fracture', 'fracture']
-
-How did Frank Sinatra die?
-['myocardial infarction', 'infarction']
-
-How did Michelle Obama die?
-['NONE']
-
-How did Bill Gates die? 
-",Bill Gates,PersonCauseOfDeath,['NONE'],"[-0.3548023, -0.0031269393, -6.265847e-05, -0.0005391018, -0.00030928716, -1.9973425, -1.2392908, -3.1738067]"
+SubjectEntity,Relation,ObjectEntity
+Adele,PersonCauseOfDeath,NONE
+Ahmed zewail,PersonCauseOfDeath,Cancer
+Aretha franklin,PersonCauseOfDeath,Pancreatic Cancer
+Avicii,PersonCauseOfDeath,Suicide
+Benjamin Netanyahu,PersonCauseOfDeath,NONE
+Bill Gates,PersonCauseOfDeath,NONE
+Boris Johnson,PersonCauseOfDeath,NONE
+Christina grimmie,PersonCauseOfDeath,Murder
+Christine Lagarde,PersonCauseOfDeath,NONE
+Cory monteith,PersonCauseOfDeath,Drug Overdose
+Dilip kumar,PersonCauseOfDeath,NONE
+Donald Knuth,PersonCauseOfDeath,NONE
+Emmanuel Macron,PersonCauseOfDeath,NONE
+Ennio morricone,PersonCauseOfDeath,NONE
+Francois Hollande,PersonCauseOfDeath,NONE
+Frank sinatra,PersonCauseOfDeath,Heart Attack
+George h. w. bush,PersonCauseOfDeath,Infarction
+George harrison,PersonCauseOfDeath,Cancer
+Ginni Rometty,PersonCauseOfDeath,NONE
+Haruma miura,PersonCauseOfDeath,Drowning
+Hu Jintao,PersonCauseOfDeath,NONE
+Hugh hefner,PersonCauseOfDeath,Natural Causes
+Idriss déby,PersonCauseOfDeath,Injury
+Indra Nooyi,PersonCauseOfDeath,NONE
+Jim rohn,PersonCauseOfDeath,Pneumonia
+John magufuli,PersonCauseOfDeath,COVID-19
+Johnny cash,PersonCauseOfDeath,Respiratory Failure
+Larry Page,PersonCauseOfDeath,NONE
+Larry king,PersonCauseOfDeath,Coronary Artery Disease
+Maurane,PersonCauseOfDeath,Cancer
+Maya angelou,PersonCauseOfDeath,Natural Causes
+Melinda Gates,PersonCauseOfDeath,NONE
+Michelle Obama,PersonCauseOfDeath,NONE
+Mikhail zadornov,PersonCauseOfDeath,Cancer
+Miles davis,PersonCauseOfDeath,Respiratory Failure
+Nelson mandela,PersonCauseOfDeath,Respiratory Infection
+Paul Pogba,PersonCauseOfDeath,NONE
+Pitbull,PersonCauseOfDeath,NONE
+Richard Dawkins,PersonCauseOfDeath,NONE
+Rihanna,PersonCauseOfDeath,NONE
+Rishi kapoor,PersonCauseOfDeath,Cancer
+Robert Lewandowsk,PersonCauseOfDeath,NONE
+Robert downey jr.,PersonCauseOfDeath,NONE
+Roddy piper,PersonCauseOfDeath,Heart Attack
+Ronaldinho,PersonCauseOfDeath,NONE
+Roy orbison,PersonCauseOfDeath,Heart Attack
+Russell Crowe,PersonCauseOfDeath,NONE
+Sandra Bullock,PersonCauseOfDeath,NONE
+Ursula von der leyen,PersonCauseOfDeath,NONE
+Victoria Beckham,PersonCauseOfDeath,NONE

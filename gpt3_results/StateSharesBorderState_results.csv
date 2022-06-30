@@ -1,51 +1,51 @@
-SubjectEntity,Relation,F1-score
-Andalusia,StateSharesBorderState,0
-Auvergne,StateSharesBorderState,0
-Basel-stadt,StateSharesBorderState,0
-Basilicata,StateSharesBorderState,0
-Basque autonomous community,StateSharesBorderState,0
-Bavaria,StateSharesBorderState,0
-Biobío region,StateSharesBorderState,0
-Brandenburg,StateSharesBorderState,0
-Canton of glarus,StateSharesBorderState,0
-Canton of neuchâtel,StateSharesBorderState,0
-Canton of schaffhausen,StateSharesBorderState,0
-Canton of vaud,StateSharesBorderState,0
-Canton of zug,StateSharesBorderState,0
-Canton of zürich,StateSharesBorderState,0
-Connecticut,StateSharesBorderState,0
-Drenthe,StateSharesBorderState,0
-Flores department,StateSharesBorderState,0
-Free hanseatic city of bremen,StateSharesBorderState,0
-French guiana,StateSharesBorderState,0
-Fukushima prefecture,StateSharesBorderState,0
-Galicia,StateSharesBorderState,0
-Giza governorate,StateSharesBorderState,0
-Győr,StateSharesBorderState,0
-Hanoi,StateSharesBorderState,0
-Hesse,StateSharesBorderState,0
-Iowa,StateSharesBorderState,0
-Land of valencia,StateSharesBorderState,0
-Lombardy,StateSharesBorderState,0
-Los lagos region,StateSharesBorderState,0
-Luxembourg district,StateSharesBorderState,0
-Massachusetts,StateSharesBorderState,0
-Nebraska,StateSharesBorderState,0
-New hampshire,StateSharesBorderState,0
-New jersey,StateSharesBorderState,0
-O'higgins region,StateSharesBorderState,0
-Obwalden,StateSharesBorderState,0
-Ohio,StateSharesBorderState,0
-Päijänne tavastia,StateSharesBorderState,0
-Rhineland-palatinate,StateSharesBorderState,0
-Río negro department,StateSharesBorderState,0
-Salto department,StateSharesBorderState,0
-San josé department,StateSharesBorderState,0
-Santiago metropolitan region,StateSharesBorderState,0
-Scotland,StateSharesBorderState,0
-Soriano department,StateSharesBorderState,0
-Tacuarembó department,StateSharesBorderState,0
-Tavastia proper,StateSharesBorderState,0
-Tokyo,StateSharesBorderState,0
-Virginia,StateSharesBorderState,0
-Zagreb,StateSharesBorderState,0
+SubjectEntity,Relation,Precision,Recall,F1-score
+Andalusia,StateSharesBorderState,0.4,0.3333333333333333,0.3636363636363636
+Auvergne,StateSharesBorderState,0.2857142857142857,0.3333333333333333,0.30769230769230765
+Basel-stadt,StateSharesBorderState,0.0,0.0,0.0
+Basilicata,StateSharesBorderState,1.0,1.0,1.0
+Basque autonomous community,StateSharesBorderState,0.5,0.4,0.4444444444444445
+Bavaria,StateSharesBorderState,0.5714285714285714,0.3333333333333333,0.4210526315789474
+Biobío region,StateSharesBorderState,0.0,0.0,0.0
+Brandenburg,StateSharesBorderState,0.5,0.15384615384615385,0.23529411764705882
+Canton of glarus,StateSharesBorderState,0.6666666666666666,0.5,0.5714285714285715
+Canton of neuchâtel,StateSharesBorderState,0.6666666666666666,0.3333333333333333,0.4444444444444444
+Canton of schaffhausen,StateSharesBorderState,0.6666666666666666,0.5,0.5714285714285715
+Canton of vaud,StateSharesBorderState,0.6666666666666666,0.16666666666666666,0.26666666666666666
+Canton of zug,StateSharesBorderState,0.3333333333333333,0.25,0.28571428571428575
+Canton of zürich,StateSharesBorderState,0.6666666666666666,0.5714285714285714,0.6153846153846153
+Connecticut,StateSharesBorderState,1.0,1.0,1.0
+Drenthe,StateSharesBorderState,1.0,0.5,0.6666666666666666
+Flores department,StateSharesBorderState,0.0,0.0,0.0
+Free hanseatic city of bremen,StateSharesBorderState,1.0,1.0,1.0
+French guiana,StateSharesBorderState,1.0,1.0,1.0
+Fukushima prefecture,StateSharesBorderState,0.6666666666666666,0.3333333333333333,0.4444444444444444
+Galicia,StateSharesBorderState,0.6666666666666666,0.3333333333333333,0.4444444444444444
+Giza governorate,StateSharesBorderState,1.0,0.36363636363636365,0.5333333333333333
+Győr,StateSharesBorderState,0.0,0.0,0.0
+Hanoi,StateSharesBorderState,0.1111111111111111,0.125,0.11764705882352941
+Hesse,StateSharesBorderState,0.25,0.16666666666666666,0.2
+Iowa,StateSharesBorderState,1.0,1.0,1.0
+Land of valencia,StateSharesBorderState,0.6666666666666666,0.5,0.5714285714285715
+Lombardy,StateSharesBorderState,0.5,0.3333333333333333,0.4
+Los lagos region,StateSharesBorderState,0.3333333333333333,0.2,0.25
+Luxembourg district,StateSharesBorderState,0.3333333333333333,0.3333333333333333,0.3333333333333333
+Massachusetts,StateSharesBorderState,1.0,0.6,0.7499999999999999
+Nebraska,StateSharesBorderState,1.0,0.8333333333333334,0.9090909090909091
+New hampshire,StateSharesBorderState,1.0,0.5,0.6666666666666666
+New jersey,StateSharesBorderState,1.0,1.0,1.0
+O'higgins region,StateSharesBorderState,0.3333333333333333,0.25,0.28571428571428575
+Obwalden,StateSharesBorderState,0.3333333333333333,0.2,0.25
+Ohio,StateSharesBorderState,1.0,0.8333333333333334,0.9090909090909091
+Päijänne tavastia,StateSharesBorderState,0.6666666666666666,0.3333333333333333,0.4444444444444444
+Rhineland-palatinate,StateSharesBorderState,0.3333333333333333,0.2,0.25
+Río negro department,StateSharesBorderState,0.0,0.0,0.0
+Salto department,StateSharesBorderState,1.0,0.5,0.6666666666666666
+San josé department,StateSharesBorderState,0.0,0.0,0.0
+Santiago metropolitan region,StateSharesBorderState,0.3333333333333333,0.3333333333333333,0.3333333333333333
+Scotland,StateSharesBorderState,1.0,1.0,1.0
+Soriano department,StateSharesBorderState,0.6666666666666666,0.4,0.5
+Tacuarembó department,StateSharesBorderState,0.5,0.3333333333333333,0.4
+Tavastia proper,StateSharesBorderState,0.25,0.25,0.25
+Tokyo,StateSharesBorderState,1.0,0.75,0.8571428571428571
+Virginia,StateSharesBorderState,1.0,0.6666666666666666,0.8
+Zagreb,StateSharesBorderState,0.0,0.0,0.0

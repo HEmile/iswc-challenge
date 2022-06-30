@@ -4,6 +4,8 @@ Please use Python 3.10
 
 ## Tasks overview
 
+### Prompt creation
+
 | Relation | Main person in charge | GPT-3 |
 | ------------------------- |:----------------------|:------|
 | CountryBordersWithCountry | Selene                | DONE  |
@@ -18,3 +20,15 @@ Please use Python 3.10
 |PersonPlaceOfDeath | Dimitris              | DONE  |
 |PersonCauseOfDeath | Dimitris              | DONE  |
 |CompanyParentOrganization | Thiviyan              | DONE |
+
+## Improvements:
+
+- Look at failure cases 
+  - Wrong formatting?
+- Improve precision via logic integrity
+    - personEmployer
+- Improve recall via
+  - Rephrase prompts?
+- General improvements 
+  - Can we use the logprob?
+  - Are we using other models?

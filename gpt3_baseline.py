@@ -6,7 +6,10 @@ import pandas as pd
 
 from utils.model import gpt3
 
-SAMPLE_SIZE = 200
+SAMPLE_SIZE = 5000
+
+# TODO check NONE in output files
+
 
 RELATIONS = {
     "CountryBordersWithCountry",
@@ -249,7 +252,7 @@ def probe_lm(relation, subject_entities, output_dir: Path, batch_size=20):
     ### for every subject-entity in the entities list, we probe the LM using the below sample prompts
 
     # Trim list & batch entities
-    subject_entities = subject_entities[:SAMPLE_SIZE]
+    subject_entities = subject_entities[:SAMPLE_SIZE]  #
     batches = [subject_entities[x:x + batch_size] for x in range(0, len(subject_entities), batch_size)]
 
     results = []
@@ -269,24 +272,17 @@ def probe_lm(relation, subject_entities, output_dir: Path, batch_size=20):
         ### probing the language model and obtaining the ranked tokens in the masked_position
         predictions = gpt3(prompts)  # TODO Figure out what the hell to do with probabilities
 
-        for prediction in predictions:
+        for subject_entity, prediction in zip(batch, predictions):
             prediction['text'] = clean_up(prediction['text'])
-            prediction['text'] = convert_nan(prediction['text'])
+            # TODO: Check Logic consistency (Emile, Sel)
 
-        # TODO: Check Logic consistency (Emile, Sel)
-
-        ### saving the outputs and the likelihood scores received with the sample prompt
-        x = [
-            {
-                "Prompt": prompts[index],
-                "SubjectEntity": subject_entity,
-                "Relation": relation,
-                "ObjectEntity": predictions[index]['text'],
-                "Probability": predictions[index]['logprob'],
-            }
-            for index, subject_entity in enumerate(batch)
-        ]
-        results += x
+            for element in prediction['text']:
+                x = {
+                    "SubjectEntity": subject_entity,
+                    "Relation": relation,
+                    "ObjectEntity": element
+                }
+                results.append(x)
 
         # Sleep is needed becase we make many API calls. We can make 60 calls every minute
         if idx % 5:
@@ -327,11 +323,7 @@ def main():
 
     ### call the prompt function to get output for each (subject-entity, relation)
     for relation in RELATIONS:
-        entities = (
-            pd.read_csv(input_dir / f"{relation}.csv")["SubjectEntity"]
-                .drop_duplicates(keep="first")
-                .tolist()
-        )
+        entities = pd.read_csv(input_dir / f"{relation}.csv")["SubjectEntity"].drop_duplicates(keep="first").tolist()
         probe_lm(relation, entities, baseline_output_dir)
 
 

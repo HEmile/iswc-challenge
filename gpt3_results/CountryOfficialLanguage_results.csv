@@ -1,48 +1,48 @@
-SubjectEntity,Relation,F1-score
-Afghanistan,CountryOfficialLanguage,0
-Argentina,CountryOfficialLanguage,0
-Australia,CountryOfficialLanguage,0
-Austria,CountryOfficialLanguage,0
-Botswana,CountryOfficialLanguage,0
-Brunei,CountryOfficialLanguage,0
-Burkina faso,CountryOfficialLanguage,0
-Burundi,CountryOfficialLanguage,0
-Cameroon,CountryOfficialLanguage,0
-Central african republic,CountryOfficialLanguage,0
-Colombia,CountryOfficialLanguage,0
-Costa rica,CountryOfficialLanguage,0
-Croatia,CountryOfficialLanguage,0
-East timor,CountryOfficialLanguage,0
-Finland,CountryOfficialLanguage,0
-France,CountryOfficialLanguage,0
-Grenada,CountryOfficialLanguage,0
-Guyana,CountryOfficialLanguage,0
-Iceland,CountryOfficialLanguage,0
-India,CountryOfficialLanguage,0
-Israel,CountryOfficialLanguage,0
-Jamaica,CountryOfficialLanguage,0
-Jordan,CountryOfficialLanguage,0
-Kazakhstan,CountryOfficialLanguage,0
-Latvia,CountryOfficialLanguage,0
-Liechtenstein,CountryOfficialLanguage,0
-Maldives,CountryOfficialLanguage,0
-Mozambique,CountryOfficialLanguage,0
-Nicaragua,CountryOfficialLanguage,0
-Niger,CountryOfficialLanguage,0
-North macedonia,CountryOfficialLanguage,0
-Norway,CountryOfficialLanguage,0
-Pakistan,CountryOfficialLanguage,0
-Panama,CountryOfficialLanguage,0
-People's republic of china,CountryOfficialLanguage,0
-Philippines,CountryOfficialLanguage,0
-Qatar,CountryOfficialLanguage,0
-Rwanda,CountryOfficialLanguage,0
-San marino,CountryOfficialLanguage,0
-Sao tome and principe,CountryOfficialLanguage,0
-Sierra leone,CountryOfficialLanguage,0
-Taiwan,CountryOfficialLanguage,0
-Tajikistan,CountryOfficialLanguage,0
-Yemen,CountryOfficialLanguage,0
-Zimbabwe,CountryOfficialLanguage,0
-bahamas,CountryOfficialLanguage,0
-gambia,CountryOfficialLanguage,0
+SubjectEntity,Relation,Precision,Recall,F1-score
+Afghanistan,CountryOfficialLanguage,1.0,0.2222222222222222,0.3636363636363636
+Argentina,CountryOfficialLanguage,1.0,1.0,1.0
+Australia,CountryOfficialLanguage,1.0,1.0,1.0
+Austria,CountryOfficialLanguage,1.0,1.0,1.0
+Botswana,CountryOfficialLanguage,0.0,0.0,0.0
+Brunei,CountryOfficialLanguage,1.0,0.5,0.6666666666666666
+Burkina faso,CountryOfficialLanguage,0.25,1.0,0.4
+Burundi,CountryOfficialLanguage,0.6666666666666666,0.6666666666666666,0.6666666666666666
+Cameroon,CountryOfficialLanguage,1.0,1.0,1.0
+Central african republic,CountryOfficialLanguage,1.0,1.0,1.0
+Colombia,CountryOfficialLanguage,1.0,1.0,1.0
+Costa rica,CountryOfficialLanguage,1.0,1.0,1.0
+Croatia,CountryOfficialLanguage,1.0,1.0,1.0
+East timor,CountryOfficialLanguage,0.6666666666666666,1.0,0.8
+Finland,CountryOfficialLanguage,1.0,1.0,1.0
+France,CountryOfficialLanguage,1.0,1.0,1.0
+Grenada,CountryOfficialLanguage,1.0,0.5,0.6666666666666666
+Guyana,CountryOfficialLanguage,1.0,1.0,1.0
+Iceland,CountryOfficialLanguage,1.0,1.0,1.0
+India,CountryOfficialLanguage,1.0,1.0,1.0
+Israel,CountryOfficialLanguage,0.5,1.0,0.6666666666666666
+Jamaica,CountryOfficialLanguage,1.0,1.0,1.0
+Jordan,CountryOfficialLanguage,0.5,1.0,0.6666666666666666
+Kazakhstan,CountryOfficialLanguage,1.0,1.0,1.0
+Latvia,CountryOfficialLanguage,1.0,1.0,1.0
+Liechtenstein,CountryOfficialLanguage,0.5,1.0,0.6666666666666666
+Maldives,CountryOfficialLanguage,0.0,0.0,0.0
+Mozambique,CountryOfficialLanguage,0.05,1.0,0.09523809523809523
+Nicaragua,CountryOfficialLanguage,1.0,1.0,1.0
+Niger,CountryOfficialLanguage,0.3333333333333333,1.0,0.5
+North macedonia,CountryOfficialLanguage,1.0,0.5,0.6666666666666666
+Norway,CountryOfficialLanguage,1.0,0.5,0.6666666666666666
+Pakistan,CountryOfficialLanguage,1.0,0.6666666666666666,0.8
+Panama,CountryOfficialLanguage,0.5,1.0,0.6666666666666666
+People's republic of china,CountryOfficialLanguage,1.0,0.5,0.6666666666666666
+Philippines,CountryOfficialLanguage,1.0,1.0,1.0
+Qatar,CountryOfficialLanguage,1.0,1.0,1.0
+Rwanda,CountryOfficialLanguage,1.0,0.75,0.8571428571428571
+San marino,CountryOfficialLanguage,1.0,1.0,1.0
+Sao tome and principe,CountryOfficialLanguage,1.0,1.0,1.0
+Sierra leone,CountryOfficialLanguage,0.5,1.0,0.6666666666666666
+Taiwan,CountryOfficialLanguage,0.5,0.2857142857142857,0.36363636363636365
+Tajikistan,CountryOfficialLanguage,1.0,1.0,1.0
+Yemen,CountryOfficialLanguage,1.0,1.0,1.0
+Zimbabwe,CountryOfficialLanguage,0.75,0.4,0.5217391304347827
+bahamas,CountryOfficialLanguage,1.0,1.0,1.0
+gambia,CountryOfficialLanguage,1.0,1.0,1.0

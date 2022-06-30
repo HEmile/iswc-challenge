@@ -1,109 +1,51 @@
-Prompt,SubjectEntity,Relation,ObjectEntity,Probability
-"
-What is the place of death of Barack Obama?
-['NONE']
-
-What is the place of death of Ennio morricone?
-['rome']
-
-What is the place of death of Elvis presley?
-['graceland']
-
-What is the place of death of Elon musk?
-['NONE']
-
-What is the place of death of Prince?
-['chanhassen']
-
-What is the place of death of Abdul rehman malik? 
-",Abdul rehman malik,PersonPlaceOfDeath,['NONE'],"[-0.05271447, -0.16098061, -0.00052687584, -0.00026325852, -0.00015052655, -2.120319, -1.1640514, -0.6769981]"
-"
-What is the place of death of Barack Obama?
-['NONE']
-
-What is the place of death of Ennio morricone?
-['rome']
-
-What is the place of death of Elvis presley?
-['graceland']
-
-What is the place of death of Elon musk?
-['NONE']
-
-What is the place of death of Prince?
-['chanhassen']
-
-What is the place of death of Adam west? 
-",Adam west,PersonPlaceOfDeath,['los angeles'],"[-0.0069273906, -0.047791503, -0.00599885, -2.8138238e-06, -0.00032920254, -0.00034762823, -1.8003587, -1.1201733]"
-"
-What is the place of death of Barack Obama?
-['NONE']
-
-What is the place of death of Ennio morricone?
-['rome']
-
-What is the place of death of Elvis presley?
-['graceland']
-
-What is the place of death of Elon musk?
-['NONE']
-
-What is the place of death of Prince?
-['chanhassen']
-
-What is the place of death of Adele? 
-",Adele,PersonPlaceOfDeath,['NONE'],"[-0.03995944, -0.0011721682, -1.9621319e-05, -5.503005e-05, -0.000295933, -2.1332033, -1.109616, -0.6828956]"
-"
-What is the place of death of Barack Obama?
-['NONE']
-
-What is the place of death of Ennio morricone?
-['rome']
-
-What is the place of death of Elvis presley?
-['graceland']
-
-What is the place of death of Elon musk?
-['NONE']
-
-What is the place of death of Prince?
-['chanhassen']
-
-What is the place of death of Alan garcía? 
-",Alan garcía,PersonPlaceOfDeath,['lima'],"[-0.024630817, -0.52677006, -7.815842e-05, -0.00448208, -0.007850231, -2.066407, -1.1498325, -0.6757603]"
-"
-What is the place of death of Barack Obama?
-['NONE']
-
-What is the place of death of Ennio morricone?
-['rome']
-
-What is the place of death of Elvis presley?
-['graceland']
-
-What is the place of death of Elon musk?
-['NONE']
-
-What is the place of death of Prince?
-['chanhassen']
-
-What is the place of death of Alfredo gonzález flores? 
-",Alfredo gonzález flores,PersonPlaceOfDeath,['NONE'],"[-0.053893447, -0.22568494, -0.0015561897, -0.0009790173, -0.00013586106, -2.0898623, -1.2075809, -0.6756494]"
-"
-What is the place of death of Barack Obama?
-['NONE']
-
-What is the place of death of Ennio morricone?
-['rome']
-
-What is the place of death of Elvis presley?
-['graceland']
-
-What is the place of death of Elon musk?
-['NONE']
-
-What is the place of death of Prince?
-['chanhassen']
-
-What is the place of death of Almudena grandes? 
-",Almudena grandes,PersonPlaceOfDeath,['NONE'],"[-0.11234263, -0.46730474, -3.023464e-05, -0.00017139182, -0.0003929454, -2.0222793, -1.1140553, -0.06809809]"
+SubjectEntity,Relation,ObjectEntity
+Abdul rehman malik,PersonPlaceOfDeath,NONE
+Adam west,PersonPlaceOfDeath,Los Angeles
+Adele,PersonPlaceOfDeath,NONE
+Alan garcía,PersonPlaceOfDeath,Lima
+Alfredo gonzález flores,PersonPlaceOfDeath,NONE
+Almudena grandes,PersonPlaceOfDeath,NONE
+Anne rice,PersonPlaceOfDeath,New Orleans
+Aretha franklin,PersonPlaceOfDeath,Detroit
+Avicii,PersonPlaceOfDeath,Muscat
+Benjamin Netanyahu,PersonPlaceOfDeath,NONE
+Bill Gates,PersonPlaceOfDeath,NONE
+Boris Johnson,PersonPlaceOfDeath,NONE
+Cameron boyce,PersonPlaceOfDeath,Los Angeles
+Chespirito,PersonPlaceOfDeath,Cancun
+Chick corea,PersonPlaceOfDeath,NONE
+Chris cornell,PersonPlaceOfDeath,Detroit
+Christine Lagarde,PersonPlaceOfDeath,NONE
+Donald Knuth,PersonPlaceOfDeath,Stanford
+Elijah cummings,PersonPlaceOfDeath,Baltimore
+Emmanuel Macron,PersonPlaceOfDeath,NONE
+Francois Hollande,PersonPlaceOfDeath,NONE
+George h. w. bush,PersonPlaceOfDeath,Houston
+Ginni Rometty,PersonPlaceOfDeath,NONE
+Glenn fredly,PersonPlaceOfDeath,NONE
+Hu Jintao,PersonPlaceOfDeath,NONE
+Hugo chávez,PersonPlaceOfDeath,Caracas
+Indra Nooyi,PersonPlaceOfDeath,NONE
+John coltrane,PersonPlaceOfDeath,New York City
+John lennon,PersonPlaceOfDeath,New York City
+Ken robinson,PersonPlaceOfDeath,NONE
+Kurt vonnegut,PersonPlaceOfDeath,New York City
+Larry Page,PersonPlaceOfDeath,NONE
+Melinda Gates,PersonPlaceOfDeath,NONE
+Michael collins,PersonPlaceOfDeath,NONE
+Michael jackson,PersonPlaceOfDeath,Los Angeles
+Michelle Obama,PersonPlaceOfDeath,NONE
+Paul Pogba,PersonPlaceOfDeath,NONE
+Paul g. allen,PersonPlaceOfDeath,Seattle
+Pitbull,PersonPlaceOfDeath,NONE
+Rachel caine,PersonPlaceOfDeath,NONE
+Richard Dawkins,PersonPlaceOfDeath,NONE
+Rihanna,PersonPlaceOfDeath,NONE
+Roald dahl,PersonPlaceOfDeath,Oxford
+Robert Lewandowsk,PersonPlaceOfDeath,NONE
+Robert downey jr.,PersonPlaceOfDeath,NONE
+Ronaldinho,PersonPlaceOfDeath,NONE
+Russell Crowe,PersonPlaceOfDeath,NONE
+Sandra Bullock,PersonPlaceOfDeath,NONE
+Ursula von der leyen,PersonPlaceOfDeath,NONE
+Victoria Beckham,PersonPlaceOfDeath,NONE

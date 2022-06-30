@@ -1,73 +1,244 @@
-Prompt,SubjectEntity,Relation,ObjectEntity,Probability
-"
-What is Danny DeVito's profession?
-['director', 'film director'] 
-
-What is Christina Aguilera's profession?
-['artist', 'recording artist']
-
-What is Donald Trump's profession?
-['businessperson', 'conspiracy theorist', 'politician']
-
-What is Akon's profession?
-",Akon,PersonProfession,"['artist', 'musician', 'record producer', 'songwriter']","[-0.02143224, -1.1282763, -0.0013382577, -0.00045680837, -1.1943629, -3.0826937e-05, -0.06388487, -9.4849514e-05, -0.22576725, -0.00022611799, -0.09305661, -1.2468796e-05, -0.13522275, -1.8841804e-07, -0.07522836, -0.0011491937]"
-"
-What is Danny DeVito's profession?
-['director', 'film director'] 
-
-What is Christina Aguilera's profession?
-['artist', 'recording artist']
-
-What is Donald Trump's profession?
-['businessperson', 'conspiracy theorist', 'politician']
-
-What is Akshay Kumar's profession?
-",Akshay Kumar,PersonProfession,"['actor', 'producer']","[-0.047163613, -0.028818231, -0.12437263, -0.0010768116, -0.2431365, -5.460492e-07, -0.3806565, -0.009256715]"
-"
-What is Danny DeVito's profession?
-['director', 'film director'] 
-
-What is Christina Aguilera's profession?
-['artist', 'recording artist']
-
-What is Donald Trump's profession?
-['businessperson', 'conspiracy theorist', 'politician']
-
-What is Al Gore's profession?
-",Al Gore,PersonProfession,"['activist', 'businessperson', 'politician']","[-0.00566203, -1.0186101, -0.00054065336, -0.0006644661, -0.00012846824, -0.99849814, -0.00015243483, -0.001038325, -5.860725e-05, -0.6123898, -8.176345e-06, -0.28558892, -0.014532902, -2.2706246, -1.0390881, -0.6854653]"
-"
-What is Danny DeVito's profession?
-['director', 'film director'] 
-
-What is Christina Aguilera's profession?
-['artist', 'recording artist']
-
-What is Donald Trump's profession?
-['businessperson', 'conspiracy theorist', 'politician']
-
-What is André-Pierre Gignac's profession?
-",André-Pierre Gignac,PersonProfession,['association football player'],"[-0.013492694, -0.44195855, -2.0966954e-06, -0.019437758, -0.00068945857, -0.21425988, -0.014839144, -2.344421]"
-"
-What is Danny DeVito's profession?
-['director', 'film director'] 
-
-What is Christina Aguilera's profession?
-['artist', 'recording artist']
-
-What is Donald Trump's profession?
-['businessperson', 'conspiracy theorist', 'politician']
-
-What is Ashley Tisdale's profession?
-",Ashley Tisdale,PersonProfession,"['actress', 'singer']","[-0.010692779, -0.35661045, -1.022884e-06, -0.08809293, -0.00027566, -0.72865725, -6.6619094e-07, -0.43437508, -0.01151529, -2.2779374, -1.0407994, -0.6889478, -1.2171619, -0.12507932, -0.00012751458, -2.4543265e-06]"
-"
-What is Danny DeVito's profession?
-['director', 'film director'] 
-
-What is Christina Aguilera's profession?
-['artist', 'recording artist']
-
-What is Donald Trump's profession?
-['businessperson', 'conspiracy theorist', 'politician']
-
-What is Bryan Cranston's profession?
-",Bryan Cranston,PersonProfession,"['actor', 'producer', 'screenwriter']","[-0.005974385, -0.018151319, -0.37097546, -0.0001492143, -0.91384816, -6.827632e-08, -0.26413533, -0.00017997579, -0.7435355, -2.8138238e-06, -0.23770432, -0.011976594, -2.2010064, -1.0732332, -0.6869533, -1.2208269]"
+SubjectEntity,Relation,ObjectEntity
+Akon,PersonProfession,Singer
+Akon,PersonProfession,Songwriter
+Akon,PersonProfession,Record Producer
+Akon,PersonProfession,Philanthropist
+Akon,PersonProfession,Businessperson
+Akon,PersonProfession,Actor
+Akshay Kumar,PersonProfession,Actor
+Akshay Kumar,PersonProfession,Film Producer
+Akshay Kumar,PersonProfession,Television Actor
+Akshay Kumar,PersonProfession,Model
+Akshay Kumar,PersonProfession,Restaurateur
+Akshay Kumar,PersonProfession,Stunt Performer
+Al Gore,PersonProfession,Politician
+Al Gore,PersonProfession,Author
+Al Gore,PersonProfession,Environmental Activist
+Al Gore,PersonProfession,Lawyer
+Al Gore,PersonProfession,Inventor
+Al Gore,PersonProfession,Businessperson
+Al Gore,PersonProfession,Investor
+Al Gore,PersonProfession,Film Producer
+Al Gore,PersonProfession,Television Producer
+André-Pierre Gignac,PersonProfession,Association Football Player
+Ashley Tisdale,PersonProfession,Film Actor
+Ashley Tisdale,PersonProfession,Television Actor
+Ashley Tisdale,PersonProfession,Singer
+Ashley Tisdale,PersonProfession,Voice Actor
+Ashley Tisdale,PersonProfession,Producer
+Bryan Cranston,PersonProfession,Television Actor
+Bryan Cranston,PersonProfession,Film Actor
+Bryan Cranston,PersonProfession,Voice Actor
+Bryan Cranston,PersonProfession,Stage Actor
+Bryan Cranston,PersonProfession,Screenwriter
+Bryan Cranston,PersonProfession,Television Producer
+Bryan Cranston,PersonProfession,Film Producer
+Calvin Harris,PersonProfession,DJ
+Calvin Harris,PersonProfession,Record Producer
+Calvin Harris,PersonProfession,Songwriter
+Calvin Harris,PersonProfession,Singer
+Chris Brown,PersonProfession,Singer
+Chris Brown,PersonProfession,Songwriter
+Chris Brown,PersonProfession,Dancer
+Chris Brown,PersonProfession,Actor
+Chris Brown,PersonProfession,Record Producer
+Chris Brown,PersonProfession,Rapper
+Coco Austin,PersonProfession,Model
+Coco Austin,PersonProfession,Television Actor
+Coco Austin,PersonProfession,Film Actor
+Daniel Tosh,PersonProfession,Comedian
+Daniel Tosh,PersonProfession,Actor
+Daniel Tosh,PersonProfession,Television Actor
+Daniel Tosh,PersonProfession,Television Producer
+Daniel Tosh,PersonProfession,Writer
+Daniel Tosh,PersonProfession,Television Host
+Drake,PersonProfession,Rapper
+Drake,PersonProfession,Singer
+Drake,PersonProfession,Songwriter
+Drake,PersonProfession,Actor
+Drake,PersonProfession,Record Producer
+Elon Musk,PersonProfession,Businessperson
+Elon Musk,PersonProfession,Engineer
+Elon Musk,PersonProfession,Inventor
+Elon Musk,PersonProfession,Investor
+Elon Musk,PersonProfession,Philanthropist
+Elon Musk,PersonProfession,Product Designer
+Enrique Iglesias,PersonProfession,Singer
+Enrique Iglesias,PersonProfession,Songwriter
+Enrique Iglesias,PersonProfession,Record Producer
+Enrique Iglesias,PersonProfession,Actor
+Enrique Iglesias,PersonProfession,Musician
+Ezra Klein,PersonProfession,Journalist
+Ezra Klein,PersonProfession,Blogger
+Ezra Klein,PersonProfession,Podcaster
+Ezra Klein,PersonProfession,Political Commentator
+Ezra Klein,PersonProfession,Economist
+George Harrison,PersonProfession,Songwriter
+George Harrison,PersonProfession,Guitarist
+George Harrison,PersonProfession,Singer
+George Harrison,PersonProfession,Film Actor
+George Harrison,PersonProfession,Musician
+George Harrison,PersonProfession,Record Producer
+George Harrison,PersonProfession,Composer
+Harbhajan Singh,PersonProfession,Cricketer
+J. K. Rowling,PersonProfession,Author
+J. K. Rowling,PersonProfession,Philanthropist
+J. K. Rowling,PersonProfession,Screenwriter
+J. K. Rowling,PersonProfession,Film Producer
+J. K. Rowling,PersonProfession,Television Producer
+Jay-Z,PersonProfession,Rapper
+Jay-Z,PersonProfession,Record Producer
+Jay-Z,PersonProfession,Songwriter
+Jay-Z,PersonProfession,Singer
+Jay-Z,PersonProfession,Actor
+Jay-Z,PersonProfession,Music Executive
+Jay-Z,PersonProfession,Businessperson
+Jay-Z,PersonProfession,Film Producer
+Jim Carrey,PersonProfession,Comedian
+Jim Carrey,PersonProfession,Actor
+Jim Carrey,PersonProfession,Film Actor
+Jim Carrey,PersonProfession,Voice Actor
+Jim Carrey,PersonProfession,Television Actor
+Jose Michimani,PersonProfession,Association Football Player
+Khloé Kardashian,PersonProfession,Television Personality
+Khloé Kardashian,PersonProfession,Model
+Khloé Kardashian,PersonProfession,Businessperson
+Khloé Kardashian,PersonProfession,Fashion Designer
+Khloé Kardashian,PersonProfession,Television Producer
+Lady Gaga,PersonProfession,Singer
+Lady Gaga,PersonProfession,Songwriter
+Lady Gaga,PersonProfession,Record Producer
+Lady Gaga,PersonProfession,Actress
+Lady Gaga,PersonProfession,Dancer
+Lady Gaga,PersonProfession,Fashion Designer
+Lady Gaga,PersonProfession,Businesswoman
+Lady Gaga,PersonProfession,Philanthropist
+Lewis Hamilton,PersonProfession,Racing Driver
+Ludacris,PersonProfession,Rapper
+Ludacris,PersonProfession,Actor
+Ludacris,PersonProfession,Record Producer
+Ludacris,PersonProfession,Songwriter
+Ludacris,PersonProfession,Singer
+Mark Hoppus,PersonProfession,Musician
+Mark Hoppus,PersonProfession,Record Producer
+Mark Hoppus,PersonProfession,Songwriter
+Mark Hoppus,PersonProfession,Television Actor
+Mark Hoppus,PersonProfession,Radio Personality
+Mark Hoppus,PersonProfession,Bassist
+Mark Hoppus,PersonProfession,Singer
+Mark Ruffalo,PersonProfession,Film Actor
+Mark Ruffalo,PersonProfession,Television Actor
+Mark Ruffalo,PersonProfession,Stage Actor
+Mark Ruffalo,PersonProfession,Theatre Actor
+Memphis Depay,PersonProfession,Association Football Player
+Michael Jackson,PersonProfession,Singer
+Michael Jackson,PersonProfession,Songwriter
+Michael Jackson,PersonProfession,Dancer
+Michael Jackson,PersonProfession,Actor
+Michael Jackson,PersonProfession,Musician
+Michael Jackson,PersonProfession,Record Producer
+Michael Jackson,PersonProfession,Choreographer
+Michael Jackson,PersonProfession,Film Actor
+Michael Jackson,PersonProfession,Composer
+Mohamed Morsi,PersonProfession,Politician
+Narendra Modi,PersonProfession,Politician
+Narendra Modi,PersonProfession,Prime Minister
+Nick Jonas,PersonProfession,Singer
+Nick Jonas,PersonProfession,Songwriter
+Nick Jonas,PersonProfession,Actor
+Nick Jonas,PersonProfession,Record Producer
+Nick Jonas,PersonProfession,Musician
+Patrick Stewart,PersonProfession,Actor
+Patrick Stewart,PersonProfession,Television Actor
+Patrick Stewart,PersonProfession,Film Actor
+Patrick Stewart,PersonProfession,Voice Actor
+Patrick Stewart,PersonProfession,Stage Actor
+Patrick Stewart,PersonProfession,Dancer
+Paul McCartney,PersonProfession,Musician
+Paul McCartney,PersonProfession,Songwriter
+Paul McCartney,PersonProfession,Singer
+Paul McCartney,PersonProfession,Composer
+Paul McCartney,PersonProfession,Record Producer
+Paul McCartney,PersonProfession,Film Score Composer
+Paul McCartney,PersonProfession,Multi-Instrumentalist
+Paul McCartney,PersonProfession,Music Artist
+Paul McCartney,PersonProfession,Actor
+Paulo Coelho,PersonProfession,Novelist
+Paulo Coelho,PersonProfession,Journalist
+Paulo Coelho,PersonProfession,Lyricist
+Paulo Coelho,PersonProfession,Playwright
+Paulo Coelho,PersonProfession,Screenwriter
+Paulo Coelho,PersonProfession,Columnist
+Paulo Coelho,PersonProfession,Essayist
+Paulo Coelho,PersonProfession,Short Story Writer
+Paulo Coelho,PersonProfession,Fiction Writer
+Paulo Coelho,PersonProfession,Children's Writer
+Psy,PersonProfession,Singer
+Psy,PersonProfession,Songwriter
+Psy,PersonProfession,Dancer
+Psy,PersonProfession,Record Producer
+Psy,PersonProfession,Rapper
+Psy,PersonProfession,Choreographer
+Rachel Maddow,PersonProfession,Television Host
+Rachel Maddow,PersonProfession,Television Journalist
+Rachel Maddow,PersonProfession,Radio Host
+Rachel Maddow,PersonProfession,Author
+Ricky Martin,PersonProfession,Singer
+Ricky Martin,PersonProfession,Songwriter
+Ricky Martin,PersonProfession,Record Producer
+Ricky Martin,PersonProfession,Actor
+Ricky Martin,PersonProfession,Dancer
+Ricky Martin,PersonProfession,Musician
+Ricky Martin,PersonProfession,Television Actor
+Ricky Martin,PersonProfession,Television Producer
+Ricky Martin,PersonProfession,Film Actor
+Ricky Martin,PersonProfession,Philanthropist
+Rob Kardashian,PersonProfession,Television Personality
+Rob Kardashian,PersonProfession,Fashion Designer
+Rob Kardashian,PersonProfession,Businessperson
+Robert Downey Jr.,PersonProfession,Film Actor
+Robert Downey Jr.,PersonProfession,Television Actor
+Robert Downey Jr.,PersonProfession,Stage Actor
+Robert Downey Jr.,PersonProfession,Radio Actor
+Robert Downey Jr.,PersonProfession,Voice Actor
+Robin van Persie,PersonProfession,Association Football Player
+Ronaldinho,PersonProfession,Association Football Player
+Serena Williams,PersonProfession,Tennis Player
+Stephen Fry,PersonProfession,Comedian
+Stephen Fry,PersonProfession,Actor
+Stephen Fry,PersonProfession,Writer
+Stephen Fry,PersonProfession,Presenter
+Stephen Fry,PersonProfession,Journalist
+Stephen Fry,PersonProfession,Film Actor
+Stephen Fry,PersonProfession,Television Actor
+Stephen Fry,PersonProfession,Voice Actor
+Stephen Fry,PersonProfession,Film Producer
+Stephen King,PersonProfession,Novelist
+Stephen King,PersonProfession,Screenwriter
+Stephen King,PersonProfession,Television Producer
+Stephen King,PersonProfession,Television Director
+Stephen King,PersonProfession,Film Producer
+Stephen King,PersonProfession,Short Story Writer
+Stephen King,PersonProfession,Actor
+Stephen King,PersonProfession,Columnist
+Stephen King,PersonProfession,Comic Book Writer
+Tiger Woods,PersonProfession,Golfer
+Triple H,PersonProfession,Wrestler
+Triple H,PersonProfession,Actor
+Triple H,PersonProfession,Businessperson
+V. V. S. Laxman,PersonProfession,Cricketer
+Vladimir Putin,PersonProfession,Politician
+Vladimir Putin,PersonProfession,Head of State
+Zac Efron,PersonProfession,Film Actor
+Zac Efron,PersonProfession,Television Actor
+will.i.am,PersonProfession,Musician
+will.i.am,PersonProfession,Record Producer
+will.i.am,PersonProfession,Songwriter
+will.i.am,PersonProfession,Rapper
+will.i.am,PersonProfession,Singer
+will.i.am,PersonProfession,Actor
+will.i.am,PersonProfession,Music Producer
+will.i.am,PersonProfession,Television Actor
+will.i.am,PersonProfession,Television Producer
+will.i.am,PersonProfession,Music Arranger
+will.i.am,PersonProfession,Composer

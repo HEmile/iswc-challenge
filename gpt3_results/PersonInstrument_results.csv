@@ -1,51 +1,51 @@
-SubjectEntity,Relation,F1-score
-A. J. McLean,PersonInstrument,0
-Arnel Pineda,PersonInstrument,0
-Bang Yong-guk,PersonInstrument,0
-Billie Joe Armstrong,PersonInstrument,0
-Billy Corgan,PersonInstrument,0
-Björk,PersonInstrument,0
-Byun Baek-hyun,PersonInstrument,0
-Chester Bennington,PersonInstrument,0
-China Anne McClain,PersonInstrument,0
-Cho Kyuhyun,PersonInstrument,0
-Chris Daughtry,PersonInstrument,0
-Corey Taylor,PersonInstrument,0
-Courtney Love,PersonInstrument,0
-Duff McKagan,PersonInstrument,0
-Gary Barlow,PersonInstrument,0
-Gerard Way,PersonInstrument,0
-Heo Young-saeng,PersonInstrument,0
-Hisashi,PersonInstrument,0
-Hwang Chansung,PersonInstrument,0
-Hyomin,PersonInstrument,0
-JAY B,PersonInstrument,0
-Joe Perry,PersonInstrument,0
-John Lennon,PersonInstrument,0
-Joseph Hahn,PersonInstrument,0
-Jun. K,PersonInstrument,0
-Kangin,PersonInstrument,0
-Kim Junsu,PersonInstrument,0
-Lay,PersonInstrument,0
-Lee Jung-shin,PersonInstrument,0
-Logan Henderson,PersonInstrument,0
-Morrissey,PersonInstrument,0
-Nichkhun,PersonInstrument,0
-Nicole Jung,PersonInstrument,0
-Noel Gallagher,PersonInstrument,0
-Park Bom,PersonInstrument,0
-Paul McCartney,PersonInstrument,0
-Rea Garvey,PersonInstrument,0
-Robert Plant,PersonInstrument,0
-Roger Taylor,PersonInstrument,0
-Ronan Keating,PersonInstrument,0
-Sakura Miyawaki,PersonInstrument,0
-Shindong,PersonInstrument,0
-Slash,PersonInstrument,0
-Sting,PersonInstrument,0
-Taeyang,PersonInstrument,0
-Tom Morello,PersonInstrument,0
-Tony Iommi,PersonInstrument,0
-Victoria Beckham,PersonInstrument,0
-Yoshiki,PersonInstrument,0
-Zayn Malik,PersonInstrument,0
+SubjectEntity,Relation,Precision,Recall,F1-score
+A. J. McLean,PersonInstrument,0.0,0.0,0.0
+Arnel Pineda,PersonInstrument,0.0,0.0,0.0
+Bang Yong-guk,PersonInstrument,1.0,1.0,1.0
+Billie Joe Armstrong,PersonInstrument,0.6666666666666666,0.3333333333333333,0.4444444444444444
+Billy Corgan,PersonInstrument,0.5,1.0,0.6666666666666666
+Björk,PersonInstrument,0.75,0.3,0.4285714285714285
+Byun Baek-hyun,PersonInstrument,1.0,1.0,1.0
+Chester Bennington,PersonInstrument,0.0,0.0,0.0
+China Anne McClain,PersonInstrument,0.0,0.0,0.0
+Cho Kyuhyun,PersonInstrument,0.0,0.0,0.0
+Chris Daughtry,PersonInstrument,1.0,1.0,1.0
+Corey Taylor,PersonInstrument,0.3333333333333333,0.3333333333333333,0.3333333333333333
+Courtney Love,PersonInstrument,1.0,1.0,1.0
+Duff McKagan,PersonInstrument,0.0,0.0,0.0
+Gary Barlow,PersonInstrument,0.5,1.0,0.6666666666666666
+Gerard Way,PersonInstrument,0.3333333333333333,1.0,0.5
+Heo Young-saeng,PersonInstrument,0.0,0.0,0.0
+Hisashi,PersonInstrument,1.0,1.0,1.0
+Hwang Chansung,PersonInstrument,1.0,1.0,1.0
+Hyomin,PersonInstrument,1.0,1.0,1.0
+JAY B,PersonInstrument,1.0,1.0,1.0
+Joe Perry,PersonInstrument,1.0,0.5,0.6666666666666666
+John Lennon,PersonInstrument,1.0,0.4,0.5714285714285715
+Joseph Hahn,PersonInstrument,0.0,0.0,0.0
+Jun. K,PersonInstrument,1.0,1.0,1.0
+Kangin,PersonInstrument,0.0,0.0,0.0
+Kim Junsu,PersonInstrument,0.0,0.0,0.0
+Lay,PersonInstrument,1.0,0.16666666666666666,0.2857142857142857
+Lee Jung-shin,PersonInstrument,0.0,0.0,0.0
+Logan Henderson,PersonInstrument,0.0,0.0,0.0
+Morrissey,PersonInstrument,0.0,0.0,0.0
+Nichkhun,PersonInstrument,0.0,0.0,0.0
+Nicole Jung,PersonInstrument,1.0,1.0,1.0
+Noel Gallagher,PersonInstrument,0.3333333333333333,1.0,0.5
+Park Bom,PersonInstrument,1.0,1.0,1.0
+Paul McCartney,PersonInstrument,0.75,0.21428571428571427,0.3333333333333333
+Rea Garvey,PersonInstrument,0.5,1.0,0.6666666666666666
+Robert Plant,PersonInstrument,0.0,0.0,0.0
+Roger Taylor,PersonInstrument,0.3333333333333333,0.2,0.25
+Ronan Keating,PersonInstrument,0.0,0.0,0.0
+Sakura Miyawaki,PersonInstrument,1.0,1.0,1.0
+Shindong,PersonInstrument,0.0,0.0,0.0
+Slash,PersonInstrument,1.0,0.5,0.6666666666666666
+Sting,PersonInstrument,0.4,0.25,0.3076923076923077
+Taeyang,PersonInstrument,1.0,1.0,1.0
+Tom Morello,PersonInstrument,1.0,1.0,1.0
+Tony Iommi,PersonInstrument,1.0,1.0,1.0
+Victoria Beckham,PersonInstrument,1.0,1.0,1.0
+Yoshiki,PersonInstrument,0.5,0.2,0.28571428571428575
+Zayn Malik,PersonInstrument,1.0,1.0,1.0
