@@ -6,7 +6,7 @@ import openai
 import pandas as pd
 import torch
 
-SAMPLE_SIZE = 10
+SAMPLE_SIZE = 5
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
@@ -42,7 +42,7 @@ def gpt3(prompt):
         presence_penalty=0,
         logprobs=1
     )
-    return response.choices[0]['text'], response.choices[0]['tokens'], response.choices[0]['token_logprobs']
+    return response.choices[0]['text'], response.choices[0]['logprobs']['tokens'], response.choices[0]['logprobs']['token_logprobs']
 
 
 def clean_up(text):
@@ -71,21 +71,20 @@ Which countries neighbour {subject_entity}?
 
     elif relation == "CountryOfficialLanguage":
         prompt = f"""
-What states border San Marino?
-['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
+Which are the official languages of Finland?
+['swedish', 'finnish']
 
-What states border Texas?
-['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
+Which are the official languages of India?
+['english', 'hindi']
 
-What states border Liguria?
-['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
+Which are the official languages of Norway?
+['norwegian', 'nynorsk', 'sami', 'sámi', 'bokmal', 'nynorsk']
 
-What states border Mecklenberg-western pomerania?
-['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
+Which are the official languages of Granada?
+['grenadian creole english', 'english', 'creole', 'grenadian']
 
-What states border {subject_entity}?
+Which are the official languages of {subject_entity}?        
 """
-
     elif relation == "StateSharesBorderState":
         prompt = f"""
 What states border San Marino?
@@ -243,20 +242,26 @@ What is the parent company of {subject_entity}?
     return prompt
 
 
-def probe_lm(model_type, top_k, relation, subject_entities, output_dir: Path):
+def probe_lm(relation, subject_entities, output_dir: Path):
     ### for every subject-entity in the entities list, we probe the LM using the below sample prompts
     results = []
     for index, subject_entity in enumerate(subject_entities):
-        print(f"Probing the {model_type} language model "
+        print(f"Probing the GPT3 language model "
               f"for {subject_entity} (subject-entity) and {relation} relation")
+
+        # TODO: Generate examples in the prompt automatically (Thiviyan)
+
+        # TODO: Rephrase prompt automatically (Dimitris)
 
         ### creating a specific prompt for the given relation
         prompt = create_prompt(subject_entity, relation)
         ### probing the language model and obtaining the ranked tokens in the masked_position
-        text, tokens, logprob = gpt3(prompt)
+        text, tokens, logprob = gpt3(prompt)  # TODO Figure out what the hell to do with probabilities
         probe_outputs = clean_up(text)
 
-        ### saving the top_k outputs and the likelihood scores received with the sample prompt
+        # TODO: Check Logic consistency (Emile, Sel)
+
+        ### saving the outputs and the likelihood scores received with the sample prompt
         results.append(
             {
                 "Prompt": prompt,
@@ -271,7 +276,7 @@ def probe_lm(model_type, top_k, relation, subject_entities, output_dir: Path):
             break
 
     ### saving the prompt outputs separately for each relation type
-    results_df = pd.DataFrame(results).sort_values(by=["SubjectEntity"], ascending=(True, False))
+    results_df = pd.DataFrame(results) #.sort_values(by=["SubjectEntity"], ascending=(True, False))
 
     if output_dir.exists():
         assert output_dir.is_dir()
@@ -286,38 +291,22 @@ def main():
         description="Probe a Language Model and Run the Baseline Method on Prompt Outputs"
     )
     parser.add_argument(
-        "--model_type",
-        type=str,
-        default="bert-large-cased",
-        help="HuggingFace model name",
-    )
-    parser.add_argument(
         "--input_dir",
         type=str,
         default="./dev/",
         help="input directory containing the subject-entities for each relation to probe the language model",
     )
     parser.add_argument(
-        "--prompt_output_dir",
-        type=str,
-        default="./prompt_output_bert_large_cased/",
-        help="output directory to store the prompt output",
-    )
-    parser.add_argument(
         "--baseline_output_dir",
         type=str,
-        default="./baseline/",
+        default="./gpt3_output/",
         help="output directory to store the baseline output",
     )
     args = parser.parse_args()
     print(args)
 
-    model_type = args.model_type
     input_dir = Path(args.input_dir)
-    prompt_output_dir = Path(args.prompt_output_dir)
     baseline_output_dir = Path(args.baseline_output_dir)
-
-    top_k = 100  ### picking the top 100 ranked prompt outputs in the [MASK] position
 
     ### call the prompt function to get output for each (subject-entity, relation)
     for relation in RELATIONS:
@@ -326,7 +315,7 @@ def main():
                 .drop_duplicates(keep="first")
                 .tolist()
         )
-        probe_lm(model_type, top_k, relation, entities, prompt_output_dir)
+        probe_lm(relation, entities, baseline_output_dir)
 
 
 if __name__ == "__main__":
