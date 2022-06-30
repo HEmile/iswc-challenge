@@ -30,6 +30,11 @@ def clean_up(probe_outputs):
     return probe_outputs
 
 
+def convert_nan(probe_outputs):
+    probe_outputs = [None for x in probe_outputs if x == 'NONE']
+    return probe_outputs
+
+
 def create_prompt(subject_entity, relation):
     ### depending on the relation, we fix the prompt
     if relation == "CountryBordersWithCountry":
@@ -264,6 +269,8 @@ def probe_lm(relation, subject_entities, output_dir: Path, batch_size=20):
 
         for prediction in predictions:
             prediction['text'] = clean_up(prediction['text'])
+
+        probe_outputs = convert_nan(probe_outputs)
 
         # TODO: Check Logic consistency (Emile, Sel)
 
