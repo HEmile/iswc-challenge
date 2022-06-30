@@ -54,206 +54,192 @@ def create_prompt(subject_entity, relation):
     ### depending on the relation, we fix the prompt
     if relation == "CountryBordersWithCountry":
         prompt = f"""
-            Which countries neighbour Niger?
-            ['Burkina Faso', 'Benin', 'Libya', 'Mali', 'Algeria', 'Chad', 'Nigeria']
-            
-            Which countries neighbour North Korea?
-            ['South Korea', 'China', 'Russia']
-            
-            Which countries neighbour Serbia?
-            ['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
-            
-            Which countries neighbour Fiji?
-            ['NONE']
-            
-            Which countries neighbour {subject_entity}?
-        """
+Which countries neighbour Niger?
+['Burkina Faso', 'Benin', 'Libya', 'Mali', 'Algeria', 'Chad', 'Nigeria']
+
+Which countries neighbour North Korea?
+['South Korea', 'China', 'Russia']
+
+Which countries neighbour Serbia?
+['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
+
+Which countries neighbour Fiji?
+['NONE']
+
+Which countries neighbour {subject_entity}?
+"""
 
     elif relation == "CountryOfficialLanguage":
         prompt = f"""
-                    What states border San Marino?
-                    ['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
+What states border San Marino?
+['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
 
-                    What states border Texas?
-                    ['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
+What states border Texas?
+['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
 
-                    What states border Liguria?
-                    ['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
+What states border Liguria?
+['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
 
-                    What states border Mecklenberg-western pomerania?
-                    ['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
+What states border Mecklenberg-western pomerania?
+['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
 
-                    What states border {subject_entity}?
-                    """
+What states border {subject_entity}?
+"""
 
     elif relation == "StateSharesBorderState":
         prompt = f"""
-            What states border San Marino?
-            ['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
-            
-            What states border Texas?
-            ['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
-            
-            What states border Liguria?
-            ['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
-            
-            What states border Mecklenberg-western pomerania?
-            ['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
-            
-            What states border {subject_entity}?
-            """
+What states border San Marino?
+['san leo', 'acquaviva', 'borgo maggiore', 'chiesanuova', 'fiorentino']
+
+What states border Texas?
+['chihuahua', 'new mexico, 'nuevo león', 'tamaulipas', 'coahuila', 'louisiana', 'arkansas', 'oklahoma']
+
+What states border Liguria?
+['tuscany', 'auvergne-rhoone-alpes', 'piedmont', 'emilia-romagna']
+
+What states border Mecklenberg-western pomerania?
+['brandenburg', 'pomeranian', 'schleswig-holstein', 'lower saxony']
+
+What states border {subject_entity}?
+"""
 
     elif relation == "RiverBasinsCountry":
         prompt = f"""
-            Which instruments does Liam Gallagher play?
-            ['maraca', 'guitar']
-            
-            Which instruments does Liam Gallagher play?
-            ['upright piano', 'piano', 'guitar', 'harmonica']
-            
-            Which instruments does Jay Park play?
-            ['NONE']
-            
-            Which instruments does Axl Rose play?
-            ['guitar', 'piano', 'pander', 'bass']
-            
-            Which instruments does Neil Young play?
-            ['guitar']
-            
-            Which instruments does {subject_entity} play?
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
 
-                """
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does {subject_entity} play?
+"""
 
     elif relation == "ChemicalCompoundElement":
         prompt = f"""
-            What are all the chemical elements that make up the molecule water?
-            ['Hydrogen', 'Water']
-    
-            What are all the chemical elements that make up the molecule aspirin?
-            ['Oxygen', 'Carbon', 'Hydrogen']
-    
-            What are all the chemical elements that make up the molecule {subject_entity}?
+What are all the chemical elements that make up the molecule water?
+['Hydrogen', 'Water']
 
-        """
+What are all the chemical elements that make up the molecule aspirin?
+['Oxygen', 'Carbon', 'Hydrogen']
+
+What are all the chemical elements that make up the molecule {subject_entity}?
+"""
     elif relation == "PersonLanguage":
         prompt = f"""
-            Which languages does Aamir Khan speak?
-            ['hindi', 'english', 'urdu']
-            
-            Which languages does Pharrell Williams speak?
-            ['english']
-            
-            Which languages does Shakira speak?
-            ['catalan', 'english', 'portuguese', 'spanish']
-            
-            <============================>
-            
-            Which languages does {subject_entity} speak?
+Which languages does Aamir Khan speak?
+['hindi', 'english', 'urdu']
 
-                        """
+Which languages does Pharrell Williams speak?
+['english']
+
+Which languages does Shakira speak?
+['catalan', 'english', 'portuguese', 'spanish']
+
+Which languages does {subject_entity} speak?
+"""
 
     elif relation == "PersonProfession":
         prompt = f"""
-            What is Danny DeVito's profession?
-            ['director', 'film director'] 
-            
-            What is Christina Aguilera's profession?
-            ['artist', 'recording artist']
-            
-            What is Donald Trump's profession?
-            ['businessperson', 'conspiracy theorist', 'politician']
-            
-            <============================>
-            
-            What is {subject_entity}'s profession?
+What is Danny DeVito's profession?
+['director', 'film director'] 
 
-                """
+What is Christina Aguilera's profession?
+['artist', 'recording artist']
+
+What is Donald Trump's profession?
+['businessperson', 'conspiracy theorist', 'politician']
+
+What is {subject_entity}'s profession?
+"""
 
     elif relation == "PersonInstrument":
         prompt = f"""
-            Which instruments does Liam Gallagher play?
-            ['maraca', 'guitar']
-            
-            Which instruments does Liam Gallagher play?
-            ['upright piano', 'piano', 'guitar', 'harmonica']
-            
-            Which instruments does Jay Park play?
-            ['NONE']
-            
-            Which instruments does Axl Rose play?
-            ['guitar', 'piano', 'pander', 'bass']
-            
-            Which instruments does Neil Young play?
-            ['guitar']
-            
-            Which instruments does {subject_entity} play?
+Which instruments does Liam Gallagher play?
+['maraca', 'guitar']
 
-                """
+Which instruments does Liam Gallagher play?
+['upright piano', 'piano', 'guitar', 'harmonica']
+
+Which instruments does Jay Park play?
+['NONE']
+
+Which instruments does Axl Rose play?
+['guitar', 'piano', 'pander', 'bass']
+
+Which instruments does Neil Young play?
+['guitar']
+
+Which instruments does {subject_entity} play?
+"""
     elif relation == "PersonEmployer":
         prompt = f"""
-            Where is or was Susan Wojcicki employed?
-            ['Google']
-    
-            Where is or was Steve Wozniak employed?
-            ['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari, Atari Inc']
-    
-            Where is or was {subject_entity} employed?
+Where is or was Susan Wojcicki employed?
+['Google']
 
-        """
+Where is or was Steve Wozniak employed?
+['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari, Atari Inc']
+
+Where is or was {subject_entity} employed?
+"""
     elif relation == "PersonPlaceOfDeath":
         prompt = f"""
-            What is the place of death of Barack Obama?
-            ['NONE']
-            
-            What is the place of death of Ennio morricone?
-            ['rome']
-            
-            What is the place of death of Elvis presley?
-            ['graceland']
-            
-            What is the place of death of Elon musk?
-            ['NONE']
-            
-            What is the place of death of Prince?
-            ['chanhassen']
-            
-            <============================>
-            
-            What is the place of death of {subject_entity}? 
-                        """
+What is the place of death of Barack Obama?
+['NONE']
+
+What is the place of death of Ennio morricone?
+['rome']
+
+What is the place of death of Elvis presley?
+['graceland']
+
+What is the place of death of Elon musk?
+['NONE']
+
+What is the place of death of Prince?
+['chanhassen']
+
+What is the place of death of {subject_entity}? 
+"""
 
     elif relation == "PersonCauseOfDeath":
         prompt = f"""
-            How did Aretha Franklin die?
-            ['pancreatic cancer', 'cancer']
-            
-            How did Bill Gates die?
-            ['NONE']
-            
-            How did Ennio Morricone die?
-            ['femoral fracture', 'fracture']
-            
-            How did Frank Sinatra die?
-            ['myocardial infarction', 'infarction']
-            
-            How did Michelle Obama die?
-            ['NONE']
-            
-            <==========================>
-            
-            How did {subject_entity} die? 
-                """
+How did Aretha Franklin die?
+['pancreatic cancer', 'cancer']
+
+How did Bill Gates die?
+['NONE']
+
+How did Ennio Morricone die?
+['femoral fracture', 'fracture']
+
+How did Frank Sinatra die?
+['myocardial infarction', 'infarction']
+
+How did Michelle Obama die?
+['NONE']
+
+How did {subject_entity} die? 
+"""
 
     elif relation == "CompanyParentOrganization":
         prompt = f"""
-            What is the parent company of Microsoft?
-            ['None']
-    
-            What is the parent company of Sony?
-            ['sony group', 'sony']
-    
-            What is the parent company of {subject_entity}?
-        """
+What is the parent company of Microsoft?
+['None']
+
+What is the parent company of Sony?
+['sony group', 'sony']
+
+What is the parent company of {subject_entity}?
+"""
     return prompt
 
 
