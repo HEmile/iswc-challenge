@@ -6,7 +6,6 @@ from utils.model import gpt3
 
 SAMPLE_SIZE = 5
 
-
 RELATIONS = {
     "CountryBordersWithCountry",
     "CountryOfficialLanguage",
@@ -27,6 +26,11 @@ def clean_up(probe_outputs):
     """ functions to clean up api output """
     probe_outputs = probe_outputs.strip()
     probe_outputs = probe_outputs[2:-2].split("', '")
+    return probe_outputs
+
+
+def convert_nan(probe_outputs):
+    probe_outputs = [None for x in probe_outputs if x == 'None']
     return probe_outputs
 
 
@@ -242,6 +246,8 @@ def probe_lm(relation, subject_entities, output_dir: Path):
         ### probing the language model and obtaining the ranked tokens in the masked_position
         text, tokens, logprob = gpt3(prompt)  # TODO Figure out what the hell to do with probabilities
         probe_outputs = clean_up(text)
+
+        probe_outputs = convert_nan(probe_outputs)
 
         # TODO: Check Logic consistency (Emile, Sel)
 
