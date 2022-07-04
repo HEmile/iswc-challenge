@@ -22,7 +22,9 @@ Please use Python 3.10
 |CompanyParentOrganization | Thiviyan              | DONE |
 
 ## Improvements:
-
+- Make changes that the competition organisers suggest [priority]
+  - Pull the changes from their repo
+  - Check our performance on the updated train/val dataset
 - Look at failure cases 
   - Wrong formatting?
 - Dataset statistics (nice to include in the paper)
