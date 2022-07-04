@@ -1,0 +1,52 @@
+SubjectEntity,relation,ObjectEntity
+Adele,PersonCauseOfDeath,['NONE']
+Ahmed zewail,PersonCauseOfDeath,"['lymphoma', 'spinal cord lymphoma']"
+Aretha franklin,PersonCauseOfDeath,"['pancreatic cancer', 'cancer']"
+Avicii,PersonCauseOfDeath,['exsanguination']
+Benjamin Netanyahu,PersonCauseOfDeath,['NONE']
+Bill Gates,PersonCauseOfDeath,['NONE']
+Boris Johnson,PersonCauseOfDeath,['NONE']
+Christina grimmie,PersonCauseOfDeath,"['ballistic trauma', 'trauma']"
+Christine Lagarde,PersonCauseOfDeath,['NONE']
+Cory monteith,PersonCauseOfDeath,"['drug overdose', 'overdose']"
+Dilip kumar,PersonCauseOfDeath,"['cancer', 'prostate cancer']"
+Donald Knuth,PersonCauseOfDeath,['NONE']
+Emmanuel Macron,PersonCauseOfDeath,['NONE']
+Ennio morricone,PersonCauseOfDeath,"['femoral fracture', 'fracture']"
+Francois Hollande,PersonCauseOfDeath,['NONE']
+Frank sinatra,PersonCauseOfDeath,"['myocardial infarction', 'infarction']"
+George h. w. bush,PersonCauseOfDeath,"[""parkinson's disease"", 'parkinson']"
+George harrison,PersonCauseOfDeath,"['cancer', 'lung cancer']"
+Ginni Rometty,PersonCauseOfDeath,['NONE']
+Haruma miura,PersonCauseOfDeath,['hanging']
+Hu Jintao,PersonCauseOfDeath,['NONE']
+Hugh hefner,PersonCauseOfDeath,['sepsis']
+Idriss déby,PersonCauseOfDeath,"['ballistic trauma', 'trauma']"
+Indra Nooyi,PersonCauseOfDeath,['NONE']
+Jim rohn,PersonCauseOfDeath,"['pulmonary fibrosis', 'fibrosis']"
+John magufuli,PersonCauseOfDeath,"['arrhythmia', 'heart arrhythmia']"
+Johnny cash,PersonCauseOfDeath,['diabetes']
+Larry Page,PersonCauseOfDeath,['NONE']
+Larry king,PersonCauseOfDeath,['sepsis']
+Maurane,PersonCauseOfDeath,['falling']
+Maya angelou,PersonCauseOfDeath,['disease']
+Melinda Gates,PersonCauseOfDeath,['NONE']
+Michelle Obama,PersonCauseOfDeath,['NONE']
+Mikhail zadornov,PersonCauseOfDeath,"['brain cancer', 'cancer']"
+Miles davis,PersonCauseOfDeath,['stroke']
+Miles davis,PersonCauseOfDeath,['pneumonia']
+Nelson mandela,PersonCauseOfDeath,['respiratory disease']
+Paul Pogba,PersonCauseOfDeath,['NONE']
+Pitbull,PersonCauseOfDeath,['NONE']
+Richard Dawkins,PersonCauseOfDeath,['NONE']
+Rihanna,PersonCauseOfDeath,['NONE']
+Rishi kapoor,PersonCauseOfDeath,['leukemia']
+Robert Lewandowsk,PersonCauseOfDeath,['NONE']
+Robert downey jr.,PersonCauseOfDeath,['NONE']
+Roddy piper,PersonCauseOfDeath,['cardiac arrest']
+Ronaldinho,PersonCauseOfDeath,['NONE']
+Roy orbison,PersonCauseOfDeath,"['myocardial infarction', 'infarction']"
+Russell Crowe,PersonCauseOfDeath,['NONE']
+Sandra Bullock,PersonCauseOfDeath,['NONE']
+Ursula von der leyen,PersonCauseOfDeath,['NONE']
+Victoria Beckham,PersonCauseOfDeath,['NONE']

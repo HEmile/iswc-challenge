@@ -1,0 +1,538 @@
+SubjectEntity,relation,ObjectEntity
+Alaska,StateSharesBorderState,"['chukotka autonomous okrug', 'okrug']"
+Alaska,StateSharesBorderState,['british columbia']
+Alaska,StateSharesBorderState,['yukon']
+Antofagasta region,StateSharesBorderState,"['catamarca province', 'catamarca']"
+Antofagasta region,StateSharesBorderState,"['atacama region', 'atacama']"
+Antofagasta region,StateSharesBorderState,"['tarapaca', 'tarapacá region']"
+Antofagasta region,StateSharesBorderState,"['potosi', 'potosí department']"
+Antofagasta region,StateSharesBorderState,"['jujuy', 'province of jujuy']"
+Antofagasta region,StateSharesBorderState,"['salta', 'salta province']"
+Appenzell ausserrhoden,StateSharesBorderState,"['st. gallen', 'canton of st. gallen']"
+Appenzell ausserrhoden,StateSharesBorderState,['appenzell innerrhoden']
+Appenzell innerrhoden,StateSharesBorderState,['appenzell ausserrhoden']
+Appenzell innerrhoden,StateSharesBorderState,"['st. gallen', 'canton of st. gallen']"
+Apulia,StateSharesBorderState,['campania']
+Apulia,StateSharesBorderState,['molise']
+Apulia,StateSharesBorderState,"['molise, campobasso']"
+Apulia,StateSharesBorderState,['basilicata']
+Aragon,StateSharesBorderState,"['land of valencia', 'valencia']"
+Aragon,StateSharesBorderState,['occitania']
+Aragon,StateSharesBorderState,['nouvelle-aquitaine']
+Aragon,StateSharesBorderState,"['pyrenees-atlantiques', 'pyrénées-atlantiques']"
+Aragon,StateSharesBorderState,"['hautes-pyrenees', 'hautes-pyrénées']"
+Aragon,StateSharesBorderState,"['castile and león', 'castile and leon', 'leon']"
+Aragon,StateSharesBorderState,['la rioja']
+Aragon,StateSharesBorderState,['catalonia']
+Aragon,StateSharesBorderState,['navarre']
+Aragon,StateSharesBorderState,['haute-garonne']
+Aragon,StateSharesBorderState,['castile-la mancha']
+Araucanía region,StateSharesBorderState,"['neuquen', 'neuquén province']"
+Araucanía region,StateSharesBorderState,"['biobío region', 'biobio']"
+Araucanía region,StateSharesBorderState,"['los rios', 'los ríos region']"
+Arica y parinacota region,StateSharesBorderState,"['tarapaca', 'tarapacá region']"
+Arica y parinacota region,StateSharesBorderState,['tacna']
+Arica y parinacota region,StateSharesBorderState,"['oruro department', 'oruro']"
+Arica y parinacota region,StateSharesBorderState,"['la paz', 'la paz department']"
+Arkansas,StateSharesBorderState,['tennessee']
+Arkansas,StateSharesBorderState,['missouri']
+Arkansas,StateSharesBorderState,['mississippi']
+Arkansas,StateSharesBorderState,['texas']
+Arkansas,StateSharesBorderState,['louisiana']
+Arkansas,StateSharesBorderState,['oklahoma']
+Asturias,StateSharesBorderState,['cantabria']
+Asturias,StateSharesBorderState,['galicia']
+Asturias,StateSharesBorderState,"['castile and león', 'castile and leon', 'leon']"
+Asturias,StateSharesBorderState,"['león province', 'leon']"
+Atacama region,StateSharesBorderState,"['antofagasta region', 'antofagasta']"
+Atacama region,StateSharesBorderState,"['catamarca province', 'catamarca']"
+Atacama region,StateSharesBorderState,"['coquimbo region', 'coquimbo']"
+Atacama region,StateSharesBorderState,"['san juan', 'san juan province']"
+Atacama region,StateSharesBorderState,"['la rioja province', 'la rioja']"
+Baden-württemberg,StateSharesBorderState,['vorarlberg']
+Baden-württemberg,StateSharesBorderState,['rhineland-palatinate']
+Baden-württemberg,StateSharesBorderState,"['canton of zürich', 'zurich']"
+Baden-württemberg,StateSharesBorderState,"['basel-landschaft', 'basel']"
+Baden-württemberg,StateSharesBorderState,['canton aargau']
+Baden-württemberg,StateSharesBorderState,['hesse']
+Baden-württemberg,StateSharesBorderState,['bavaria']
+Baden-württemberg,StateSharesBorderState,['switzerland']
+Baden-württemberg,StateSharesBorderState,"['canton of schaffhausen', 'schaffhausen']"
+Baden-württemberg,StateSharesBorderState,['thurgau']
+Baden-württemberg,StateSharesBorderState,"['basel-stadt', 'basel']"
+Baden-württemberg,StateSharesBorderState,['bas-rhin']
+Baden-württemberg,StateSharesBorderState,['haut-rhin']
+Baden-württemberg,StateSharesBorderState,['grand est']
+Basel-landschaft,StateSharesBorderState,['alsace']
+Basel-landschaft,StateSharesBorderState,['canton aargau']
+Basel-landschaft,StateSharesBorderState,"['baden-wurttemberg', 'baden-württemberg']"
+Basel-landschaft,StateSharesBorderState,"['solothurn', 'canton of solothurn']"
+Basel-landschaft,StateSharesBorderState,['haut-rhin']
+Basel-landschaft,StateSharesBorderState,['basel-stadt']
+Basel-landschaft,StateSharesBorderState,"['canton of jura', 'jura']"
+Berlin,StateSharesBorderState,"['dahme-spreewald district', 'dahme-spreewald']"
+Berlin,StateSharesBorderState,"['teltow-flaming', 'teltow-fläming district']"
+Berlin,StateSharesBorderState,"['oder-spree', 'oder-spree district']"
+Berlin,StateSharesBorderState,"['markisch-oderland', 'märkisch-oderland district']"
+Berlin,StateSharesBorderState,['potsdam']
+Berlin,StateSharesBorderState,['kleinmachnow']
+Berlin,StateSharesBorderState,"['oberhavel', 'oberhavel district']"
+Berlin,StateSharesBorderState,"['barnim district', 'barnim']"
+Berlin,StateSharesBorderState,"['havelland', 'havelland district']"
+Berlin,StateSharesBorderState,['stahnsdorf']
+Berlin,StateSharesBorderState,['brandenburg']
+Berlin,StateSharesBorderState,"['potsdam-mittelmark district', 'potsdam-mittelmark']"
+California,StateSharesBorderState,['nevada']
+California,StateSharesBorderState,['oregon']
+California,StateSharesBorderState,['arizona']
+California,StateSharesBorderState,['baja california']
+Campania,StateSharesBorderState,['molise']
+Campania,StateSharesBorderState,['basilicata']
+Campania,StateSharesBorderState,['apulia']
+Campania,StateSharesBorderState,['lazio']
+Canelones department,StateSharesBorderState,"['florida', 'florida department']"
+Canelones department,StateSharesBorderState,"['montevideo department', 'montevideo']"
+Canelones department,StateSharesBorderState,"['maldonado department', 'maldonado']"
+Canelones department,StateSharesBorderState,"['lavalleja', 'lavalleja department']"
+Canelones department,StateSharesBorderState,"['san josé department', 'san jose']"
+Cantabria,StateSharesBorderState,"['león province', 'leon']"
+Cantabria,StateSharesBorderState,"['burgos province', 'burgos']"
+Cantabria,StateSharesBorderState,['asturias']
+Cantabria,StateSharesBorderState,['basque autonomous community']
+Cantabria,StateSharesBorderState,"['palencia province', 'palencia']"
+Cantabria,StateSharesBorderState,"['castile and león', 'castile and leon', 'leon']"
+Canton aargau,StateSharesBorderState,"['solothurn', 'canton of solothurn']"
+Canton aargau,StateSharesBorderState,"['canton of zug', 'zug']"
+Canton aargau,StateSharesBorderState,"['canton of zürich', 'zurich']"
+Canton aargau,StateSharesBorderState,['canton of bern']
+Canton aargau,StateSharesBorderState,['basel-landschaft']
+Canton aargau,StateSharesBorderState,"['canton of lucerne', 'lucerne']"
+Canton aargau,StateSharesBorderState,"['baden-wurttemberg', 'baden-württemberg']"
+Canton of fribourg,StateSharesBorderState,"['neuchatel', 'canton of neuchâtel']"
+Canton of fribourg,StateSharesBorderState,"['vaud', 'canton of vaud']"
+Canton of fribourg,StateSharesBorderState,['canton of bern']
+Canton of geneva,StateSharesBorderState,"['auvergne-rhone-alpes', 'auvergne-rhône-alpes']"
+Canton of geneva,StateSharesBorderState,"['vaud', 'canton of vaud']"
+Canton of geneva,StateSharesBorderState,['haute-savoie']
+Canton of geneva,StateSharesBorderState,"['rhone-alpes', 'rhône-alpes']"
+Canton of geneva,StateSharesBorderState,['ain']
+Canton of st. gallen,StateSharesBorderState,['schwyz']
+Canton of st. gallen,StateSharesBorderState,['vorarlberg']
+Canton of st. gallen,StateSharesBorderState,['thurgau']
+Canton of st. gallen,StateSharesBorderState,['appenzell innerrhoden']
+Canton of st. gallen,StateSharesBorderState,['appenzell ausserrhoden']
+Canton of st. gallen,StateSharesBorderState,"['canton of zürich', 'zurich']"
+Canton of st. gallen,StateSharesBorderState,['grisons']
+Canton of st. gallen,StateSharesBorderState,['canton of glarus']
+Canton of st. gallen,StateSharesBorderState,['bavaria']
+Canton of ticino,StateSharesBorderState,['lombardy']
+Canton of ticino,StateSharesBorderState,['canton of valais']
+Canton of ticino,StateSharesBorderState,['grisons']
+Canton of ticino,StateSharesBorderState,['piedmont']
+Canton of ticino,StateSharesBorderState,"['como', 'province of como']"
+Canton of ticino,StateSharesBorderState,"['province of verbano-cusio-ossola', 'verbano-cusio-ossola']"
+Canton of ticino,StateSharesBorderState,['uri']
+Canton of ticino,StateSharesBorderState,"['province of varese', 'varese']"
+Castile and león,StateSharesBorderState,['portugal']
+Castile and león,StateSharesBorderState,['la rioja']
+Castile and león,StateSharesBorderState,['asturias']
+Castile and león,StateSharesBorderState,['cantabria']
+Castile and león,StateSharesBorderState,['castile-la mancha']
+Castile and león,StateSharesBorderState,['galicia']
+Castile and león,StateSharesBorderState,['community of madrid']
+Castile and león,StateSharesBorderState,['extremadura']
+Castile and león,StateSharesBorderState,['basque autonomous community']
+Castile and león,StateSharesBorderState,['aragon']
+Castile-la mancha,StateSharesBorderState,['extremadura']
+Castile-la mancha,StateSharesBorderState,"['land of valencia', 'valencia']"
+Castile-la mancha,StateSharesBorderState,"['community of madrid', 'madrid']"
+Castile-la mancha,StateSharesBorderState,"['region of murcia', 'murcia']"
+Castile-la mancha,StateSharesBorderState,['andalusia']
+Castile-la mancha,StateSharesBorderState,"['castile and león', 'castile and leon', 'leon']"
+Castile-la mancha,StateSharesBorderState,['aragon']
+Catalonia,StateSharesBorderState,['aragon']
+Catalonia,StateSharesBorderState,['occitania']
+Catalonia,StateSharesBorderState,"['land of valencia', 'valencia']"
+Catalonia,StateSharesBorderState,['andorra']
+Colorado,StateSharesBorderState,['arizona']
+Colorado,StateSharesBorderState,['utah']
+Colorado,StateSharesBorderState,['wyoming']
+Colorado,StateSharesBorderState,"['new mexico', 'mexico']"
+Colorado,StateSharesBorderState,['kansas']
+Colorado,StateSharesBorderState,['nebraska']
+Colorado,StateSharesBorderState,['oklahoma']
+Coquimbo region,StateSharesBorderState,"['atacama region', 'atacama']"
+Coquimbo region,StateSharesBorderState,"['valparaíso region', 'valparaiso']"
+Coquimbo region,StateSharesBorderState,"['san juan', 'san juan province']"
+Dakahlia governorate,StateSharesBorderState,"['gharbia', 'gharbia governorate']"
+Dakahlia governorate,StateSharesBorderState,"['qalyubia governorate', 'qalyubia']"
+Dakahlia governorate,StateSharesBorderState,"['al sharqia governorate', 'al sharqia']"
+Dakahlia governorate,StateSharesBorderState,"['damietta governorate', 'damietta']"
+Dakahlia governorate,StateSharesBorderState,"['port said governorate', 'port said']"
+Dakahlia governorate,StateSharesBorderState,"['kafr el-sheikh governorate', 'kafr el-sheikh']"
+Durazno department,StateSharesBorderState,"['florida', 'florida department']"
+Durazno department,StateSharesBorderState,"['rio negro', 'río negro department']"
+Durazno department,StateSharesBorderState,"['flores', 'flores department']"
+Durazno department,StateSharesBorderState,"['cerro largo', 'cerro largo department']"
+Durazno department,StateSharesBorderState,"['treinta y tres department', 'treinta y tres']"
+Durazno department,StateSharesBorderState,"['tacuarembo', 'tacuarembó department']"
+Emirate of dubai,StateSharesBorderState,['oman']
+Emirate of dubai,StateSharesBorderState,"['emirate of sharjah', 'sharjah']"
+Emirate of dubai,StateSharesBorderState,"['emirate of abu dhabi', 'abu dhabi']"
+Emirate of dubai,StateSharesBorderState,"['ajman', 'emirate of ajman']"
+Emirate of dubai,StateSharesBorderState,"['ras al khaimah', 'emirate of ras al khaimah']"
+England,StateSharesBorderState,['wales']
+England,StateSharesBorderState,['scotland']
+Extremadura,StateSharesBorderState,['portalegre']
+Extremadura,StateSharesBorderState,['guarda']
+Extremadura,StateSharesBorderState,"['castile and león', 'castile and leon', 'leon']"
+Extremadura,StateSharesBorderState,['castelo branco']
+Extremadura,StateSharesBorderState,['castile-la mancha']
+Extremadura,StateSharesBorderState,['andalusia']
+Extremadura,StateSharesBorderState,"['evora', 'évora']"
+Extremadura,StateSharesBorderState,['beja']
+Florida,StateSharesBorderState,['georgia']
+Florida,StateSharesBorderState,['alabama']
+Florida department,StateSharesBorderState,"['canelones', 'canelones department']"
+Florida department,StateSharesBorderState,"['san josé department', 'san jose']"
+Florida department,StateSharesBorderState,"['flores', 'flores department']"
+Florida department,StateSharesBorderState,"['lavalleja', 'lavalleja department']"
+Florida department,StateSharesBorderState,"['durazno', 'durazno department']"
+Florida department,StateSharesBorderState,"['treinta y tres department', 'treinta y tres']"
+Gelderland,StateSharesBorderState,"['brabant', 'north brabant']"
+Gelderland,StateSharesBorderState,['limburg']
+Gelderland,StateSharesBorderState,['utrecht']
+Gelderland,StateSharesBorderState,['overijssel']
+Gelderland,StateSharesBorderState,['flevoland']
+Gelderland,StateSharesBorderState,"['north rhine-westphalia', 'rhine-westphalia']"
+Gelderland,StateSharesBorderState,"['holland', 'south holland']"
+Georgia,StateSharesBorderState,['tennessee']
+Georgia,StateSharesBorderState,"['south carolina', 'carolina']"
+Georgia,StateSharesBorderState,"['north carolina', 'carolina']"
+Georgia,StateSharesBorderState,['alabama']
+Georgia,StateSharesBorderState,['florida']
+Gibraltar,StateSharesBorderState,['spain']
+Gibraltar,StateSharesBorderState,['andalusia']
+Greater poland voivodeship,StateSharesBorderState,"['pomeranian', 'west pomeranian voivodeship']"
+Greater poland voivodeship,StateSharesBorderState,"['łódź voivodeship', 'lodz']"
+Greater poland voivodeship,StateSharesBorderState,"['kuyavian-pomeranian', 'kuyavian-pomeranian voivodeship']"
+Greater poland voivodeship,StateSharesBorderState,"['lubusz voivodeship', 'lubusz']"
+Greater poland voivodeship,StateSharesBorderState,"['pomeranian voivodeship', 'pomeranian']"
+Greater poland voivodeship,StateSharesBorderState,"['opole', 'opole voivodeship']"
+Greater poland voivodeship,StateSharesBorderState,"['lower silesian voivodeship', 'lower silesian', 'silesian']"
+Grisons,StateSharesBorderState,"['st. gallen', 'canton of st. gallen']"
+Grisons,StateSharesBorderState,"['trentino-south tyrol', 'tyrol']"
+Grisons,StateSharesBorderState,['canton of glarus']
+Grisons,StateSharesBorderState,['lombardy']
+Grisons,StateSharesBorderState,"['canton of ticino', 'ticino']"
+Grisons,StateSharesBorderState,"['como', 'province of como']"
+Grisons,StateSharesBorderState,['uri']
+Grisons,StateSharesBorderState,"['province of sondrio', 'sondrio']"
+Grisons,StateSharesBorderState,['vorarlberg']
+Grisons,StateSharesBorderState,['tyrol']
+Grisons,StateSharesBorderState,['gravedona ed uniti']
+Grisons,StateSharesBorderState,['livo']
+Grisons,StateSharesBorderState,"['tyrol', 'south tyrol']"
+Grisons,StateSharesBorderState,['dosso del liro']
+Guam,StateSharesBorderState,"['mariana islands', 'northern mariana islands']"
+Guam,StateSharesBorderState,"['federateds of micronesia', 'federated states of micronesia']"
+Hamburg,StateSharesBorderState,['pinneberg']
+Hamburg,StateSharesBorderState,"['bonningstedt', 'bönningstedt']"
+Hamburg,StateSharesBorderState,['halstenbek']
+Hamburg,StateSharesBorderState,['neu wulmstorf']
+Hamburg,StateSharesBorderState,['seevetal']
+Hamburg,StateSharesBorderState,['stade']
+Hamburg,StateSharesBorderState,['reinbek']
+Hamburg,StateSharesBorderState,['harburg']
+Hamburg,StateSharesBorderState,['stormarn']
+Hamburg,StateSharesBorderState,['segeberg']
+Hamburg,StateSharesBorderState,"['lower saxony', 'saxony']"
+Hamburg,StateSharesBorderState,['schleswig-holstein']
+Hamburg,StateSharesBorderState,['herzogtum lauenburg']
+Hamburg,StateSharesBorderState,['norderstedt']
+Iwate prefecture,StateSharesBorderState,"['akita prefecture', 'akita']"
+Iwate prefecture,StateSharesBorderState,"['aomori', 'aomori prefecture']"
+Iwate prefecture,StateSharesBorderState,"['miyagi prefecture', 'miyagi']"
+Kagoshima prefecture,StateSharesBorderState,"['miyazaki', 'miyazaki prefecture']"
+Kagoshima prefecture,StateSharesBorderState,"['kumamoto', 'kumamoto prefecture']"
+Kagoshima prefecture,StateSharesBorderState,"['okinawa', 'okinawa prefecture']"
+Kainuu,StateSharesBorderState,"['ostrobothnia', 'northern ostrobothnia']"
+Kainuu,StateSharesBorderState,"['northern savonia', 'savonia']"
+Kainuu,StateSharesBorderState,"['north karelia', 'karelia']"
+Kainuu,StateSharesBorderState,['karelia']
+Kansas,StateSharesBorderState,['oklahoma']
+Kansas,StateSharesBorderState,['nebraska']
+Kansas,StateSharesBorderState,['colorado']
+Kansas,StateSharesBorderState,['missouri']
+La rioja,StateSharesBorderState,"['sierra de urbion', 'sierra de urbión']"
+La rioja,StateSharesBorderState,"['burgos province', 'burgos']"
+La rioja,StateSharesBorderState,"['castile and león', 'castile and leon', 'leon']"
+La rioja,StateSharesBorderState,['aragon']
+La rioja,StateSharesBorderState,['navarre']
+La rioja,StateSharesBorderState,"['basque autonomous community', 'basque']"
+Lapland,StateSharesBorderState,['finnmark']
+Lapland,StateSharesBorderState,"['ostrobothnia', 'northern ostrobothnia']"
+Lapland,StateSharesBorderState,['karelia']
+Lapland,StateSharesBorderState,['troms']
+Lapland,StateSharesBorderState,['troms og finnmark fylke']
+Lapland,StateSharesBorderState,"['norrbotten county', 'norrbotten']"
+Lapland,StateSharesBorderState,['murmansk oblast']
+Lazio,StateSharesBorderState,['umbria']
+Lazio,StateSharesBorderState,['tuscany']
+Lazio,StateSharesBorderState,['marche']
+Lazio,StateSharesBorderState,['molise']
+Lazio,StateSharesBorderState,['abruzzo']
+Lazio,StateSharesBorderState,['campania']
+Liguria,StateSharesBorderState,['tuscany']
+Liguria,StateSharesBorderState,"['auvergne-rhone-alpes', 'auvergne-rhône-alpes']"
+Liguria,StateSharesBorderState,['piedmont']
+Liguria,StateSharesBorderState,['emilia-romagna']
+Los ríos region,StateSharesBorderState,"['araucanía region', 'araucania']"
+Los ríos region,StateSharesBorderState,"['neuquen', 'neuquén province']"
+Los ríos region,StateSharesBorderState,"['los lagos region', 'los lagos']"
+Louisiana,StateSharesBorderState,['texas']
+Louisiana,StateSharesBorderState,['mississippi']
+Louisiana,StateSharesBorderState,['arkansas']
+Magellan and the chilean antarctic region,StateSharesBorderState,"['aysen', 'aysén region']"
+Magellan and the chilean antarctic region,StateSharesBorderState,"['tierra del fuego, antarctica and south atlantic islands province']"
+Magellan and the chilean antarctic region,StateSharesBorderState,"['santa cruz province', 'santa cruz']"
+Maine,StateSharesBorderState,['new hampshire']
+Maine,StateSharesBorderState,['quebec']
+Maine,StateSharesBorderState,['new brunswick']
+Marche,StateSharesBorderState,['emilia-romagna']
+Marche,StateSharesBorderState,['tuscany']
+Marche,StateSharesBorderState,['lazio']
+Marche,StateSharesBorderState,['abruzzo']
+Marche,StateSharesBorderState,['umbria']
+Mecklenburg-western pomerania,StateSharesBorderState,['brandenburg']
+Mecklenburg-western pomerania,StateSharesBorderState,"['pomeranian', 'west pomeranian voivodeship']"
+Mecklenburg-western pomerania,StateSharesBorderState,"['lower saxony', 'saxony']"
+Mecklenburg-western pomerania,StateSharesBorderState,['schleswig-holstein']
+Mexico city,StateSharesBorderState,"['state of mexico', 'mexico']"
+Mexico city,StateSharesBorderState,['morelos']
+Michigan,StateSharesBorderState,['ontario']
+Michigan,StateSharesBorderState,['indiana']
+Michigan,StateSharesBorderState,['ohio']
+Michigan,StateSharesBorderState,['illinois']
+Michigan,StateSharesBorderState,['wisconsin']
+Michigan,StateSharesBorderState,['minnesota']
+Minnesota,StateSharesBorderState,"['dakota', 'south dakota']"
+Minnesota,StateSharesBorderState,['iowa']
+Minnesota,StateSharesBorderState,['ontario']
+Minnesota,StateSharesBorderState,['manitoba']
+Minnesota,StateSharesBorderState,['wisconsin']
+Minnesota,StateSharesBorderState,"['north dakota', 'dakota']"
+Minnesota,StateSharesBorderState,['michigan']
+Miyagi prefecture,StateSharesBorderState,"['fukushima prefecture', 'fukushima']"
+Miyagi prefecture,StateSharesBorderState,['yamagata']
+Miyagi prefecture,StateSharesBorderState,"['iwate prefecture', 'iwate']"
+Miyagi prefecture,StateSharesBorderState,"['akita prefecture', 'akita']"
+Molise,StateSharesBorderState,['apulia']
+Molise,StateSharesBorderState,['lazio']
+Molise,StateSharesBorderState,['abruzzo']
+Molise,StateSharesBorderState,['campania']
+Montana,StateSharesBorderState,['alberta']
+Montana,StateSharesBorderState,"['north dakota', 'dakota']"
+Montana,StateSharesBorderState,['british columbia']
+Montana,StateSharesBorderState,['saskatchewan']
+Montana,StateSharesBorderState,['idaho']
+Montana,StateSharesBorderState,['wyoming']
+Montana,StateSharesBorderState,"['dakota', 'south dakota']"
+Møre og romsdal,StateSharesBorderState,['vestland']
+Møre og romsdal,StateSharesBorderState,['oppland']
+Møre og romsdal,StateSharesBorderState,['innlandet']
+Møre og romsdal,StateSharesBorderState,"['sor-trondelag', 'sør-trøndelag']"
+Møre og romsdal,StateSharesBorderState,"['trøndelag', 'trondelag']"
+Møre og romsdal,StateSharesBorderState,['sogn og fjordane']
+Navarre,StateSharesBorderState,['basque autonomous community']
+Navarre,StateSharesBorderState,['aragon']
+Navarre,StateSharesBorderState,['nouvelle-aquitaine']
+Navarre,StateSharesBorderState,['la rioja']
+Nevada,StateSharesBorderState,['idaho']
+Nevada,StateSharesBorderState,['oregon']
+Nevada,StateSharesBorderState,['utah']
+Nevada,StateSharesBorderState,['california']
+Nevada,StateSharesBorderState,['arizona']
+New york,StateSharesBorderState,['new jersey']
+New york,StateSharesBorderState,['vermont']
+New york,StateSharesBorderState,['ontario']
+New york,StateSharesBorderState,['pennsylvania']
+New york,StateSharesBorderState,['connecticut']
+New york,StateSharesBorderState,['quebec']
+New york,StateSharesBorderState,['massachusetts']
+Nordland,StateSharesBorderState,"['nord-trøndelag', 'nord-trondelag']"
+Nordland,StateSharesBorderState,['troms']
+Nordland,StateSharesBorderState,['troms og finnmark fylke']
+Nordland,StateSharesBorderState,"['norrbotten county', 'norrbotten']"
+Nordland,StateSharesBorderState,"['vasterbotten', 'västerbotten county']"
+Nordland,StateSharesBorderState,"['trøndelag', 'trondelag']"
+Oklahoma,StateSharesBorderState,"['new mexico', 'mexico']"
+Oklahoma,StateSharesBorderState,['texas']
+Oklahoma,StateSharesBorderState,['kansas']
+Oklahoma,StateSharesBorderState,['missouri']
+Oklahoma,StateSharesBorderState,['arkansas']
+Oklahoma,StateSharesBorderState,['colorado']
+Oregon,StateSharesBorderState,['washington']
+Oregon,StateSharesBorderState,['nevada']
+Oregon,StateSharesBorderState,['idaho']
+Oregon,StateSharesBorderState,['california']
+Ostrobothnia,StateSharesBorderState,"['southern ostrobothnia', 'ostrobothnia']"
+Ostrobothnia,StateSharesBorderState,"['ostrobothnia', 'central ostrobothnia']"
+Ostrobothnia,StateSharesBorderState,['satakunta']
+Pennsylvania,StateSharesBorderState,['ontario']
+Pennsylvania,StateSharesBorderState,['new york']
+Pennsylvania,StateSharesBorderState,['delaware']
+Pennsylvania,StateSharesBorderState,['maryland']
+Pennsylvania,StateSharesBorderState,['ohio']
+Pennsylvania,StateSharesBorderState,"['virginia', 'west virginia']"
+Pennsylvania,StateSharesBorderState,['new jersey']
+Pirkanmaa,StateSharesBorderState,"['southern ostrobothnia', 'ostrobothnia']"
+Pirkanmaa,StateSharesBorderState,"['finland', 'central finland']"
+Pirkanmaa,StateSharesBorderState,['tavastia proper']
+Pirkanmaa,StateSharesBorderState,['satakunta']
+Pirkanmaa,StateSharesBorderState,['finland proper']
+Pirkanmaa,StateSharesBorderState,"['paijanne tavastia', 'päijänne tavastia']"
+Pécs,StateSharesBorderState,"['kozármisleny', 'kozarmisleny']"
+Pécs,StateSharesBorderState,"['cserkút', 'cserkut']"
+Pécs,StateSharesBorderState,"['nagykozár', 'nagykozar']"
+Pécs,StateSharesBorderState,"['orfű', 'orfu']"
+Pécs,StateSharesBorderState,"['pécsudvard', 'pecsudvard']"
+Pécs,StateSharesBorderState,"['keszu', 'keszü']"
+Pécs,StateSharesBorderState,"['bogád', 'bogad']"
+Region of murcia,StateSharesBorderState,"['comunidad valenciana', 'valenciana']"
+Region of murcia,StateSharesBorderState,['new castile']
+Region of murcia,StateSharesBorderState,"['land of valencia', 'valenciana']"
+Region of murcia,StateSharesBorderState,['andalusia']
+Region of murcia,StateSharesBorderState,['castile-la mancha']
+Rogaland,StateSharesBorderState,['vestland']
+Rogaland,StateSharesBorderState,['vestfold og telemark']
+Rogaland,StateSharesBorderState,['agder']
+Rogaland,StateSharesBorderState,['hordaland']
+Rogaland,StateSharesBorderState,['vest-agder']
+Rogaland,StateSharesBorderState,['aust-agder']
+Rogaland,StateSharesBorderState,['telemark']
+Saarland,StateSharesBorderState,['luxembourg']
+Saarland,StateSharesBorderState,['lorraine']
+Saarland,StateSharesBorderState,['rhineland-palatinate']
+Saarland,StateSharesBorderState,['moselle']
+Saint petersburg,StateSharesBorderState,"['vsevolozhsky', 'vsevolozhsky district']"
+Saint petersburg,StateSharesBorderState,"['gatchinsky district', 'gatchinsky']"
+Saint petersburg,StateSharesBorderState,"['tosnensky', 'tosnensky district']"
+Saint petersburg,StateSharesBorderState,"['kirishsky district', 'kirishsky']"
+Saint petersburg,StateSharesBorderState,"['vyborgsky district', 'vyborgsky']"
+Saint petersburg,StateSharesBorderState,['leningrad oblast']
+Saint petersburg,StateSharesBorderState,"['lomonosovsky district', 'lomonosovsky']"
+Salzburg,StateSharesBorderState,['carinthia']
+Salzburg,StateSharesBorderState,['styria']
+Salzburg,StateSharesBorderState,['upper austria']
+Salzburg,StateSharesBorderState,['tyrol']
+Salzburg,StateSharesBorderState,"['tyrol', 'south tyrol']"
+Salzburg,StateSharesBorderState,['trentino-south tyrol']
+Salzburg,StateSharesBorderState,['bavaria']
+San marino,StateSharesBorderState,['san leo']
+San marino,StateSharesBorderState,['acquaviva']
+San marino,StateSharesBorderState,['borgo maggiore']
+San marino,StateSharesBorderState,['chiesanuova']
+San marino,StateSharesBorderState,['fiorentino']
+Satakunta,StateSharesBorderState,['pirkanmaa']
+Satakunta,StateSharesBorderState,['finland proper']
+Satakunta,StateSharesBorderState,"['southern ostrobothnia', 'ostrobothnia']"
+Satakunta,StateSharesBorderState,['ostrobothnia']
+Saxony-anhalt,StateSharesBorderState,"['lower saxony', 'saxony']"
+Saxony-anhalt,StateSharesBorderState,['saxony']
+Saxony-anhalt,StateSharesBorderState,['thuringia']
+Saxony-anhalt,StateSharesBorderState,['brandenburg']
+Schwyz,StateSharesBorderState,['nidwalden']
+Schwyz,StateSharesBorderState,"['canton of zürich', 'zurich']"
+Schwyz,StateSharesBorderState,"['canton of zug', 'zug']"
+Schwyz,StateSharesBorderState,['obwalden']
+Schwyz,StateSharesBorderState,"['st. gallen', 'canton of st. gallen']"
+Schwyz,StateSharesBorderState,['uri']
+Schwyz,StateSharesBorderState,"['canton of lucerne', 'lucerne']"
+Schwyz,StateSharesBorderState,['canton of glarus']
+Tarapacá region,StateSharesBorderState,"['oruro department', 'oruro']"
+Tarapacá region,StateSharesBorderState,"['potosi', 'potosí department']"
+Tarapacá region,StateSharesBorderState,"['antofagasta region', 'antofagasta']"
+Tarapacá region,StateSharesBorderState,"['arica y parinacota', 'arica y parinacota region']"
+Tennessee,StateSharesBorderState,['alabama']
+Tennessee,StateSharesBorderState,['virginia']
+Tennessee,StateSharesBorderState,['georgia']
+Tennessee,StateSharesBorderState,"['north carolina', 'carolina']"
+Tennessee,StateSharesBorderState,['mississippi']
+Tennessee,StateSharesBorderState,['kentucky']
+Tennessee,StateSharesBorderState,['arkansas']
+Tennessee,StateSharesBorderState,['missouri']
+Texas,StateSharesBorderState,['chihuahua']
+Texas,StateSharesBorderState,"['new mexico', 'mexico']"
+Texas,StateSharesBorderState,"['nuevo león', 'nuevo leon', 'leon']"
+Texas,StateSharesBorderState,"['tamaulipas', 'tamaulipas state']"
+Texas,StateSharesBorderState,['coahuila']
+Texas,StateSharesBorderState,['louisiana']
+Texas,StateSharesBorderState,['arkansas']
+Texas,StateSharesBorderState,['oklahoma']
+Thurgau,StateSharesBorderState,"['baden-wurttemberg', 'baden-württemberg']"
+Thurgau,StateSharesBorderState,"['canton of schaffhausen', 'schaffhausen']"
+Thurgau,StateSharesBorderState,"['st. gallen', 'canton of st. gallen']"
+Thurgau,StateSharesBorderState,"['canton of zürich', 'zurich']"
+Tochigi prefecture,StateSharesBorderState,"['fukushima prefecture', 'fukushima']"
+Tochigi prefecture,StateSharesBorderState,"['ibaraki prefecture', 'ibaraki']"
+Tochigi prefecture,StateSharesBorderState,"['saitama prefecture', 'saitama']"
+Tochigi prefecture,StateSharesBorderState,"['gunma', 'gunma prefecture']"
+Tuscany,StateSharesBorderState,['liguria']
+Tuscany,StateSharesBorderState,['lazio']
+Tuscany,StateSharesBorderState,['umbria']
+Tuscany,StateSharesBorderState,['marche']
+Tuscany,StateSharesBorderState,['emilia-romagna']
+Tyrol,StateSharesBorderState,['bavaria']
+Tyrol,StateSharesBorderState,['trentino-south tyrol']
+Tyrol,StateSharesBorderState,['grisons']
+Tyrol,StateSharesBorderState,"['tyrol', 'south tyrol']"
+Tyrol,StateSharesBorderState,['veneto']
+Tyrol,StateSharesBorderState,['carinthia']
+Tyrol,StateSharesBorderState,['vorarlberg']
+Tyrol,StateSharesBorderState,['salzburg']
+Tyrol,StateSharesBorderState,"['province of belluno', 'belluno']"
+Umbria,StateSharesBorderState,['marche']
+Umbria,StateSharesBorderState,['tuscany']
+Umbria,StateSharesBorderState,['lazio']
+United states virgin islands,StateSharesBorderState,['puerto rico']
+United states virgin islands,StateSharesBorderState,['british virgin islands']
+Uusimaa,StateSharesBorderState,['finland proper']
+Uusimaa,StateSharesBorderState,"['paijanne tavastia', 'päijänne tavastia']"
+Uusimaa,StateSharesBorderState,['tavastia proper']
+Uusimaa,StateSharesBorderState,['kymenlaakso']
+Vaduz,StateSharesBorderState,['eschen']
+Vaduz,StateSharesBorderState,['triesen']
+Vaduz,StateSharesBorderState,['schaan']
+Vaduz,StateSharesBorderState,['triesenberg']
+Vaduz,StateSharesBorderState,['gamprin']
+Vaduz,StateSharesBorderState,['balzers']
+Vaduz,StateSharesBorderState,['buchs']
+Vaduz,StateSharesBorderState,['sevelen']
+Vaduz,StateSharesBorderState,['planken']
+Veneto,StateSharesBorderState,['lombardy']
+Veneto,StateSharesBorderState,"['friuli venezia giulia', 'giulia']"
+Veneto,StateSharesBorderState,"['trentino-south tyrol', 'tyrol']"
+Veneto,StateSharesBorderState,['emilia-romagna']
+Veneto,StateSharesBorderState,['tyrol']
+Veneto,StateSharesBorderState,['carinthia']
+Vienna,StateSharesBorderState,"['lower austria', 'austria']"
+Vorarlberg,StateSharesBorderState,['tyrol']
+Vorarlberg,StateSharesBorderState,['grisons']
+Vorarlberg,StateSharesBorderState,"['baden-wurttemberg', 'baden-württemberg']"
+Vorarlberg,StateSharesBorderState,['bavaria']
+Vorarlberg,StateSharesBorderState,"['st. gallen', 'canton of st. gallen']"
+Vorarlberg,StateSharesBorderState,['liechtenstein']
+Wales,StateSharesBorderState,['england']
+Washington,StateSharesBorderState,['idaho']
+Washington,StateSharesBorderState,['oregon']
+Washington,StateSharesBorderState,['british columbia']
+Wyoming,StateSharesBorderState,['nebraska']
+Wyoming,StateSharesBorderState,['colorado']
+Wyoming,StateSharesBorderState,['utah']
+Wyoming,StateSharesBorderState,['montana']
+Wyoming,StateSharesBorderState,['idaho']
+Wyoming,StateSharesBorderState,"['dakota', 'south dakota']"
+Åland,StateSharesBorderState,"['stockholm county', 'stockholm']"
+Åland,StateSharesBorderState,"['uppsala', 'uppsala county']"
+Åland,StateSharesBorderState,"['finland proper', 'finland']"
