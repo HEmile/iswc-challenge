@@ -117,12 +117,16 @@ def evaluate(input_dir: Path, ground_truth_dir: Path, results_dir: Path):
 
     ### calculating the final F1-score averaged across all the relations
     ### NOTE: this score will be used to rank the participating systems
-    f1 = round(np.mean(list(average_metrics['f1'].values())) * 100, 2)
+    f1_total = round(np.mean(list(average_metrics['f1'].values())) * 100, 2)
+    pr_total = round(np.mean(list(average_metrics['precision'].values())) * 100, 2)
+    re_total = round(np.mean(list(average_metrics['recall'].values())) * 100, 2)
 
     print("average F1-score for each relation:")
     pprint.pprint(average_metrics)
 
-    print("Final F1-score: {} %".format(f1))
+    print(f"Final F1-score: {f1_total} %")
+    print(f"Final Precision-score: {pr_total} %")
+    print(f"Final Recall-score: {re_total} %")
 
 
 def main():
@@ -130,7 +134,7 @@ def main():
     parser.add_argument(
         "--input_dir",
         type=str,
-        default="./gpt3_output/",
+        default="./bert_large_output/",
         help="input directory containing the baseline or your method output",
     )
     parser.add_argument(
@@ -142,7 +146,7 @@ def main():
     parser.add_argument(
         "--results_dir",
         type=str,
-        default="./gpt3_results/",
+        default="./bert_large_results/",
         help="results directory for storing the F1 scores for baseline or your method",
     )
     args = parser.parse_args()
