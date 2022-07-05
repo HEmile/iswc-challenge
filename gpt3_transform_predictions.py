@@ -37,15 +37,16 @@ def restructure(input_dir: Path, output_dir: Path):
         all_dfs.append(prompt_df)
 
     full_df = pd.concat(all_dfs)
-    full_df = full_df[["SubjectEntity", "Relation", "ObjectEntity"]]  # TODO undo column selection and just keep all columns
-    full_df = full_df.groupby(["SubjectEntity", "Relation"]).agg(ObjectEntities=('ObjectEntity','unique')).reset_index()
+    full_df = full_df.groupby(["SubjectEntity",
+                               "Relation"]).agg(ObjectEntities=('ObjectEntity', 'unique')).reset_index()
+    full_df['ObjectEntities'] = full_df['ObjectEntities'].apply(lambda x: list(x))
 
     # Save the results
     logger.info(f"Saving the results to \"{output_dir}\"...")
     with open(output_dir, "w") as f:
         # for result in results:
         for index, result in full_df.iterrows():
-            result = result.to_json(orient="index") # TODO: this is currently a string but it should be a dict
+            result = result.to_dict()
             f.write(json.dumps(result) + "\n")
 
 
@@ -54,7 +55,7 @@ def main():
     parser.add_argument(
         "--input_dir",
         type=str,
-        default="./predictions/bert_large_output/",
+        default="./predictions/gpt3_output/",
         help="input directory containing the baseline or your method output",
     )
     parser.add_argument(
