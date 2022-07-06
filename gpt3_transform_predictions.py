@@ -28,7 +28,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 
-def restructure(input_dir: Path, output_dir: Path):
+def restructure_csv(input_dir: Path, output_dir: Path):
     ### looping over all the files in the input directory
     all_dfs = []
     for fname in input_dir.glob("*.csv"):
@@ -74,7 +74,7 @@ def main():
 
     assert input_dir.exists() and input_dir.is_dir()
 
-    restructure(input_dir, output_dir)
+    restructure_csv(input_dir, output_dir)
 
 
 if __name__ == "__main__":

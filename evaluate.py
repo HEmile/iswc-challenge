@@ -32,9 +32,10 @@ def is_none_preds(preds: List[str]) -> bool:
     """
     Checks if the prediction object is none (with relaxing rules).
     """
+
     return preds is None or len(preds) == 0 or (len(preds) == 1 and (
-            list(preds)[0].lower() in {"", "none", "null"} or
-            list(preds)[0] is None))
+            list(preds)[0] is None or
+            list(preds)[0].lower() in {"", "none", "null"}))
 
 
 def true_positives(preds: List[str], gts: List[List[str]]) -> int:
@@ -139,8 +140,7 @@ def rows_to_dict(rows: List[Dict]) -> Dict:
             rows}
 
 
-def evaluate_per_sr_pair(predictions_fp, ground_truth_fp) \
-        -> List[Dict[str, float]]:
+def evaluate_per_sr_pair(predictions_fp, ground_truth_fp) -> List[Dict[str, float]]:
     pred_rows = read_lm_kbc_jsonl(predictions_fp)
     gt_rows = read_lm_kbc_jsonl(ground_truth_fp)
 
@@ -207,7 +207,7 @@ def main():
         "-p",
         "--predictions",
         type=str,
-        default="predictions/baseline.pred.jsonl",
+        default="predictions/gpt3.pred.jsonl",
         required=True,
         help="Path to the predictions file (required)"
     )
