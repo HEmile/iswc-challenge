@@ -38,10 +38,16 @@ def augment_sentence(sentence: str) -> str:
         replace_index = random.randint(0, len(words) - 2)
         word = words[replace_index]
 
-        for synset in wn.synsets(word):
-            for hyper in synset.hypernyms():
-                print(synset, hyper)
-                words[replace_index] = hyper
+        synonyms = []
+        antonyms = []
+
+        for syn in wn.synsets(word):
+            for l in syn.lemmas():
+                synonyms.append(l.name())
+                if l.antonyms():
+                    antonyms.append(l.antonyms()[0].name())
+        print(set(synonyms))
+        print(set(antonyms))
     return " ".join(words)
 
 
@@ -49,4 +55,4 @@ test_sentence = """Which countries share a border with Morocco?"""
 
 # Uncomment to test
 # print(distort_sentence(test_sentence))
-# print(augment_sentence(test_sentence))
+print(augment_sentence(test_sentence))
