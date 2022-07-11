@@ -134,19 +134,19 @@ def main():
     parser.add_argument(
         "--input_dir",
         type=str,
-        default="./bert_large_output/",
+        default="./predictions/bert_large_output/",
         help="input directory containing the baseline or your method output",
     )
     parser.add_argument(
         "--ground_truth_dir",
         type=str,
-        default="./dev/",
+        default="./data/old/dev/",
         help="ground truth directory containing true object-entities for the subject-entities for which the LM was probed and then baseline or your method was applied",
     )
     parser.add_argument(
         "--results_dir",
         type=str,
-        default="./bert_large_results/",
+        default="./results/bert_large_results/",
         help="results directory for storing the F1 scores for baseline or your method",
     )
     args = parser.parse_args()
