@@ -4,11 +4,11 @@ import os
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
 
-def gpt3(prompt):
+def gpt3(prompts):
     """ functions to call GPT3 predictions """
     response = openai.Completion.create(
         model="text-davinci-002",
-        prompt=prompt,
+        prompt=prompts,
         temperature=0,
         max_tokens=100,
         top_p=1,
@@ -18,11 +18,12 @@ def gpt3(prompt):
     )
     return [
         {
-            'text': i['text'],
-            'tokens': i['logprobs']['tokens'],
-            'logprob': i['logprobs']['token_logprobs']
+            'prompt': prompt,
+            'text': response['text'],
+            'tokens': response['logprobs']['tokens'],
+            'logprob': response['logprobs']['token_logprobs']
         }
-        for i in response.choices
+        for response, prompt in zip(response.choices, prompts)
     ]
 
 def clean_up(probe_outputs):

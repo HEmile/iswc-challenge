@@ -1,28 +1,23 @@
 import argparse
+import json
+import logging
 import time
 from pathlib import Path
 
-import pandas as pd
+from tqdm.auto import tqdm
 
+from utils.file_io import read_lm_kbc_jsonl
 from utils.model import gpt3
 from integrity_checking import logical_integrity
 
-SAMPLE_SIZE = 5
+logging.basicConfig(
+    format="%(asctime)s - %(levelname)s - %(name)s -  %(message)s",
+    datefmt="%m/%d/%Y %H:%M:%S",
+    level=logging.INFO,
+)
+logger = logging.getLogger(__name__)
 
-RELATIONS = [
-    "CountryBordersWithCountry",
-    "CountryOfficialLanguage",
-    "StateSharesBorderState",
-    "RiverBasinsCountry",
-    "ChemicalCompoundElement",
-    "PersonLanguage",
-    "PersonProfession",
-    "PersonInstrument",
-    "PersonEmployer",
-    "PersonPlaceOfDeath",
-    "PersonCauseOfDeath",
-    "CompanyParentOrganization",
-]
+SAMPLE_SIZE = 5000
 
 
 def clean_up(probe_outputs):
@@ -56,7 +51,7 @@ Which countries neighbour Serbia?
 ['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
 
 Which countries neighbour Fiji?
-['NONE']
+[]
 
 Which countries neighbour {subject_entity}?
 """
@@ -167,7 +162,7 @@ Which instruments does Liam Gallagher play?
 ['Maraca', 'Guitar']
 
 Which instruments does Jay Park play?
-['NONE']
+[]
 
 Which instruments does Axl Rose play?
 ['Guitar', 'Piano', 'Pander', 'Bass']
@@ -196,13 +191,13 @@ Where is or was {subject_entity} employed?
     elif relation == "PersonPlaceOfDeath":
         prompt = f"""
 What is the place of death of Barack Obama?
-['NONE']
+[]
 
 What is the place of death of Ennio Morricone?
 ['Rome']
 
 What is the place of death of Elon Musk?
-['NONE']
+[]
 
 What is the place of death of Prince?
 ['Chanhassen']
@@ -216,7 +211,7 @@ How did André Leon Talley die?
 ['Infarction']
 
 How did Angela Merkel die?
-['NONE']
+[]
 
 How did Bob Saget die?
 ['Injury', 'Blunt Trauma']
@@ -230,7 +225,7 @@ How did {subject_entity} die?
     elif relation == "CompanyParentOrganization":
         prompt = f"""
 What is the parent company of Microsoft?
-['NONE']
+[]
 
 What is the parent company of Sony?
 ['Sony Group']
@@ -239,70 +234,65 @@ What is the parent company of Saab?
 ['Saab Group', 'Saab-Scania', 'Spyker N.V.', 'National Electric Vehicle Sweden'', 'General Motors']
 
 What is the parent company of Max Motors?
-['NONE']
+[]
 
 What is the parent company of {subject_entity}?
 """
     return prompt
 
 
-def probe_lm(relation, subject_entities, output_dir: Path, batch_size=20):
+def probe_lm(input: Path, output: Path, batch_size=20):
     ### for every subject-entity in the entities list, we probe the LM using the below sample prompts
 
+    # Load the input file
+    logger.info(f"Loading the input file \"{input}\"...")
+    input_rows = read_lm_kbc_jsonl(input)
+    logger.info(f"Loaded {len(input_rows):,} rows.")
+
     # Trim list & batch entities
-    subject_entities = subject_entities[:SAMPLE_SIZE]
-    batches = [subject_entities[x:x + batch_size] for x in range(0, len(subject_entities), batch_size)]
+    input_rows = input_rows[:SAMPLE_SIZE]  #
+    batches = [input_rows[x:x + batch_size] for x in range(0, len(input_rows), batch_size)]
 
     results = []
-    for idx, batch in enumerate(batches):
+    for idx, batch in tqdm(enumerate(batches)):
         prompts = []
-        for index, subject_entity in enumerate(batch):
-            print(f"Probing the GPT3 language model "
-                  f"for {subject_entity} (subject-entity) and {relation} relation")
-
+        for index, row in enumerate(batch):
             # TODO: Generate examples in the prompt automatically (Thiviyan)
             #
             # TODO: Rephrase prompt automatically (Dimitris)
 
             ### creating a specific prompt for the given relation
-            prompts.append(create_prompt(subject_entity, relation))
+            logger.info(f"Creating prompts...")
+            prompts.append(create_prompt(row['SubjectEntity'], row['Relation']))
 
         ### probing the language model and obtaining the ranked tokens in the masked_position
-        predictions = gpt3(prompts)  # TODO Figure out what the hell to do with probabilities
+        logger.info(f"Running the model...")
+        predictions = gpt3(prompts)  # TODO Figure out what to do with probabilities
 
-        for prediction in predictions:
+        ### Clean and format results
+        for row, prediction in zip(batch, predictions):
             prediction['text'] = clean_up(prediction['text'])
-            prediction['text'] = convert_nan(prediction['text'])
-        logical_integrity(relation, batch, predictions)
+#             prediction['text'] = convert_nan(prediction['text'])
+#         logical_integrity(relation, batch, predictions)
+            # TODO: Check Logic consistency (Emile, Sel)
 
-        # TODO: Check Logic consistency (Emile, Sel)
-
-        ### saving the outputs and the likelihood scores received with the sample prompt
-        x = [
-            {
-                "Prompt": prompts[index],
-                "SubjectEntity": subject_entity,
-                "Relation": relation,
-                "ObjectEntity": predictions[index]['text'],
-                "Probability": predictions[index]['logprob'],
+            result = {
+                "SubjectEntity": row['SubjectEntity'],
+                "Relation": row['Relation'],
+                "Prompt": prediction['prompt'],
+                "ObjectEntities": prediction['text']
             }
-            for index, subject_entity in enumerate(batch)
-        ]
-        results += x
+            results.append(result)
 
-        # Sleep is needed becase we make many API calls. We can make 60 calls every minute
+        # Sleep is needed because we make many API calls. We can make 60 calls every minute
         if idx % 5:
             time.sleep(5)
 
     ### saving the prompt outputs separately for each relation type
-    results_df = pd.DataFrame(results)  # .sort_values(by=["SubjectEntity"], ascending=(True, False))
-
-    if output_dir.exists():
-        assert output_dir.is_dir()
-    else:
-        output_dir.mkdir(exist_ok=True, parents=True)
-
-    results_df.to_csv(output_dir / f"{relation}.csv", index=False)
+    logger.info(f"Saving the results to \"{output}\"...")
+    with open(output, "w") as f:
+        for result in results:
+            f.write(json.dumps(result) + "\n")
 
 
 def main():
@@ -310,31 +300,29 @@ def main():
         description="Probe a Language Model and Run the Baseline Method on Prompt Outputs"
     )
     parser.add_argument(
-        "--input_dir",
+        "--input",
         type=str,
-        default="./dev/",
-        help="input directory containing the subject-entities for each relation to probe the language model",
+        default="data/dev.jsonl",
+        help="input file containing the subject-entities for each relation to probe the language model",
     )
     parser.add_argument(
-        "--baseline_output_dir",
+        "--output",
         type=str,
-        default="./gpt3_output/",
+        default="predictions/gpt3.pred.jsonl",
         help="output directory to store the baseline output",
     )
     args = parser.parse_args()
     print(args)
 
-    input_dir = Path(args.input_dir)
-    baseline_output_dir = Path(args.baseline_output_dir)
+    # input_dir = Path(args.input_dir)
+    # baseline_output_dir = Path(args.baseline_output_dir)
 
-    ### call the prompt function to get output for each (subject-entity, relation)
-    for relation in RELATIONS:
-        entities = (
-            pd.read_csv(input_dir / f"{relation}.csv")["SubjectEntity"]
-                .drop_duplicates(keep="first")
-                .tolist()
-        )
-        probe_lm(relation, entities, baseline_output_dir)
+    probe_lm(args.input, args.output)
+
+    # ### call the prompt function to get output for each (subject-entity, relation)
+    # for relation in RELATIONS:
+    #     entities = pd.read_csv(input_dir / f"{relation}.csv")["SubjectEntity"].drop_duplicates(keep="first").tolist()
+    #     probe_lm(relation, entities, baseline_output_dir)
 
 
 if __name__ == "__main__":

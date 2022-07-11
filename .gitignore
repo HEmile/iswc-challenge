@@ -144,6 +144,7 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 .idea/
+.DS_Store
 # PyCharm
 #  JetBrains specific template is maintainted in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
@@ -152,19 +153,16 @@ cython_debug/
 
 gpt3_baseline/
 bert_base_output/
-bert_large_output/
 roberta_base_output/
 thres1_output/
 thres2_output/
 thres3_output/
-gpt3_output/
 
 prompt_output_bert_base/
 prompt_output_bert_large/
-prompt_output_bert_large_cased/
 prompt_output_roberta_base/
 
+predictions/bert_large_output/
+predictions/bert_large_output/prompt_output_bert_large_cased/
 
-
-bert_large_results/
-gpt3_results/
+results/*

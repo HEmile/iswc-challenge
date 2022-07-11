@@ -1,0 +1,51 @@
+SubjectEntity,Relation,ObjectEntity
+Adele,PersonCauseOfDeath,NONE
+Ahmed zewail,PersonCauseOfDeath,Cancer
+Aretha franklin,PersonCauseOfDeath,Pancreatic Cancer
+Avicii,PersonCauseOfDeath,Suicide
+Benjamin Netanyahu,PersonCauseOfDeath,NONE
+Bill Gates,PersonCauseOfDeath,NONE
+Boris Johnson,PersonCauseOfDeath,NONE
+Christina grimmie,PersonCauseOfDeath,Murder
+Christine Lagarde,PersonCauseOfDeath,NONE
+Cory monteith,PersonCauseOfDeath,Drug Overdose
+Dilip kumar,PersonCauseOfDeath,NONE
+Donald Knuth,PersonCauseOfDeath,NONE
+Emmanuel Macron,PersonCauseOfDeath,NONE
+Ennio morricone,PersonCauseOfDeath,NONE
+Francois Hollande,PersonCauseOfDeath,NONE
+Frank sinatra,PersonCauseOfDeath,Heart Attack
+George h. w. bush,PersonCauseOfDeath,Infarction
+George harrison,PersonCauseOfDeath,Cancer
+Ginni Rometty,PersonCauseOfDeath,NONE
+Haruma miura,PersonCauseOfDeath,Drowning
+Hu Jintao,PersonCauseOfDeath,NONE
+Hugh hefner,PersonCauseOfDeath,Natural Causes
+Idriss déby,PersonCauseOfDeath,Injury
+Indra Nooyi,PersonCauseOfDeath,NONE
+Jim rohn,PersonCauseOfDeath,Pneumonia
+John magufuli,PersonCauseOfDeath,COVID-19
+Johnny cash,PersonCauseOfDeath,Respiratory Failure
+Larry Page,PersonCauseOfDeath,NONE
+Larry king,PersonCauseOfDeath,Coronary Artery Disease
+Maurane,PersonCauseOfDeath,Cancer
+Maya angelou,PersonCauseOfDeath,Natural Causes
+Melinda Gates,PersonCauseOfDeath,NONE
+Michelle Obama,PersonCauseOfDeath,NONE
+Mikhail zadornov,PersonCauseOfDeath,Cancer
+Miles davis,PersonCauseOfDeath,Respiratory Failure
+Nelson mandela,PersonCauseOfDeath,Respiratory Infection
+Paul Pogba,PersonCauseOfDeath,NONE
+Pitbull,PersonCauseOfDeath,NONE
+Richard Dawkins,PersonCauseOfDeath,NONE
+Rihanna,PersonCauseOfDeath,NONE
+Rishi kapoor,PersonCauseOfDeath,Cancer
+Robert Lewandowsk,PersonCauseOfDeath,NONE
+Robert downey jr.,PersonCauseOfDeath,NONE
+Roddy piper,PersonCauseOfDeath,Heart Attack
+Ronaldinho,PersonCauseOfDeath,NONE
+Roy orbison,PersonCauseOfDeath,Heart Attack
+Russell Crowe,PersonCauseOfDeath,NONE
+Sandra Bullock,PersonCauseOfDeath,NONE
+Ursula von der leyen,PersonCauseOfDeath,NONE
+Victoria Beckham,PersonCauseOfDeath,NONE

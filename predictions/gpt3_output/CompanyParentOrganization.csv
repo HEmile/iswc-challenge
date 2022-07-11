@@ -1,0 +1,54 @@
+SubjectEntity,Relation,ObjectEntity
+Abadal,CompanyParentOrganization,NONE
+Aixam,CompanyParentOrganization,NONE
+Alex von falkenhausen motorenbau,CompanyParentOrganization,NONE
+Alvis car and engineering company ltd,CompanyParentOrganization,NONE
+Amphicar,CompanyParentOrganization,NONE
+Artés de arcos,CompanyParentOrganization,NONE
+Aston martin lagonda,CompanyParentOrganization,NONE
+Austro-daimler,CompanyParentOrganization,NONE
+Automobilwerk eisenach,CompanyParentOrganization,NONE
+Bell,CompanyParentOrganization,NONE
+Bertone,CompanyParentOrganization,NONE
+Cadillac,CompanyParentOrganization,General Motors
+Central motors,CompanyParentOrganization,NONE
+Changan automobile,CompanyParentOrganization,Changan Automobile Group
+Delage,CompanyParentOrganization,NONE
+Duesenberg,CompanyParentOrganization,Duesenberg Motors Company
+Fábrica nacional de motores,CompanyParentOrganization,NONE
+Gaz,CompanyParentOrganization,NONE
+Gucci,CompanyParentOrganization,Kering
+Guerry et bourguignon,CompanyParentOrganization,NONE
+Hanomag,CompanyParentOrganization,NONE
+Hyundai motor company,CompanyParentOrganization,Hyundai Motor Group
+Industrieverband fahrzeugbau,CompanyParentOrganization,NONE
+Industrija motornih vozil,CompanyParentOrganization,NONE
+Itala,CompanyParentOrganization,NONE
+Jensen motors,CompanyParentOrganization,NONE
+Kaipan,CompanyParentOrganization,NONE
+Kia,CompanyParentOrganization,Hyundai Motor Group
+Kojima engineering,CompanyParentOrganization,NONE
+La ponette,CompanyParentOrganization,NONE
+Lada zapad tolyatti,CompanyParentOrganization,AvtoVAZ
+Lagonda,CompanyParentOrganization,NONE
+Locomobile company of america,CompanyParentOrganization,NONE
+Lotus cars,CompanyParentOrganization,Geely Holding Group
+Mg car company limited,CompanyParentOrganization,NONE
+Moskvitch,CompanyParentOrganization,NONE
+Nardi,CompanyParentOrganization,NONE
+Nsu,CompanyParentOrganization,NONE
+Peugeot,CompanyParentOrganization,Groupe PSA
+Saipa,CompanyParentOrganization,NONE
+Scripps-booth,CompanyParentOrganization,NONE
+Simca,CompanyParentOrganization,Simca
+Simca,CompanyParentOrganization,Chrysler Europe
+Simca,CompanyParentOrganization,Peugeot
+Simca,CompanyParentOrganization,PSA Peugeot Citroën
+Società torinese automobili elettrici,CompanyParentOrganization,NONE
+Towarzystwo budowy samochodów as,CompanyParentOrganization,NONE
+Valmet automotive,CompanyParentOrganization,NONE
+Velorex,CompanyParentOrganization,NONE
+Volkswagen,CompanyParentOrganization,Volkswagen Group
+Yamaha motor company,CompanyParentOrganization,Yamaha Corporation
+Zanella fratelli,CompanyParentOrganization,NONE
+Élan motorsport technologies,CompanyParentOrganization,NONE
