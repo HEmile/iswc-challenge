@@ -1,28 +1,33 @@
 
 # Get positive and negative fact queries
 # See with what probabilities it predicts true or false
-from typing import List
+import argparse
+from pathlib import Path
+import pandas as pd
+from typing import List, Tuple
 
 from pandas import DataFrame
 
 from utils.model import gpt3, clean_up
 
 
-def logical_integrity(relation, batch, object_predictions):
+def logical_integrity(batch: pd.DataFrame) -> List[Tuple[int, pd.DataFrame]]:
     prompts = []
-    for i, subject in enumerate(batch):
-        for object in object_predictions[i]['text']:
-            if not object:
-                continue
-            prompts.append(positive_negative_prompt_pairs(relation, subject, object))
+    indices = []
+    for index, subject, relation, object in batch.itertuples(index=True):
+        if object == "NONE":
+            continue
+        prompts.append(positive_negative_prompt_pairs(relation, subject, object))
+        indices.append(index)
     predictions = []
     for ndx in range(0, len(prompts), 20):
         predictions.extend(gpt3(prompts[ndx:min(ndx+20, len(prompts))]))
     # predictions = gpt3(prompts)
-    for i, prediction in enumerate(predictions):
-        print(prompts[i])
-        print(prediction['text'])
-        print("\n")
+    # for i, prediction in enumerate(predictions):
+    #     print(prompts[i])
+    #     print(prediction['text'])
+    #     print("\n")
+    return list(zip(indices, predictions))
 
 def positive_negative_prompt_pairs(relation, subject_entity, object_entity):
     ### depending on the relation, we fix the prompt
@@ -153,3 +158,49 @@ True
 """
     return prompt
 
+
+def fact_checking(input_dir, output_dir):
+    ### looping over all the files in the input directory
+    for fname in input_dir.glob("*.csv"):
+        prompt_df = pd.read_csv(fname)
+        filtered = logical_integrity(prompt_df)
+        indices = []
+        for index, prediction in filtered:
+            if prediction['text'] == 'False':
+                indices.append(index)
+        filtered_df = prompt_df.drop(indices)
+        filtered_df.to_csv(output_dir / fname.name, index=False)
+        # TODO: If by filtering a fact, there are no more objects for a certain subject, make sure to add NONE
+
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument(
+        "--input_dir",
+        type=str,
+        default="./predictions/gpt3_output/",
+        help="input directory containing the baseline or your method output",
+    )
+    parser.add_argument(
+        "-o",
+        "--output_dir",
+        type=str,
+        default="./predictions/gpt3_fact_check/",
+        help="Output file (required)",
+    )
+
+    args = parser.parse_args()
+    print(args)
+
+    input_dir = Path(args.input_dir)
+    output_dir = Path(args.output_dir)
+
+    assert input_dir.exists() and input_dir.is_dir()
+    if not output_dir.exists():
+        output_dir.mkdir(parents=True)
+
+    fact_checking(input_dir, output_dir)
+
+if __name__ == "__main__":
+    main()
