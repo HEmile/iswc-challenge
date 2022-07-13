@@ -1,0 +1,40 @@
+Prompt,SubjectEntity,Relation,ObjectEntity,Probability
+The official language of Afghanistan is [MASK].,Afghanistan,CountryOfficialLanguage,Persian,0.5658
+The official language of Argentina is [MASK].,Argentina,CountryOfficialLanguage,Spanish,0.969
+The official language of Australia is [MASK].,Australia,CountryOfficialLanguage,English,0.8539
+The official language of Austria is [MASK].,Austria,CountryOfficialLanguage,German,0.9598
+The official language of Botswana is [MASK].,Botswana,CountryOfficialLanguage,English,0.9597
+The official language of Brunei is [MASK].,Brunei,CountryOfficialLanguage,English,0.5802
+The official language of Burkina faso is [MASK].,Burkina faso,CountryOfficialLanguage,French,0.92
+The official language of Cameroon is [MASK].,Cameroon,CountryOfficialLanguage,French,0.9503
+The official language of Central african republic is [MASK].,Central african republic,CountryOfficialLanguage,English,0.5791
+The official language of Colombia is [MASK].,Colombia,CountryOfficialLanguage,Spanish,0.9451
+The official language of Costa rica is [MASK].,Costa rica,CountryOfficialLanguage,Spanish,0.8434
+The official language of Croatia is [MASK].,Croatia,CountryOfficialLanguage,Croatian,0.9957
+The official language of Finland is [MASK].,Finland,CountryOfficialLanguage,Finnish,0.7711
+The official language of France is [MASK].,France,CountryOfficialLanguage,French,0.9961
+The official language of Grenada is [MASK].,Grenada,CountryOfficialLanguage,English,0.9814
+The official language of Guyana is [MASK].,Guyana,CountryOfficialLanguage,English,0.9788
+The official language of Iceland is [MASK].,Iceland,CountryOfficialLanguage,Icelandic,0.9814
+The official language of India is [MASK].,India,CountryOfficialLanguage,Hindi,0.6995
+The official language of Israel is [MASK].,Israel,CountryOfficialLanguage,Hebrew,0.8809
+The official language of Jamaica is [MASK].,Jamaica,CountryOfficialLanguage,English,0.9736
+The official language of Jordan is [MASK].,Jordan,CountryOfficialLanguage,Arabic,0.9287
+The official language of Kazakhstan is [MASK].,Kazakhstan,CountryOfficialLanguage,Russian,0.8467
+The official language of Latvia is [MASK].,Latvia,CountryOfficialLanguage,Latvian,0.9881
+The official language of Liechtenstein is [MASK].,Liechtenstein,CountryOfficialLanguage,German,0.7557
+The official language of Mozambique is [MASK].,Mozambique,CountryOfficialLanguage,Portuguese,0.9049
+The official language of Nicaragua is [MASK].,Nicaragua,CountryOfficialLanguage,Spanish,0.9349
+The official language of Niger is [MASK].,Niger,CountryOfficialLanguage,French,0.8817
+The official language of Norway is [MASK].,Norway,CountryOfficialLanguage,Norwegian,0.9609
+The official language of Pakistan is [MASK].,Pakistan,CountryOfficialLanguage,Urdu,0.9182
+The official language of Panama is [MASK].,Panama,CountryOfficialLanguage,Spanish,0.9003
+The official language of Philippines is [MASK].,Philippines,CountryOfficialLanguage,Filipino,0.6885
+The official language of Qatar is [MASK].,Qatar,CountryOfficialLanguage,Arabic,0.9289
+The official language of Rwanda is [MASK].,Rwanda,CountryOfficialLanguage,English,0.5492
+The official language of San marino is [MASK].,San marino,CountryOfficialLanguage,Italian,0.8165
+The official language of Sao tome and principe is [MASK].,Sao tome and principe,CountryOfficialLanguage,Portuguese,0.9799
+The official language of Taiwan is [MASK].,Taiwan,CountryOfficialLanguage,Mandarin,0.5373
+The official language of Yemen is [MASK].,Yemen,CountryOfficialLanguage,Arabic,0.9859
+The official language of Zimbabwe is [MASK].,Zimbabwe,CountryOfficialLanguage,English,0.9815
+The official language of gambia is [MASK].,gambia,CountryOfficialLanguage,English,0.9435

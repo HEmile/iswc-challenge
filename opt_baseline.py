@@ -2,13 +2,14 @@ import argparse
 import json
 import logging
 import time
+from transformers import AutoModelForCausalLM, AutoTokenizer
+import torch
 from pathlib import Path
 
 from tqdm.auto import tqdm
 
 from utils.file_io import read_lm_kbc_jsonl
-from utils.model import gpt3
-from integrity_checking import logical_integrity
+
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(name)s -  %(message)s",
@@ -18,10 +19,12 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 SAMPLE_SIZE = 5000
+BATCH_SIZE = 20
 
 
-def clean_up(probe_outputs):
+def clean_up(probe_outputs, prompt):
     """ functions to clean up api output """
+    probe_outputs = probe_outputs.replace(prompt,'')
     probe_outputs = probe_outputs.strip()
     probe_outputs = probe_outputs[2:-2].split("', '")
     return probe_outputs
@@ -108,19 +111,19 @@ What countries does the river {subject_entity} cross?
 
     elif relation == "ChemicalCompoundElement":
         prompt = f"""
-What are all the atoms that make up the molecule Water?
+What are all the chemical elements that make up the molecule Water?
 ['Hydrogen', 'Oxygen']
 
-What are all the atoms that make up the molecule Bismuth subsalicylate	?
+What are all the chemical elements that make up the molecule Bismuth subsalicylate?
 ['Bismuth']
 
-What are all the atoms that make up the molecule Sodium Bicarbonate	?
+What are all the chemical elements that make up the molecule Sodium Bicarbonate?
 ['Hydrogen', 'Oxygen', 'Sodium', 'Carbon']
 
-What are all the atoms that make up the molecule Aspirin?
+What are all the chemical elements that make up the molecule Aspirin?
 ['Oxygen', 'Carbon', 'Hydrogen']
 
-What are all the atoms that make up the molecule {subject_entity}?
+What are all the chemical elements that make up the molecule {subject_entity}?
 """
     elif relation == "PersonLanguage":
         prompt = f"""
@@ -241,7 +244,21 @@ What is the parent company of {subject_entity}?
     return prompt
 
 
-def probe_lm(input: Path, output: Path, batch_size=20):
+def predict(model, tokenizer, prompts):
+    if torch.cuda.is_available():
+        inputs = tokenizer(prompts, return_tensors="pt", padding=True).to(0)
+    else:
+        inputs = tokenizer(prompts, return_tensors="pt", padding=True)
+    # get length of input
+    # input_length = len(inputs["input_ids"].tolist()[0])
+    # print("Input lengths {}".format(len(inputs)))
+    output = model.generate(**inputs,
+                            max_length=512, eos_token_id=int(tokenizer.convert_tokens_to_ids("]")))
+    generated_texts = tokenizer.batch_decode(output, skip_special_tokens=True)
+
+    return generated_texts
+
+def probe_lm(input: Path, model_name, output: Path, batch_size=BATCH_SIZE):
     ### for every subject-entity in the entities list, we probe the LM using the below sample prompts
 
     # Load the input file
@@ -252,6 +269,17 @@ def probe_lm(input: Path, output: Path, batch_size=20):
     # Trim list & batch entities
     input_rows = input_rows[:SAMPLE_SIZE]  #
     batches = [input_rows[x:x + batch_size] for x in range(0, len(input_rows), batch_size)]
+
+    # Load HF model and tokenizer
+    logger.info(f"Loading {model_name} from HF model hub.")
+    if torch.cuda.is_available():
+        model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16).cuda()
+    else:
+        model = AutoModelForCausalLM.from_pretrained(model_name)
+    tokenizer = AutoTokenizer.from_pretrained(model_name)
+    eos_token_id = int(tokenizer.convert_tokens_to_ids("%")),
+    tokenizer.pad_token = tokenizer.eos_token
+
 
     results = []
     for idx, batch in tqdm(enumerate(batches)):
@@ -265,28 +293,25 @@ def probe_lm(input: Path, output: Path, batch_size=20):
             logger.info(f"Creating prompts...")
             prompts.append(create_prompt(row['SubjectEntity'], row['Relation']))
 
+
         ### probing the language model and obtaining the ranked tokens in the masked_position
-        logger.info(f"Running the model...")
-        predictions = gpt3(prompts)  # TODO Figure out what to do with probabilities
+        #logger.info(f"Running the model...")
+
+        predictions = predict(model, tokenizer, prompts)  # TODO Figure out what to do with probabilities
 
         ### Clean and format results
-        for row, prediction in zip(batch, predictions):
-            prediction['text'] = clean_up(prediction['text'])
-#             prediction['text'] = convert_nan(prediction['text'])
-#         logical_integrity(relation, batch, predictions)
+        for row, prediction, prompt in zip(batch, predictions, prompts):
+            prediction = clean_up(prediction, prompt)
             # TODO: Check Logic consistency (Emile, Sel)
 
             result = {
                 "SubjectEntity": row['SubjectEntity'],
                 "Relation": row['Relation'],
-                "Prompt": prediction['prompt'],
-                "ObjectEntities": prediction['text']
+                "Prompt": prompt,
+                "ObjectEntities": prediction
             }
             results.append(result)
 
-        # Sleep is needed because we make many API calls. We can make 60 calls every minute
-        if idx % 5:
-            time.sleep(5)
 
     ### saving the prompt outputs separately for each relation type
     logger.info(f"Saving the results to \"{output}\"...")
@@ -306,9 +331,15 @@ def main():
         help="input file containing the subject-entities for each relation to probe the language model",
     )
     parser.add_argument(
+        "--model",
+        type=str,
+        default="facebook/opt-125m",
+        help="input the model name from the HF model hub",
+    )
+    parser.add_argument(
         "--output",
         type=str,
-        default="predictions/gpt3.pred.jsonl",
+        default="predictions/opt-1.3b.pred.jsonl",
         help="output directory to store the baseline output",
     )
     args = parser.parse_args()
@@ -317,7 +348,7 @@ def main():
     # input_dir = Path(args.input_dir)
     # baseline_output_dir = Path(args.baseline_output_dir)
 
-    probe_lm(args.input, args.output)
+    probe_lm(args.input, args.model, args.output)
 
     # ### call the prompt function to get output for each (subject-entity, relation)
     # for relation in RELATIONS:
