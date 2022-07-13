@@ -107,19 +107,19 @@ What countries does the river {subject_entity} cross?
 
     elif relation == "ChemicalCompoundElement":
         prompt = f"""
-What are all the chemical elements that make up the molecule Water?
+What are all the atoms that make up the molecule Water?
 ['Hydrogen', 'Oxygen']
 
-What are all the chemical elements that make up the molecule Bismuth subsalicylate	?
+What are all the atoms that make up the molecule Bismuth subsalicylate	?
 ['Bismuth']
 
-What are all the chemical elements that make up the molecule Sodium Bicarbonate	?
+What are all the atoms that make up the molecule Sodium Bicarbonate	?
 ['Hydrogen', 'Oxygen', 'Sodium', 'Carbon']
 
-What are all the chemical elements that make up the molecule Aspirin?
+What are all the atoms that make up the molecule Aspirin?
 ['Oxygen', 'Carbon', 'Hydrogen']
 
-What are all the chemical elements that make up the molecule {subject_entity}?
+What are all the atoms that make up the molecule {subject_entity}?
 """
     elif relation == "PersonLanguage":
         prompt = f"""
