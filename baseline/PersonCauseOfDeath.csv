@@ -1,0 +1,6 @@
+Prompt,SubjectEntity,Relation,ObjectEntity,Probability
+Benjamin Netanyahu died due to [MASK].,Benjamin Netanyahu,PersonCauseOfDeath,cancer,0.5658
+Boris Johnson died due to [MASK].,Boris Johnson,PersonCauseOfDeath,cancer,0.6228
+Hu Jintao died due to [MASK].,Hu Jintao,PersonCauseOfDeath,illness,0.5541
+Michelle Obama died due to [MASK].,Michelle Obama,PersonCauseOfDeath,cancer,0.6004
+Sandra Bullock died due to [MASK].,Sandra Bullock,PersonCauseOfDeath,cancer,0.5557

@@ -1,0 +1,28 @@
+Prompt,SubjectEntity,Relation,ObjectEntity,Probability
+Büyük menderes river river basins in [MASK].,Büyük menderes river,RiverBasinsCountry,Turkey,0.8052
+Didi liakhvi river river basins in [MASK].,Didi liakhvi river,RiverBasinsCountry,Georgia,0.5039
+Dniester river basins in [MASK].,Dniester,RiverBasinsCountry,Ukraine,0.8595
+Donets river basins in [MASK].,Donets,RiverBasinsCountry,Ukraine,0.9261
+Dordogne river basins in [MASK].,Dordogne,RiverBasinsCountry,France,0.8748
+Han river river basins in [MASK].,Han river,RiverBasinsCountry,China,0.548
+Iguazu river river basins in [MASK].,Iguazu river,RiverBasinsCountry,Brazil,0.5001
+Japurá river river basins in [MASK].,Japurá river,RiverBasinsCountry,Brazil,0.8319
+Kura river river basins in [MASK].,Kura river,RiverBasinsCountry,Russia,0.6074
+Loire river basins in [MASK].,Loire,RiverBasinsCountry,France,0.8863
+Maritsa river basins in [MASK].,Maritsa,RiverBasinsCountry,Bulgaria,0.7158
+Narew river basins in [MASK].,Narew,RiverBasinsCountry,Poland,0.8249
+Narva river river basins in [MASK].,Narva river,RiverBasinsCountry,Estonia,0.682
+Neckar river basins in [MASK].,Neckar,RiverBasinsCountry,Germany,0.8163
+Nizhnyaya tunguska river basins in [MASK].,Nizhnyaya tunguska,RiverBasinsCountry,Russia,0.7655
+Oder river basins in [MASK].,Oder,RiverBasinsCountry,Poland,0.9394
+Ottawa river river basins in [MASK].,Ottawa river,RiverBasinsCountry,Canada,0.719
+Pechora river basins in [MASK].,Pechora,RiverBasinsCountry,Russia,0.5303
+Someș river river basins in [MASK].,Someș river,RiverBasinsCountry,Romania,0.9222
+Tiber river basins in [MASK].,Tiber,RiverBasinsCountry,Italy,0.9275
+Ticino river basins in [MASK].,Ticino,RiverBasinsCountry,Switzerland,0.8119
+Tisza river basins in [MASK].,Tisza,RiverBasinsCountry,Hungary,0.8772
+Ural river river basins in [MASK].,Ural river,RiverBasinsCountry,Russia,0.8616
+Ussuri river basins in [MASK].,Ussuri,RiverBasinsCountry,Russia,0.5504
+Vézère river basins in [MASK].,Vézère,RiverBasinsCountry,France,0.5126
+Yangtze river basins in [MASK].,Yangtze,RiverBasinsCountry,China,0.9254
+Yellow river river basins in [MASK].,Yellow river,RiverBasinsCountry,China,0.8111

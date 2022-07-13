@@ -1,7 +1,7 @@
 import argparse
 import string
 from typing import List, Dict, Union
-
+import sys
 import pandas as pd
 
 from utils.file_io import read_lm_kbc_jsonl
@@ -236,6 +236,38 @@ def main():
     }
 
     print(pd.DataFrame(scores_per_relation).transpose().round(3))
+
+    print_results(args.predictions, args.ground_truth, scores_per_sr_pair, scores_per_relation)
+
+
+def print_results(predictions_fp, ground_truth_fp, scores_per_sr_pair, scores_per_relation):
+    scores_per_relation.pop('*** Average ***')
+
+    pred_rows = read_lm_kbc_jsonl(predictions_fp)
+    gt_rows = read_lm_kbc_jsonl(ground_truth_fp)
+
+    pred_dict = rows_to_dict(pred_rows)
+    gt_dict = rows_to_dict(gt_rows)
+
+    original_stdout = sys.stdout
+
+    for relation, average_score in scores_per_relation.items():
+        with open(f'./failure_cases/{relation}.txt', 'w') as f:
+            sys.stdout = f
+            bad_examples = []
+            for instance in scores_per_sr_pair:
+                # print(instance.keys())  # dict_keys(['SubjectEntity', 'Relation', 'p', 'r', 'f1'])
+                if instance['Relation'] == relation and instance['f1'] <= average_score['f1']:
+                    bad_examples.append(instance)
+
+            print(f"{relation} (average f1: {round(average_score['f1'], 3)}): {len(bad_examples)} cases")
+            print('\n\n')
+            for instance in bad_examples:
+                print(instance)
+                print(f"Ground Truth: {gt_dict[(instance['SubjectEntity'], instance['Relation'])]}")
+                print(f"GPT-3 Prediction: {pred_dict[(instance['SubjectEntity'], instance['Relation'])]}")
+                print('\n')
+            sys.stdout = original_stdout  # Reset the standard output to its original value
 
 
 if __name__ == "__main__":
