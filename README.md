@@ -95,13 +95,14 @@ python evaluate.py -p "predictions/gpt3.pred.jsonl" -g "data/dev.jsonl"
 - [X] Make changes that the competition organisers suggest [priority]
     - [X] Pull the changes from their repo
     - [X] Check our performance on the updated train/val dataset
+- [X] Dataset statistics (nice to include in the paper)
+    - [X] The number of answers per relation
+    - [X] Count the number of 'None' per relation
+- [X] Improve precision via logic integrity
+    - [ ] personEmployer
+- Submit current version to leadership board
 - [ ] Look at failure cases
     - [ ] Wrong formatting?
-- [ ] Dataset statistics (nice to include in the paper)
-    - [ ] The number of answers per relation
-    - [ ] Count the number of 'None' per relation
-- [ ] Improve precision via logic integrity
-    - [ ] personEmployer
 - [ ] Improve recall via
     - [ ] Reduce temperature and generate multiple samples (k=3?)
     - [ ] Rephrase prompts?
