@@ -34,3 +34,9 @@ def read_lm_kbc_jsonl_to_df(file_path: Union[str, Path]) -> pd.DataFrame:
     rows = read_lm_kbc_jsonl(file_path)
     df = pd.DataFrame(rows)
     return df
+
+def df_to_jsonl(df: pd.DataFrame) -> List[Dict]:
+    """
+    Converts a dataframe to a list of dictionaries.
+    """
+    return df.to_dict("records")

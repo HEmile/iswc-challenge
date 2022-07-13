@@ -8,6 +8,7 @@ from tqdm.auto import tqdm
 
 from utils.file_io import read_lm_kbc_jsonl
 from utils.model import gpt3
+from integrity_checking import logical_integrity
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(name)s -  %(message)s",
@@ -271,6 +272,8 @@ def probe_lm(input: Path, output: Path, batch_size=20):
         ### Clean and format results
         for row, prediction in zip(batch, predictions):
             prediction['text'] = clean_up(prediction['text'])
+#             prediction['text'] = convert_nan(prediction['text'])
+#         logical_integrity(relation, batch, predictions)
             # TODO: Check Logic consistency (Emile, Sel)
 
             result = {
