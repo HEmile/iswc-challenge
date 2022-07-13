@@ -1,4 +1,4 @@
-StateSharesBorderState (average f1: 0.521): 24 cases
+StateSharesBorderState (average f1: 0.539): 25 cases
 
 
 
@@ -7,14 +7,19 @@ Ground Truth: [['beja'], ['faro'], ['extremadura'], ['region of murcia', 'murcia
 GPT-3 Prediction: ['Castilla-La Mancha', 'Extremadura', 'Murcia', 'Melilla', 'Ceuta']
 
 
-{'SubjectEntity': 'Basel-Stadt', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+{'SubjectEntity': 'Basel-Stadt', 'Relation': 'StateSharesBorderState', 'p': 0.3333333333333333, 'r': 0.25, 'f1': 0.28571428571428575}
 Ground Truth: [['alsace'], ['haut-rhin'], ['baden-wurttemberg', 'baden-württemberg'], ['basel-landschaft']]
-GPT-3 Prediction: ['France', 'Germany', 'Solothurn']
+GPT-3 Prediction: ['France', 'Germany', 'Baden-Wurttemberg']
 
 
 {'SubjectEntity': 'Basque Autonomous Community', 'Relation': 'StateSharesBorderState', 'p': 0.5, 'r': 0.4, 'f1': 0.4444444444444445}
 Ground Truth: [['nouvelle-aquitaine'], ['castile and león', 'castile and leon', 'leon'], ['navarre'], ['cantabria'], ['la rioja']]
 GPT-3 Prediction: ['Navarre', 'La Rioja', 'Aragon', 'France']
+
+
+{'SubjectEntity': 'Bavaria', 'Relation': 'StateSharesBorderState', 'p': 0.7142857142857143, 'r': 0.4166666666666667, 'f1': 0.5263157894736842}
+Ground Truth: [['thuringia'], ['baden-wurttemberg', 'baden-württemberg'], ['karlovy vary region', 'karlovy vary'], ['saxony'], ['south bohemian region', 'bohemian'], ['hesse'], ['salzburg'], ['st. gallen', 'canton of st. gallen'], ['vorarlberg'], ['upper austria', 'austria'], ['tyrol'], ['plzeň region', 'plzen']]
+GPT-3 Prediction: ['Czech Republic', 'Austria', 'Switzerland', 'Baden-Wurttemberg', 'Hesse', 'Thuringia', 'Saxony']
 
 
 {'SubjectEntity': 'Biobío Region', 'Relation': 'StateSharesBorderState', 'p': 0.3333333333333333, 'r': 0.3333333333333333, 'f1': 0.3333333333333333}
@@ -37,11 +42,6 @@ Ground Truth: [['canton of lucerne', 'lucerne'], ['schwyz'], ['canton of zürich
 GPT-3 Prediction: ['Canton of Zurich', 'Canton of Lucerne', 'Canton of Aargau']
 
 
-{'SubjectEntity': 'Canton of Zürich', 'Relation': 'StateSharesBorderState', 'p': 0.6, 'r': 0.42857142857142855, 'f1': 0.5}
-Ground Truth: [['st. gallen', 'canton of st. gallen'], ['thurgau'], ['canton of schaffhausen', 'schaffhausen'], ['baden-wurttemberg', 'baden-württemberg'], ['canton aargau', 'aargau'], ['canton of zug', 'zug'], ['schwyz']]
-GPT-3 Prediction: ['Aargau', 'Schwyz', 'Uri', 'Glarus', 'St. Gallen']
-
-
 {'SubjectEntity': 'Flores Department', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['florida', 'florida department'], ['san josé department', 'san jose'], ['colonia department', 'colonia'], ['soriano department', 'soriano'], ['durazno', 'durazno department'], ['rio negro', 'río negro department']]
 GPT-3 Prediction: ['Peten Department']
@@ -50,6 +50,11 @@ GPT-3 Prediction: ['Peten Department']
 {'SubjectEntity': 'Galicia', 'Relation': 'StateSharesBorderState', 'p': 0.6666666666666666, 'r': 0.3333333333333333, 'f1': 0.4444444444444444}
 Ground Truth: [['vila real'], ['bragança', 'braganca'], ['viana do castelo'], ['castile and león', 'castile and leon', 'leon'], ['asturias'], ['braga']]
 GPT-3 Prediction: ['Asturias', 'Castile and Leon', 'Portugal']
+
+
+{'SubjectEntity': 'Giza Governorate', 'Relation': 'StateSharesBorderState', 'p': 1.0, 'r': 0.36363636363636365, 'f1': 0.5333333333333333}
+Ground Truth: [['suez governorate', 'suez'], ['beheira', 'beheira governorate'], ['cairo', 'cairo governorate'], ['red sea', 'red sea governorate'], ['qalyubia governorate', 'qalyubia'], ['faiyum governorate', 'faiyum'], ['matrouh governorate', 'matrouh'], ['new valley governorate', 'new valley'], ['minya', 'minya governorate'], ['beni suef governorate', 'beni suef'], ['monufia governorate', 'monufia']]
+GPT-3 Prediction: ['Faiyum', 'Beni Suef', 'Minya', 'Cairo']
 
 
 {'SubjectEntity': 'Győr', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
@@ -67,9 +72,9 @@ Ground Truth: [['rio negro', 'río negro province'], ['neuquen', 'neuquén provi
 GPT-3 Prediction: ['Araucania', 'Los Rios', 'Magellan and Chilean Antarctica']
 
 
-{'SubjectEntity': 'Luxembourg District', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+{'SubjectEntity': 'Luxembourg District', 'Relation': 'StateSharesBorderState', 'p': 0.25, 'r': 0.3333333333333333, 'f1': 0.28571428571428575}
 Ground Truth: [['meurthe-et-moselle'], ['luxembourg'], ['moselle']]
-GPT-3 Prediction: ['Belgium', 'France', 'Germany']
+GPT-3 Prediction: ['Moselle', 'Ardennes', 'Meuse', 'Namur']
 
 
 {'SubjectEntity': "O'Higgins Region", 'Relation': 'StateSharesBorderState', 'p': 0.3333333333333333, 'r': 0.25, 'f1': 0.28571428571428575}

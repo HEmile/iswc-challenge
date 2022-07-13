@@ -1,4 +1,4 @@
-PersonEmployer (average f1: 0.266): 29 cases
+PersonEmployer (average f1: 0.27): 29 cases
 
 
 
@@ -142,8 +142,8 @@ Ground Truth: [['nosep yo']]
 GPT-3 Prediction: ['HBO', 'The Wire', 'Treme']
 
 
-{'SubjectEntity': 'Wishnutama', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+{'SubjectEntity': 'Wishnutama', 'Relation': 'PersonEmployer', 'p': 0.3333333333333333, 'r': 0.125, 'f1': 0.18181818181818182}
 Ground Truth: [['net.'], ['detik.com'], ['kumparan'], ['new england cable news'], ['indosiar'], ['whdh'], ['trans7'], ['trans tv']]
-GPT-3 Prediction: ['SCTV', 'RCTI', 'MNC TV']
+GPT-3 Prediction: ['SCTV', 'Net TV', 'Trans TV']
 
 

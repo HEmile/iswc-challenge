@@ -1,4 +1,4 @@
-ChemicalCompoundElement (average f1: 0.89): 18 cases
+ChemicalCompoundElement (average f1: 0.894): 18 cases
 
 
 
@@ -24,7 +24,7 @@ GPT-3 Prediction: ['Magnesium', 'Chlorine', 'Carbon', 'Hydrogen', 'Oxygen']
 
 {'SubjectEntity': 'Cupric Phosphate', 'Relation': 'ChemicalCompoundElement', 'p': 0.75, 'r': 1.0, 'f1': 0.8571428571428571}
 Ground Truth: [['oxygen'], ['copper'], ['phosphorus']]
-GPT-3 Prediction: ['Oxygen', 'Phosphorus', 'Hydrogen', 'Copper']
+GPT-3 Prediction: ['Phosphorus', 'Oxygen', 'Hydrogen', 'Copper']
 
 
 {'SubjectEntity': 'Ethyl Acetoacetate', 'Relation': 'ChemicalCompoundElement', 'p': 0.75, 'r': 1.0, 'f1': 0.8571428571428571}
@@ -52,9 +52,9 @@ Ground Truth: [['oxygen'], ['carbon'], ['hydrogen'], ['nitrogen']]
 GPT-3 Prediction: ['Oxygen', 'Carbon', 'Hydrogen']
 
 
-{'SubjectEntity': 'Hydroxocobalamin', 'Relation': 'ChemicalCompoundElement', 'p': 1.0, 'r': 0.5, 'f1': 0.6666666666666666}
+{'SubjectEntity': 'Hydroxocobalamin', 'Relation': 'ChemicalCompoundElement', 'p': 1.0, 'r': 0.6666666666666666, 'f1': 0.8}
 Ground Truth: [['carbon'], ['cobalt'], ['oxygen'], ['nitrogen'], ['hydrogen'], ['phosphorus']]
-GPT-3 Prediction: ['Oxygen', 'Cobalt', 'Hydrogen']
+GPT-3 Prediction: ['Oxygen', 'Hydrogen', 'Cobalt', 'Nitrogen']
 
 
 {'SubjectEntity': 'Lysergic Acid Diethylamide', 'Relation': 'ChemicalCompoundElement', 'p': 0.8, 'r': 1.0, 'f1': 0.888888888888889}
@@ -72,9 +72,9 @@ Ground Truth: [['carbon'], ['nitrogen'], ['hydrogen'], ['oxygen'], ['sulfur']]
 GPT-3 Prediction: ['Oxygen', 'Carbon', 'Hydrogen']
 
 
-{'SubjectEntity': 'Tabun', 'Relation': 'ChemicalCompoundElement', 'p': 0.6, 'r': 0.6, 'f1': 0.6}
+{'SubjectEntity': 'Tabun', 'Relation': 'ChemicalCompoundElement', 'p': 0.75, 'r': 0.6, 'f1': 0.6666666666666665}
 Ground Truth: [['phosphorus'], ['nitrogen'], ['carbon'], ['oxygen'], ['hydrogen']]
-GPT-3 Prediction: ['Phosphorus', 'Chlorine', 'Fluorine', 'Carbon', 'Hydrogen']
+GPT-3 Prediction: ['Phosphorus', 'Chlorine', 'Carbon', 'Hydrogen']
 
 
 {'SubjectEntity': 'Tenoxicam', 'Relation': 'ChemicalCompoundElement', 'p': 1.0, 'r': 0.8, 'f1': 0.888888888888889}

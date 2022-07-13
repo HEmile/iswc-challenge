@@ -1,4 +1,4 @@
-PersonInstrument (average f1: 0.564): 21 cases
+PersonInstrument (average f1: 0.531): 23 cases
 
 
 
@@ -77,9 +77,19 @@ Ground Truth: [['keyboard instrument', 'keyboard']]
 GPT-3 Prediction: ['']
 
 
+{'SubjectEntity': 'Park Bom', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Piano']
+
+
 {'SubjectEntity': 'Paul McCartney', 'Relation': 'PersonInstrument', 'p': 1.0, 'r': 0.2857142857142857, 'f1': 0.4444444444444445}
 Ground Truth: [['mandolin'], ['sitar'], ['recorder'], ['melodica'], ['percussion instrument', 'percussion'], ['ukulele'], ['keyboard instrument', 'keyboard'], ['violin'], ['cello'], ['trumpet'], ['guitar'], ['bass', 'double bass'], ['piano'], ['bass guitar', 'guitar']]
 GPT-3 Prediction: ['Bass', 'Guitar', 'Piano', 'Drums']
+
+
+{'SubjectEntity': 'Robert Plant', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['harmonica']]
+GPT-3 Prediction: ['Guitar']
 
 
 {'SubjectEntity': 'Roger Taylor', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}

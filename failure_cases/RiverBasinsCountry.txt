@@ -84,7 +84,7 @@ GPT-3 Prediction: ['Romania', 'Ukraine']
 
 {'SubjectEntity': 'Torne river', 'Relation': 'RiverBasinsCountry', 'p': 1.0, 'r': 0.6666666666666666, 'f1': 0.8}
 Ground Truth: [['norway'], ['finland'], ['sweden']]
-GPT-3 Prediction: ['Finland', 'Sweden']
+GPT-3 Prediction: ['Sweden', 'Finland']
 
 
 {'SubjectEntity': 'Ussuri', 'Relation': 'RiverBasinsCountry', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
