@@ -101,7 +101,7 @@ True
 Christina Aguilera is a businessperson.
 False
 
-{subject_entity} is a {object_entity}.
+{subject_entity} is a {object_entity.lower()}.
 """
 
     elif relation == "PersonInstrument":
@@ -112,7 +112,7 @@ True
 Jay Park plays the piano.
 False        
         
-{subject_entity} plays the {object_entity}.
+{subject_entity} plays the {object_entity.lower()}.
 """
     elif relation == "PersonEmployer":
         prompt = f"""
@@ -161,7 +161,12 @@ True
 
 def fact_checking(input_dir, output_dir):
     ### looping over all the files in the input directory
+    i = 0
     for fname in input_dir.glob("*.csv"):
+        print(f"Processing {fname}")
+        if i < 6:
+            i += 1
+            continue
         prompt_df = pd.read_csv(fname)
         filtered = logical_integrity(prompt_df)
         indices = []
@@ -169,6 +174,11 @@ def fact_checking(input_dir, output_dir):
             if prediction['text'] == 'False':
                 indices.append(index)
         filtered_df = prompt_df.drop(indices)
+        for subject in prompt_df['SubjectEntity'].unique():
+            if not filtered_df['SubjectEntity'].isin([subject]).any():
+                filtered_df = filtered_df.append(
+                    {'SubjectEntity': subject, 'Relation': prompt_df["Relation"][0], 'ObjectEntity': "NONE"}, ignore_index=True
+                )
         filtered_df.to_csv(output_dir / fname.name, index=False)
         # TODO: If by filtering a fact, there are no more objects for a certain subject, make sure to add NONE
 
