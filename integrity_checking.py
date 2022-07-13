@@ -2,26 +2,29 @@
 # Get positive and negative fact queries
 # See with what probabilities it predicts true or false
 import argparse
+import json
 from pathlib import Path
 import pandas as pd
 from typing import List, Tuple
+import time
 
 from pandas import DataFrame
 
+from utils.file_io import read_lm_kbc_jsonl_to_df, df_to_jsonl
 from utils.model import gpt3, clean_up
 
 
-def logical_integrity(batch: pd.DataFrame) -> List[Tuple[int, pd.DataFrame]]:
+def logical_integrity(batch: pd.DataFrame) -> List[Tuple[Tuple[int, str], pd.DataFrame]]:
     prompts = []
     indices = []
-    for index, subject, relation, object in batch.itertuples(index=True):
-        if object == "NONE":
-            continue
-        prompts.append(positive_negative_prompt_pairs(relation, subject, object))
-        indices.append(index)
+    for index, subject, relation, _, objects in batch.itertuples(index=True):
+        for object in objects:
+            prompts.append(positive_negative_prompt_pairs(relation, subject, object))
+            indices.append((index, object))
     predictions = []
     for ndx in range(0, len(prompts), 20):
         predictions.extend(gpt3(prompts[ndx:min(ndx+20, len(prompts))]))
+        time.sleep(2)
     # predictions = gpt3(prompts)
     # for i, prediction in enumerate(predictions):
     #     print(prompts[i])
@@ -159,58 +162,49 @@ True
     return prompt
 
 
-def fact_checking(input_dir, output_dir):
+def fact_checking(input_file, output_file):
     ### looping over all the files in the input directory
-    i = 0
-    for fname in input_dir.glob("*.csv"):
-        print(f"Processing {fname}")
-        if i < 6:
-            i += 1
-            continue
-        prompt_df = pd.read_csv(fname)
-        filtered = logical_integrity(prompt_df)
-        indices = []
-        for index, prediction in filtered:
-            if prediction['text'] == 'False':
-                indices.append(index)
-        filtered_df = prompt_df.drop(indices)
-        for subject in prompt_df['SubjectEntity'].unique():
-            if not filtered_df['SubjectEntity'].isin([subject]).any():
-                filtered_df = filtered_df.append(
-                    {'SubjectEntity': subject, 'Relation': prompt_df["Relation"][0], 'ObjectEntity': "NONE"}, ignore_index=True
-                )
-        filtered_df.to_csv(output_dir / fname.name, index=False)
-        # TODO: If by filtering a fact, there are no more objects for a certain subject, make sure to add NONE
+    prompt_df = read_lm_kbc_jsonl_to_df(input_file)
+    filtered = logical_integrity(prompt_df)
+    indices = []
+    for index, prediction in filtered:
+        if prediction['text'] == 'False':
+            indices.append(index)
+    for index, object in indices:
+        prompt_df["ObjectEntities"][index].remove(object)
+    with open(output_file, "w") as f:
+        for prediction in df_to_jsonl(prompt_df):
+            f.write(json.dumps(prediction) + "\n")
+
+    # TODO: If by filtering a fact, there are no more objects for a certain subject, make sure to add NONE
 
 
 
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--input_dir",
+        "--input_file",
         type=str,
-        default="./predictions/gpt3_output/",
+        default="./predictions/gpt3.pred.jsonl",
         help="input directory containing the baseline or your method output",
     )
     parser.add_argument(
         "-o",
-        "--output_dir",
+        "--output_file",
         type=str,
-        default="./predictions/gpt3_fact_check/",
+        default="./predictions/gpt3_fact_check.pred.jsonl",
         help="Output file (required)",
     )
 
     args = parser.parse_args()
     print(args)
 
-    input_dir = Path(args.input_dir)
-    output_dir = Path(args.output_dir)
+    input_file = Path(args.input_file)
+    output_file = Path(args.output_file)
 
-    assert input_dir.exists() and input_dir.is_dir()
-    if not output_dir.exists():
-        output_dir.mkdir(parents=True)
+    assert input_file.exists()
 
-    fact_checking(input_dir, output_dir)
+    fact_checking(input_file, output_file)
 
 if __name__ == "__main__":
     main()
