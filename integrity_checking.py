@@ -163,7 +163,7 @@ False
 Sony Group is the parent company of Sony.
 True
 
-{object_entity} is the parent company of {subject_entity}?
+{object_entity} is the parent company of {subject_entity}.
 """
     return prompt
 
