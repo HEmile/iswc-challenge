@@ -283,7 +283,7 @@ def probe_lm(input: Path, output: Path, batch_size=20):
 
         # Sleep is needed because we make many API calls. We can make 60 calls every minute
         if idx % 5:
-            time.sleep(5)
+            time.sleep(2)
 
     ### saving the prompt outputs separately for each relation type
     logger.info(f"Saving the results to \"{output}\"...")
