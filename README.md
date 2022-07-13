@@ -100,7 +100,7 @@ python evaluate.py -p "predictions/gpt3.pred.jsonl" -g "data/dev.jsonl"
     - [X] Count the number of 'None' per relation
 - [X] Improve precision via logic integrity
     - [ ] personEmployer
-- Submit current version to leadership board
+- [ ] Submit current version to leadership board
 - [ ] Look at failure cases
     - [ ] Wrong formatting?
 - [ ] Improve recall via
