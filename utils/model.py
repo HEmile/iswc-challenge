@@ -25,3 +25,9 @@ def gpt3(prompts):
         }
         for response, prompt in zip(response.choices, prompts)
     ]
+
+def clean_up(probe_outputs):
+    """ functions to clean up api output """
+    probe_outputs = probe_outputs.strip()
+    probe_outputs = probe_outputs[2:-2].split("', '")
+    return probe_outputs
