@@ -18,6 +18,12 @@ def logical_integrity(batch: pd.DataFrame) -> List[Tuple[Tuple[int, str], pd.Dat
     prompts = []
     indices = []
     for index, subject, relation, _, objects in batch.itertuples(index=True):
+        if relation not in ["CompanyParentOrganization",
+                            "CountryOfficialLanguage",
+                            "PersonCauseOfDeath",
+                            "PersonInstrument",
+                            "PersonLanguage"]:
+            continue
         for object in objects:
             prompts.append(positive_negative_prompt_pairs(relation, subject, object))
             indices.append((index, object))
