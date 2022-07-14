@@ -25,6 +25,8 @@ def logical_integrity(batch: pd.DataFrame) -> List[Tuple[Tuple[int, str], pd.Dat
                             "PersonLanguage"]:
             continue
         for object in objects:
+            if object == '':
+                continue
             prompts.append(positive_negative_prompt_pairs(relation, subject, object))
             indices.append((index, object))
     predictions = []
@@ -41,8 +43,7 @@ def logical_integrity(batch: pd.DataFrame) -> List[Tuple[Tuple[int, str], pd.Dat
 def positive_negative_prompt_pairs(relation, subject_entity, object_entity):
     ### depending on the relation, we fix the prompt
     if relation == "CountryBordersWithCountry":
-        prompt = f"""
-Niger neighbours Libya.
+        prompt = f"""Niger neighbours Libya.
 True
 
 North Korea neighbours the Netherlands.
@@ -51,18 +52,16 @@ False
 {subject_entity} neighbours {object_entity}.
 """
     elif relation == "CountryOfficialLanguage":
-        prompt = f"""
-Swedish is the official language of Finland.
+        prompt = f"""Swedish is an official language of Finland.
 True
 
-French is the official language of India.
+French is an official language of India.
 False
 
-{object_entity} is the official language of {subject_entity}.
+{object_entity} is an official language of {subject_entity}.
 """
     elif relation == "StateSharesBorderState":
-        prompt = f"""
-San Marino shares a border with San Leo.
+        prompt = f"""San Marino shares a border with San Leo.
 True
 
 Texas shares a border with Hamburg.
@@ -71,8 +70,7 @@ False
 {subject_entity} shares a border with {object_entity}.
 """
     elif relation == "RiverBasinsCountry":
-        prompt = f"""
-The river Drava crosses Hungary.
+        prompt = f"""The river Drava crosses Hungary.
 True
 
 The river Huai crosses the Netherlands.
@@ -82,8 +80,7 @@ The river {subject_entity} crosses {object_entity}.
 """
 
     elif relation == "ChemicalCompoundElement":
-        prompt = f"""
-The molecule water is made up of the element Hydrogen.
+        prompt = f"""The molecule water is made up of the element Hydrogen.
 True
 
 The molecule aspirin is made up of the element Germanium.
@@ -92,8 +89,7 @@ False
 The molecule {subject_entity} is made up of the element {object_entity}.
 """
     elif relation == "PersonLanguage":
-        prompt = f"""
-Aamir Khan speaks Hindi.
+        prompt = f"""Aamir Khan speaks Hindi.
 True
 
 Pharrell Williams speaks French.
@@ -103,8 +99,7 @@ False
 """
 
     elif relation == "PersonProfession":
-        prompt = f"""
-Danny DeVito is a director.
+        prompt = f"""Danny DeVito is a director.
 True
 
 Christina Aguilera is a businessperson.
@@ -114,8 +109,7 @@ False
 """
 
     elif relation == "PersonInstrument":
-        prompt = f"""
-Liam Gallagher plays the guitar.
+        prompt = f"""Liam Gallagher plays the guitar.
 True
 
 Jay Park plays the piano.
@@ -124,8 +118,7 @@ False
 {subject_entity} plays the {object_entity.lower()}.
 """
     elif relation == "PersonEmployer":
-        prompt = f"""
-Susan Wojcicki is or was employed by Google.
+        prompt = f"""Susan Wojcicki is or was employed by Google.
 True
 
 Steve Wozniak is or was employed by Microsoft.
@@ -134,8 +127,7 @@ False
 {subject_entity} is or was employed by {object_entity}.
 """
     elif relation == "PersonPlaceOfDeath":
-        prompt = f"""
-The place of death of Elvis Presley is Graceland.
+        prompt = f"""The place of death of Elvis Presley is Graceland.
 True
 
 The place of death of Barack Obama is Washington.
@@ -145,8 +137,7 @@ The place of death of {subject_entity} is {object_entity}.
 """
 
     elif relation == "PersonCauseOfDeath":
-        prompt = f"""
-Aretha Franklin died of pancreatic cancer.
+        prompt = f"""Aretha Franklin died of pancreatic cancer.
 True
 
 Bill Gates died of femoral fracture.
@@ -156,8 +147,7 @@ False
 """
 
     elif relation == "CompanyParentOrganization":
-        prompt = f"""
-Apple is the parent company of Microsoft.
+        prompt = f"""Apple is the parent company of Microsoft.
 False
 
 Sony Group is the parent company of Sony.
@@ -174,7 +164,7 @@ def fact_checking(input_file, output_file):
     filtered = logical_integrity(prompt_df)
     indices = []
     for index, prediction in filtered:
-        if prediction['text'] == 'False':
+        if prediction['text'].strip() == 'False':
             indices.append(index)
     for index, object in indices:
         prompt_df["ObjectEntities"][index].remove(object)
