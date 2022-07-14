@@ -6,9 +6,10 @@ from pathlib import Path
 
 from tqdm.auto import tqdm
 
-from utils.file_io import read_lm_kbc_jsonl
-from utils.model import gpt3
 from integrity_checking import logical_integrity
+
+from utils.file_io import read_lm_kbc_jsonl
+from utils.model import gpt3, clean_up
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(name)s -  %(message)s",
@@ -18,23 +19,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 SAMPLE_SIZE = 5000
-
-
-def clean_up(probe_outputs):
-    """ functions to clean up api output """
-    probe_outputs = probe_outputs.strip()
-    probe_outputs = probe_outputs[2:-2].split("', '")
-    return probe_outputs
-
-
-def convert_nan(probe_outputs):
-    new_probe_outputs = []
-    for item in probe_outputs:
-        if item == 'NONE':
-            new_probe_outputs.append(None)
-        else:
-            new_probe_outputs.append(item)
-    return new_probe_outputs
 
 
 def create_prompt(subject_entity, relation):
@@ -272,8 +256,9 @@ def probe_lm(input: Path, output: Path, batch_size=20):
         ### Clean and format results
         for row, prediction in zip(batch, predictions):
             prediction['text'] = clean_up(prediction['text'])
-#             prediction['text'] = convert_nan(prediction['text'])
-#         logical_integrity(relation, batch, predictions)
+            # prediction['text'] = convert_nan(prediction['text'])
+            # logical_integrity(row['Relation'], batch, predictions)
+
             # TODO: Check Logic consistency (Emile, Sel)
 
             result = {
@@ -314,15 +299,7 @@ def main():
     args = parser.parse_args()
     print(args)
 
-    # input_dir = Path(args.input_dir)
-    # baseline_output_dir = Path(args.baseline_output_dir)
-
     probe_lm(args.input, args.output)
-
-    # ### call the prompt function to get output for each (subject-entity, relation)
-    # for relation in RELATIONS:
-    #     entities = pd.read_csv(input_dir / f"{relation}.csv")["SubjectEntity"].drop_duplicates(keep="first").tolist()
-    #     probe_lm(relation, entities, baseline_output_dir)
 
 
 if __name__ == "__main__":

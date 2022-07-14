@@ -1,4 +1,0 @@
-Prompt,SubjectEntity,Relation,ObjectEntity,Probability
-"Carbonic acid consits of [MASK], which is an element.",Carbonic acid,ChemicalCompoundElement,carbon,0.854
-"Cyclopropane consits of [MASK], which is an element.",Cyclopropane,ChemicalCompoundElement,carbon,0.5633
-"Icosane consits of [MASK], which is an element.",Icosane,ChemicalCompoundElement,carbon,0.5554

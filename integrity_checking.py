@@ -1,17 +1,15 @@
-
 # Get positive and negative fact queries
 # See with what probabilities it predicts true or false
 import argparse
 import json
-from pathlib import Path
-import pandas as pd
-from typing import List, Tuple
 import time
+from pathlib import Path
+from typing import List, Tuple
 
-from pandas import DataFrame
+import pandas as pd
 
 from utils.file_io import read_lm_kbc_jsonl_to_df, df_to_jsonl
-from utils.model import gpt3, clean_up
+from utils.model import gpt3
 
 
 def logical_integrity(batch: pd.DataFrame) -> List[Tuple[Tuple[int, str], pd.DataFrame]]:
@@ -31,7 +29,7 @@ def logical_integrity(batch: pd.DataFrame) -> List[Tuple[Tuple[int, str], pd.Dat
             indices.append((index, object))
     predictions = []
     for ndx in range(0, len(prompts), 20):
-        predictions.extend(gpt3(prompts[ndx:min(ndx+20, len(prompts))]))
+        predictions.extend(gpt3(prompts[ndx:min(ndx + 20, len(prompts))]))
         time.sleep(2)
     # predictions = gpt3(prompts)
     # for i, prediction in enumerate(predictions):
@@ -39,6 +37,7 @@ def logical_integrity(batch: pd.DataFrame) -> List[Tuple[Tuple[int, str], pd.Dat
     #     print(prediction['text'])
     #     print("\n")
     return list(zip(indices, predictions))
+
 
 def positive_negative_prompt_pairs(relation, subject_entity, object_entity):
     ### depending on the relation, we fix the prompt
@@ -175,7 +174,6 @@ def fact_checking(input_file, output_file):
     # TODO: If by filtering a fact, there are no more objects for a certain subject, make sure to add NONE
 
 
-
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -201,6 +199,7 @@ def main():
     assert input_file.exists()
 
     fact_checking(input_file, output_file)
+
 
 if __name__ == "__main__":
     main()

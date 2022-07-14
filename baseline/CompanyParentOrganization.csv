@@ -1,4 +1,0 @@
-Prompt,SubjectEntity,Relation,ObjectEntity,Probability
-The parent organization of Austro-daimler is [MASK].,Austro-daimler,CompanyParentOrganization,Austria,0.5016
-The parent organization of Lotus cars is [MASK].,Lotus cars,CompanyParentOrganization,Lotus,0.9185
-The parent organization of Élan motorsport technologies is [MASK].,Élan motorsport technologies,CompanyParentOrganization,Renault,0.5215

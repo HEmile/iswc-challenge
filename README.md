@@ -33,64 +33,7 @@ python gpt3_baseline
 python evaluate.py -p "predictions/gpt3.pred.jsonl" -g "data/dev.jsonl"
 ```
 
-## Current results
-
-* Baseline
-
-| Relation | p     |r   |  f1|
-| ----------------------- |:------|:------|:------|
-|ChemicalCompoundElement  | 0.140  | 0.060  | 0.083|
-|CompanyParentOrganization | 0.680  | 0.680  | 0.680|
-|CountryBordersWithCountry | 0.255  | 0.087  | 0.122|
-|CountryOfficialLanguage  | 0.894  | 0.703  | 0.752|
-|PersonCauseOfDeath       | 0.420  | 0.420  | 0.420|
-|PersonEmployer           | 0.000  | 0.000  | 0.000|
-|PersonInstrument         | 0.340  | 0.340  | 0.340|
-|PersonLanguage           | 0.480  | 0.412  | 0.431|
-|PersonPlaceOfDeath       | 0.500  | 0.500  | 0.500|
-|PersonProfession         | 0.000  | 0.000  | 0.000|
-|RiverBasinsCountry       | 0.480  | 0.342  | 0.381|
-|StateSharesBorderState   | 0.000  | 0.000  | 0.000|
-|***Average***            | 0.349  | 0.295  | 0.309|
-
-* GPT3
-
-| Relation | p     |r   |  f1|
-| ----------------------- |:------|:------|:------|
-|ChemicalCompoundElement  | 0.902 |0.891  |0.890 |
-|CompanyParentOrganization | 0.485 |0.500  |0.488 |
-|CountryBordersWithCountry | 0.830 |0.794  |0.792 |
-|CountryOfficialLanguage  | 0.834 |0.843  |0.793 |
-|PersonCauseOfDeath       | 0.560 |0.560  |0.560 |
-|PersonEmployer           | 0.266 |0.315  |0.256 |
-|PersonInstrument         | 0.589 |0.570  |0.551 |
-|PersonLanguage           | 0.762 |0.936  |0.801 |
-|PersonPlaceOfDeath       | 0.820 |0.820  |0.820 |
-|PersonProfession         | 0.720 |0.513  |0.569 |
-|RiverBasinsCountry       | 0.824 |0.851  |0.820 |
-|StateSharesBorderState   | 0.636 |0.474  |0.532 |
-|***Average***            | 0.686 |0.672  |0.656 |
-
-## Tasks overview
-
-### GPT-3 prompt creation
-
-| Relation | Main person in charge | GPT-3 |
-| ------------------------- |:----------------------|:------|
-| CountryBordersWithCountry | Selene                | DONE  |
-| CountryOfficialLanguage | Emile                 | DONE |
-| RiverBasinsCountry | Emile                 | DONE |
-|StateSharesBorderState | Emile                 | DONE  |
-|ChemicalCompoundElement | Thiviyan              | DONE  |
-|PersonInstrument | Emile                 | DONE  |
-|PersonLanguage | Dimitris              | DONE  |
-|PersonEmployer | Thiviyan              | DONE |
-|PersonProfession | Dimitris              | DONE  |
-|PersonPlaceOfDeath | Dimitris              | DONE  |
-|PersonCauseOfDeath | Dimitris              | DONE  |
-|CompanyParentOrganization | Thiviyan              | DONE |
-
-## Improvements:
+## Tasks:
 
 - [X] Make changes that the competition organisers suggest [priority]
     - [X] Pull the changes from their repo
@@ -100,17 +43,17 @@ python evaluate.py -p "predictions/gpt3.pred.jsonl" -g "data/dev.jsonl"
     - [X] Count the number of 'None' per relation
 - [X] Logic integrity
     - [X] Run for all prompts.
-    - [ ] Report on performance difference. 
+    - [ ] Report on performance difference.
 - [X] Submit current version to leadership board
 - [X] Look at failure cases
     - [X] Wrong formatting? :: We tried different formatting - no significant improvement.
 - [ ] Improve recall via
     - [ ] Reduce temperature and generate multiple samples (k=3?)
-    - [ ] Rephrase prompts? :: [link to colab](https://colab.research.google.com/drive/180FCaZYRLEk0pPOWVYGsM_vn1UpIYy4N?usp=sharing#scrollTo=uuU4UPYDsSLP)
+    - [ ] Rephrase
+      prompts? :: [link to colab](https://colab.research.google.com/drive/180FCaZYRLEk0pPOWVYGsM_vn1UpIYy4N?usp=sharing#scrollTo=uuU4UPYDsSLP)
 - [ ] General improvements
     - [ ] Can we use the logprob?
     - [ ] Are we using other models?
-
 
 ## License
 

@@ -1,15 +1,13 @@
 import argparse
 import json
 import logging
-import time
-from transformers import AutoModelForCausalLM, AutoTokenizer
-import torch
 from pathlib import Path
 
+import torch
 from tqdm.auto import tqdm
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 from utils.file_io import read_lm_kbc_jsonl
-
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(name)s -  %(message)s",
@@ -24,23 +22,13 @@ BATCH_SIZE = 1
 
 def clean_up(probe_outputs, prompt):
     """ functions to clean up api output """
-    probe_outputs = probe_outputs.replace(prompt,'')
-    probe_outputs = probe_outputs.replace('%','').strip()
+    probe_outputs = probe_outputs.replace(prompt, '')
+    probe_outputs = probe_outputs.replace('%', '').strip()
     if probe_outputs == 'None':
         return []
     else:
         probe_outputs = probe_outputs.split("', '")
     return probe_outputs
-
-
-def convert_nan(probe_outputs):
-    new_probe_outputs = []
-    for item in probe_outputs:
-        if item == 'None':
-            new_probe_outputs.append(None)
-        else:
-            new_probe_outputs.append(item)
-    return new_probe_outputs
 
 
 def create_prompt(subject_entity, relation):
@@ -213,6 +201,7 @@ def predict(model, tokenizer, prompts):
 
     return generated_texts
 
+
 def probe_lm(input: Path, model_name, output: Path, batch_size=BATCH_SIZE):
     ### for every subject-entity in the entities list, we probe the LM using the below sample prompts
 
@@ -232,9 +221,8 @@ def probe_lm(input: Path, model_name, output: Path, batch_size=BATCH_SIZE):
     else:
         model = AutoModelForCausalLM.from_pretrained(model_name)
     tokenizer = AutoTokenizer.from_pretrained(model_name)
-    #eos_token_id = int(tokenizer.convert_tokens_to_ids("%")),
-    #tokenizer.pad_token = tokenizer.eos_token
-
+    # eos_token_id = int(tokenizer.convert_tokens_to_ids("%")),
+    # tokenizer.pad_token = tokenizer.eos_token
 
     results = []
     for idx, batch in tqdm(enumerate(batches)):
@@ -248,9 +236,8 @@ def probe_lm(input: Path, model_name, output: Path, batch_size=BATCH_SIZE):
             logger.info(f"Creating prompts...")
             prompts.append(create_prompt(row['SubjectEntity'], row['Relation']))
 
-
         ### probing the language model and obtaining the ranked tokens in the masked_position
-        #logger.info(f"Running the model...")
+        # logger.info(f"Running the model...")
 
         predictions = predict(model, tokenizer, prompts)  # TODO Figure out what to do with probabilities
 
@@ -266,7 +253,6 @@ def probe_lm(input: Path, model_name, output: Path, batch_size=BATCH_SIZE):
                 "ObjectEntities": prediction
             }
             results.append(result)
-
 
     ### saving the prompt outputs separately for each relation type
     logger.info(f"Saving the results to \"{output}\"...")
@@ -300,15 +286,7 @@ def main():
     args = parser.parse_args()
     print(args)
 
-    # input_dir = Path(args.input_dir)
-    # baseline_output_dir = Path(args.baseline_output_dir)
-
     probe_lm(args.input, args.model, args.output)
-
-    # ### call the prompt function to get output for each (subject-entity, relation)
-    # for relation in RELATIONS:
-    #     entities = pd.read_csv(input_dir / f"{relation}.csv")["SubjectEntity"].drop_duplicates(keep="first").tolist()
-    #     probe_lm(relation, entities, baseline_output_dir)
 
 
 if __name__ == "__main__":
