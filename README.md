@@ -100,9 +100,9 @@ python evaluate.py -p "predictions/gpt3.pred.jsonl" -g "data/dev.jsonl"
     - [X] Count the number of 'None' per relation
 - [X] Improve precision via logic integrity
     - [ ] personEmployer
-- [ ] Submit current version to leadership board
-- [ ] Look at failure cases
-    - [ ] Wrong formatting?
+- [X] Submit current version to leadership board
+- [X] Look at failure cases
+    - [X] Wrong formatting? :: We tried different formatting - no significant improvement.
 - [ ] Improve recall via
     - [ ] Reduce temperature and generate multiple samples (k=3?)
     - [ ] Rephrase prompts?
@@ -118,4 +118,8 @@ See [`LICENSE`]() for more information.
 
 ## Authors
 
+* [Dimitrios Alivanistos](https://dimitrisalivas.github.io/)
 * [Selene Báez Santamaría](https://selbaez.github.io/)
+* [Emile Van Krieken](https://emilevankrieken.com/)
+* [Thivyian Thanapalasingam](https://thiviyansingam.com/)
+* [Jan-Christoph Kalo](https://selbaez.github.io/)
