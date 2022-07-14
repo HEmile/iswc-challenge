@@ -98,14 +98,15 @@ python evaluate.py -p "predictions/gpt3.pred.jsonl" -g "data/dev.jsonl"
 - [X] Dataset statistics (nice to include in the paper)
     - [X] The number of answers per relation
     - [X] Count the number of 'None' per relation
-- [X] Improve precision via logic integrity
-    - [ ] personEmployer
+- [X] Logic integrity
+    - [X] Run for all prompts.
+    - [ ] Report on performance difference. 
 - [X] Submit current version to leadership board
 - [X] Look at failure cases
     - [X] Wrong formatting? :: We tried different formatting - no significant improvement.
 - [ ] Improve recall via
     - [ ] Reduce temperature and generate multiple samples (k=3?)
-    - [ ] Rephrase prompts?
+    - [ ] Rephrase prompts? :: [link to colab](https://colab.research.google.com/drive/180FCaZYRLEk0pPOWVYGsM_vn1UpIYy4N?usp=sharing#scrollTo=uuU4UPYDsSLP)
 - [ ] General improvements
     - [ ] Can we use the logprob?
     - [ ] Are we using other models?
@@ -116,10 +117,11 @@ python evaluate.py -p "predictions/gpt3.pred.jsonl" -g "data/dev.jsonl"
 Distributed under the MIT License.
 See [`LICENSE`]() for more information.
 
-## Authors
+## Authors (Alphabetical order)
 
 * [Dimitrios Alivanistos](https://dimitrisalivas.github.io/)
 * [Selene Báez Santamaría](https://selbaez.github.io/)
+* [Michael Cochez](https://www.cochez.nl/)
+* [Jan-Christoph Kalo](https://github.com/JanKalo)
 * [Emile Van Krieken](https://emilevankrieken.com/)
 * [Thivyian Thanapalasingam](https://thiviyansingam.com/)
-* [Jan-Christoph Kalo](https://selbaez.github.io/)
