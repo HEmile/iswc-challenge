@@ -3,13 +3,10 @@ import json
 import logging
 import time
 from pathlib import Path
-
 from tqdm.auto import tqdm
-
 from integrity_checking import logical_integrity
-
 from utils.file_io import read_lm_kbc_jsonl
-from utils.model import gpt3, clean_up
+from utils.model import gpt3, clean_up, convert_nan
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(name)s -  %(message)s",
@@ -19,23 +16,6 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 SAMPLE_SIZE = 5000
-
-
-def clean_up(probe_outputs):
-    """ functions to clean up api output """
-    probe_outputs = probe_outputs.strip()
-    probe_outputs = probe_outputs[2:-2].split("', '")
-    return probe_outputs
-
-
-def convert_nan(probe_outputs):
-    new_probe_outputs = []
-    for item in probe_outputs:
-        if item == 'None':
-            new_probe_outputs.append('')
-        else:
-            new_probe_outputs.append(item)
-    return new_probe_outputs
 
 
 def create_prompt(subject_entity, relation):
