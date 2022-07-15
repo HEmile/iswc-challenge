@@ -1,4 +1,4 @@
-PersonPlaceOfDeath (average f1: 0.82): 9 cases
+PersonPlaceOfDeath (average f1: 0.8): 10 cases
 
 
 
@@ -9,7 +9,7 @@ GPT-3 Prediction: ['']
 
 {'SubjectEntity': 'Alfredo González Flores', 'Relation': 'PersonPlaceOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['heredia']]
-GPT-3 Prediction: ['Mexico City']
+GPT-3 Prediction: ['']
 
 
 {'SubjectEntity': 'Almudena Grandes', 'Relation': 'PersonPlaceOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
@@ -19,27 +19,32 @@ GPT-3 Prediction: ['']
 
 {'SubjectEntity': 'Anne Rice', 'Relation': 'PersonPlaceOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['rancho mirage']]
-GPT-3 Prediction: ['']
-
-
-{'SubjectEntity': 'Avicii', 'Relation': 'PersonPlaceOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['muscat']]
-GPT-3 Prediction: ['Muscat, Oman']
+GPT-3 Prediction: ['New Orleans']
 
 
 {'SubjectEntity': 'Chick Corea', 'Relation': 'PersonPlaceOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['tampa bay area', 'tampa']]
-GPT-3 Prediction: ['Burbank']
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Glenn Fredly', 'Relation': 'PersonPlaceOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['jakarta']]
+GPT-3 Prediction: ['']
 
 
 {'SubjectEntity': 'John Coltrane', 'Relation': 'PersonPlaceOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['huntington']]
-GPT-3 Prediction: ['New York']
+GPT-3 Prediction: ['New York City']
+
+
+{'SubjectEntity': 'Ken Robinson', 'Relation': 'PersonPlaceOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['london']]
+GPT-3 Prediction: ['']
 
 
 {'SubjectEntity': 'Michael Collins', 'Relation': 'PersonPlaceOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['naples']]
-GPT-3 Prediction: ['Cape Canaveral']
+GPT-3 Prediction: ['']
 
 
 {'SubjectEntity': 'Rachel Caine', 'Relation': 'PersonPlaceOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}

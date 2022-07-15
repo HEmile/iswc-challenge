@@ -1,4 +1,4 @@
-PersonCauseOfDeath (average f1: 0.56): 22 cases
+PersonCauseOfDeath (average f1: 0.58): 21 cases
 
 
 
@@ -24,7 +24,7 @@ GPT-3 Prediction: ['Natural Causes']
 
 {'SubjectEntity': 'Ennio Morricone', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['femoral fracture', 'fracture']]
-GPT-3 Prediction: ['Infarction']
+GPT-3 Prediction: ['']
 
 
 {'SubjectEntity': 'Frank Sinatra', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
@@ -59,7 +59,7 @@ GPT-3 Prediction: ['Pneumonia']
 
 {'SubjectEntity': 'John Magufuli', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['arrhythmia', 'heart arrhythmia']]
-GPT-3 Prediction: ['COVID-19']
+GPT-3 Prediction: ['']
 
 
 {'SubjectEntity': 'Johnny Cash', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
@@ -69,12 +69,12 @@ GPT-3 Prediction: ['Cardiac Arrest']
 
 {'SubjectEntity': 'Larry King', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['sepsis']]
-GPT-3 Prediction: ['Coronary Artery Disease']
+GPT-3 Prediction: ['']
 
 
 {'SubjectEntity': 'Maurane', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['falling']]
-GPT-3 Prediction: ['Cancer']
+GPT-3 Prediction: ['']
 
 
 {'SubjectEntity': 'Maya Angelou', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
@@ -99,11 +99,6 @@ GPT-3 Prediction: ['Cancer']
 
 {'SubjectEntity': 'Roddy Piper', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['cardiac arrest']]
-GPT-3 Prediction: ['Heart Attack']
-
-
-{'SubjectEntity': 'Ronaldinho', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: []
 GPT-3 Prediction: ['Heart Attack']
 
 
