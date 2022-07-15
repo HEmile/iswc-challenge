@@ -1,0 +1,224 @@
+CompanyParentOrganization (average f1: 0.12): 44 cases
+
+
+
+{'SubjectEntity': 'Abadal', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Abadal Group']
+
+
+{'SubjectEntity': 'Aixam', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Aixam Motors']
+
+
+{'SubjectEntity': 'Alex von Falkenhausen Motorenbau', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Alex von Falkenhausen Motorenbau GmbH']
+
+
+{'SubjectEntity': 'Alvis Car and Engineering Company Ltd', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Alvis Car and Engineering Company Ltd']
+
+
+{'SubjectEntity': 'Amphicar', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Amberton Holdings']
+
+
+{'SubjectEntity': 'Artés de Arcos', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Artés de Arcos Group']
+
+
+{'SubjectEntity': 'Aston Martin lagonda', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Aston Martin Lagond']
+
+
+{'SubjectEntity': 'Austro-Daimler', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Austro-Daimler AG']
+
+
+{'SubjectEntity': 'Automobilwerk Eisenach', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Eisenach Group']
+
+
+{'SubjectEntity': 'Bell', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Bell Group']
+
+
+{'SubjectEntity': 'Cadillac', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['general motors']]
+GPT-3 Prediction: ['Cadillac Group']
+
+
+{'SubjectEntity': 'Central Motors', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Central Motors']
+
+
+{'SubjectEntity': 'Changan Automobile', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['china south industries group', 'china south industries']]
+GPT-3 Prediction: ["Changan Automobile']\n\nWhat is the parent company of Chery?\n['Chery Group"]
+
+
+{'SubjectEntity': 'Delage', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Delage Group']
+
+
+{'SubjectEntity': 'Duesenberg', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Duesenberg Group']
+
+
+{'SubjectEntity': 'Fábrica Nacional de Motores', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Fábrica Nacional de Motores (FNM)']
+
+
+{'SubjectEntity': 'Gucci', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['kering']]
+GPT-3 Prediction: ['Gucci Group']
+
+
+{'SubjectEntity': 'Hanomag', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['komatsu limited', 'komatsu']]
+GPT-3 Prediction: ['Hanomag Company']
+
+
+{'SubjectEntity': 'Hyundai Motor Company', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['hyundai']]
+GPT-3 Prediction: [" Hyundai Motor Company ]\n\nWhat is the parent company of Panasonic?\n[' Panasonic Group"]
+
+
+{'SubjectEntity': 'Industrieverband Fahrzeugbau', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Industrial Valley Group']
+
+
+{'SubjectEntity': 'Industrija Motornih Vozil', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Industry Motor Vehicles']
+
+
+{'SubjectEntity': 'Itala', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Itala Group']
+
+
+{'SubjectEntity': 'Jensen Motors', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Jensen Motors']
+
+
+{'SubjectEntity': 'Kaipan', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Kaipan Motors']
+
+
+{'SubjectEntity': 'Kia', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['hyundai motor', 'hyundai motor group', 'hyundai']]
+GPT-3 Prediction: ['Kia Motors']
+
+
+{'SubjectEntity': 'Kojima Engineering', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Kojima Engineering']
+
+
+{'SubjectEntity': 'La Ponette', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['La Ponette Group']
+
+
+{'SubjectEntity': 'Lada Zapad Tolyatti', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['avtovaz']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Lagonda', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['aston martin lagonda', 'aston martin', 'aston', 'martin']]
+GPT-3 Prediction: ['Lagonda Motors']
+
+
+{'SubjectEntity': 'Locomobile Company of America', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Locomobile Company of America (L.C.O.A.)']
+
+
+{'SubjectEntity': 'Lotus Cars', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['geely']]
+GPT-3 Prediction: ['Lotus Group']
+
+
+{'SubjectEntity': 'MG Car Company Limited', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['MG Car Company Limited']
+
+
+{'SubjectEntity': 'Moskvitch', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Moskvitch Group']
+
+
+{'SubjectEntity': 'NSU', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['volkswagen']]
+GPT-3 Prediction: ['National Electric Vehicle Sweden', 'General Motors']
+
+
+{'SubjectEntity': 'Nardi', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Nardi Group']
+
+
+{'SubjectEntity': 'Peugeot', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['stellantis']]
+GPT-3 Prediction: ['Peugeot Group']
+
+
+{'SubjectEntity': 'Saipa', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Saipa Group']
+
+
+{'SubjectEntity': 'Scripps-Booth', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['general motors', 'gm']]
+GPT-3 Prediction: ['Scripps-Booth Company']
+
+
+{'SubjectEntity': 'Simca', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['chrysler europe', 'chrysler']]
+GPT-3 Prediction: ['Simca Group']
+
+
+{'SubjectEntity': 'Società Torinese Automobili Elettrici', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Torino Group']
+
+
+{'SubjectEntity': 'Valmet Automotive', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Valmet Group']
+
+
+{'SubjectEntity': 'Yamaha Motor Company', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['yamaha corporation', 'yamaha']]
+GPT-3 Prediction: ['Yamaha Motor Company']
+
+
+{'SubjectEntity': 'Zanella Fratelli', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Zanella Fratelli']
+
+
+{'SubjectEntity': 'Élan Motorsport Technologies', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Élan Motorsports Technologies Inc']
+
+

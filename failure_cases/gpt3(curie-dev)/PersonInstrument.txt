@@ -1,0 +1,144 @@
+PersonInstrument (average f1: 0.326): 28 cases
+
+
+
+{'SubjectEntity': 'A. J. McLean', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['lyric spinto tenor', 'tenor']]
+GPT-3 Prediction: ['Guitar', 'Bass']
+
+
+{'SubjectEntity': 'Bang Yong-guk', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Guitar', 'Piano']
+
+
+{'SubjectEntity': 'Billie Joe Armstrong', 'Relation': 'PersonInstrument', 'p': 0.5, 'r': 0.16666666666666666, 'f1': 0.25}
+Ground Truth: [['piano'], ['guitar'], ['harmonica'], ['saxophone'], ['mandolin'], ['percussion instrument', 'percussion']]
+GPT-3 Prediction: ['Guitar', 'Bass']
+
+
+{'SubjectEntity': 'Björk', 'Relation': 'PersonInstrument', 'p': 0.25, 'r': 0.1, 'f1': 0.14285714285714288}
+Ground Truth: [['keyboard instrument', 'keyboard'], ['harp'], ['celesta'], ['sets of free reeds', 'reeds'], ['clavichord'], ['clarinet'], ['saxophone'], ['piano'], ['pipe organ'], ['flute']]
+GPT-3 Prediction: ['Piano', 'Violin', 'Cello', 'Drums']
+
+
+{'SubjectEntity': 'Byun Baek-hyun', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Guitar', 'Piano']
+
+
+{'SubjectEntity': 'Chester Bennington', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Guitar', 'Vocals']
+
+
+{'SubjectEntity': 'Hwang Chansung', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Guitar', 'Piano', 'Pander', 'Bass']
+
+
+{'SubjectEntity': 'Hyomin', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Guitar', 'Piano']
+
+
+{'SubjectEntity': 'JAY B', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ["\n\nWhich instruments does Kanye West play?\n['Guitar", 'Keyboard', 'Drums', 'Bass']
+
+
+{'SubjectEntity': 'Joseph Hahn', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['keyboard instrument', 'keyboard']]
+GPT-3 Prediction: ['Guitar', 'Piano']
+
+
+{'SubjectEntity': 'Jun. K', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Guitar', 'Piano']
+
+
+{'SubjectEntity': 'Kangin', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['piano']]
+GPT-3 Prediction: ['Guitar', 'Bass']
+
+
+{'SubjectEntity': 'Kim Junsu', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Guitar', 'Piano', 'Bass']
+
+
+{'SubjectEntity': 'Lay', 'Relation': 'PersonInstrument', 'p': 0.5, 'r': 0.16666666666666666, 'f1': 0.25}
+Ground Truth: [['electric guitar', 'guitar'], ['piano'], ['cello'], ['drum'], ['ney'], ['hulusi']]
+GPT-3 Prediction: ['Guitar', 'Bass']
+
+
+{'SubjectEntity': 'Logan Henderson', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['piano']]
+GPT-3 Prediction: ['Guitar', 'Bass']
+
+
+{'SubjectEntity': 'Nichkhun', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['keyboard instrument', 'keyboard']]
+GPT-3 Prediction: ['Guitar', 'Piano', 'Pander', 'Bass']
+
+
+{'SubjectEntity': 'Nicole Jung', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Piano', 'Vocals']
+
+
+{'SubjectEntity': 'Park Bom', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Piano', 'Vocals']
+
+
+{'SubjectEntity': 'Rea Garvey', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guitar']]
+GPT-3 Prediction: ['Piano', 'Vocals']
+
+
+{'SubjectEntity': 'Robert Plant', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['harmonica']]
+GPT-3 Prediction: ['Guitar', 'Bass', 'Vocals']
+
+
+{'SubjectEntity': 'Roger Taylor', 'Relation': 'PersonInstrument', 'p': 0.3333333333333333, 'r': 0.2, 'f1': 0.25}
+Ground Truth: [['bass guitar', 'guitar'], ['drum machine', 'drum'], ['guitar'], ['drum', 'drum kit'], ['keyboard instrument', 'keyboard']]
+GPT-3 Prediction: ['Drums', 'Keyboard', 'Bass']
+
+
+{'SubjectEntity': 'Ronan Keating', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Guitar', 'Piano']
+
+
+{'SubjectEntity': 'Sakura Miyawaki', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Piano', 'Violin']
+
+
+{'SubjectEntity': 'Sting', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['keyboard instrument', 'keyboard'], ['mandolin'], ['bass', 'double bass'], ['harmonica'], ['bass guitar', 'guitar'], ['acoustic guitar', 'guitar'], ['guitar'], ['bass']]
+GPT-3 Prediction: ['Piano', 'Violin', 'Cello']
+
+
+{'SubjectEntity': 'Taeyang', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Guitar', 'Bass', 'Drums']
+
+
+{'SubjectEntity': 'Victoria Beckham', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Piano', 'Violin']
+
+
+{'SubjectEntity': 'Yoshiki', 'Relation': 'PersonInstrument', 'p': 0.5, 'r': 0.2, 'f1': 0.28571428571428575}
+Ground Truth: [['guitar'], ['keyboard instrument', 'keyboard'], ['piano'], ['arp 2500', 'arp'], ['drum', 'drum kit']]
+GPT-3 Prediction: ['Guitar', 'Bass']
+
+
+{'SubjectEntity': 'Zayn Malik', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: []
+GPT-3 Prediction: ['Guitar', 'Bass']
+
+

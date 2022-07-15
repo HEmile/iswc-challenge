@@ -1,0 +1,214 @@
+CountryBordersWithCountry (average f1: 0.046): 42 cases
+
+
+
+{'SubjectEntity': 'Andorra', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['france'], ['spain']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Angola', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['republic of the congo', 'congo'], ['congo', 'democratic republic of the congo'], ['gabon'], ['namibia'], ['zambia']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Australia', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['papua new guinea'], ['indonesia'], ['east timor', 'timor'], ['new zealand']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Bahrain', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['iran'], ['saudi arabia']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Belize', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['mexico'], ['guatemala']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Bolivia', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['brazil'], ['paraguay'], ['peru'], ['argentina'], ['chile']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Bosnia and Herzegovina', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['montenegro'], ['serbia'], ['croatia']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Bulgaria', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['greece'], ['romania'], ['serbia'], ['north macedonia', 'macedonia'], ['turkey']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Central African Republic', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['republic of the congo', 'congo'], ['sudan'], ['cameroon'], ['south sudan', 'sudan'], ['chad'], ['congo', 'democratic republic of the congo']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Comoros', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['seychelles'], ['mozambique'], ['madagascar'], ['tanzania'], ['france']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Costa Rica', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nicaragua'], ['panama']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Cuba', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['usa', 'united states of america']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Djibouti', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ethiopia'], ['somalia'], ['eritrea']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Dominican Republic', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['usa', 'united states of america'], ['venezuela'], ['haiti']]
+GPT-3 Prediction: ["\n\nWhich countries neighbour Haiti?\n[]\n\nWhich countries neighbour United States of America?\n\n['Canada"]
+
+
+{'SubjectEntity': 'Eritrea', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['djibouti'], ['ethiopia'], ['sudan']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Estonia', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['russia'], ['latvia']]
+GPT-3 Prediction: ['\n\nWhich countries neighbour Hungary?\n[]\n\nWhich countries neighbour Ivory Coast?\n[]\n\nWhich countries neighbour Jamaica?\n[]\n\nWhich countries neighbour Peru?\n[]\n\nWhich countries neighbour United States of Americ']
+
+
+{'SubjectEntity': 'Gambia', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['senegal']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Georgia', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['turkey'], ['azerbaijan'], ['armenia'], ['russia']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Ghana', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ivory coast'], ['togo'], ['burkina faso']]
+GPT-3 Prediction: ['\n\nWhich countries neighbour Jamaica?\n[]\n\nWhich countries neighbour Trinidad and Tobago?\n[]\n\nWhich countries neighbour United States of Americ']
+
+
+{'SubjectEntity': 'Grenada', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['venezuela']]
+GPT-3 Prediction: ["\n\nWhich countries neighbour Trinidad and Tobago?\n[]\n\nWhich countries neighbour United States of America?\n\n['The United States of America"]
+
+
+{'SubjectEntity': 'Guyana', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['brazil'], ['suriname'], ['venezuela']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Ivory Coast', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['liberia'], ['guinea'], ['ghana'], ['mali'], ['burkina faso']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Japan', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['korea', 'south korea'], ['usa', 'united states of america'], ['philippines'], ['taiwan'], ['russia'], ['china', "people's republic of china"]]
+GPT-3 Prediction: ['Japan']
+
+
+{'SubjectEntity': 'Morocco', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['sahara', 'western sahara'], ['mauritania'], ['algeria'], ['spain']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Mozambique', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['comoros'], ['zambia'], ['africa', 'south africa'], ['tanzania'], ['eswatini'], ['malawi'], ['zimbabwe']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Myanmar', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['china', "people's republic of china"], ['india'], ['bangladesh'], ['thailand'], ['laos']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Pakistan', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['afghanistan'], ['iran'], ['india'], ['china', "people's republic of china"]]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Poland', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ukraine'], ['russia'], ['germany'], ['czechia', 'czech republic'], ['belarus'], ['slovakia'], ['lithuania']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Portugal', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['castile and leon', 'castile and león'], ['spain']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Rwanda', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['uganda'], ['congo', 'democratic republic of the congo'], ['tanzania'], ['burundi']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Saint Vincent and the Grenadines', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['venezuela']]
+GPT-3 Prediction: ["\n\n\nWhich countries neighbour Trinidad and Tobago?\n[]\n\n\nWhich countries neighbour United States of America?\n\n['Alaska", 'Arizona', 'New Mexico']
+
+
+{'SubjectEntity': 'Samoa', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['usa', 'united states of america']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'San Marino', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['italy']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Somalia', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['kenya'], ['djibouti'], ['ethiopia']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Thailand', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['laos'], ['cambodia'], ['malaysia'], ['myanmar']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Togo', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ghana'], ['benin'], ['burkina faso']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Turkey', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['armenia'], ['georgia'], ['azerbaijan'], ['syria'], ['greece'], ['iran'], ['bulgaria'], ['iraq']]
+GPT-3 Prediction: ['Tunisia', 'Luxemburg', 'Rumania']
+
+
+{'SubjectEntity': 'Uganda', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['congo', 'democratic republic of the congo'], ['rwanda'], ['tanzania'], ['kenya'], ['sudan'], ['south sudan', 'sudan']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'United kingdom', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ireland', 'republic of ireland']]
+GPT-3 Prediction: ['England', 'Scotland', 'Wales']
+
+
+{'SubjectEntity': 'Uzbekistan', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['afghanistan'], ['turkmenistan'], ['tajikistan'], ['kazakhstan'], ['kyrgyzstan']]
+GPT-3 Prediction: ['']
+
+
+{'SubjectEntity': 'Venezuela', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guyana'], ['saint lucia'], ['grenada'], ['brazil'], ['saint kitts and nevis'], ['dominican republic'], ['netherlands', 'kingdom of the netherlands'], ['france'], ['saint vincent and the grenadines'], ['usa', 'united states of america'], ['trinidad and tobago'], ['united kingdom', 'uk'], ['colombia'], ['dominica']]
+GPT-3 Prediction: ['Venezuela']
+
+
+{'SubjectEntity': 'Zimbabwe', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['africa', 'south africa'], ['zambia'], ['mozambique'], ['botswana']]
+GPT-3 Prediction: ['']
+
+

@@ -1,0 +1,149 @@
+PersonEmployer (average f1: 0.27): 29 cases
+
+
+
+{'SubjectEntity': 'Adam Savage', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['academy of art university']]
+GPT-3 Prediction: ['MythBusters', 'Tested.com', 'ILMxLAB']
+
+
+{'SubjectEntity': 'Aylin Nazlıaka', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['bilkent university']]
+GPT-3 Prediction: ['Hürriyet']
+
+
+{'SubjectEntity': 'Chelsea Clinton', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['columbia university']]
+GPT-3 Prediction: ['McKinsey & Company', 'Avenue Capital Group', 'New York University', 'Clinton Foundation']
+
+
+{'SubjectEntity': 'Devin Nunes', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['united states department of agriculture']]
+GPT-3 Prediction: ['Dairy Farmer', 'Nunes Company', 'California State University, Fresno', 'United States House of Representatives']
+
+
+{'SubjectEntity': 'Edd China', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['discovery channel']]
+GPT-3 Prediction: ['Wheeler Dealers']
+
+
+{'SubjectEntity': 'François Legault', 'Relation': 'PersonEmployer', 'p': 0.3333333333333333, 'r': 0.2, 'f1': 0.25}
+Ground Truth: [['provigo'], ['nolisair'], ['ernst & young'], ['air transat'], ['quebecair']]
+GPT-3 Prediction: ['Air Canada', 'Quebecor', 'Provigo']
+
+
+{'SubjectEntity': 'Guido van Rossum', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['microsoft']]
+GPT-3 Prediction: ['Google', 'Dropbox']
+
+
+{'SubjectEntity': 'Harsh Goenka', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['rpg', 'rpg group']]
+GPT-3 Prediction: ['RPG Enterprises']
+
+
+{'SubjectEntity': 'John Doerr', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['kleiner perkins caufield & byers', 'kleiner perkins caufield']]
+GPT-3 Prediction: ['Kleiner Perkins', 'Intel']
+
+
+{'SubjectEntity': 'John McAfee', 'Relation': 'PersonEmployer', 'p': 0.25, 'r': 0.14285714285714285, 'f1': 0.18181818181818182}
+Ground Truth: [['computer sciences corporation'], ['univac'], ['lockheedoration', 'lockheed corporation'], ['mcafee, llc', 'mcafee'], ['goddard institute for space studies'], ['booz allen hamilton'], ['xerox']]
+GPT-3 Prediction: ['McAfee', 'TGT', 'Lockheed Martin', 'Sierra Design Group']
+
+
+{'SubjectEntity': 'Kanye West', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['gap', 'gap inc.']]
+GPT-3 Prediction: ['Roc-A-Fella Records', 'Def Jam Recordings']
+
+
+{'SubjectEntity': 'Karen L. Nyberg', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['national aeronautics and space administration']]
+GPT-3 Prediction: ['NASA', 'Boeing']
+
+
+{'SubjectEntity': 'Kent Beck', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['meta platforms']]
+GPT-3 Prediction: ['Facebook', 'Three Rivers Institute']
+
+
+{'SubjectEntity': 'Kristalina Georgieva', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['sofia university']]
+GPT-3 Prediction: ['World Bank', 'European Commission']
+
+
+{'SubjectEntity': 'Lana Rhoades', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['tushy'], ['naughty america'], ['evil angel'], ['brazzers'], ['bang bros']]
+GPT-3 Prediction: ['Mile High Media']
+
+
+{'SubjectEntity': 'Michael Bloomberg', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['bloomberg family foundation', 'bloomberg'], ['salomon brothers']]
+GPT-3 Prediction: ['Bloomberg L.P.']
+
+
+{'SubjectEntity': 'Michael J. Massimino', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['rice university'], ['georgia institute of technology'], ['ibm'], ['national aeronautics and space administration']]
+GPT-3 Prediction: ['NASA', 'Columbia University', 'Princeton University', 'Massachusetts Institute of Technology']
+
+
+{'SubjectEntity': 'Mike Pompeo', 'Relation': 'PersonEmployer', 'p': 0.14285714285714285, 'r': 1.0, 'f1': 0.25}
+Ground Truth: [['central intelligence agency']]
+GPT-3 Prediction: ['United States Army', 'Ceres, Inc', 'Thayer Aerospace', 'Sentinel HS Group', 'Congress', 'Central Intelligence Agency', 'United States Secretary of State']
+
+
+{'SubjectEntity': 'Muhammad Yunus', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['middle tennessee state university'], ['university of dhaka'], ['la trobe university']]
+GPT-3 Prediction: ['Chittagong Grammen Bank', 'Grameen Bank', 'Yunus Centre']
+
+
+{'SubjectEntity': 'Naftali Bennett', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['soluto'], ["prime minister's office"]]
+GPT-3 Prediction: ['The Boston Consulting Group', 'Sun Microsystems', 'Crossbow Technology']
+
+
+{'SubjectEntity': 'Nicole Stott', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['national aeronautics and space administration'], ['pratt & whitney']]
+GPT-3 Prediction: ['NASA', 'Lockheed Martin']
+
+
+{'SubjectEntity': 'Oleksandr Turchynov', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['arcelormittal kryvyi rih']]
+GPT-3 Prediction: ['National Security and Defence Council of Ukraine', 'Ukrainian Parliament']
+
+
+{'SubjectEntity': 'Oprah Winfrey', 'Relation': 'PersonEmployer', 'p': 0.3333333333333333, 'r': 0.2, 'f1': 0.25}
+Ground Truth: [['wls-tv', 'wls'], ['harpo productions', 'harpo'], ['wtvf'], ['wvol'], ['wjz-tv', 'wjz']]
+GPT-3 Prediction: ['Harpo Productions', 'OWN: Oprah Winfrey Network', 'ABC']
+
+
+{'SubjectEntity': 'Serena Williams', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['unicef']]
+GPT-3 Prediction: ['Tennis']
+
+
+{'SubjectEntity': 'Sergio Melnick', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['adolfo ibáñez university'], ['university of california, los angeles', 'ucla'], ['university of chile'], ['universidad mayor']]
+GPT-3 Prediction: ['Latham & Watkins']
+
+
+{'SubjectEntity': 'Shane Kimbrough', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['national aeronautics and space administration'], ['united states military academy']]
+GPT-3 Prediction: ['NASA', 'United States Army']
+
+
+{'SubjectEntity': 'Turki Al-Sheikh', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['royal court']]
+GPT-3 Prediction: ['Saudi Arabia', 'Saudi Arabia General Entertainment Authority']
+
+
+{'SubjectEntity': 'Wendell Pierce', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nosep yo']]
+GPT-3 Prediction: ['HBO', 'The Wire', 'Treme']
+
+
+{'SubjectEntity': 'Wishnutama', 'Relation': 'PersonEmployer', 'p': 0.3333333333333333, 'r': 0.125, 'f1': 0.18181818181818182}
+Ground Truth: [['net.'], ['detik.com'], ['kumparan'], ['new england cable news'], ['indosiar'], ['whdh'], ['trans7'], ['trans tv']]
+GPT-3 Prediction: ['SCTV', 'Net TV', 'Trans TV']
+
+

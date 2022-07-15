@@ -1,0 +1,254 @@
+PersonProfession (average f1: 0.0): 50 cases
+
+
+
+{'SubjectEntity': 'Akon', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['songwriter'], ['producer', 'record producer'], ['singer'], ['entrepreneur'], ['philanthropist']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Akshay Kumar', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['actor'], ['voice actor', 'actor'], ['producer', 'film producer'], ['actor', 'film actor'], ['martial artist', 'artist']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Al Gore', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['financier'], ['activist', 'climate activist'], ['environmentalist'], ['businessperson'], ['politician'], ['writer'], ['journalist']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'André-Pierre Gignac', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['association football player', 'footballer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Ashley Tisdale', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['actor', 'film actor'], ['singer-songwriter', 'singer', 'songwriter'], ['television producer', 'producer'], ['actor', 'stage actor'], ['actor', 'television actor'], ['producer', 'film producer'], ['singer'], ['voice actor', 'actor'], ['model'], ['composer'], ['artist', 'recording artist']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Bryan Cranston', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['director', 'film director'], ['actor', 'stage actor'], ['actor', 'film actor'], ['screenwriter'], ['television producer', 'producer'], ['executive producer', 'producer'], ['producer', 'film producer'], ['television director', 'director'], ['voice actor', 'actor'], ['actor', 'television actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Calvin Harris', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['producer', 'record producer'], ['singer'], ['public figure'], ['singer-songwriter', 'singer', 'songwriter'], ['manufacturer'], ['songwriter'], ['dj', 'disc jockey']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Chris Brown', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['actor'], ['singer'], ['dancer'], ['rapper'], ['songwriter']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Coco Austin', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['actor', 'film actor'], ['dancer'], ['glamour model', 'model'], ['actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Daniel Tosh', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['screenwriter'], ['presenter', 'television presenter'], ['actor'], ['television producer', 'producer'], ['executive producer', 'producer'], ['television director', 'director'], ['comedian'], ['singer'], ['director', 'film director'], ['producer', 'film producer'], ['dancer'], ['actor', 'television actor'], ['actor', 'film actor'], ['comedian', 'stand-up comedian'], ['voice actor', 'actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Drake', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['songwriter'], ['singer'], ['rapper'], ['actor'], ['businessperson'], ['producer', 'record producer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Elon Musk', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['inventor'], ['entrepreneur'], ['engineer'], ['programmer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Enrique Iglesias', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['producer', 'record producer'], ['actor'], ['composer'], ['singer-songwriter', 'singer', 'songwriter'], ['musician'], ['manufacturer'], ['model']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Ezra Klein', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['blogger'], ['political pundit', 'politician'], ['columnist'], ['journalist'], ['television producer', 'producer'], ['writer'], ['podcaster']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'George Harrison', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['producer', 'film producer'], ['songwriter'], ['multi-instrumentalist', 'instrumentalist'], ['film score composer', 'composer'], ['horticulturist'], ['actor', 'film actor'], ['bass guitarist', 'guitarist'], ['autobiographer'], ['guitarist'], ['singer-songwriter', 'singer', 'songwriter'], ['producer', 'record producer'], ['singer'], ['poet'], ['composer'], ['actor'], ['artist', 'recording artist'], ['musician']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Harbhajan Singh', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['cricketer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'J. K. Rowling', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['writer'], ['novelist'], ['screenwriter'], ['author'], ['writer', "children's writer"], ['executive producer', 'producer'], ['producer', 'film producer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Jay-Z', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['philanthropist'], ['designer', 'fashion designer'], ['actor'], ['composer'], ['businessperson'], ['entrepreneur'], ['drug trafficker'], ['executive', 'music executive'], ['songwriter'], ['sports agent'], ['producer', 'record producer'], ['investor'], ['television producer', 'producer'], ['rapper'], ['director', 'film director'], ['singer'], ['producer', 'film producer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Jim Carrey', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['screenwriter'], ['actor', 'television actor'], ['activist', 'anti-vaccine activist'], ['producer', 'film producer'], ['comedian'], ['painter'], ['actor'], ['voice actor', 'actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Jose Michimani', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['actor', 'television actor'], ['salsa musician', 'musician'], ['artist', 'recording artist'], ['actor', 'film actor'], ['singer'], ['composer'], ['actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Khloé Kardashian', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['writer'], ['actor', 'television actor'], ['actor'], ['manufacturer'], ['celebrity'], ['author'], ['actor', 'film actor'], ['radio personality'], ['producer', 'film producer'], ['designer', 'fashion designer'], ['model'], ['novelist'], ['entrepreneur'], ['socialite']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Lady Gaga', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['songwriter'], ['singer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Lewis Hamilton', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['racing automobile driver', 'driver'], ['formula one driver', 'driver']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Ludacris', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['businessperson'], ['singer'], ['entrepreneur'], ['producer', 'record producer'], ['actor', 'film actor'], ['manager', 'talent manager'], ['voice actor', 'actor'], ['producer', 'film producer'], ['rapper'], ['musician'], ['composer'], ['actor', 'television actor'], ['actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Mark Hoppus', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['singer'], ['songwriter'], ['guitarist'], ['musician'], ['producer', 'record producer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Mark Ruffalo', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['producer', 'film producer'], ['director', 'film director'], ['actor', 'stage actor'], ['writer'], ['screenwriter'], ['actor', 'film actor'], ['actor', 'television actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Memphis Depay', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['association football player', 'footballer'], ['rapper']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Michael Jackson', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['entrepreneur'], ['art collector', 'collector'], ['businessperson'], ['poet'], ['actor'], ['screenwriter'], ['artist', 'recording artist'], ['autobiographer'], ['philanthropist'], ['actor', 'film actor'], ['singer'], ['dancer'], ['model'], ['producer', 'record producer'], ['singer-songwriter', 'singer', 'songwriter'], ['musician'], ['voice actor', 'actor'], ['songwriter'], ['director', 'film director']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Mohamed Morsi', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['engineer'], ['university teacher', 'teacher'], ['scientist', 'materials scientist'], ['politician']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Narendra Modi', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['writer'], ['politician'], ['social worker'], ['bibliographer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Nick Jonas', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guitarist'], ['actor', 'stage actor'], ['composer'], ['singer'], ['actor'], ['singer-songwriter', 'singer', 'songwriter'], ['artist', 'recording artist'], ['pianist'], ['actor', 'television actor'], ['actor', 'film actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Patrick Stewart', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['actor', 'television actor'], ['director'], ['university teacher', 'teacher'], ['voice actor', 'actor'], ['actor', 'film actor'], ['actor', 'stage actor'], ['actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Paul McCartney', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['drummer'], ['artist', 'recording artist'], ['screenwriter'], ['singer'], ['composer'], ['actor'], ['pianist'], ['bass guitarist', 'guitarist'], ['bassist'], ['musician'], ['lyricist'], ['guitarist'], ['painter'], ['film score composer', 'composer'], ['producer', 'film producer'], ['singer-songwriter', 'singer', 'songwriter']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Paulo Coelho', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['novelist'], ['science fiction writer', 'writer'], ['blogger'], ['researcher'], ['lawyer', 'poet lawyer', 'poet'], ['composer'], ['writer'], ['actor'], ['lyricist'], ['songwriter']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Psy', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['rapper'], ['choreographer'], ['actor', 'film actor'], ['producer', 'record producer'], ['singer'], ['television producer', 'producer'], ['songwriter']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Rachel Maddow', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['journalist']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Ricky Martin', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['composer'], ['model'], ['singer'], ['writer'], ['actor', 'television actor'], ['actor', 'stage actor'], ['musician']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Rob Kardashian', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['businessperson'], ['socialite'], ['actor', 'television actor'], ['model']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Robert Downey Jr.', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['actor', 'television actor'], ['producer', 'film producer'], ['musician'], ['voice actor', 'actor'], ['singer-songwriter', 'singer', 'songwriter'], ['singer'], ['screenwriter'], ['director', 'film director'], ['actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Robin van Persie', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['association football player', 'footballer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Ronaldinho', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['politician'], ['association football player', 'footballer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Serena Williams', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['autobiographer'], ['player', 'tennis player'], ['designer'], ['businessperson'], ['writer'], ['actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Stephen Fry', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['improviser'], ['screenwriter'], ['actor'], ['writer'], ['comedian'], ['performing artist', 'artist'], ['science fiction writer', 'writer'], ['presenter', 'television presenter'], ['narrator'], ['actor', 'stage actor'], ['autobiographer'], ['actor', 'film actor'], ['actor', 'television actor'], ['journalist'], ['director'], ['director', 'film director'], ['novelist']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Stephen King', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['television producer', 'producer'], ['teacher'], ['novelist'], ['director', 'film director'], ['columnist'], ['journalist'], ['actor'], ['writer'], ['science fiction writer', 'writer'], ['director'], ['screenwriter']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Tiger Woods', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['golfer'], ['animal trainer'], ['writer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Triple H', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['screenwriter'], ['actor'], ['vice president'], ['actor', 'television actor'], ['wrestler', 'professional wrestler'], ['actor', 'film actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'V. V. S. Laxman', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['cricketer']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Vladimir Putin', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['coach'], ['military personnel'], ['politician'], ['intelligence agent', 'agent'], ['lawyer'], ['performer', 'stunt performer'], ['judoka']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Zac Efron', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['singer'], ['actor', 'film actor'], ['actor'], ['dj', 'disc jockey'], ['voice actor', 'actor'], ['actor', 'stage actor'], ['producer', 'film producer'], ['actor', 'television actor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'will.i.am', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['voice actor', 'actor'], ['philanthropist'], ['dancer'], ['music producer', 'producer'], ['producer', 'film producer'], ['rapper'], ['educator'], ['guitarist'], ['songwriter'], ['singer-songwriter', 'singer', 'songwriter'], ['entrepreneur'], ['dj', 'disc jockey'], ['businessperson'], ['film score composer', 'composer'], ['comics writer', 'writer']]
+GPT-3 Prediction: []
+
+

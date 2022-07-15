@@ -1,0 +1,119 @@
+PersonLanguage (average f1: 0.801): 23 cases
+
+
+
+{'SubjectEntity': 'A. R. Rahman', 'Relation': 'PersonLanguage', 'p': 0.42857142857142855, 'r': 1.0, 'f1': 0.6}
+Ground Truth: [['tamil'], ['hindi'], ['telugu']]
+GPT-3 Prediction: ['Tamil', 'Hindi', 'Telugu', 'Malayalam', 'Kannada', 'Bengali', 'Marathi']
+
+
+{'SubjectEntity': 'Abdullah Gül', 'Relation': 'PersonLanguage', 'p': 0.3333333333333333, 'r': 1.0, 'f1': 0.5}
+Ground Truth: [['turkish']]
+GPT-3 Prediction: ['Turkish', 'English', 'French']
+
+
+{'SubjectEntity': 'Akon', 'Relation': 'PersonLanguage', 'p': 0.3333333333333333, 'r': 1.0, 'f1': 0.5}
+Ground Truth: [['english']]
+GPT-3 Prediction: ['English', 'French', 'Wolof']
+
+
+{'SubjectEntity': 'Akshay Kumar', 'Relation': 'PersonLanguage', 'p': 0.6666666666666666, 'r': 1.0, 'f1': 0.8}
+Ground Truth: [['hindi'], ['punjabi']]
+GPT-3 Prediction: ['Hindi', 'Punjabi', 'Bengali']
+
+
+{'SubjectEntity': 'Avril Lavigne', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['english']]
+GPT-3 Prediction: ['English', 'French']
+
+
+{'SubjectEntity': 'Barack Obama', 'Relation': 'PersonLanguage', 'p': 0.2857142857142857, 'r': 1.0, 'f1': 0.4444444444444445}
+Ground Truth: [['indonesian'], ['english']]
+GPT-3 Prediction: ['English', 'French', 'German', 'Indonesian', 'Italian', 'Swahili', 'Wolof']
+
+
+{'SubjectEntity': 'Blaise Matuidi', 'Relation': 'PersonLanguage', 'p': 0.25, 'r': 1.0, 'f1': 0.4}
+Ground Truth: [['french']]
+GPT-3 Prediction: ['French', 'Italian', 'Spanish', 'Portuguese']
+
+
+{'SubjectEntity': "Genelia D'Souza", 'Relation': 'PersonLanguage', 'p': 0.6, 'r': 0.75, 'f1': 0.6666666666666665}
+Ground Truth: [['tamil'], ['telugu'], ['malayalam'], ['hindi']]
+GPT-3 Prediction: ['Hindi', 'Marathi', 'English', 'Tamil', 'Telugu']
+
+
+{'SubjectEntity': 'Henrique Capriles Radonski', 'Relation': 'PersonLanguage', 'p': 0.3333333333333333, 'r': 1.0, 'f1': 0.5}
+Ground Truth: [['spanish']]
+GPT-3 Prediction: ['Spanish', 'English', 'Portuguese']
+
+
+{'SubjectEntity': 'John Cena', 'Relation': 'PersonLanguage', 'p': 1.0, 'r': 0.5, 'f1': 0.6666666666666666}
+Ground Truth: [['english'], ['mandarin chinese', 'chinese', 'mandarin']]
+GPT-3 Prediction: ['English']
+
+
+{'SubjectEntity': 'Jose Michimani', 'Relation': 'PersonLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['english']]
+GPT-3 Prediction: ['Spanish', 'Quechua', 'Aymara']
+
+
+{'SubjectEntity': 'Kobe Bryant', 'Relation': 'PersonLanguage', 'p': 1.0, 'r': 0.6666666666666666, 'f1': 0.8}
+Ground Truth: [['english'], ['spanish'], ['italian']]
+GPT-3 Prediction: ['English', 'Italian']
+
+
+{'SubjectEntity': 'Mohammed bin Rashid Al Maktoum', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['english'], ['arabic']]
+GPT-3 Prediction: ['Arabic', 'English', 'Urdu', 'Hindi']
+
+
+{'SubjectEntity': 'Oscar dos Santos Emboaba Júnior', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['portuguese']]
+GPT-3 Prediction: ['Portuguese', 'Spanish']
+
+
+{'SubjectEntity': 'Patrick Stewart', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['english']]
+GPT-3 Prediction: ['English', 'French']
+
+
+{'SubjectEntity': 'Pau Gasol', 'Relation': 'PersonLanguage', 'p': 1.0, 'r': 0.6, 'f1': 0.7499999999999999}
+Ground Truth: [['catalan'], ['french'], ['italian'], ['spanish'], ['english']]
+GPT-3 Prediction: ['Catalan', 'Spanish', 'English']
+
+
+{'SubjectEntity': 'Paulo Coelho', 'Relation': 'PersonLanguage', 'p': 0.25, 'r': 1.0, 'f1': 0.4}
+Ground Truth: [['portuguese']]
+GPT-3 Prediction: ['Portuguese', 'English', 'Spanish', 'French']
+
+
+{'SubjectEntity': 'Rihanna', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['english']]
+GPT-3 Prediction: ['English', 'Creole']
+
+
+{'SubjectEntity': 'Salman Khan', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['hindi']]
+GPT-3 Prediction: ['Hindi', 'Urdu']
+
+
+{'SubjectEntity': 'Samir Nasri', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['french']]
+GPT-3 Prediction: ['French', 'Arabic']
+
+
+{'SubjectEntity': 'Thiago Alcântara', 'Relation': 'PersonLanguage', 'p': 0.25, 'r': 1.0, 'f1': 0.4}
+Ground Truth: [['spanish']]
+GPT-3 Prediction: ['Spanish', 'Catalan', 'Portuguese', 'English']
+
+
+{'SubjectEntity': 'Vladimir Putin', 'Relation': 'PersonLanguage', 'p': 0.75, 'r': 0.75, 'f1': 0.75}
+Ground Truth: [['russian'], ['swedish'], ['german'], ['english']]
+GPT-3 Prediction: ['Russian', 'English', 'German', 'French']
+
+
+{'SubjectEntity': 'Zlatan Ibrahimović', 'Relation': 'PersonLanguage', 'p': 0.45454545454545453, 'r': 1.0, 'f1': 0.625}
+Ground Truth: [['italian'], ['swedish'], ['spanish'], ['bosnian'], ['english']]
+GPT-3 Prediction: ['Bosnian', 'Croatian', 'English', 'French', 'German', 'Italian', 'Montenegrin', 'Serbian', 'Slovenian', 'Spanish', 'Swedish']
+
+
