@@ -30,8 +30,8 @@ def clean_up(probe_outputs):
 def convert_nan(probe_outputs):
     new_probe_outputs = []
     for item in probe_outputs:
-        if item == 'NONE':
-            new_probe_outputs.append(None)
+        if item == 'None':
+            new_probe_outputs.append('')
         else:
             new_probe_outputs.append(item)
     return new_probe_outputs
@@ -72,6 +72,7 @@ Which are the official languages of Sri Lanka?
 
 Which are the official languages of {subject_entity}?        
 """
+
     elif relation == "StateSharesBorderState":
         prompt = f"""
 What states border San Marino?
@@ -122,6 +123,7 @@ What are all the atoms that make up the molecule Aspirin?
 
 What are all the atoms that make up the molecule {subject_entity}?
 """
+
     elif relation == "PersonLanguage":
         prompt = f"""
 Which languages does Aamir Khan speak?
@@ -142,8 +144,8 @@ Which languages does {subject_entity} speak?
     elif relation == "PersonProfession":
         prompt = f"""
 What is Danny DeVito's profession?
-['Comedian', 'Film Director', 'Voice Actor', 'Actor', 'Film Producer', 'Film Actor', 'Dub Actor', 'Activist', 'Television Actor' ] 
-
+['Comedian', 'Film Director', 'Voice Actor', 'Actor', 'Film Producer', 'Film Actor', 'Dub Actor', 'Activist', 'Television Actor' ]
+ 
 What is David Guetta's profession?
 ['DJ']
 
@@ -172,6 +174,7 @@ Which instruments does Neil Young play?
 
 Which instruments does {subject_entity} play?
 """
+
     elif relation == "PersonEmployer":
         prompt = f"""
 Where is or was Susan Wojcicki employed?
@@ -188,16 +191,17 @@ Where is or was Yahtzee Croshaw employed?
 
 Where is or was {subject_entity} employed?
 """
+
     elif relation == "PersonPlaceOfDeath":
         prompt = f"""
 What is the place of death of Barack Obama?
-[]
+['None']
 
 What is the place of death of Ennio Morricone?
 ['Rome']
 
 What is the place of death of Elon Musk?
-[]
+['None']
 
 What is the place of death of Prince?
 ['Chanhassen']
@@ -225,7 +229,7 @@ How did {subject_entity} die?
     elif relation == "CompanyParentOrganization":
         prompt = f"""
 What is the parent company of Microsoft?
-[]
+['None']
 
 What is the parent company of Sony?
 ['Sony Group']
@@ -234,7 +238,7 @@ What is the parent company of Saab?
 ['Saab Group', 'Saab-Scania', 'Spyker N.V.', 'National Electric Vehicle Sweden'', 'General Motors']
 
 What is the parent company of Max Motors?
-[]
+['None']
 
 What is the parent company of {subject_entity}?
 """
@@ -272,7 +276,7 @@ def probe_lm(input: Path, output: Path, batch_size=20):
         ### Clean and format results
         for row, prediction in zip(batch, predictions):
             prediction['text'] = clean_up(prediction['text'])
-#             prediction['text'] = convert_nan(prediction['text'])
+            prediction['text'] = convert_nan(prediction['text'])
 #         logical_integrity(relation, batch, predictions)
             # TODO: Check Logic consistency (Emile, Sel)
 
