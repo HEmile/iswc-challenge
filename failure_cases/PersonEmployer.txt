@@ -59,7 +59,7 @@ GPT-3 Prediction: ['Roc-A-Fella Records', 'Def Jam Recordings']
 
 {'SubjectEntity': 'Karen L. Nyberg', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['national aeronautics and space administration']]
-GPT-3 Prediction: ['NASA', 'University of North Dakota']
+GPT-3 Prediction: ['NASA', 'Boeing']
 
 
 {'SubjectEntity': 'Kent Beck', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}

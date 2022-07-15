@@ -1,4 +1,4 @@
-CountryBordersWithCountry (average f1: 0.792): 13 cases
+CountryBordersWithCountry (average f1: 0.789): 13 cases
 
 
 

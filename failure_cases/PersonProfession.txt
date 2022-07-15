@@ -1,10 +1,10 @@
-PersonProfession (average f1: 0.569): 23 cases
+PersonProfession (average f1: 0.58): 24 cases
 
 
 
-{'SubjectEntity': 'Al Gore', 'Relation': 'PersonProfession', 'p': 0.2222222222222222, 'r': 0.2857142857142857, 'f1': 0.25}
+{'SubjectEntity': 'Al Gore', 'Relation': 'PersonProfession', 'p': 0.25, 'r': 0.2857142857142857, 'f1': 0.26666666666666666}
 Ground Truth: [['financier'], ['activist', 'climate activist'], ['environmentalist'], ['businessperson'], ['politician'], ['writer'], ['journalist']]
-GPT-3 Prediction: ['Politician', 'Author', 'Environmental Activist', 'Lawyer', 'Inventor', 'Businessperson', 'Investor', 'Film Producer', 'Television Producer']
+GPT-3 Prediction: ['Politician', 'Author', 'Environmental Activist', 'Lawyer', 'Inventor', 'Businessperson', 'Investor', 'Philanthropist']
 
 
 {'SubjectEntity': 'Elon Musk', 'Relation': 'PersonProfession', 'p': 0.3333333333333333, 'r': 0.5, 'f1': 0.4}
@@ -17,9 +17,14 @@ Ground Truth: [['blogger'], ['political pundit', 'politician'], ['columnist'], [
 GPT-3 Prediction: ['Journalist', 'Blogger', 'Podcaster', 'Political Commentator', 'Economist']
 
 
-{'SubjectEntity': 'J. K. Rowling', 'Relation': 'PersonProfession', 'p': 0.6, 'r': 0.42857142857142855, 'f1': 0.5}
+{'SubjectEntity': 'J. K. Rowling', 'Relation': 'PersonProfession', 'p': 0.75, 'r': 0.42857142857142855, 'f1': 0.5454545454545454}
 Ground Truth: [['writer'], ['novelist'], ['screenwriter'], ['author'], ['writer', "children's writer"], ['executive producer', 'producer'], ['producer', 'film producer']]
-GPT-3 Prediction: ['Author', 'Philanthropist', 'Screenwriter', 'Film Producer', 'Television Producer']
+GPT-3 Prediction: ['Author', 'Philanthropist', 'Screenwriter', 'Film Producer']
+
+
+{'SubjectEntity': 'Jim Carrey', 'Relation': 'PersonProfession', 'p': 0.6666666666666666, 'r': 0.5, 'f1': 0.5714285714285715}
+Ground Truth: [['screenwriter'], ['actor', 'television actor'], ['activist', 'anti-vaccine activist'], ['producer', 'film producer'], ['comedian'], ['painter'], ['actor'], ['voice actor', 'actor']]
+GPT-3 Prediction: ['Comedian', 'Actor', 'Film Actor', 'Voice Actor', 'Television Actor', 'Writer']
 
 
 {'SubjectEntity': 'Jose Michimani', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
@@ -57,14 +62,14 @@ Ground Truth: [['writer'], ['politician'], ['social worker'], ['bibliographer']]
 GPT-3 Prediction: ['Politician', 'Prime Minister']
 
 
-{'SubjectEntity': 'Paul McCartney', 'Relation': 'PersonProfession', 'p': 0.6666666666666666, 'r': 0.375, 'f1': 0.4800000000000001}
+{'SubjectEntity': 'Paul McCartney', 'Relation': 'PersonProfession', 'p': 0.7142857142857143, 'r': 0.3125, 'f1': 0.43478260869565216}
 Ground Truth: [['drummer'], ['artist', 'recording artist'], ['screenwriter'], ['singer'], ['composer'], ['actor'], ['pianist'], ['bass guitarist', 'guitarist'], ['bassist'], ['musician'], ['lyricist'], ['guitarist'], ['painter'], ['film score composer', 'composer'], ['producer', 'film producer'], ['singer-songwriter', 'singer', 'songwriter']]
-GPT-3 Prediction: ['Musician', 'Songwriter', 'Singer', 'Composer', 'Record Producer', 'Film Score Composer', 'Multi-Instrumentalist', 'Music Artist', 'Actor']
+GPT-3 Prediction: ['Musician', 'Songwriter', 'Singer', 'Composer', 'Record Producer', 'Film Score Composer', 'Multi-Instrumentalist']
 
 
-{'SubjectEntity': 'Paulo Coelho', 'Relation': 'PersonProfession', 'p': 0.2, 'r': 0.2, 'f1': 0.20000000000000004}
+{'SubjectEntity': 'Paulo Coelho', 'Relation': 'PersonProfession', 'p': 0.3333333333333333, 'r': 0.3, 'f1': 0.3157894736842105}
 Ground Truth: [['novelist'], ['science fiction writer', 'writer'], ['blogger'], ['researcher'], ['lawyer', 'poet lawyer', 'poet'], ['composer'], ['writer'], ['actor'], ['lyricist'], ['songwriter']]
-GPT-3 Prediction: ['Novelist', 'Journalist', 'Lyricist', 'Playwright', 'Screenwriter', 'Columnist', 'Essayist', 'Short Story Writer', 'Fiction Writer', "Children's Writer"]
+GPT-3 Prediction: ['Novelist', 'Journalist', 'Lyricist', 'Playwright', 'Screenwriter', 'Columnist', 'Poet', 'Translator', 'Essayist']
 
 
 {'SubjectEntity': 'Rachel Maddow', 'Relation': 'PersonProfession', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
@@ -72,9 +77,9 @@ Ground Truth: [['journalist']]
 GPT-3 Prediction: ['Television Host', 'Television Journalist', 'Radio Host', 'Author']
 
 
-{'SubjectEntity': 'Ricky Martin', 'Relation': 'PersonProfession', 'p': 0.4, 'r': 0.5714285714285714, 'f1': 0.47058823529411764}
+{'SubjectEntity': 'Ricky Martin', 'Relation': 'PersonProfession', 'p': 0.4444444444444444, 'r': 0.5714285714285714, 'f1': 0.5}
 Ground Truth: [['composer'], ['model'], ['singer'], ['writer'], ['actor', 'television actor'], ['actor', 'stage actor'], ['musician']]
-GPT-3 Prediction: ['Singer', 'Songwriter', 'Record Producer', 'Actor', 'Dancer', 'Musician', 'Television Actor', 'Television Producer', 'Film Actor', 'Philanthropist']
+GPT-3 Prediction: ['Singer', 'Songwriter', 'Actor', 'Record Producer', 'Author', 'Dancer', 'Musician', 'Philanthropist', 'Entrepreneur']
 
 
 {'SubjectEntity': 'Rob Kardashian', 'Relation': 'PersonProfession', 'p': 0.3333333333333333, 'r': 0.25, 'f1': 0.28571428571428575}
@@ -92,9 +97,9 @@ Ground Truth: [['autobiographer'], ['player', 'tennis player'], ['designer'], ['
 GPT-3 Prediction: ['Tennis Player']
 
 
-{'SubjectEntity': 'Stephen King', 'Relation': 'PersonProfession', 'p': 0.5555555555555556, 'r': 0.45454545454545453, 'f1': 0.5}
+{'SubjectEntity': 'Stephen King', 'Relation': 'PersonProfession', 'p': 0.5714285714285714, 'r': 0.36363636363636365, 'f1': 0.4444444444444444}
 Ground Truth: [['television producer', 'producer'], ['teacher'], ['novelist'], ['director', 'film director'], ['columnist'], ['journalist'], ['actor'], ['writer'], ['science fiction writer', 'writer'], ['director'], ['screenwriter']]
-GPT-3 Prediction: ['Novelist', 'Screenwriter', 'Television Producer', 'Television Director', 'Film Producer', 'Short Story Writer', 'Actor', 'Columnist', 'Comic Book Writer']
+GPT-3 Prediction: ['Novelist', 'Screenwriter', 'Television Producer', 'Television Director', 'Film Producer', 'Actor', 'Comic Book Writer']
 
 
 {'SubjectEntity': 'Tiger Woods', 'Relation': 'PersonProfession', 'p': 1.0, 'r': 0.3333333333333333, 'f1': 0.5}
@@ -112,8 +117,8 @@ Ground Truth: [['singer'], ['actor', 'film actor'], ['actor'], ['dj', 'disc jock
 GPT-3 Prediction: ['Film Actor', 'Television Actor']
 
 
-{'SubjectEntity': 'will.i.am', 'Relation': 'PersonProfession', 'p': 0.5454545454545454, 'r': 0.4, 'f1': 0.4615384615384615}
+{'SubjectEntity': 'will.i.am', 'Relation': 'PersonProfession', 'p': 0.38461538461538464, 'r': 0.3333333333333333, 'f1': 0.3571428571428571}
 Ground Truth: [['voice actor', 'actor'], ['philanthropist'], ['dancer'], ['music producer', 'producer'], ['producer', 'film producer'], ['rapper'], ['educator'], ['guitarist'], ['songwriter'], ['singer-songwriter', 'singer', 'songwriter'], ['entrepreneur'], ['dj', 'disc jockey'], ['businessperson'], ['film score composer', 'composer'], ['comics writer', 'writer']]
-GPT-3 Prediction: ['Musician', 'Record Producer', 'Songwriter', 'Rapper', 'Singer', 'Actor', 'Music Producer', 'Television Actor', 'Television Producer', 'Music Arranger', 'Composer']
+GPT-3 Prediction: ['Musician', 'Record Producer', 'Songwriter', 'Singer', 'Rapper', 'Actor', 'Television Actor', 'Television Producer', 'Music Video Director', 'Television Director', 'Film Producer', 'Music Arranger', 'Record Label Executive']
 
 

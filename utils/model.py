@@ -38,7 +38,7 @@ def convert_nan(probe_outputs):
     new_probe_outputs = []
     for item in probe_outputs:
         if item == 'None':
-            new_probe_outputs.append(None)
+            new_probe_outputs.append('')
         else:
             new_probe_outputs.append(item)
     return new_probe_outputs
