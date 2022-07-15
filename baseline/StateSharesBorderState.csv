@@ -1,4 +1,0 @@
-Prompt,SubjectEntity,Relation,ObjectEntity,Probability
-Bavaria shares border with [MASK] state.,Bavaria,StateSharesBorderState,the,0.6153
-Giza governorate shares border with [MASK] state.,Giza governorate,StateSharesBorderState,the,0.5236
-Tavastia proper shares border with [MASK] state.,Tavastia proper,StateSharesBorderState,the,0.7753

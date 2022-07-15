@@ -1,3 +1,0 @@
-Prompt,SubjectEntity,Relation,ObjectEntity,Probability
-"Billy Corgan plays [MASK], which is an instrument.",Billy Corgan,PersonInstrument,guitar,0.5078
-"Noel Gallagher plays [MASK], which is an instrument.",Noel Gallagher,PersonInstrument,guitar,0.5026

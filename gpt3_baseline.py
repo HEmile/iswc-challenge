@@ -6,9 +6,10 @@ from pathlib import Path
 
 from tqdm.auto import tqdm
 
-from utils.file_io import read_lm_kbc_jsonl
-from utils.model import gpt3
 from integrity_checking import logical_integrity
+
+from utils.file_io import read_lm_kbc_jsonl
+from utils.model import gpt3, clean_up
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(name)s -  %(message)s",
@@ -72,7 +73,6 @@ Which are the official languages of Sri Lanka?
 
 Which are the official languages of {subject_entity}?        
 """
-
     elif relation == "StateSharesBorderState":
         prompt = f"""
 What states border San Marino?
@@ -123,7 +123,6 @@ What are all the atoms that make up the molecule Aspirin?
 
 What are all the atoms that make up the molecule {subject_entity}?
 """
-
     elif relation == "PersonLanguage":
         prompt = f"""
 Which languages does Aamir Khan speak?
@@ -174,7 +173,6 @@ Which instruments does Neil Young play?
 
 Which instruments does {subject_entity} play?
 """
-
     elif relation == "PersonEmployer":
         prompt = f"""
 Where is or was Susan Wojcicki employed?
@@ -191,7 +189,6 @@ Where is or was Yahtzee Croshaw employed?
 
 Where is or was {subject_entity} employed?
 """
-
     elif relation == "PersonPlaceOfDeath":
         prompt = f"""
 What is the place of death of Barack Obama?
@@ -318,15 +315,7 @@ def main():
     args = parser.parse_args()
     print(args)
 
-    # input_dir = Path(args.input_dir)
-    # baseline_output_dir = Path(args.baseline_output_dir)
-
     probe_lm(args.input, args.output)
-
-    # ### call the prompt function to get output for each (subject-entity, relation)
-    # for relation in RELATIONS:
-    #     entities = pd.read_csv(input_dir / f"{relation}.csv")["SubjectEntity"].drop_duplicates(keep="first").tolist()
-    #     probe_lm(relation, entities, baseline_output_dir)
 
 
 if __name__ == "__main__":
