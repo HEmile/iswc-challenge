@@ -3,13 +3,10 @@ import json
 import logging
 import time
 from pathlib import Path
-
 from tqdm.auto import tqdm
-
 from integrity_checking import logical_integrity
-
 from utils.file_io import read_lm_kbc_jsonl
-from utils.model import gpt3, clean_up
+from utils.model import gpt3, clean_up, convert_nan
 
 logging.basicConfig(
     format="%(asctime)s - %(levelname)s - %(name)s -  %(message)s",
@@ -128,8 +125,8 @@ Which languages does {subject_entity} speak?
     elif relation == "PersonProfession":
         prompt = f"""
 What is Danny DeVito's profession?
-['Comedian', 'Film Director', 'Voice Actor', 'Actor', 'Film Producer', 'Film Actor', 'Dub Actor', 'Activist', 'Television Actor' ] 
-
+['Comedian', 'Film Director', 'Voice Actor', 'Actor', 'Film Producer', 'Film Actor', 'Dub Actor', 'Activist', 'Television Actor' ]
+ 
 What is David Guetta's profession?
 ['DJ']
 
@@ -177,13 +174,13 @@ Where is or was {subject_entity} employed?
     elif relation == "PersonPlaceOfDeath":
         prompt = f"""
 What is the place of death of Barack Obama?
-[]
+['None']
 
 What is the place of death of Ennio Morricone?
 ['Rome']
 
 What is the place of death of Elon Musk?
-[]
+['None']
 
 What is the place of death of Prince?
 ['Chanhassen']
@@ -211,7 +208,7 @@ How did {subject_entity} die?
     elif relation == "CompanyParentOrganization":
         prompt = f"""
 What is the parent company of Microsoft?
-[]
+['None']
 
 What is the parent company of Sony?
 ['Sony Group']
@@ -220,7 +217,7 @@ What is the parent company of Saab?
 ['Saab Group', 'Saab-Scania', 'Spyker N.V.', 'National Electric Vehicle Sweden'', 'General Motors']
 
 What is the parent company of Max Motors?
-[]
+['None']
 
 What is the parent company of {subject_entity}?
 """
@@ -258,9 +255,8 @@ def probe_lm(input: Path, model: str, output: Path, batch_size=20):
         ### Clean and format results
         for row, prediction in zip(batch, predictions):
             prediction['text'] = clean_up(prediction['text'])
-            # prediction['text'] = convert_nan(prediction['text'])
-            # logical_integrity(row['Relation'], batch, predictions)
-
+            prediction['text'] = convert_nan(prediction['text'])
+#         logical_integrity(relation, batch, predictions)
             # TODO: Check Logic consistency (Emile, Sel)
 
             result = {
