@@ -13,7 +13,7 @@ Be sure to run in a virtual python environment (e.g. conda, venv, mkvirtualenv, 
 1. In the root directory of this repo run
 
     ```bash
-    pip install requirements.txt
+    pip install -r requirements.txt
     ```
 
 ### Usage
@@ -30,7 +30,19 @@ variables. Then, run :
 
 ```bash
 python gpt3_baseline
-python evaluate.py -p "predictions/gpt3.pred.jsonl" -g "data/dev.jsonl"
+python evaluate -p "predictions/gpt3.pred.jsonl" -g "data/dev.jsonl"
+```
+
+This will use the default values for training, i.e. `text-davinci-002` model, `data/dev.jsonl` as input
+and `predictions/gpt3.pred.jsonl` as output.
+
+For the scaling experiment, you need to change the flag `model` to the respective model.
+
+The options include: `['text-davinci-002', 'text-curie-001', 'text-babbage-001', 'text-ada-001']`
+
+```bash
+python gpt3_baseline -i "data/dev.jsonl" -o "predictions/gpt3-ada.pred.jsonl" --model "text-ada-001"
+python evaluate -p "predictions/gpt3.pred.jsonl" -g "data/dev.jsonl"
 ```
 
 ## Tasks:

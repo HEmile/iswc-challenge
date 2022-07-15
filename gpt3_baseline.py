@@ -17,6 +17,8 @@ logger = logging.getLogger(__name__)
 
 SAMPLE_SIZE = 5000
 
+MODEL_TYPES = ['text-davinci-002', 'text-curie-001', 'text-babbage-001', 'text-ada-001']
+
 
 def create_prompt(subject_entity, relation):
     ### depending on the relation, we fix the prompt
@@ -222,7 +224,7 @@ What is the parent company of {subject_entity}?
     return prompt
 
 
-def probe_lm(input: Path, output: Path, batch_size=20):
+def probe_lm(input: Path, model: str, output: Path, batch_size=20):
     ### for every subject-entity in the entities list, we probe the LM using the below sample prompts
 
     # Load the input file
@@ -248,7 +250,7 @@ def probe_lm(input: Path, output: Path, batch_size=20):
 
         ### probing the language model and obtaining the ranked tokens in the masked_position
         logger.info(f"Running the model...")
-        predictions = gpt3(prompts)  # TODO Figure out what to do with probabilities
+        predictions = gpt3(prompts, model=model)  # TODO Figure out what to do with probabilities
 
         ### Clean and format results
         for row, prediction in zip(batch, predictions):
@@ -292,10 +294,18 @@ def main():
         default="predictions/gpt3.pred.jsonl",
         help="output directory to store the baseline output",
     )
+    parser.add_argument(
+        "-m",
+        "--model",
+        type=str,
+        default="text-davinci-002",
+        help="The models provided by OpenAI. \
+        Options: 'text-davinci-002', 'text-curie-001', 'text-babbage-001', 'text-ada-001'"
+    )
     args = parser.parse_args()
     print(args)
 
-    probe_lm(args.input, args.output)
+    probe_lm(args.input, args.model, args.output)
 
 
 if __name__ == "__main__":
