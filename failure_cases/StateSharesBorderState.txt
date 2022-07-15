@@ -1,4 +1,4 @@
-StateSharesBorderState (average f1: 0.539): 25 cases
+StateSharesBorderState (average f1: 0.537): 25 cases
 
 
 
@@ -72,9 +72,9 @@ Ground Truth: [['rio negro', 'río negro province'], ['neuquen', 'neuquén provi
 GPT-3 Prediction: ['Araucania', 'Los Rios', 'Magellan and Chilean Antarctica']
 
 
-{'SubjectEntity': 'Luxembourg District', 'Relation': 'StateSharesBorderState', 'p': 0.25, 'r': 0.3333333333333333, 'f1': 0.28571428571428575}
+{'SubjectEntity': 'Luxembourg District', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['meurthe-et-moselle'], ['luxembourg'], ['moselle']]
-GPT-3 Prediction: ['Moselle', 'Ardennes', 'Meuse', 'Namur']
+GPT-3 Prediction: ['Belgium', 'France', 'Germany']
 
 
 {'SubjectEntity': "O'Higgins Region", 'Relation': 'StateSharesBorderState', 'p': 0.3333333333333333, 'r': 0.25, 'f1': 0.28571428571428575}
@@ -87,9 +87,9 @@ Ground Truth: [['nidwalden'], ['schwyz'], ['canton of bern'], ['canton of lucern
 GPT-3 Prediction: ['Uri', 'Berne', 'Valais']
 
 
-{'SubjectEntity': 'Päijänne Tavastia', 'Relation': 'StateSharesBorderState', 'p': 0.25, 'r': 0.16666666666666666, 'f1': 0.2}
+{'SubjectEntity': 'Päijänne Tavastia', 'Relation': 'StateSharesBorderState', 'p': 0.5, 'r': 0.3333333333333333, 'f1': 0.4}
 Ground Truth: [['pirkanmaa'], ['finland', 'central finland'], ['savonia', 'southern savonia'], ['tavastia proper'], ['kymenlaakso'], ['uusimaa']]
-GPT-3 Prediction: ['Central Finland', 'Southern Finland', 'North Karelia', 'Kymi']
+GPT-3 Prediction: ['Central Finland', 'Southern Finland', 'North Karelia', 'Savonia']
 
 
 {'SubjectEntity': 'Rhineland-Palatinate', 'Relation': 'StateSharesBorderState', 'p': 0.5, 'r': 0.3, 'f1': 0.37499999999999994}
