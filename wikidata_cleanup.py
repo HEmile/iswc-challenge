@@ -1,7 +1,7 @@
 # Go trough the output, check wheter what is produced is an alias for something and if it is, replace it by the prefered label
 import argparse
 from cProfile import label
-from collections import defaultdict
+from collections import OrderedDict, defaultdict
 from distutils.command.clean import clean
 from importlib.resources import path
 import json
@@ -25,7 +25,9 @@ class Database:
     def add_entry(self, relation: str, label: str, aliases: List[str]):
         """Add an entry to this database"""
         for alias in aliases:
-            self.data[relation][alias.lower()].append(label.lower())
+            alias_list = self.data[relation][alias.lower()]
+            if label not in alias_list:
+                alias_list.append(label)
         self.labels[relation].add(label.lower())
 
     def is_main_label(self, relation: str, possible_alias: str) -> Optional[str]:
@@ -57,19 +59,25 @@ class WikiDataCleaner:
         SubjectEntity = original_prediction["SubjectEntity"]
         Prompt = original_prediction["Prompt"]
         ObjectEntities = original_prediction["ObjectEntities"]
-        corrected_ObjectEntities = []
+        corrected_ObjectEntities: dict[str, str] = OrderedDict()  # Using to preserve the insertion order. This maps from lower case to a potentially case preserved variant
         # TODO optionally we could choose to act differently dependent on the size of the list
         for original_ObjectEntity in ObjectEntities:
             if self.database.is_main_label(Relation, original_ObjectEntity):
-                corrected_ObjectEntities.append(original_ObjectEntity)
+                # if it already exists, the casing is likely better already.
+                if original_ObjectEntity.lower() not in corrected_ObjectEntities:
+                    corrected_ObjectEntities[original_ObjectEntity.lower()] = original_ObjectEntity
             else:
                 possible_replacement = self.database.lookup(Relation, original_ObjectEntity)
                 if possible_replacement:
-                    for replacements in possible_replacement:
-                        corrected_ObjectEntities.append(replacements)
+                    for replacement in possible_replacement:
+                        # we put this new replacement in in case it is not there, or when there is only a lowercase version
+                        if replacement.lower() not in corrected_ObjectEntities or corrected_ObjectEntities[replacement.lower()].islower():
+                            corrected_ObjectEntities[replacement.lower()] = replacement
+                            # TODO it might be better to only do a single rpelacement here
+
                 else:
-                    corrected_ObjectEntities.append(original_ObjectEntity)
-        return {"SubjectEntity": SubjectEntity, "Relation": Relation, "Prompt": Prompt, "ObjectEntities": corrected_ObjectEntities}
+                    corrected_ObjectEntities[original_ObjectEntity.lower()] = original_ObjectEntity
+        return {"SubjectEntity": SubjectEntity, "Relation": Relation, "Prompt": Prompt, "ObjectEntities": list(corrected_ObjectEntities.values())}
 
 
 def wikidata_clean(input_file: pathlib.Path, output_file: pathlib.Path, cleaning_rules: pathlib.Path):
