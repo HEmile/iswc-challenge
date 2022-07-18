@@ -90,14 +90,14 @@ def wikidata_clean(input_file: pathlib.Path, output_file: pathlib.Path, cleaning
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        "--input_file",
+        "--input-file",
         type=str,
         default="./predictions/gpt3.pred.jsonl",
         help="input directory containing the baseline or your method output",
     )
     parser.add_argument(
         "-o",
-        "--output_file",
+        "--output-file",
         type=str,
         default="./predictions/gpt3_wikiclean.pred.jsonl",
         help="Output file (required)",
