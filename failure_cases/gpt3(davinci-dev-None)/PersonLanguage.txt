@@ -1,4 +1,4 @@
-PersonLanguage (average f1: 0.8): 21 cases
+PersonLanguage (average f1: 0.801): 23 cases
 
 
 
@@ -17,6 +17,11 @@ Ground Truth: [['english']]
 GPT-3 Prediction: ['English', 'French', 'Wolof']
 
 
+{'SubjectEntity': 'Akshay Kumar', 'Relation': 'PersonLanguage', 'p': 0.6666666666666666, 'r': 1.0, 'f1': 0.8}
+Ground Truth: [['hindi'], ['punjabi']]
+GPT-3 Prediction: ['Hindi', 'Punjabi', 'Bengali']
+
+
 {'SubjectEntity': 'Avril Lavigne', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
 Ground Truth: [['english']]
 GPT-3 Prediction: ['English', 'French']
@@ -32,9 +37,9 @@ Ground Truth: [['french']]
 GPT-3 Prediction: ['French', 'Italian', 'Spanish', 'Portuguese']
 
 
-{'SubjectEntity': "Genelia D'Souza", 'Relation': 'PersonLanguage', 'p': 0.4, 'r': 0.5, 'f1': 0.4444444444444445}
+{'SubjectEntity': "Genelia D'Souza", 'Relation': 'PersonLanguage', 'p': 0.6, 'r': 0.75, 'f1': 0.6666666666666665}
 Ground Truth: [['tamil'], ['telugu'], ['malayalam'], ['hindi']]
-GPT-3 Prediction: ['Hindi', 'Marathi', 'English', 'Bengali', 'Telugu']
+GPT-3 Prediction: ['Hindi', 'Marathi', 'English', 'Tamil', 'Telugu']
 
 
 {'SubjectEntity': 'Henrique Capriles Radonski', 'Relation': 'PersonLanguage', 'p': 0.3333333333333333, 'r': 1.0, 'f1': 0.5}
@@ -50,6 +55,11 @@ GPT-3 Prediction: ['English']
 {'SubjectEntity': 'Jose Michimani', 'Relation': 'PersonLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
 Ground Truth: [['english']]
 GPT-3 Prediction: ['Spanish', 'Quechua', 'Aymara']
+
+
+{'SubjectEntity': 'Kobe Bryant', 'Relation': 'PersonLanguage', 'p': 1.0, 'r': 0.6666666666666666, 'f1': 0.8}
+Ground Truth: [['english'], ['spanish'], ['italian']]
+GPT-3 Prediction: ['English', 'Italian']
 
 
 {'SubjectEntity': 'Mohammed bin Rashid Al Maktoum', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}

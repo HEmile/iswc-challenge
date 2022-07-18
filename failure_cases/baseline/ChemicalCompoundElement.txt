@@ -1,0 +1,219 @@
+ChemicalCompoundElement (average f1: 0.083): 43 cases
+
+
+
+{'SubjectEntity': 'Acetone', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['hydrogen'], ['carbon'], ['oxygen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Adenosine Diphosphate Ribose', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['hydrogen'], ['oxygen'], ['carbon'], ['nitrogen'], ['phosphorus']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Aluminium Chlorohydrate', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['chlorine'], ['aluminium'], ['hydrogen'], ['oxygen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Aminomethylpropanol', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nitrogen'], ['carbon'], ['hydrogen'], ['oxygen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Ammonia', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nitrogen'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Atracurium Besylate', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['nitrogen'], ['hydrogen'], ['oxygen'], ['sulfur']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Azathioprine', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['oxygen'], ['nitrogen'], ['carbon'], ['hydrogen'], ['sulfur']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Azulene', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Cetyl Alcohol', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['oxygen'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Chlorophyll F', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nitrogen'], ['carbon'], ['oxygen'], ['hydrogen'], ['magnesium']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Cupric Phosphate', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['oxygen'], ['copper'], ['phosphorus']]
+GPT-3 Prediction: ['phosphate']
+
+
+{'SubjectEntity': 'Ecdysone', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['hydrogen'], ['oxygen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Ethyl Acetoacetate', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['oxygen'], ['carbon'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Flavin Adenine Dinucleotide', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['hydrogen'], ['oxygen'], ['carbon'], ['nitrogen'], ['phosphorus']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Glucagon', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['nitrogen'], ['hydrogen'], ['oxygen'], ['sulfur']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Glutathione', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['nitrogen'], ['hydrogen'], ['oxygen'], ['sulfur']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Heptadecane', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Heroin', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['oxygen'], ['carbon'], ['hydrogen'], ['nitrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Hexadecane', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Hydrazine', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nitrogen'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Hydroxocobalamin', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['cobalt'], ['oxygen'], ['nitrogen'], ['hydrogen'], ['phosphorus']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Hyponitrous Acid', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['oxygen'], ['hydrogen'], ['nitrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Imatinib', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['nitrogen'], ['oxygen'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Lysergic Acid Diethylamide', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['oxygen'], ['nitrogen'], ['carbon'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Maleic Acid', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['oxygen'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Mercuric Fluoride', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['mercury'], ['fluorine']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Mercurous Fluoride', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['mercury'], ['fluorine']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Metformin', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['hydrogen'], ['carbon'], ['nitrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Methacrylic Acid', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['oxygen'], ['carbon'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Motilin', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['nitrogen'], ['hydrogen'], ['oxygen'], ['sulfur']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Mustard Gas', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['sulfur'], ['carbon'], ['chlorine'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Nonadecane', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Pethidine', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['hydrogen'], ['oxygen'], ['nitrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Rubidium Hydroxide', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['rubidium'], ['oxygen'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Sodium Hydroxide', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['sodium'], ['oxygen'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Sodium Tripolyphosphate', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['oxygen'], ['phosphorus'], ['sodium']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'TNT', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['oxygen'], ['carbon'], ['hydrogen'], ['nitrogen']]
+GPT-3 Prediction: ['TNT']
+
+
+{'SubjectEntity': 'Tabun', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['phosphorus'], ['nitrogen'], ['carbon'], ['oxygen'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Tenoxicam', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['sulfur'], ['oxygen'], ['hydrogen'], ['nitrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Triethylamine', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nitrogen'], ['carbon'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Triphenylphosphine', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['phosphorus'], ['carbon'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Vinylidene Fluoride', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['fluorine'], ['hydrogen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Zeaxanthin', 'Relation': 'ChemicalCompoundElement', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['carbon'], ['hydrogen'], ['oxygen']]
+GPT-3 Prediction: []
+
+

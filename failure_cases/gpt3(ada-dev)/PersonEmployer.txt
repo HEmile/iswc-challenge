@@ -1,0 +1,254 @@
+PersonEmployer (average f1: 0.0): 50 cases
+
+
+
+{'SubjectEntity': 'Adam Savage', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['academy of art university']]
+GPT-3 Prediction: ['Pulse', ' IGN', 'Carta']
+
+
+{'SubjectEntity': 'Alexis Ohanian', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['reddit inc.', 'reddit'], ['initialized capital']]
+GPT-3 Prediction: ['The Good Life', 'The Daily Beast', 'The New York Times']
+
+
+{'SubjectEntity': 'Amber Rudd', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['j.p. morgan & co.', 'j.p. morgan', 'jp morgan']]
+GPT-3 Prediction: ['The Home Secretary']
+
+
+{'SubjectEntity': 'Aylin Nazlıaka', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['bilkent university']]
+GPT-3 Prediction: ['Tbilisi University', 'Istanbul University', 'Tbilisi Institute of Technology']
+
+
+{'SubjectEntity': 'Bill Browder', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['boston consulting', 'boston consulting group'], ['salomon brothers'], ['hermitage capital management']]
+GPT-3 Prediction: ['The Bill Browder Foundation', 'Theescapist', 'PC Gamer']
+
+
+{'SubjectEntity': 'Bob Iger', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['the walt disney company', 'walt disney'], ['american broadcasting', 'american broadcasting company']]
+GPT-3 Prediction: ['Everest Games', 'Red Hook Games', ' ourselves']
+
+
+{'SubjectEntity': 'Chelsea Clinton', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['columbia university']]
+GPT-3 Prediction: ['Clinton for President', ' Hillary Clinton ', ' Clinton, Chelsea']
+
+
+{'SubjectEntity': 'Chris Anderson', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['wired']]
+GPT-3 Prediction: ['Redwood City, CA', 'Icicle Media']
+
+
+{'SubjectEntity': 'Chris Sacca', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['google']]
+GPT-3 Prediction: ["The men's rights group", 'Red Lobster', 'metrics']
+
+
+{'SubjectEntity': 'Cindy McCain', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['agua fria high school'], ['hensley & co.', 'hensley']]
+GPT-3 Prediction: ['Cindy McCain is a Republican', 'Republican', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', 'election', "election',"]
+
+
+{'SubjectEntity': 'Dana White', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ultimate fighting championship']]
+GPT-3 Prediction: ['Dana White', 'UFC', 'Boomerang']
+
+
+{'SubjectEntity': 'Devin Nunes', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['united states department of agriculture']]
+GPT-3 Prediction: ['Redacted', 'Redacted', 'Redacted', 'Redacted', 'Redacted', 'Redacted', 'Redacted', 'Redacted', 'Redacted', 'Redacted', 'Redact']
+
+
+{'SubjectEntity': 'Dick Costolo', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['twitter, inc.', 'twitter'], ['google']]
+GPT-3 Prediction: ['PC Gamer', 'Hyper', ' Escapist']
+
+
+{'SubjectEntity': 'Donny Deutsch', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['deutsch', 'deutsch inc.']]
+GPT-3 Prediction: ['Digital Entertainment', 'Anarchy Interactive']
+
+
+{'SubjectEntity': 'Doug Ducey', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['procter & gamble'], ['cold stone creamery'], ['hensley & co.', 'hensley']]
+GPT-3 Prediction: ['Doug Ducey', 'GameStop],\n\nWhere is or w']
+
+
+{'SubjectEntity': 'Douglas G. Hurley', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['national aeronautics and space administration']]
+GPT-3 Prediction: ['Sciences Unlimited', 'Free Press', 'Carta']
+
+
+{'SubjectEntity': 'Edd China', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['discovery channel']]
+GPT-3 Prediction: ['Edd', 'The Escapist', 'The Daily Beast']
+
+
+{'SubjectEntity': 'François Legault', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['provigo'], ['nolisair'], ['ernst & young'], ['air transat'], ['quebecair']]
+GPT-3 Prediction: ["L'École Polytechnique", 'Réseau des étudiants de Montréal']
+
+
+{'SubjectEntity': 'Guido van Rossum', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['microsoft']]
+GPT-3 Prediction: ['Interscope Records', 'Aurora Records']
+
+
+{'SubjectEntity': 'Harsh Goenka', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['rpg', 'rpg group']]
+GPT-3 Prediction: ['The Cement Mixer', 'Cities of Games', 'Game Developers Conference', 'VR Games Festival']
+
+
+{'SubjectEntity': 'Heizō Takenaka', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['kansai university'], ['keio university'], ['osaka university']]
+GPT-3 Prediction: ['Takenaka Design', 'Heizō Design']
+
+
+{'SubjectEntity': 'Joel Spolsky', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['microsoft']]
+GPT-3 Prediction: ['The Spolsky Center for Artificial Intelligence', 'Palo Alto Research Center']
+
+
+{'SubjectEntity': 'John Doerr', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['kleiner perkins caufield & byers', 'kleiner perkins caufield']]
+GPT-3 Prediction: ['The Open Game Company', 'Freespace', 'Inscribe']
+
+
+{'SubjectEntity': 'John McAfee', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['computer sciences corporation'], ['univac'], ['lockheedoration', 'lockheed corporation'], ['mcafee, llc', 'mcafee'], ['goddard institute for space studies'], ['booz allen hamilton'], ['xerox']]
+GPT-3 Prediction: ['Hacker News', 'Hacker Daily']
+
+
+{'SubjectEntity': 'John Romero', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['id software'], ['softdisk']]
+GPT-3 Prediction: ['Oculus Inc', 'Redwood City', 'TripAdvisor']
+
+
+{'SubjectEntity': 'Kanye West', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['gap', 'gap inc.']]
+GPT-3 Prediction: ['Yeezus', 'age', 'Inkster']
+
+
+{'SubjectEntity': 'Karen L. Nyberg', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['national aeronautics and space administration']]
+GPT-3 Prediction: ['Innovation University', ' company ']
+
+
+{'SubjectEntity': 'Kent Beck', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['meta platforms']]
+GPT-3 Prediction: ['Carta', 'PC Gamer', 'BSN', ' Escapist']
+
+
+{'SubjectEntity': 'Kristalina Georgieva', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['sofia university']]
+GPT-3 Prediction: ['Czech Republic', 'London', 'Istanbul', 'Paris']
+
+
+{'SubjectEntity': 'L. Brent Bozell III', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['catholic league'], ['media research center'], ['parents television council'], ['national conservative political action committee'], ['foramerica']]
+GPT-3 Prediction: ['The Entertainment Merchants', 'The National Football Foundation', 'The National Basketball Foundation']
+
+
+{'SubjectEntity': 'Lana Rhoades', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['tushy'], ['naughty america'], ['evil angel'], ['brazzers'], ['bang bros']]
+GPT-3 Prediction: ['The Mary Sue', 'Redwood Press']
+
+
+{'SubjectEntity': 'Marcos Pontes', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['brazilian air force']]
+GPT-3 Prediction: ['Tower of 2', 'Digitalcosmos', '', '],\n\nWhere is or wasashare company employe']
+
+
+{'SubjectEntity': 'Michael Bloomberg', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['bloomberg family foundation', 'bloomberg'], ['salomon brothers']]
+GPT-3 Prediction: ['The New York Times', 'Bloomberg LP', 'Bloomberg L.P.', 'Michael Bloomberg']
+
+
+{'SubjectEntity': 'Michael J. Massimino', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['rice university'], ['georgia institute of technology'], ['ibm'], ['national aeronautics and space administration']]
+GPT-3 Prediction: ['Redwood City University', ' pizzazz ]\n\nWhere is or was Sarah "Sizzle" Sloane employed?\n[\'Carta', 'The New York Times', 'The New Yorker']
+
+
+{'SubjectEntity': 'Mike Pompeo', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['central intelligence agency']]
+GPT-3 Prediction: ['VP, Central Intelligence Agency']
+
+
+{'SubjectEntity': 'Muhammad Yunus', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['middle tennessee state university'], ['university of dhaka'], ['la trobe university']]
+GPT-3 Prediction: ['Timbuktu', 'Annamalaya', '']
+
+
+{'SubjectEntity': 'Naftali Bennett', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['soluto'], ["prime minister's office"]]
+GPT-3 Prediction: ['The Jewish Journal', 'The Jewish Chronicle', 'The Jewish Press']
+
+
+{'SubjectEntity': 'Nandan Nilekani', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['infosys'], ['igate patni']]
+GPT-3 Prediction: ['The datanama', 'Tripwire', 'Noodle']
+
+
+{'SubjectEntity': 'Nicole Stott', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['national aeronautics and space administration'], ['pratt & whitney']]
+GPT-3 Prediction: ['The Mummy', 'Naughty America', 'Red Circle']
+
+
+{'SubjectEntity': 'Oleksandr Turchynov', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['arcelormittal kryvyi rih']]
+GPT-3 Prediction: ['utyvnik.com', 'Granada Shopping Centre']
+
+
+{'SubjectEntity': 'Oprah Winfrey', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['wls-tv', 'wls'], ['harpo productions', 'harpo'], ['wtvf'], ['wvol'], ['wjz-tv', 'wjz']]
+GPT-3 Prediction: ['The Huffington Post', 'OpenAI', "Webinars],\n\nWhere is or wasbio\n\nWhere is or was\n\nWhere is or was Susan Wojcicki employed?\n['Google", 'Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari']
+
+
+{'SubjectEntity': 'Pedro Duque', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['deimos imaging'], ['european space agency']]
+GPT-3 Prediction: ['IPL', 'Red Bull', 'UEFA', 'Bilderbergers']
+
+
+{'SubjectEntity': 'Reid Hoffman', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['chaosium'], ['paypal'], ['linkedin']]
+GPT-3 Prediction: ['Reid Hoffman, Inc']
+
+
+{'SubjectEntity': 'Serena Williams', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['unicef']]
+GPT-3 Prediction: ['Wojcicki', 'Wojcicki', 'Wojcicki', 'Wojcicki', 'Wojcicki', 'Wojcicki', 'Wojcicki', 'Wojcicki', 'Wojcicki', 'Wojcicki', 'Wojcicki', 'Wojcicki', 'Wojcicki', "Wojcicki', "]
+
+
+{'SubjectEntity': 'Sergio Melnick', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['adolfo ibáñez university'], ['university of california, los angeles', 'ucla'], ['university of chile'], ['universidad mayor']]
+GPT-3 Prediction: ['Redwood City University', 'Nouveau West Indies']
+
+
+{'SubjectEntity': 'Shane Kimbrough', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['national aeronautics and space administration'], ['united states military academy']]
+GPT-3 Prediction: ['Cities of Toronto and Vancouver', 'Cities of Montreal', 'Cities of New York City', 'Cities of Los Angeles', 'Cities of Chicago', 'Cities of Detroit', 'Cities of Dallas', 'Cities of Austin', 'Cities of San Diego']
+
+
+{'SubjectEntity': 'Steve Forbes', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['forbes'], ['business today']]
+GPT-3 Prediction: ['The Guardian', 'GigaOM', 'PC Magazine']
+
+
+{'SubjectEntity': 'Turki Al-Sheikh', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['royal court']]
+GPT-3 Prediction: ["Senshu University','Tokyo Institute of Technology"]
+
+
+{'SubjectEntity': 'Wendell Pierce', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nosep yo']]
+GPT-3 Prediction: ['Carta', 'Anarchy & Allegory', 'The Future of Art']
+
+
+{'SubjectEntity': 'Wishnutama', 'Relation': 'PersonEmployer', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['net.'], ['detik.com'], ['kumparan'], ['new england cable news'], ['indosiar'], ['whdh'], ['trans7'], ['trans tv']]
+GPT-3 Prediction: ['Wishnutama', 'GameStop],\n\nWhere is or was yakuza employe']
+
+
