@@ -1,44 +1,43 @@
 # Go trough the output, check wheter what is produced is an alias for something and if it is, replace it by the prefered label
 import argparse
-from cProfile import label
 from collections import OrderedDict, defaultdict
-from distutils.command.clean import clean
-from importlib.resources import path
 import json
 import pathlib
-import time
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple, Union
+from typing import DefaultDict, Dict, List, Optional, Tuple, Union, cast
 
 from utils.file_io import read_lm_kbc_jsonl
 
 
 class Database:
     def __init__(self) -> None:
-        self.data: dict[str, dict[str, list[str]]
-                        ] = defaultdict(lambda: defaultdict(list))
+        self.data: Dict[str, Dict[str, Tuple[Optional[str], int]]
+                        ] = defaultdict(lambda: defaultdict(lambda: (None, -1)))
         # data maps from relation types to a dictionary from each alias to the proper labels
         # Note that there might be a collision where one alias is used for multiple things, hence the list
-        self.labels: dict[str, set[str]] = defaultdict(set)
-        # defaultdict maps from relation types to known labels
+        self.labels: Dict[str, Dict[str, str]] = defaultdict(lambda: {})
+        # defaultdict maps from relation types to known labels, where labels map from their lowercase version to cased
 
-    def add_entry(self, relation: str, label: str, aliases: List[str]):
+    def add_entry(self, relation: str, label: str, aliases: List[str], frequency: int):
         """Add an entry to this database"""
+        relation_relevant = self.data[relation]
         for alias in aliases:
-            alias_list = self.data[relation][alias.lower()]
-            if label not in alias_list:
-                alias_list.append(label)
-        self.labels[relation].add(label.lower())
+            alias_lower = alias.lower()
+            alias_target = relation_relevant[alias_lower]
+            if alias_target[1] < frequency:
+                relation_relevant[alias_lower] = (label, frequency)
+        self.labels[relation][label.lower()] = label
 
-    def is_main_label(self, relation: str, possible_alias: str) -> Optional[str]:
-        return possible_alias.lower() in self.labels[relation]
+    def optional_main_label(self, relation: str, possible_alias: str) -> Optional[str]:
+        return self.labels[relation].get(possible_alias.lower())
 
-    def lookup(self, relation: str, possible_alias: str) -> Optional[List[str]]:
+    def lookup(self, relation: str, possible_alias: str) -> Optional[str]:
         if relation not in self.data:
             return None
-        if possible_alias.lower() not in self.data[relation]:
+        possible_replacement = self.data[relation].get(possible_alias.lower())
+        if not possible_replacement:
             return None
-        return self.data[relation][possible_alias.lower()]
+        return possible_replacement[0]
 
 
 class WikiDataCleaner:
@@ -46,36 +45,34 @@ class WikiDataCleaner:
         self.database = Database()
         with open(alias_file) as f:
             for line in f:
-                # {"r":["CountryBordersWithCountry","RiverBasinsCountry"],"l":"Belgium","a":["Kingdom of Belgium","BEL","be","🇧🇪","BE"]}
+                # {"r":["CountryBordersWithCountry","RiverBasinsCountry"],"l":"Belgium","a":["Kingdom of Belgium","BEL","be","🇧🇪","BE"],"c":240}
                 entity_info = json.loads(line)
                 label = entity_info["l"]
                 aliases = entity_info["a"]
+                claim_count = entity_info["c"]
                 for relation in entity_info["r"]:
-                    self.database.add_entry(relation, label, aliases)
+                    self.database.add_entry(relation, label, aliases, claim_count)
 
-    def clean(self, original_prediction: Dict[str, Union[str, List[List[str]]]]) -> Dict[str, Union[str, List[List[str]]]]:
+    def clean(self, original_prediction: Dict[str, Union[str, List[List[str]]]]) -> Dict[str, Union[str, List[str]]]:
         # {"SubjectEntity": "Acetone", "Relation": "ChemicalCompoundElement", "ObjectEntities": [["hydrogen"], ["carbon"], ["oxygen"]]}
-        Relation = original_prediction["Relation"]
-        SubjectEntity = original_prediction["SubjectEntity"]
-        Prompt = original_prediction["Prompt"]
-        ObjectEntities = original_prediction["ObjectEntities"]
-        corrected_ObjectEntities: dict[str, str] = OrderedDict()  # Using to preserve the insertion order. This maps from lower case to a potentially case preserved variant
-        # TODO optionally we could choose to act differently dependent on the size of the list
+        Relation: str = cast(str, original_prediction["Relation"])
+        SubjectEntity: str = cast(str, original_prediction["SubjectEntity"])
+        Prompt: str = cast(str, original_prediction["Prompt"])
+        ObjectEntities: List[str] = cast(List[str], original_prediction["ObjectEntities"])
+        corrected_ObjectEntities: Dict[str, str] = OrderedDict()  # Using to preserve the insertion order. This maps from lower case to a potentially case preserved variant
         for original_ObjectEntity in ObjectEntities:
-            if self.database.is_main_label(Relation, original_ObjectEntity):
-                # if it already exists, the casing is likely better already.
-                if original_ObjectEntity.lower() not in corrected_ObjectEntities:
-                    corrected_ObjectEntities[original_ObjectEntity.lower()] = original_ObjectEntity
+            as_main = self.database.optional_main_label(Relation, original_ObjectEntity)
+            if as_main:
+                # The predicted one is a main label on wikidata, so we add it but keep the casings
+                # corrected_ObjectEntities[original_ObjectEntity.lower()] = as_main
+                corrected_ObjectEntities[original_ObjectEntity.lower()] = original_ObjectEntity
             else:
                 possible_replacement = self.database.lookup(Relation, original_ObjectEntity)
                 if possible_replacement:
-                    for replacement in possible_replacement:
-                        # we put this new replacement in in case it is not there, or when there is only a lowercase version
-                        if replacement.lower() not in corrected_ObjectEntities or corrected_ObjectEntities[replacement.lower()].islower():
-                            corrected_ObjectEntities[replacement.lower()] = replacement
-                            # TODO it might be better to only do a single rpelacement here
-
+                    # we put this replacement, note that this may merge multiple replacements resulting in the same label
+                    corrected_ObjectEntities[possible_replacement.lower()] = possible_replacement
                 else:
+                    # not found, so we keep the original
                     corrected_ObjectEntities[original_ObjectEntity.lower()] = original_ObjectEntity
         return {"SubjectEntity": SubjectEntity, "Relation": Relation, "Prompt": Prompt, "ObjectEntities": list(corrected_ObjectEntities.values())}
 
