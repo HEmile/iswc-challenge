@@ -1,0 +1,139 @@
+RiverBasinsCountry (average f1: 0.381): 27 cases
+
+
+
+{'SubjectEntity': 'Alagón river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['spain']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Apurímac river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['peru']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Brenta', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['italy']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Dahme', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['germany']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Danube', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['slovakia'], ['hungary'], ['austria'], ['ukraine'], ['germany'], ['moldova'], ['bulgaria'], ['croatia'], ['serbia'], ['romania']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Didi Liakhvi river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['georgia']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Gadar river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['iran']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Gambia river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guinea'], ['the gambia', 'gambia'], ['senegal']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Han river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['north korea', 'korea'], ['korea', 'south korea']]
+GPT-3 Prediction: ['China']
+
+
+{'SubjectEntity': 'Inn', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['austria'], ['switzerland'], ['germany']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Kura river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['georgia'], ['turkey'], ['azerbaijan']]
+GPT-3 Prediction: ['Russia']
+
+
+{'SubjectEntity': 'Lielupe', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['latvia'], ['lithuania']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Limpopo river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['zimbabwe'], ['mozambique'], ['botswana'], ['south africa', 'africa']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Morava', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['czech republic', 'czechia'], ['austria'], ['slovakia']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Neman', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['belarus'], ['lithuania'], ['latvia'], ['russia']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Neris', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['belarus'], ['lithuania'], ['latvia']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Niger river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['niger'], ['guinea'], ['nigeria'], ['mali'], ['benin']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Paraguay river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['brazil'], ['argentina'], ['paraguay']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Red river of the south', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['texas'], ['usa', 'united states of america']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Sakarya river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['turkey']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'San', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ukraine'], ['poland']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Shatt al-Arab', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['turkey'], ['iran'], ['iraq'], ['kuwait'], ['saudi arabia'], ['syria']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Siret river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ukraine'], ['romania']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Tisza', 'Relation': 'RiverBasinsCountry', 'p': 1.0, 'r': 0.2, 'f1': 0.33333333333333337}
+Ground Truth: [['romania'], ['ukraine'], ['slovakia'], ['serbia'], ['hungary']]
+GPT-3 Prediction: ['Hungary']
+
+
+{'SubjectEntity': 'Torne river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['norway'], ['finland'], ['sweden']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Uruguay river', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['uruguay'], ['argentina'], ['brazil']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Yantra', 'Relation': 'RiverBasinsCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['bulgaria']]
+GPT-3 Prediction: []
+
+

@@ -1,0 +1,169 @@
+PersonInstrument (average f1: 0.34): 33 cases
+
+
+
+{'SubjectEntity': 'A. J. McLean', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['lyric spinto tenor', 'tenor']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Arnel Pineda', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Billie Joe Armstrong', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['piano'], ['guitar'], ['harmonica'], ['saxophone'], ['mandolin'], ['percussion instrument', 'percussion']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Björk', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['keyboard instrument', 'keyboard'], ['harp'], ['celesta'], ['sets of free reeds', 'reeds'], ['clavichord'], ['clarinet'], ['saxophone'], ['piano'], ['pipe organ'], ['flute']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'China Anne McClain', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['piano'], ['guitar'], ['bass']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Cho Kyuhyun', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['piano']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Chris Daughtry', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Corey Taylor', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['electric guitar', 'guitar'], ['guitar'], ['percussion instrument', 'percussion']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Courtney Love', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Duff McKagan', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['bass guitar', 'guitar'], ['guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Gary Barlow', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['piano']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Gerard Way', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['electric guitar', 'guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Heo Young-saeng', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['piano']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Hisashi', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Joe Perry', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guitar'], ['bass guitar', 'guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'John Lennon', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['keyboard instrument', 'keyboard'], ['piano'], ['bass guitar', 'guitar'], ['guitar'], ['harmonica']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Joseph Hahn', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['keyboard instrument', 'keyboard']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Kangin', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['piano']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Lay', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['electric guitar', 'guitar'], ['piano'], ['cello'], ['drum'], ['ney'], ['hulusi']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Lee Jung-shin', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['bass guitar', 'guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Logan Henderson', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['piano']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Morrissey', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['piano']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Nichkhun', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['keyboard instrument', 'keyboard']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Paul McCartney', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['mandolin'], ['sitar'], ['recorder'], ['melodica'], ['percussion instrument', 'percussion'], ['ukulele'], ['keyboard instrument', 'keyboard'], ['violin'], ['cello'], ['trumpet'], ['guitar'], ['bass', 'double bass'], ['piano'], ['bass guitar', 'guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Rea Garvey', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Robert Plant', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['harmonica']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Roger Taylor', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['bass guitar', 'guitar'], ['drum machine', 'drum'], ['guitar'], ['drum', 'drum kit'], ['keyboard instrument', 'keyboard']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Shindong', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['piano']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Slash', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['bass guitar', 'guitar'], ['guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Sting', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['keyboard instrument', 'keyboard'], ['mandolin'], ['bass', 'double bass'], ['harmonica'], ['bass guitar', 'guitar'], ['acoustic guitar', 'guitar'], ['guitar'], ['bass']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Tom Morello', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Tony Iommi', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guitar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Yoshiki', 'Relation': 'PersonInstrument', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['guitar'], ['keyboard instrument', 'keyboard'], ['piano'], ['arp 2500', 'arp'], ['drum', 'drum kit']]
+GPT-3 Prediction: []
+
+

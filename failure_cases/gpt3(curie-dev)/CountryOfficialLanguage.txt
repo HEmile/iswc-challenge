@@ -1,0 +1,74 @@
+CountryOfficialLanguage (average f1: 0.664): 14 cases
+
+
+
+{'SubjectEntity': 'Afghanistan', 'Relation': 'CountryOfficialLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nuristani'], ['pashto'], ['uzbek'], ['turkmen'], ['arabic'], ['pashayi'], ['dari'], ['pamir'], ['baluchi']]
+GPT-3 Prediction: ['ere is no official language of Afghanistan. However, the national language of Afghanistan is Dar']
+
+
+{'SubjectEntity': 'Burundi', 'Relation': 'CountryOfficialLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['english'], ['kirundi'], ['french']]
+GPT-3 Prediction: ['Kinyarwanda', 'Rundi']
+
+
+{'SubjectEntity': 'Central African Republic', 'Relation': 'CountryOfficialLanguage', 'p': 0.5, 'r': 0.5, 'f1': 0.5}
+Ground Truth: [['sango'], ['french']]
+GPT-3 Prediction: ['French', 'Arabic']
+
+
+{'SubjectEntity': 'East Timor', 'Relation': 'CountryOfficialLanguage', 'p': 0.5, 'r': 0.5, 'f1': 0.5}
+Ground Truth: [['portuguese'], ['tetum']]
+GPT-3 Prediction: ['Portuguese', 'East Timorese']
+
+
+{'SubjectEntity': 'Iceland', 'Relation': 'CountryOfficialLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['icelandic']]
+GPT-3 Prediction: ['elandic and English are the official languages of Icelan']
+
+
+{'SubjectEntity': 'Latvia', 'Relation': 'CountryOfficialLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['latvian']]
+GPT-3 Prediction: ['tvian, Lithuani']
+
+
+{'SubjectEntity': 'Maldives', 'Relation': 'CountryOfficialLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['maldivian']]
+GPT-3 Prediction: ['Dhivehi', 'English']
+
+
+{'SubjectEntity': 'North Macedonia', 'Relation': 'CountryOfficialLanguage', 'p': 0.5, 'r': 0.5, 'f1': 0.5}
+Ground Truth: [['albanian'], ['macedonian']]
+GPT-3 Prediction: ['Macedonian', 'Greek']
+
+
+{'SubjectEntity': 'Norway', 'Relation': 'CountryOfficialLanguage', 'p': 1.0, 'r': 0.25, 'f1': 0.4}
+Ground Truth: [['norwegian'], ['nynorsk'], ['bokmal', 'bokmål'], ['sami', 'sámi']]
+GPT-3 Prediction: ['Norwegian']
+
+
+{'SubjectEntity': "People's Republic of China", 'Relation': 'CountryOfficialLanguage', 'p': 0.25, 'r': 0.5, 'f1': 0.3333333333333333}
+Ground Truth: [['chinese'], ['standard mandarin', 'mandarin']]
+GPT-3 Prediction: ['Mandarin', 'Cantonese', 'Taiwanese', 'Wu']
+
+
+{'SubjectEntity': 'Rwanda', 'Relation': 'CountryOfficialLanguage', 'p': 0.5, 'r': 0.25, 'f1': 0.3333333333333333}
+Ground Truth: [['english'], ['french'], ['kinyarwanda'], ['swahili']]
+GPT-3 Prediction: ['Kinyarwanda', 'Rwanda French']
+
+
+{'SubjectEntity': 'Sierra Leone', 'Relation': 'CountryOfficialLanguage', 'p': 0.3333333333333333, 'r': 1.0, 'f1': 0.5}
+Ground Truth: [['english']]
+GPT-3 Prediction: ['English', 'Krio', 'Pidgin']
+
+
+{'SubjectEntity': 'Taiwan', 'Relation': 'CountryOfficialLanguage', 'p': 1.0, 'r': 0.2857142857142857, 'f1': 0.4444444444444445}
+Ground Truth: [['hakka'], ['paiwan'], ['formosan'], ['taiwanese hokkien', 'taiwanese', 'hokkien'], ['amis'], ['taiwanese', 'standard taiwanese mandarin', 'mandarin'], ['austronesian']]
+GPT-3 Prediction: ['Mandarin', 'Taiwanese']
+
+
+{'SubjectEntity': 'Zimbabwe', 'Relation': 'CountryOfficialLanguage', 'p': 1.0, 'r': 0.13333333333333333, 'f1': 0.23529411764705882}
+Ground Truth: [['english'], ['shona'], ['sesotho'], ['kalanga'], ['chewa'], ['venda'], ['ndau'], ['khoisan'], ['tsonga'], ['barwe'], ['northern ndebele', 'ndebele'], ['tswana'], ['nambya'], ['xhosa'], ['tonga']]
+GPT-3 Prediction: ['English', 'Shona']
+
+
