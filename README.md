@@ -79,4 +79,4 @@ See [`LICENSE`]() for more information.
 * [Michael Cochez](https://www.cochez.nl/)
 * [Jan-Christoph Kalo](https://github.com/JanKalo)
 * [Emile Van Krieken](https://emilevankrieken.com/)
-* [Thivyian Thanapalasingam](https://thiviyansingam.com/)
+* [Thiviyan Thanapalasingam](https://thiviyansingam.com/)
