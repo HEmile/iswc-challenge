@@ -334,7 +334,7 @@ def main():
     args = parser.parse_args()
     print(args)
 
-    probe_lm(args.input, args.model, args.output, True)
+    probe_lm(args.input, args.model, args.output, args.simple)
 
 
 if __name__ == "__main__":
