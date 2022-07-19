@@ -1,10 +1,5 @@
-CompanyParentOrganization (average f1: 0.668): 17 cases
+CompanyParentOrganization (average f1: 0.688): 16 cases
 
-
-
-{'SubjectEntity': 'Alvis Car and Engineering Company Ltd', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: []
-GPT-3 Prediction: ['Alvis plc']
 
 
 {'SubjectEntity': 'Aston Martin lagonda', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}

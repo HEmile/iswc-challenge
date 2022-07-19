@@ -26,7 +26,7 @@ def distort_sentence(sentence: str) -> str:
 
 def augment_sentence(sentence: str) -> str:
     """
-        WIP:
+        WIP: Maybe we will switch this component out for HuggingFace paraphrasing.
 
         Augments the input sentence with Hypernymy and Hyponymy information.
         Might need some kind of NER to find nouns...
@@ -48,5 +48,5 @@ def augment_sentence(sentence: str) -> str:
 test_sentence = """Which countries share a border with Morocco?"""
 
 # Uncomment to test
-# print(distort_sentence(test_sentence))
+    # print(distort_sentence(test_sentence))
 # print(augment_sentence(test_sentence))

@@ -3,8 +3,9 @@ import json
 import logging
 import time
 from pathlib import Path
+
 from tqdm.auto import tqdm
-from integrity_checking import logical_integrity
+
 from utils.file_io import read_lm_kbc_jsonl
 from utils.model import gpt3, clean_up, convert_nan
 
@@ -16,6 +17,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 SAMPLE_SIZE = 5000
+
+MODEL_TYPES = ['text-davinci-002', 'text-curie-001', 'text-babbage-001', 'text-ada-001']
 
 
 def create_prompt(subject_entity, relation):
@@ -172,13 +175,13 @@ Where is or was {subject_entity} employed?
     elif relation == "PersonPlaceOfDeath":
         prompt = f"""
 What is the place of death of Barack Obama?
-['None']
+[]
 
 What is the place of death of Ennio Morricone?
 ['Rome']
 
 What is the place of death of Elon Musk?
-['None']
+[]
 
 What is the place of death of Prince?
 ['Chanhassen']
@@ -192,7 +195,7 @@ How did André Leon Talley die?
 ['Infarction']
 
 How did Angela Merkel die?
-[]
+['None']
 
 How did Bob Saget die?
 ['Injury', 'Blunt Trauma']
@@ -222,7 +225,7 @@ What is the parent company of {subject_entity}?
     return prompt
 
 
-def probe_lm(input: Path, output: Path, batch_size=20):
+def probe_lm(input: Path, model: str, output: Path, batch_size=20):
     ### for every subject-entity in the entities list, we probe the LM using the below sample prompts
 
     # Load the input file
@@ -248,14 +251,13 @@ def probe_lm(input: Path, output: Path, batch_size=20):
 
         ### probing the language model and obtaining the ranked tokens in the masked_position
         logger.info(f"Running the model...")
-        predictions = gpt3(prompts)  # TODO Figure out what to do with probabilities
+        predictions = gpt3(prompts, model=model)  # TODO Figure out what to do with probabilities
 
         ### Clean and format results
         for row, prediction in zip(batch, predictions):
             prediction['text'] = clean_up(prediction['text'])
             prediction['text'] = convert_nan(prediction['text'])
-#         logical_integrity(relation, batch, predictions)
-            # TODO: Check Logic consistency (Emile, Sel)
+            #         logical_integrity(relation, batch, predictions)
 
             result = {
                 "SubjectEntity": row['SubjectEntity'],
@@ -281,21 +283,31 @@ def main():
         description="Probe a Language Model and Run the Baseline Method on Prompt Outputs"
     )
     parser.add_argument(
+        "-i",
         "--input",
         type=str,
         default="data/dev.jsonl",
         help="input file containing the subject-entities for each relation to probe the language model",
     )
     parser.add_argument(
+        "-o",
         "--output",
         type=str,
         default="predictions/gpt3.pred.jsonl",
         help="output directory to store the baseline output",
     )
+    parser.add_argument(
+        "-m",
+        "--model",
+        type=str,
+        default="text-davinci-002",
+        help="The models provided by OpenAI. \
+        Options: 'text-davinci-002', 'text-curie-001', 'text-babbage-001', 'text-ada-001'"
+    )
     args = parser.parse_args()
     print(args)
 
-    probe_lm(args.input, args.output)
+    probe_lm(args.input, args.model, args.output)
 
 
 if __name__ == "__main__":
