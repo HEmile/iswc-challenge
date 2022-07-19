@@ -124,7 +124,7 @@ python evaluate.py -p "predictions/gpt3(davinci-dev-language-none).pred.jsonl" -
 ### Final decision per relation type
 
 | Relation                                    | Prompt type<br/>     |
-|---------------------------------------------|:----------------|
+|-------------------------------|:----------------|
 | ChemicalCompoundElement              | triple          |
 | CompanyParentOrganization            | triple, none    |
 | CountryBordersWithCountry           | language, empty |
@@ -171,7 +171,7 @@ python opt_baseline.py -o "predictions/opt(30-dev-optimized).pred.jsonl" -i "dat
 |StateSharesBorderState     |0.102  |0.060  |0.066|
 |*** Average ***            |0.180  |0.194  |0.161|
 
-####  [TO REDO] predictions/gpt3(babbage-dev).pred.jsonl
+#### [TO REDO] predictions/gpt3(babbage-dev).pred.jsonl
 
 | Relation                             | p     |r   |  f1|
 |--------------------------------------|:------|:------|:------|
@@ -189,7 +189,7 @@ python opt_baseline.py -o "predictions/opt(30-dev-optimized).pred.jsonl" -i "dat
 |StateSharesBorderState     |0.117  |0.078  |0.088|
 |*** Average ***            |0.325  |0.263  |0.269|
 
-####  [TO REDO]  predictions/gpt3(curie-dev).pred.jsonl
+#### [TO REDO]  predictions/gpt3(curie-dev).pred.jsonl
 
 | Relation                             | p     |r   |  f1|
 |--------------------------------------|:------|:------|:------|
@@ -209,21 +209,21 @@ python opt_baseline.py -o "predictions/opt(30-dev-optimized).pred.jsonl" -i "dat
 
 #### predictions/gpt3(davinci-dev).pred.jsonl
 
-| Relation                             | p     |r   |  f1|
-|--------------------------------------|:------|:------|:------|
-|ChemicalCompoundElement    |0.976  |0.919  |0.940|
-|CompanyParentOrganization  |0.725  |0.740  |0.728|
-|CountryBordersWithCountry  |0.809  |0.800  |0.785|
-|CountryOfficialLanguage    |0.933  |0.810  |0.833|
-|PersonCauseOfDeath         |0.600  |0.590  |0.593|
-|PersonEmployer             |0.281  |0.333  |0.271|
-|PersonInstrument           |0.600  |0.561  |0.568|
-|PersonLanguage             |0.843  |0.894  |0.830|
-|PersonPlaceOfDeath         |0.840  |0.840  |0.840|
-|PersonProfession           |0.709  |0.536  |0.581|
-|RiverBasinsCountry         |0.845  |0.868  |0.832|
-|StateSharesBorderState     |0.582  |0.403  |0.468|
-|*** Average ***            |0.729  |0.691  |0.689|
+| Relation                  | p     |r   | f1   |
+|---------------------------|:------|:------|:-----|
+|ChemicalCompoundElement    |0.976  |0.919  | 0.940|
+|CompanyParentOrganization  |0.725  |0.740  | 0.728|
+|CountryBordersWithCountry  |0.809  |0.800  | 0.785|
+|CountryOfficialLanguage    |0.933  |0.810  | 0.833|
+|PersonCauseOfDeath         |0.600  |0.590  | 0.593|
+|PersonEmployer             |0.281  |0.333  | 0.271|
+|PersonInstrument           |0.600  |0.561  | 0.568|
+|PersonLanguage             |0.843  |0.894  | 0.830|
+|PersonPlaceOfDeath         |0.840  |0.840  | 0.840|
+|PersonProfession           |0.709  |0.536  | 0.581|
+|RiverBasinsCountry         |0.845  |0.868  | 0.832|
+|StateSharesBorderState     |0.582  |0.403  | 0.468|
+|*** Average ***            |0.729  |0.691  | 0.689|
 
 ## Fact Checking
 
@@ -231,8 +231,8 @@ python opt_baseline.py -o "predictions/opt(30-dev-optimized).pred.jsonl" -i "dat
 python integrity_checking.py -o "predictions/gpt3(davinci-dev-optimized)_factcheck.pred.jsonl" -i "predictions/gpt3(davinci-dev-optimized).pred.jsonl"
 ```
 
-| Relation                             | p     |r   |  f1|
-|--------------------------------------|:------|:------|:------|
+| Relation                          | p     |r   |  f1|
+|---------------------------|:------|:------|:------|
 |ChemicalCompoundElement    |0.976  |0.919  |0.940|
 |CompanyParentOrganization  |0.760  |0.760  |0.760|
 |CountryBordersWithCountry  |0.809  |0.800  |0.785|
