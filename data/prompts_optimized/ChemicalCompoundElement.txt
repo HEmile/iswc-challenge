@@ -1,0 +1,9 @@
+Water ChemicalCompoundElement: ['Hydrogen', 'Oxygen']
+
+Bismuth subsalicylate ChemicalCompoundElement: ['Bismuth']
+
+Sodium Bicarbonate ChemicalCompoundElement: ['Hydrogen', 'Oxygen', 'Sodium', 'Carbon']
+
+Aspirin ChemicalCompoundElement: ['Oxygen', 'Carbon', 'Hydrogen']
+
+{subject_entity} ChemicalCompoundElement:

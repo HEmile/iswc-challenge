@@ -1,0 +1,13 @@
+Where is or was Susan Wojcicki employed?
+['Google']
+
+Where is or was Steve Wozniak employed?
+['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari']
+
+Where is or was Yukio Hatoyama employed?
+['Senshu University','Tokyo Institute of Technology']
+
+Where is or was Yahtzee Croshaw employed?
+['PC Gamer', 'Hyper', 'Escapist']
+
+Where is or was {subject_entity} employed?

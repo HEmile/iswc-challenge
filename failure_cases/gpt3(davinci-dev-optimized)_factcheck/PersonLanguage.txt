@@ -1,0 +1,99 @@
+PersonLanguage (average f1: 0.842): 19 cases
+
+
+
+SubjectEntity: A. R. Rahman
+Ground Truth: ['hindi', 'tamil', 'telugu']
+GPT-3 Prediction: ['english', 'hindi', 'malayalam', 'tamil']
+
+
+SubjectEntity: Akon
+Ground Truth: ['english']
+GPT-3 Prediction: ['english', 'wolof']
+
+
+SubjectEntity: Akshay Kumar
+Ground Truth: ['hindi', 'punjabi']
+GPT-3 Prediction: ['hindi']
+
+
+SubjectEntity: Barack Obama
+Ground Truth: ['english', 'indonesian']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Donald Tusk
+Ground Truth: ['english', 'german', 'polish']
+GPT-3 Prediction: ['english', 'polish']
+
+
+SubjectEntity: Emma Watson
+Ground Truth: ['english', 'french']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Genelia D'Souza
+Ground Truth: ['hindi', 'malayalam', 'tamil', 'telugu']
+GPT-3 Prediction: ['english', 'hindi', 'marathi', 'telugu']
+
+
+SubjectEntity: John Cena
+Ground Truth: ['chinese', 'english', 'mandarin', 'mandarin chinese']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Jose Michimani
+Ground Truth: ['english']
+GPT-3 Prediction: ['quechua', 'spanish']
+
+
+SubjectEntity: Kobe Bryant
+Ground Truth: ['english', 'italian', 'spanish']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Novak Djokovic
+Ground Truth: ['english', 'french', 'german', 'italian', 'serbian']
+GPT-3 Prediction: ['english', 'serbian']
+
+
+SubjectEntity: Pau Gasol
+Ground Truth: ['catalan', 'english', 'french', 'italian', 'spanish']
+GPT-3 Prediction: ['catalan', 'english', 'spanish']
+
+
+SubjectEntity: Rafael Nadal
+Ground Truth: ['catalan', 'english', 'spanish']
+GPT-3 Prediction: ['catalan', 'spanish']
+
+
+SubjectEntity: Sachin
+Ground Truth: ['english', 'hindi', 'marathi']
+GPT-3 Prediction: ['hindi', 'marathi']
+
+
+SubjectEntity: Salman Khan
+Ground Truth: ['hindi']
+GPT-3 Prediction: ['hindi', 'urdu']
+
+
+SubjectEntity: Selena Gomez
+Ground Truth: ['english', 'spanish']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Thiago Alcântara
+Ground Truth: ['spanish']
+GPT-3 Prediction: ['catalan', 'portuguese', 'spanish']
+
+
+SubjectEntity: Vladimir Putin
+Ground Truth: ['english', 'german', 'russian', 'swedish']
+GPT-3 Prediction: ['russian']
+
+
+SubjectEntity: Zlatan Ibrahimović
+Ground Truth: ['bosnian', 'english', 'italian', 'spanish', 'swedish']
+GPT-3 Prediction: ['french', 'serbian', 'swedish']
+
+

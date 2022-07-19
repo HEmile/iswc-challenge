@@ -1,0 +1,114 @@
+PersonInstrument (average f1: 0.568): 22 cases
+
+
+
+SubjectEntity: A. J. McLean
+Ground Truth: ['lyric spinto tenor', 'tenor']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Arnel Pineda
+Ground Truth: ['guitar']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Billie Joe Armstrong
+Ground Truth: ['guitar', 'harmonica', 'mandolin', 'percussion', 'percussion instrument', 'piano', 'saxophone']
+GPT-3 Prediction: ['bass', 'guitar', 'piano']
+
+
+SubjectEntity: Björk
+Ground Truth: ['celesta', 'clarinet', 'clavichord', 'flute', 'harp', 'keyboard', 'keyboard instrument', 'piano', 'pipe organ', 'reeds', 'saxophone', 'sets of free reeds']
+GPT-3 Prediction: ['flute', 'guitar', 'piano']
+
+
+SubjectEntity: China Anne McClain
+Ground Truth: ['bass', 'guitar', 'piano']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Cho Kyuhyun
+Ground Truth: ['piano']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Duff McKagan
+Ground Truth: ['bass guitar', 'guitar', 'guitar']
+GPT-3 Prediction: ['bass']
+
+
+SubjectEntity: Gary Barlow
+Ground Truth: ['piano']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Gerard Way
+Ground Truth: ['electric guitar', 'guitar']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Heo Young-saeng
+Ground Truth: ['piano']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Joseph Hahn
+Ground Truth: ['keyboard', 'keyboard instrument']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Kangin
+Ground Truth: ['piano']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Lay
+Ground Truth: ['cello', 'drum', 'electric guitar', 'guitar', 'hulusi', 'ney', 'piano']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Lee Jung-shin
+Ground Truth: ['bass guitar', 'guitar']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Logan Henderson
+Ground Truth: ['piano']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Morrissey
+Ground Truth: ['piano']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Nichkhun
+Ground Truth: ['keyboard', 'keyboard instrument']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Paul McCartney
+Ground Truth: ['bass', 'bass guitar', 'cello', 'double bass', 'guitar', 'guitar', 'keyboard', 'keyboard instrument', 'mandolin', 'melodica', 'percussion', 'percussion instrument', 'piano', 'recorder', 'sitar', 'trumpet', 'ukulele', 'violin']
+GPT-3 Prediction: ['bass', 'drums', 'guitar', 'piano']
+
+
+SubjectEntity: Robert Plant
+Ground Truth: ['harmonica']
+GPT-3 Prediction: ['guitar']
+
+
+SubjectEntity: Roger Taylor
+Ground Truth: ['bass guitar', 'drum', 'drum', 'drum kit', 'drum machine', 'guitar', 'guitar', 'keyboard', 'keyboard instrument']
+GPT-3 Prediction: ['drums', 'percussion']
+
+
+SubjectEntity: Shindong
+Ground Truth: ['piano']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Yoshiki
+Ground Truth: ['arp', 'arp 2500', 'drum', 'drum kit', 'guitar', 'keyboard', 'keyboard instrument', 'piano']
+GPT-3 Prediction: ['drums', 'piano']
+
+
