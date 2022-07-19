@@ -1,0 +1,13 @@
+What is the place of death of Barack Obama?
+['None']
+
+What is the place of death of Ennio Morricone?
+['Rome']
+
+What is the place of death of Elon Musk?
+['None']
+
+What is the place of death of Prince?
+['Chanhassen']
+
+What is the place of death of {subject_entity}?

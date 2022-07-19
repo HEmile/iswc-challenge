@@ -1,0 +1,13 @@
+Which instruments does Liam Gallagher play?
+['Maraca', 'Guitar']
+
+Which instruments does Jay Park play?
+[]
+
+Which instruments does Axl Rose play?
+['Guitar', 'Piano', 'Pander', 'Bass']
+
+Which instruments does Neil Young play?
+['Guitar']
+
+Which instruments does {subject_entity} play?
