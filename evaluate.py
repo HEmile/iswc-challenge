@@ -263,9 +263,18 @@ def print_results(predictions_fp, ground_truth_fp, scores_per_sr_pair, scores_pe
             print(f"{relation} (average f1: {round(average_score['f1'], 3)}): {len(bad_examples)} cases")
             print('\n\n')
             for instance in bad_examples:
-                print(instance)
-                print(f"Ground Truth: {gt_dict[(instance['SubjectEntity'], instance['Relation'])]}")
-                print(f"GPT-3 Prediction: {pred_dict[(instance['SubjectEntity'], instance['Relation'])]}")
+                print(f"SubjectEntity: {instance['SubjectEntity']}")
+                gt = gt_dict[(instance['SubjectEntity'], instance['Relation'])]
+                gt = [x for xs in gt for x in xs]
+                gt.sort()
+                if gt is not None:
+                    gt = [i.lower() for i in gt]
+                print(f"Ground Truth: {gt}")
+                pr = pred_dict[(instance['SubjectEntity'], instance['Relation'])]
+                pr.sort()
+                if pr is not None:
+                    pr = [i.lower() for i in pr]
+                print(f"GPT-3 Prediction: {pr}")
                 print('\n')
             sys.stdout = original_stdout  # Reset the standard output to its original value
 
