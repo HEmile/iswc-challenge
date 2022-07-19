@@ -1,254 +1,134 @@
-StateSharesBorderState (average f1: 0.0): 50 cases
+StateSharesBorderState (average f1: 0.522): 26 cases
 
 
 
 SubjectEntity: Andalusia
 Ground Truth: ['beja', 'castile-la mancha', 'extremadura', 'faro', 'gibraltar', 'murcia', 'region of murcia']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Auvergne
-Ground Truth: ['burgundy', 'centre-val de loire', 'languedoc-roussillon', 'limousin', 'midi-pyrenees', 'midi-pyrénées', 'rhone-alpes', 'rhône-alpes']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['castilla-la mancha', 'extremadura', 'murcia', 'valencian community']
 
 
 SubjectEntity: Basel-Stadt
 Ground Truth: ['alsace', 'baden-wurttemberg', 'baden-württemberg', 'basel-landschaft', 'haut-rhin']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Basilicata
-Ground Truth: ['apulia', 'calabria', 'campania']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['france', 'germany', 'solothurn']
 
 
 SubjectEntity: Basque Autonomous Community
 Ground Truth: ['cantabria', 'castile and leon', 'castile and león', 'la rioja', 'leon', 'navarre', 'nouvelle-aquitaine']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Bavaria
-Ground Truth: ['austria', 'baden-wurttemberg', 'baden-württemberg', 'bohemian', 'canton of st. gallen', 'hesse', 'karlovy vary', 'karlovy vary region', 'plzen', 'plzeň region', 'salzburg', 'saxony', 'south bohemian region', 'st. gallen', 'thuringia', 'tyrol', 'upper austria', 'vorarlberg']
-GPT-3 Prediction: ['the']
+GPT-3 Prediction: ['aragon', 'france', 'la rioja', 'navarre']
 
 
 SubjectEntity: Biobío Region
 Ground Truth: ['araucania', 'araucanía region', 'neuquen', 'neuquén province', 'nuble', 'ñuble region']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Brandenburg
-Ground Truth: ['berlin', 'berlin', 'berlin', 'east berlin', 'lower saxony', 'lubusz', 'lubusz voivodeship', 'mecklenburg', 'mecklenburg-western pomerania', 'pomeranian', 'poznan', 'poznań voivodeship', 'saxony', 'saxony-anhalt', 'west berlin', 'west pomeranian voivodeship', 'wroclaw', 'wrocław voivodeship', 'zielona gora', 'zielona góra voivodeship']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Canton of Glarus
-Ground Truth: ['canton of st. gallen', 'grisons', 'schwyz', 'st. gallen', 'uri']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['araucanía region', 'los ríos region', 'maule region']
 
 
 SubjectEntity: Canton of Neuchâtel
 Ground Truth: ['canton of bern', 'canton of fribourg', 'canton of jura', 'canton of vaud', 'doubs', 'franche-comte', 'franche-comté', 'jura', 'vaud']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Canton of Schaffhausen
-Ground Truth: ['baden-wurttemberg', 'baden-württemberg', 'busingen am hochrhein', 'büsingen am hochrhein', 'canton of zürich', 'thurgau', 'zurich']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['bern', 'jura', 'vaud']
 
 
 SubjectEntity: Canton of Vaud
 Ground Truth: ['ain', 'auvergne-rhone-alpes', 'auvergne-rhône-alpes', 'canton of bern', 'canton of fribourg', 'canton of geneva', 'canton of neuchâtel', 'canton of valais', 'doubs', 'franche-comte', 'franche-comté', 'geneva', 'haute-savoie', 'jura', 'neuchatel', 'rhone-alpes', 'rhône-alpes']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Canton of Zug
-Ground Truth: ['aargau', 'canton aargau', 'canton of lucerne', 'canton of zürich', 'lucerne', 'schwyz', 'zurich']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['france', 'geneva', 'italy']
 
 
 SubjectEntity: Canton of Zürich
 Ground Truth: ['aargau', 'baden-wurttemberg', 'baden-württemberg', 'canton aargau', 'canton of schaffhausen', 'canton of st. gallen', 'canton of zug', 'schaffhausen', 'schwyz', 'st. gallen', 'thurgau', 'zug']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Connecticut
-Ground Truth: ['massachusetts', 'new york', 'rhode island']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Drenthe
-Ground Truth: ['bentheim', 'county of bentheim', 'emsland', 'friesland', 'groningen', 'lower saxony', 'overijssel']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['aargau', 'glarus', 'schwyz', 'st. gallen', 'uri']
 
 
 SubjectEntity: Flores Department
 Ground Truth: ['colonia', 'colonia department', 'durazno', 'durazno department', 'florida', 'florida department', 'rio negro', 'río negro department', 'san jose', 'san josé department', 'soriano', 'soriano department']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Free Hanseatic City of Bremen
-Ground Truth: ['lower saxony']
-GPT-3 Prediction: ['the']
-
-
-SubjectEntity: French Guiana
-Ground Truth: ['brazil', 'suriname']
-GPT-3 Prediction: ['the']
-
-
-SubjectEntity: Fukushima Prefecture
-Ground Truth: ['gunma', 'gunma prefecture', 'ibaraki', 'ibaraki prefecture', 'miyagi', 'miyagi prefecture', 'niigata', 'niigata prefecture', 'tochigi', 'tochigi prefecture', 'yamagata']
-GPT-3 Prediction: ['the']
+GPT-3 Prediction: ['guatemala']
 
 
 SubjectEntity: Galicia
 Ground Truth: ['asturias', 'braga', 'braganca', 'bragança', 'castile and leon', 'castile and león', 'leon', 'viana do castelo', 'vila real']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Giza Governorate
-Ground Truth: ['beheira', 'beheira governorate', 'beni suef', 'beni suef governorate', 'cairo', 'cairo governorate', 'faiyum', 'faiyum governorate', 'matrouh', 'matrouh governorate', 'minya', 'minya governorate', 'monufia', 'monufia governorate', 'new valley', 'new valley governorate', 'qalyubia', 'qalyubia governorate', 'red sea', 'red sea governorate', 'suez', 'suez governorate']
-GPT-3 Prediction: ['the']
+GPT-3 Prediction: ['asturias', 'castile and leon', 'principality of asturias']
 
 
 SubjectEntity: Győr
 Ground Truth: ['abda', 'bony', 'bőny', 'gonyu', 'gyorszemere', 'gyorujbarat', 'gyorujfalu', 'győrszemere', 'győrújbarát', 'győrújfalu', 'gönyű', 'ikreny', 'ikrény', 'kisbajcs', 'koronco', 'koroncó', 'nagyszentjanos', 'nagyszentjános', 'rabapatona', 'rábapatona', 'toltestava', 'travnik', 'trávnik', 'töltéstava', 'vamosszabadi', 'venek', 'vámosszabadi', 'vének']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['borsod-abaúj-zemplén', 'burgenland', 'slovakia', 'vienna']
 
 
 SubjectEntity: Hanoi
 Ground Truth: ['bac giang', 'bac ninh', 'bắc giang', 'bắc ninh', 'ha nam', 'hoa binh', 'hung yen', 'hà nam', 'hòa bình', 'hưng yên', 'phu tho', 'phú thọ', 'thai nguyen', 'thái nguyên', 'vinh phuc', 'vĩnh phúc']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Hesse
-Ground Truth: ['baden-wurttemberg', 'baden-württemberg', 'bavaria', 'lower saxony', 'north rhine-westphalia', 'rhine-westphalia', 'rhineland-palatinate', 'thuringia']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Iowa
-Ground Truth: ['dakota', 'illinois', 'minnesota', 'missouri', 'nebraska', 'south dakota', 'wisconsin']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Land of Valencia
-Ground Truth: ['aragon', 'castile-la mancha', 'catalonia', 'murcia', 'region of murcia']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['china', 'laos', 'thailand']
 
 
 SubjectEntity: Lombardy
 Ground Truth: ['canton of ticino', 'emilia-romagna', 'grisons', 'piedmont', 'ticino', 'trentino-south tyrol', 'veneto']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['aosta valley', 'emilia-romagna', 'piedmont', 'switzerland', 'trentino-alto adige/sudtirol', 'veneto']
 
 
 SubjectEntity: Los Lagos Region
 Ground Truth: ['aysen', 'aysén region', 'chubut', 'chubut province', 'los rios', 'los ríos region', 'neuquen', 'neuquén province', 'rio negro', 'río negro province']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['araucania', 'los rios', 'magellan and chilean antarctica']
 
 
 SubjectEntity: Luxembourg District
 Ground Truth: ['luxembourg', 'meurthe-et-moselle', 'moselle']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Massachusetts
-Ground Truth: ['connecticut', 'new hampshire', 'new york', 'rhode island', 'vermont']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Nebraska
-Ground Truth: ['colorado', 'dakota', 'iowa', 'kansas', 'missouri', 'south dakota', 'wyoming']
-GPT-3 Prediction: []
-
-
-SubjectEntity: New Hampshire
-Ground Truth: ['maine', 'massachusetts', 'quebec', 'vermont']
-GPT-3 Prediction: []
-
-
-SubjectEntity: New Jersey
-Ground Truth: ['delaware', 'new york', 'pennsylvania']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['belgium', 'france', 'germany']
 
 
 SubjectEntity: O'Higgins Region
 Ground Truth: ['maule', 'maule region', 'mendoza', 'santiago metropolitan', 'santiago metropolitan region', 'valparaiso', 'valparaíso region']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['araucanía region', 'bío-bío region', 'maule region']
 
 
 SubjectEntity: Obwalden
 Ground Truth: ['canton of bern', 'canton of lucerne', 'lucerne', 'nidwalden', 'schwyz', 'uri']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Ohio
-Ground Truth: ['indiana', 'kentucky', 'michigan', 'ontario', 'pennsylvania', 'virginia', 'west virginia']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['bern', 'nidwalden', 'uri', 'valais']
 
 
 SubjectEntity: Päijänne Tavastia
 Ground Truth: ['central finland', 'finland', 'kymenlaakso', 'pirkanmaa', 'savonia', 'southern savonia', 'tavastia proper', 'uusimaa']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['central finland', 'eastern finland', 'southern finland']
 
 
 SubjectEntity: Rhineland-Palatinate
 Ground Truth: ['baden-wurttemberg', 'baden-württemberg', 'bas-rhin', 'grand est', 'hesse', 'lorraine', 'moselle', 'north rhine-westphalia', 'province of liege', 'rhine-westphalia', 'saarland', 'wallonia']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['baden-wurttemberg', 'belgium', 'hesse', 'luxembourg', 'netherlands', 'saarland']
 
 
 SubjectEntity: Río Negro Department
 Ground Truth: ['durazno', 'durazno department', 'entre rios', 'entre ríos province', 'flores', 'flores department', 'paysandu', 'paysandú department', 'soriano', 'soriano department', 'tacuarembo', 'tacuarembó department']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['corrientes province', 'entre ríos province', 'misiones province']
 
 
 SubjectEntity: Salto Department
 Ground Truth: ['artigas', 'artigas department', 'corrientes', 'entre rios', 'entre ríos province', 'paysandu', 'paysandú department', 'rivera', 'rivera department', 'tacuarembo', 'tacuarembó department']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['artigas department', 'rivera department', 'tacuarembo department']
 
 
 SubjectEntity: San José Department
 Ground Truth: ['canelones', 'canelones department', 'colonia', 'colonia department', 'flores', 'flores department', 'florida', 'florida department', 'montevideo', 'montevideo department', 'soriano', 'soriano department']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['alajuela department', 'cartago department', 'heredia department']
 
 
 SubjectEntity: Santiago Metropolitan Region
 Ground Truth: ['mendoza', "o'higgins", "o'higgins region", 'valparaiso', 'valparaíso region']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Scotland
-Ground Truth: ['england']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['bio-bio region', 'maule region', "o'higgins region"]
 
 
 SubjectEntity: Soriano Department
 Ground Truth: ['colonia', 'colonia department', 'entre rios', 'entre ríos province', 'flores', 'flores department', 'rio negro', 'río negro department', 'san jose', 'san josé department']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['colonia department', 'florida department', 'montevideo department', 'san jose department']
 
 
 SubjectEntity: Tacuarembó Department
 Ground Truth: ['cerro largo', 'cerro largo department', 'durazno', 'durazno department', 'paysandu', 'paysandú department', 'rio negro', 'rivera', 'rivera department', 'río negro department', 'salto', 'salto department']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['cerro largo', 'durazno', 'río negro', 'treinta y tres']
 
 
 SubjectEntity: Tavastia Proper
 Ground Truth: ['finland', 'finland proper', 'paijanne tavastia', 'pirkanmaa', 'päijänne tavastia', 'uusimaa']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Tokyo
-Ground Truth: ['chiba', 'chiba prefecture', 'kanagawa', 'kanagawa prefecture', 'saitama', 'saitama prefecture', 'yamanashi', 'yamanashi prefecture']
-GPT-3 Prediction: []
-
-
-SubjectEntity: Virginia
-Ground Truth: ['carolina', 'columbia', 'district of columbia', 'kentucky', 'maryland', 'north carolina', 'tennessee', 'virginia', 'west virginia']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['satakunta', 'south karelia', 'uusimaa']
 
 
 SubjectEntity: Zagreb
 Ground Truth: ['krapina-zagorje', 'krapina-zagorje county', 'zagreb', 'zagreb county']
-GPT-3 Prediction: []
+GPT-3 Prediction: ['bosnia and herzegovina', 'serbia', 'slovenia']
 
 

@@ -1,0 +1,99 @@
+CompanyParentOrganization (average f1: 0.63): 19 cases
+
+
+
+SubjectEntity: Alvis Car and Engineering Company Ltd
+Ground Truth: []
+GPT-3 Prediction: ['alvis plc', 'alvis plc', 'red arrow diversified products']
+
+
+SubjectEntity: Aston Martin lagonda
+Ground Truth: []
+GPT-3 Prediction: ['ford motor company']
+
+
+SubjectEntity: Austro-Daimler
+Ground Truth: []
+GPT-3 Prediction: ['daimler ag']
+
+
+SubjectEntity: Automobilwerk Eisenach
+Ground Truth: []
+GPT-3 Prediction: ['bmw']
+
+
+SubjectEntity: Bell
+Ground Truth: []
+GPT-3 Prediction: ['bell textron inc.']
+
+
+SubjectEntity: Bertone
+Ground Truth: []
+GPT-3 Prediction: ['nuovo industriale', 'nuovo industriale', 'nuovo industriale']
+
+
+SubjectEntity: Changan Automobile
+Ground Truth: ['china south industries', 'china south industries group']
+GPT-3 Prediction: ['changan group']
+
+
+SubjectEntity: Duesenberg
+Ground Truth: []
+GPT-3 Prediction: ['duesenberg motors company']
+
+
+SubjectEntity: Hanomag
+Ground Truth: ['komatsu', 'komatsu limited']
+GPT-3 Prediction: ['volkswagen group']
+
+
+SubjectEntity: Hyundai Motor Company
+Ground Truth: ['hyundai']
+GPT-3 Prediction: ['hyundai motor group']
+
+
+SubjectEntity: Lotus Cars
+Ground Truth: ['geely']
+GPT-3 Prediction: ['proton']
+
+
+SubjectEntity: MG Car Company Limited
+Ground Truth: []
+GPT-3 Prediction: ['saic motor corporation limited']
+
+
+SubjectEntity: NSU
+Ground Truth: ['volkswagen']
+GPT-3 Prediction: ['volkswagen group']
+
+
+SubjectEntity: Peugeot
+Ground Truth: ['stellantis']
+GPT-3 Prediction: ['peugeot s.a.']
+
+
+SubjectEntity: Saipa
+Ground Truth: []
+GPT-3 Prediction: ['iran khodro']
+
+
+SubjectEntity: Scripps-Booth
+Ground Truth: ['general motors', 'gm']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Simca
+Ground Truth: ['chrysler', 'chrysler europe']
+GPT-3 Prediction: ['chrysler europe', 'psa peugeot citroën', 'peugeot']
+
+
+SubjectEntity: Valmet Automotive
+Ground Truth: []
+GPT-3 Prediction: ['valmet']
+
+
+SubjectEntity: Élan Motorsport Technologies
+Ground Truth: []
+GPT-3 Prediction: ['élan motorsports group']
+
+

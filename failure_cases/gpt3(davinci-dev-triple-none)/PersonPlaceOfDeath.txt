@@ -1,0 +1,59 @@
+PersonPlaceOfDeath (average f1: 0.78): 11 cases
+
+
+
+SubjectEntity: Abdul Rehman Malik
+Ground Truth: ['islamabad']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Alfredo González Flores
+Ground Truth: ['heredia']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Almudena Grandes
+Ground Truth: ['madrid']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Anne Rice
+Ground Truth: ['rancho mirage']
+GPT-3 Prediction: ['new orleans']
+
+
+SubjectEntity: Aretha Franklin
+Ground Truth: ['detroit']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Cameron Boyce
+Ground Truth: ['la', 'los angeles']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Chick Corea
+Ground Truth: ['tampa', 'tampa bay area']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Glenn Fredly
+Ground Truth: ['jakarta']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Ken Robinson
+Ground Truth: ['london']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Michael Collins
+Ground Truth: ['naples']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Rachel Caine
+Ground Truth: ['texas']
+GPT-3 Prediction: ['']
+
+

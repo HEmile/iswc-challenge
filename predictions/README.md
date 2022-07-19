@@ -31,6 +31,7 @@ python evaluate.py -p "predictions/baseline.pred.jsonl" -g "data/dev.jsonl"
 #[MAKE ALL PROMPTS WITH EMPTY LISTS]
 python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-triple-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" --simple True
 python evaluate.py -p "predictions/gpt3(davinci-dev-triple-empty).pred.jsonl" -g "data/dev.jsonl"
+
 python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002"
 python evaluate.py -p "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" -g "data/dev.jsonl"
 ```
@@ -71,51 +72,57 @@ python evaluate.py -p "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" 
 | StateSharesBorderState        (better) |0.628  |0.462  |0.522|
 | *** Average ***                        |0.658  |0.657  |0.634|
 
-## [TO REDO] Empty vs None experiment
+## Empty vs None experiment
 
 ```bash
-#[MAKE ALL PROMPTS OPTIMAL ACCORDING TO RESULTS IN GPT3 SCRIPT]
+#python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-triple-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" 
 #python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" 
+
 #[MAKE ALL PROMPTS WITH NONE]
+python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-triple-none).pred.jsonl" -i "data/dev(None).jsonl" -m "text-davinci-002"
+#[MERGE WITH NON_AFFECTED PREDICTIONS]
+python evaluate.py -p "predictions/gpt3(davinci-dev-triple-none).pred.jsonl" -g "data/dev.jsonl"
+
 python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-none).pred.jsonl" -i "data/dev(None).jsonl" -m "text-davinci-002"
 #[MERGE WITH NON_AFFECTED PREDICTIONS]
+python evaluate.py -p "predictions/gpt3(davinci-dev-language-none).pred.jsonl" -g "data/dev.jsonl"
 ```
 
-#### predictions/gpt3(davinci-dev-empty).pred.jsonl
+#### predictions/gpt3(davinci-dev-triple-none).pred.jsonl
 
 | Relation | p     |r   |  f1|
 | ----------------------- |:------|:------|:------|
-|ChemicalCompoundElement    |0.905  |0.894  |0.894|
-|CompanyParentOrganization  |0.485  |0.500  |0.488|
-|CountryBordersWithCountry  |0.830  |0.794  |0.792|
-|CountryOfficialLanguage    |0.824  |0.840  |0.788|
-|PersonCauseOfDeath         |0.560  |0.560  |0.560|
-|PersonEmployer             |0.270  |0.333  |0.266|
-|PersonInstrument           |0.589  |0.570  |0.551|
-|PersonLanguage             |0.759  |0.941  |0.801|
-|PersonPlaceOfDeath         |0.820  |0.820  |0.820|
-|PersonProfession           |0.735  |0.526  |0.582|
-|RiverBasinsCountry         |0.824  |0.846  |0.817|
-|StateSharesBorderState     |0.621  |0.463  |0.519|
-|*** Average ***            |0.685  |0.674  |0.657|
+|ChemicalCompoundElement    |0.976  |0.919  |0.940|
+|CompanyParentOrganization  |0.627  |0.640  |0.630|
+|CountryBordersWithCountry  |0.826  |0.719  |0.749|
+|CountryOfficialLanguage    |0.933  |0.810  |0.833|
+|PersonCauseOfDeath         |0.600  |0.590  |0.593|
+|PersonEmployer             |0.261  |0.267  |0.226|
+|PersonInstrument           |0.600  |0.561  |0.568|
+|PersonLanguage             |0.840  |0.894  |0.827|
+|PersonPlaceOfDeath         |0.780  |0.780  |0.780|
+|PersonProfession           |0.669  |0.527  |0.556|
+|RiverBasinsCountry         |0.845  |0.868  |0.832|
+|StateSharesBorderState     |0.587  |0.407  |0.472|
+|*** Average ***            |0.712  |0.665  |0.667|
 
-#### gpt3(davinci-dev-None).pred.jsonl
+#### predictions/gpt3(davinci-dev-language-none).pred.jsonl
 
 | Relation                             | p     |r   |  f1|
 |--------------------------------------|:------|:------|:------|
-| ChemicalCompoundElement              | 0.905  | 0.894  | 0.894|
-| CompanyParentOrganization   (better) | 0.685  | 0.700  | 0.688|
-| CountryBordersWithCountry (worse)    | 0.815  | 0.782  | 0.778|
-| CountryOfficialLanguage              | 0.824  | 0.840  | 0.788|
-| PersonCauseOfDeath      (better)     | 0.580  | 0.580  | 0.580|
-| PersonEmployer                       | 0.270  | 0.333  | 0.266|
-| PersonInstrument     (worse)         | 0.545  | 0.520  | 0.519|
-| PersonLanguage                       | 0.759  | 0.941  | 0.801|
-| PersonPlaceOfDeath     (worse)       | 0.800  | 0.800  | 0.800|
-| PersonProfession                     | 0.735  | 0.526  | 0.582|
-| RiverBasinsCountry                   | 0.824  | 0.846  | 0.817|
-| StateSharesBorderState               | 0.621  | 0.463  | 0.519|
-| *** Average ***                      | 0.697  | 0.685  | 0.669|
+|ChemicalCompoundElement    |0.895  |0.885  |0.884|
+|CompanyParentOrganization  |0.385  |0.400  |0.388|
+|CountryBordersWithCountry  |0.775  |0.788  |0.758|
+|CountryOfficialLanguage    |0.798  |0.882  |0.785|
+|PersonCauseOfDeath         |0.560  |0.560  |0.560|
+|PersonEmployer             |0.273  |0.323  |0.262|
+|PersonInstrument           |0.549  |0.528  |0.522|
+|PersonLanguage             |0.750  |0.932  |0.793|
+|PersonPlaceOfDeath         |0.780  |0.780  |0.780|
+|PersonProfession           |0.713  |0.535  |0.581|
+|RiverBasinsCountry         |0.820  |0.863  |0.822|
+|StateSharesBorderState     |0.628  |0.462  |0.522|
+|*** Average ***            |0.660  |0.661  |0.638|
 
 ## [TO REDO] Language Model Size - Scaling
 

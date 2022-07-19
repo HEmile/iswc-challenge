@@ -1,0 +1,104 @@
+RiverBasinsCountry (average f1: 0.832): 20 cases
+
+
+
+SubjectEntity: Didi Liakhvi river
+Ground Truth: ['georgia']
+GPT-3 Prediction: ['georgia', 'russia']
+
+
+SubjectEntity: Dniester
+Ground Truth: ['moldova', 'ukraine']
+GPT-3 Prediction: ['moldova', 'romania', 'ukraine']
+
+
+SubjectEntity: Gadar river
+Ground Truth: ['iran']
+GPT-3 Prediction: ['iran', 'iraq']
+
+
+SubjectEntity: Gambia river
+Ground Truth: ['gambia', 'guinea', 'senegal', 'the gambia']
+GPT-3 Prediction: ['senegal', 'the gambia']
+
+
+SubjectEntity: Han river
+Ground Truth: ['korea', 'korea', 'north korea', 'south korea']
+GPT-3 Prediction: ['china']
+
+
+SubjectEntity: Japurá river
+Ground Truth: ['brazil', 'colombia']
+GPT-3 Prediction: ['brazil', 'colombia', 'peru']
+
+
+SubjectEntity: Kura river
+Ground Truth: ['azerbaijan', 'georgia', 'turkey']
+GPT-3 Prediction: ['armenia', 'azerbaijan', 'georgia', 'iran', 'russia', 'turkey']
+
+
+SubjectEntity: Narew
+Ground Truth: ['belarus', 'poland']
+GPT-3 Prediction: ['poland']
+
+
+SubjectEntity: Narva river
+Ground Truth: ['belarus', 'estonia', 'latvia', 'russia']
+GPT-3 Prediction: ['estonia', 'russia']
+
+
+SubjectEntity: Neman
+Ground Truth: ['belarus', 'latvia', 'lithuania', 'russia']
+GPT-3 Prediction: ['belarus', 'lithuania', 'poland', 'russia']
+
+
+SubjectEntity: Neris
+Ground Truth: ['belarus', 'latvia', 'lithuania']
+GPT-3 Prediction: ['belarus', 'lithuania']
+
+
+SubjectEntity: Ottawa river
+Ground Truth: ['canada']
+GPT-3 Prediction: ['canada', 'united states']
+
+
+SubjectEntity: Red river of the south
+Ground Truth: ['texas', 'united states of america', 'usa']
+GPT-3 Prediction: ['united states']
+
+
+SubjectEntity: San
+Ground Truth: ['poland', 'ukraine']
+GPT-3 Prediction: ['argentina', 'bolivia', 'chile', 'paraguay']
+
+
+SubjectEntity: Shatt al-Arab
+Ground Truth: ['iran', 'iraq', 'kuwait', 'saudi arabia', 'syria', 'turkey']
+GPT-3 Prediction: ['iran', 'iraq']
+
+
+SubjectEntity: Someș river
+Ground Truth: ['hungary', 'romania']
+GPT-3 Prediction: ['romania']
+
+
+SubjectEntity: Torne river
+Ground Truth: ['finland', 'norway', 'sweden']
+GPT-3 Prediction: ['finland', 'sweden']
+
+
+SubjectEntity: Ural river
+Ground Truth: ['kazakhstan', 'russia']
+GPT-3 Prediction: ['kazakhstan', 'russia', 'turkmenistan', 'uzbekistan']
+
+
+SubjectEntity: Ussuri
+Ground Truth: ['russia']
+GPT-3 Prediction: ['china', 'russia']
+
+
+SubjectEntity: Yantra
+Ground Truth: ['bulgaria']
+GPT-3 Prediction: ['bulgaria', 'romania']
+
+

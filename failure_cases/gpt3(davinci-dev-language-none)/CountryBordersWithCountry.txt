@@ -1,0 +1,79 @@
+CountryBordersWithCountry (average f1: 0.758): 15 cases
+
+
+
+SubjectEntity: Australia
+Ground Truth: ['east timor', 'indonesia', 'new zealand', 'papua new guinea', 'timor']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Bahrain
+Ground Truth: ['iran', 'saudi arabia']
+GPT-3 Prediction: ['qatar', 'saudi arabia']
+
+
+SubjectEntity: Comoros
+Ground Truth: ['france', 'madagascar', 'mozambique', 'seychelles', 'tanzania']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Cuba
+Ground Truth: ['united states of america', 'usa']
+GPT-3 Prediction: ['bahamas', 'cayman islands', 'haiti', 'jamaica', 'united states']
+
+
+SubjectEntity: Dominican Republic
+Ground Truth: ['haiti', 'united states of america', 'usa', 'venezuela']
+GPT-3 Prediction: ['haiti', 'puerto rico']
+
+
+SubjectEntity: Gambia
+Ground Truth: ['senegal']
+GPT-3 Prediction: ['guinea', 'guinea-bissau', 'senegal']
+
+
+SubjectEntity: Ghana
+Ground Truth: ['burkina faso', 'ivory coast', 'togo']
+GPT-3 Prediction: ['benin', 'burkina faso', 'cote divoire', 'togo']
+
+
+SubjectEntity: Grenada
+Ground Truth: ['venezuela']
+GPT-3 Prediction: ['trinidad and tobago', 'venezuela']
+
+
+SubjectEntity: Japan
+Ground Truth: ['china', 'korea', "people's republic of china", 'philippines', 'russia', 'south korea', 'taiwan', 'united states of america', 'usa']
+GPT-3 Prediction: ['china', 'north korea', 'russia', 'south korea']
+
+
+SubjectEntity: Kingdom of Denmark
+Ground Truth: ['canada', 'germany', 'iceland', 'norway', 'poland', 'sweden', 'uk', 'united kingdom']
+GPT-3 Prediction: ['germany', 'norway', 'sweden']
+
+
+SubjectEntity: Portugal
+Ground Truth: ['castile and leon', 'castile and león', 'spain']
+GPT-3 Prediction: ['andorra', 'morocco', 'spain']
+
+
+SubjectEntity: Saint Vincent and the Grenadines
+Ground Truth: ['venezuela']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Samoa
+Ground Truth: ['united states of america', 'usa']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: United kingdom
+Ground Truth: ['ireland', 'republic of ireland']
+GPT-3 Prediction: ['belgium', 'france', 'germany', 'ireland', 'netherlands']
+
+
+SubjectEntity: Venezuela
+Ground Truth: ['brazil', 'colombia', 'dominica', 'dominican republic', 'france', 'grenada', 'guyana', 'kingdom of the netherlands', 'netherlands', 'saint kitts and nevis', 'saint lucia', 'saint vincent and the grenadines', 'trinidad and tobago', 'uk', 'united kingdom', 'united states of america', 'usa']
+GPT-3 Prediction: ['brazil', 'colombia', 'guyana']
+
+
