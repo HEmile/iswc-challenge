@@ -1,0 +1,9 @@
+San Marino StateSharesBorderState: ['San Leo', 'Acquaviva', 'Borgo Maggiore', 'Chiesanuova', 'Fiorentino']
+
+Whales StateSharesBorderState: ['England']
+
+Liguria StateSharesBorderState: ['Tuscany', 'Auvergne-Rhoone-Alpes', 'Piedmont', 'Emilia-Romagna']
+
+Mecklenberg-Western Pomerania StateSharesBorderState: ['Brandenburg', 'Pomeranian', 'Schleswig-Holstein', 'Lower Saxony']
+
+{subject_entity} StateSharesBorderState:

@@ -1,0 +1,9 @@
+Barack Obama PersonPlaceOfDeath: ['None']
+
+Ennio Morricone PersonPlaceOfDeath: ['Rome']
+
+Elon Musk PersonPlaceOfDeath: ['None']
+
+Prince PersonPlaceOfDeath: ['Chanhassen']
+
+{subject_entity} PersonPlaceOfDeath:
