@@ -29,16 +29,55 @@ python evaluate.py -p "predictions/baseline.pred.jsonl" -g "data/dev.jsonl"
 
 ```bash
 #[MAKE ALL PROMPTS WITH EMPTY LISTS]
-python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-triple-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" --simple False
-python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" --simple True
+python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-triple-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" --simple True
+python evaluate.py -p "predictions/gpt3(davinci-dev-triple-empty).pred.jsonl" -g "data/dev.jsonl"
+python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002"
+python evaluate.py -p "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" -g "data/dev.jsonl"
 ```
 
-## Empty vs None experiment
+#### predictions/gpt3(davinci-dev-triple-empty).pred.jsonl
+
+| Relation                  | p     |r   |  f1|
+|---------------------------|:------|:------|:------|
+| ChemicalCompoundElement   |0.976  |0.919  |0.940|
+| CompanyParentOrganization |0.627  |0.640  |0.630|
+| CountryBordersWithCountry |0.865  |0.733  |0.766|
+| CountryOfficialLanguage   |0.933  |0.810  |0.833|
+| PersonCauseOfDeath        |0.560  |0.550  |0.553|
+| PersonEmployer            |0.261  |0.267  |0.226|
+| PersonInstrument          |0.547  |0.508  |0.502|
+| PersonLanguage            |0.840  |0.894  |0.827|
+| PersonPlaceOfDeath        |0.820  |0.820  |0.820|
+| PersonProfession          |0.669  |0.527  |0.556|
+| RiverBasinsCountry        |0.845  |0.868  |0.832|
+| StateSharesBorderState    |0.587  |0.407  |0.472|
+| *** Average ***           |0.711  |0.662  |0.663|
+
+#### predictions/gpt3(davinci-dev-language-empty).pred.jsonl
+
+| Relation                                    | p     |r   |  f1|
+|---------------------------------------------|:------|:------|:------|
+| ChemicalCompoundElement  (worse)            |0.895  |0.885  |0.884|
+| CompanyParentOrganization (worse)           |0.385  |0.400  |0.388|
+| CountryBordersWithCountry  (better)         |0.809  |0.800  |0.785|
+| CountryOfficialLanguage   (worse)           |0.798  |0.882  |0.785|
+| PersonCauseOfDeath    (worse)           |0.500  |0.500  |0.500|
+| PersonEmployer            (better)          |0.273  |0.323  |0.262|
+| PersonInstrument             (worse)        |0.489  |0.458  |0.446|
+| PersonLanguage             (worse)          |0.750  |0.932  |0.793|
+| PersonPlaceOfDeath          (better)        |0.840  |0.840  |0.840|
+| PersonProfession            (better)    |0.713  |0.535  |0.581|
+| RiverBasinsCountry              (worse) |0.820  |0.863  |0.822|
+| StateSharesBorderState        (better) |0.628  |0.462  |0.522|
+| *** Average ***                        |0.658  |0.657  |0.634|
+
+## [TO REDO] Empty vs None experiment
 
 ```bash
-python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" --simple False
+#[MAKE ALL PROMPTS OPTIMAL ACCORDING TO RESULTS IN GPT3 SCRIPT]
+#python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" 
 #[MAKE ALL PROMPTS WITH NONE]
-python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-none).pred.jsonl" -i "data/dev(None).jsonl" -m "text-davinci-002" --simple False
+python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-none).pred.jsonl" -i "data/dev(None).jsonl" -m "text-davinci-002"
 #[MERGE WITH NON_AFFECTED PREDICTIONS]
 ```
 
@@ -78,14 +117,14 @@ python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-none).pred.jso
 | StateSharesBorderState               | 0.621  | 0.463  | 0.519|
 | *** Average ***                      | 0.697  | 0.685  | 0.669|
 
-## Language Model Size - Scaling
+## [TO REDO] Language Model Size - Scaling
 
 ```bash
 #[MAKE ALL PROMPTS OPTIMAL ACCORDING TO RESULTS IN GPT3 AND OPT SCRIPTS]
-python gpt3_baseline.py -o "predictions/gpt3(ada-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-ada-001" --simple False
-gpt3_baseline.py -o "predictions/gpt3(babbage-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-babbage-001" --simple False
-gpt3_baseline.py -o "predictions/gpt3(curie-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-curie-001" --simple False
-gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" --simple False
+python gpt3_baseline.py -o "predictions/gpt3(ada-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-ada-001" 
+python gpt3_baseline.py -o "predictions/gpt3(babbage-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-babbage-001" 
+python gpt3_baseline.py -o "predictions/gpt3(curie-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-curie-001" 
+python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" 
 #[ASK JAN TO RUN IN SERVER?]
 python opt_baseline.py -o "predictions/opt(1.3-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "facebook/opt-1.3b"
 python opt_baseline.py -o "predictions/opt(6.7-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "facebook/opt-6.7b"
