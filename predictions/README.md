@@ -1,6 +1,13 @@
-# Current results on dev dataset
+# Experimental Setup
 
-### Baseline
+Thw following are the steps we took to perform our experiments. We report the results on the `dev` dataset.
+
+## Baseline
+
+```bash
+python baseline.py -i "data/dev.jsonl" -o "predictions/baseline.pred.jsonl"
+python evaluate.py -p "predictions/baseline.pred.jsonl" -g "data/dev.jsonl"
+```
 
 | Relation | p     |r   |  f1|
 | ----------------------- |:------|:------|:------|
@@ -18,9 +25,24 @@
 |StateSharesBorderState   | 0.000  | 0.000  | 0.000|
 |***Average***            | 0.349  | 0.295  | 0.309|
 
-## None vs empty list
+## Natural Language vs Triple
 
-### predictions/gpt3(davinci-dev-empty).pred.jsonl
+```bash
+#[MAKE ALL PROMPTS WITH EMPTY LISTS]
+python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-triple-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" --simple False
+python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" --simple True
+```
+
+## Empty vs None experiment
+
+```bash
+python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" --simple False
+#[MAKE ALL PROMPTS WITH NONE]
+python gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-none).pred.jsonl" -i "data/dev(None).jsonl" -m "text-davinci-002" --simple False
+#[MERGE WITH NON_AFFECTED PREDICTIONS]
+```
+
+#### predictions/gpt3(davinci-dev-empty).pred.jsonl
 
 | Relation | p     |r   |  f1|
 | ----------------------- |:------|:------|:------|
@@ -38,7 +60,7 @@
 |StateSharesBorderState     |0.621  |0.463  |0.519|
 |*** Average ***            |0.685  |0.674  |0.657|
 
-### gpt3(davinci-dev-None).pred.jsonl
+#### gpt3(davinci-dev-None).pred.jsonl
 
 | Relation                             | p     |r   |  f1|
 |--------------------------------------|:------|:------|:------|
@@ -56,9 +78,22 @@
 | StateSharesBorderState               | 0.621  | 0.463  | 0.519|
 | *** Average ***                      | 0.697  | 0.685  | 0.669|
 
-## Scaling
+## Language Model Size - Scaling
 
-### predictions/gpt3(ada-dev).pred.jsonl
+```bash
+#[MAKE ALL PROMPTS OPTIMAL ACCORDING TO RESULTS IN GPT3 AND OPT SCRIPTS]
+python gpt3_baseline.py -o "predictions/gpt3(ada-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-ada-001" --simple False
+gpt3_baseline.py -o "predictions/gpt3(babbage-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-babbage-001" --simple False
+gpt3_baseline.py -o "predictions/gpt3(curie-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-curie-001" --simple False
+gpt3_baseline.py -o "predictions/gpt3(davinci-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "text-davinci-002" --simple False
+#[ASK JAN TO RUN IN SERVER?]
+python opt_baseline.py -o "predictions/opt(1.3-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "facebook/opt-1.3b"
+python opt_baseline.py -o "predictions/opt(6.7-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "facebook/opt-6.7b"
+python opt_baseline.py -o "predictions/opt(13-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "facebook/opt-13b"
+python opt_baseline.py -o "predictions/opt(30-dev-language-optimized).pred.jsonl" -i "data/dev.jsonl" -m "facebook/opt-30b"
+```
+
+#### predictions/gpt3(ada-dev).pred.jsonl
 
 | Relation                             | p     |r   |  f1|
 |--------------------------------------|:------|:------|:------|
@@ -76,7 +111,7 @@
 |StateSharesBorderState     |0.102  |0.060  |0.066|
 |*** Average ***            |0.180  |0.194  |0.161|
 
-### predictions/gpt3(babbage-dev).pred.jsonl 
+#### predictions/gpt3(babbage-dev).pred.jsonl
 
 | Relation                             | p     |r   |  f1|
 |--------------------------------------|:------|:------|:------|
@@ -94,7 +129,7 @@
 |StateSharesBorderState     |0.117  |0.078  |0.088|
 |*** Average ***            |0.325  |0.263  |0.269|
 
-### predictions/gpt3(curie-dev).pred.jsonl 
+#### predictions/gpt3(curie-dev).pred.jsonl
 
 | Relation                             | p     |r   |  f1|
 |--------------------------------------|:------|:------|:------|
@@ -112,7 +147,7 @@
 |StateSharesBorderState     |0.255  |0.195  |0.198|
 |*** Average ***            |0.378  |0.375  |0.343|
 
-### predictions/gpt3(davinci-dev).pred.jsonl 
+#### predictions/gpt3(davinci-dev).pred.jsonl
 
 | Relation                             | p     |r   |  f1|
 |--------------------------------------|:------|:------|:------|
@@ -130,23 +165,15 @@
 |StateSharesBorderState     |0.638  |0.472  |0.532|
 |*** Average ***            |0.707  |0.694  |0.677|
 
-## Fact probing
+## Fact Checking
 
-### GPT3 (['None']) + fact checking
+```bash
+python integrity_checking.py -o "predictions/gpt3(davinci-dev-language-optimized)_factcheck.pred.jsonl" -i "predictions/gpt3(davinci-dev-language-optimized).pred.jsonl"
+```
 
-| Relation  | p     |r   |  f1|
-|--------------------------|:------|:------|:------|
-|ChemicalCompoundElement    | 0.902  | 0.891  | 0.890|
-|CompanyParentOrganization  | 0.640  | 0.640  | 0.640|
-|CountryBordersWithCountry  | 0.830  | 0.794  | 0.792|
-|CountryOfficialLanguage    | 0.876  | 0.810  | 0.794|
-|PersonCauseOfDeath         | 0.580  | 0.580  | 0.580|
-|PersonEmployer             | 0.270  | 0.333  | 0.266|
-|PersonInstrument           | 0.663  | 0.612  | 0.617|
-|PersonLanguage             | 0.863  | 0.849  | 0.825|
-|PersonPlaceOfDeath         | 0.820  | 0.820  | 0.820|
-|PersonProfession           | 0.725  | 0.520  | 0.574|
-|RiverBasinsCountry         | 0.824  | 0.851  | 0.820|
-|StateSharesBorderState     | 0.622  | 0.464  | 0.521|
-|*** Average ***            | 0.718  | 0.680  | 0.678|
+## Alias Fetcher
+
+```bash
+python wikidata_cleanup.py -o "predictions/gpt3(davinci-dev-language-optimized)_factcheck_wikiclean.pred.jsonl" -i "predictions/gpt3(davinci-dev-language-optimized)_factcheck.pred.jsonl"
+```
 

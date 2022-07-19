@@ -102,7 +102,7 @@ Which languages does Aamir Khan speak?
 Hindi, English, Urdu%
 Which languages does Pharrell Williams speak?
 English%
-Which languages does Shakira speak?
+Which languages does Xabi Alonso speak?
 Catalan, English, Portuguese, Spanish%
 Which languages does Shakira speak?
 Catalan, English, Portuguese, Spanish, Italian, French%
@@ -266,18 +266,21 @@ def main():
         description="Probe a Language Model and Run the Baseline Method on Prompt Outputs"
     )
     parser.add_argument(
+        "--i",
         "--input",
         type=str,
         default="data/dev.jsonl",
         help="input file containing the subject-entities for each relation to probe the language model",
     )
     parser.add_argument(
+        "--m",
         "--model",
         type=str,
         default="facebook/opt-125m",
         help="input the model name from the HF model hub",
     )
     parser.add_argument(
+        "--o",
         "--output",
         type=str,
         default="predictions/opt-1.3b.pred.jsonl",

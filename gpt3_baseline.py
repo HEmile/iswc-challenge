@@ -195,7 +195,7 @@ How did André Leon Talley die?
 ['Infarction']
 
 How did Angela Merkel die?
-['None']
+[]
 
 How did Bob Saget die?
 ['Injury', 'Blunt Trauma']
@@ -209,7 +209,7 @@ How did {subject_entity} die?
     elif relation == "CompanyParentOrganization":
         prompt = f"""
 What is the parent company of Microsoft?
-['None']
+[]
 
 What is the parent company of Sony?
 ['Sony Group']
@@ -218,7 +218,7 @@ What is the parent company of Saab?
 ['Saab Group', 'Saab-Scania', 'Spyker N.V.', 'National Electric Vehicle Sweden', 'General Motors']
 
 What is the parent company of Max Motors?
-['None']
+[]
 
 What is the parent company of {subject_entity}?
 """
