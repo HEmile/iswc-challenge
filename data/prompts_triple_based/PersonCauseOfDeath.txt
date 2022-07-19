@@ -1,0 +1,9 @@
+André Leon Talley PersonCauseOfDeath: ['Infarction']
+
+Angela Merkel PersonCauseOfDeath: []
+
+Bob Saget PersonCauseOfDeath: ['Injury', 'Blunt Trauma']
+
+Jamal Khashoggi PersonCauseOfDeath: ['Murder']
+
+{subject_entity} PersonCauseOfDeath:

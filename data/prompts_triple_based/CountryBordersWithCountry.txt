@@ -1,0 +1,9 @@
+Dominica CountryBordersWithCountry: ['Venezuela']
+
+North Korea CountryBordersWithCountry: ['South Korea', 'China', 'Russia']
+
+Serbia CountryBordersWithCountry: ['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
+
+Fiji CountryBordersWithCountry: []
+
+{subject_entity} CountryBordersWithCountry:

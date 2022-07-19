@@ -1,0 +1,9 @@
+Susan Wojcicki PersonEmployer: ['Google']
+
+Steve Wozniak PersonEmployer: ['Apple Inc', 'Hewlett-Packard', 'University of Technology Sydney', 'Atari']
+
+Yukio Hatoyama PersonEmployer: ['Senshu University','Tokyo Institute of Technology']
+
+Yahtzee Croshaw PersonEmployer: ['PC Gamer', 'Hyper', 'Escapist']
+
+{subject_entity} PersonEmployer:

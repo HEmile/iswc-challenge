@@ -1,0 +1,9 @@
+Danny DeVito PersonProfession: ['Comedian', 'Film Director', 'Voice Actor', 'Actor', 'Film Producer', 'Film Actor', 'Dub Actor', 'Activist', 'Television Actor']
+
+David Guetta PersonProfession: ['DJ']
+
+Gary Lineker PersonProfession: ['Commentator', 'Association Football Player', 'Journalist', 'Broadcaster']
+
+Gwyneth Paltrow PersonProfession: ['Film Actor','Musician']
+
+{subject_entity} PersonProfession:
