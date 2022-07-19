@@ -1,10 +1,10 @@
 What are all the atoms that make up the molecule Water?
 ['Hydrogen', 'Oxygen']
 
-What are all the atoms that make up the molecule Bismuth subsalicylate	?
+What are all the atoms that make up the molecule Bismuth subsalicylate?
 ['Bismuth']
 
-What are all the atoms that make up the molecule Sodium Bicarbonate	?
+What are all the atoms that make up the molecule Sodium Bicarbonate?
 ['Hydrogen', 'Oxygen', 'Sodium', 'Carbon']
 
 What are all the atoms that make up the molecule Aspirin?

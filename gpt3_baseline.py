@@ -3,8 +3,9 @@ import json
 import logging
 import time
 from pathlib import Path
+
 from tqdm.auto import tqdm
-from integrity_checking import logical_integrity
+
 from utils.file_io import read_lm_kbc_jsonl
 from utils.model import gpt3, clean_up, convert_nan
 
@@ -174,13 +175,13 @@ Where is or was {subject_entity} employed?
     elif relation == "PersonPlaceOfDeath":
         prompt = f"""
 What is the place of death of Barack Obama?
-['None']
+[]
 
 What is the place of death of Ennio Morricone?
 ['Rome']
 
 What is the place of death of Elon Musk?
-['None']
+[]
 
 What is the place of death of Prince?
 ['Chanhassen']
@@ -194,7 +195,7 @@ How did André Leon Talley die?
 ['Infarction']
 
 How did Angela Merkel die?
-[]
+['None']
 
 How did Bob Saget die?
 ['Injury', 'Blunt Trauma']
@@ -280,7 +281,6 @@ def probe_lm(input: Path, model: str, output: Path, simple=False, batch_size=20)
             prediction['text'] = clean_up(prediction['text'])
             prediction['text'] = convert_nan(prediction['text'])
             #         logical_integrity(relation, batch, predictions)
-            # TODO: Check Logic consistency (Emile, Sel)
 
             result = {
                 "SubjectEntity": row['SubjectEntity'],
@@ -306,12 +306,14 @@ def main():
         description="Probe a Language Model and Run the Baseline Method on Prompt Outputs"
     )
     parser.add_argument(
+        "-i",
         "--input",
         type=str,
         default="data/dev.jsonl",
         help="input file containing the subject-entities for each relation to probe the language model",
     )
     parser.add_argument(
+        "-o",
         "--output",
         type=str,
         default="predictions/gpt3.pred.jsonl",

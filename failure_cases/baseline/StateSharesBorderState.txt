@@ -1,0 +1,254 @@
+StateSharesBorderState (average f1: 0.0): 50 cases
+
+
+
+{'SubjectEntity': 'Andalusia', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['beja'], ['faro'], ['extremadura'], ['region of murcia', 'murcia'], ['castile-la mancha'], ['gibraltar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Auvergne', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['burgundy'], ['rhone-alpes', 'rhône-alpes'], ['midi-pyrénées', 'midi-pyrenees'], ['limousin'], ['centre-val de loire'], ['languedoc-roussillon']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Basel-Stadt', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['alsace'], ['haut-rhin'], ['baden-wurttemberg', 'baden-württemberg'], ['basel-landschaft']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Basilicata', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['campania'], ['calabria'], ['apulia']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Basque Autonomous Community', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nouvelle-aquitaine'], ['castile and león', 'castile and leon', 'leon'], ['navarre'], ['cantabria'], ['la rioja']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Bavaria', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['thuringia'], ['baden-wurttemberg', 'baden-württemberg'], ['karlovy vary region', 'karlovy vary'], ['saxony'], ['south bohemian region', 'bohemian'], ['hesse'], ['salzburg'], ['st. gallen', 'canton of st. gallen'], ['vorarlberg'], ['upper austria', 'austria'], ['tyrol'], ['plzeň region', 'plzen']]
+GPT-3 Prediction: ['the']
+
+
+{'SubjectEntity': 'Biobío Region', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['araucanía region', 'araucania'], ['nuble', 'ñuble region'], ['neuquen', 'neuquén province']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Brandenburg', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['saxony'], ['lubusz voivodeship', 'lubusz'], ['mecklenburg-western pomerania'], ['berlin'], ['saxony-anhalt'], ['east berlin', 'berlin'], ['pomeranian', 'west pomeranian voivodeship'], ['mecklenburg'], ['poznan', 'poznań voivodeship'], ['zielona gora', 'zielona góra voivodeship'], ['wrocław voivodeship', 'wroclaw'], ['lower saxony'], ['west berlin', 'berlin']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Canton of Glarus', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['schwyz'], ['st. gallen', 'canton of st. gallen'], ['grisons'], ['uri']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Canton of Neuchâtel', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['vaud', 'canton of vaud'], ['canton of fribourg'], ['canton of bern'], ['doubs'], ['canton of jura', 'jura'], ['franche-comte', 'franche-comté']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Canton of Schaffhausen', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['thurgau'], ['canton of zürich', 'zurich'], ['baden-wurttemberg', 'baden-württemberg'], ['busingen am hochrhein', 'büsingen am hochrhein']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Canton of Vaud', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['franche-comte', 'franche-comté'], ['neuchatel', 'canton of neuchâtel'], ['canton of fribourg'], ['canton of bern'], ['haute-savoie'], ['auvergne-rhone-alpes', 'auvergne-rhône-alpes'], ['jura'], ['doubs'], ['ain'], ['canton of geneva', 'geneva'], ['canton of valais'], ['rhone-alpes', 'rhône-alpes']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Canton of Zug', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['canton of lucerne', 'lucerne'], ['schwyz'], ['canton of zürich', 'zurich'], ['canton aargau', 'aargau']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Canton of Zürich', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['st. gallen', 'canton of st. gallen'], ['thurgau'], ['canton of schaffhausen', 'schaffhausen'], ['baden-wurttemberg', 'baden-württemberg'], ['canton aargau', 'aargau'], ['canton of zug', 'zug'], ['schwyz']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Connecticut', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['rhode island'], ['massachusetts'], ['new york']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Drenthe', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['emsland'], ['lower saxony'], ['county of bentheim', 'bentheim'], ['groningen'], ['overijssel'], ['friesland']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Flores Department', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['florida', 'florida department'], ['san josé department', 'san jose'], ['colonia department', 'colonia'], ['soriano department', 'soriano'], ['durazno', 'durazno department'], ['rio negro', 'río negro department']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Free Hanseatic City of Bremen', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['lower saxony']]
+GPT-3 Prediction: ['the']
+
+
+{'SubjectEntity': 'French Guiana', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['brazil'], ['suriname']]
+GPT-3 Prediction: ['the']
+
+
+{'SubjectEntity': 'Fukushima Prefecture', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['niigata', 'niigata prefecture'], ['gunma', 'gunma prefecture'], ['yamagata'], ['ibaraki prefecture', 'ibaraki'], ['miyagi prefecture', 'miyagi'], ['tochigi', 'tochigi prefecture']]
+GPT-3 Prediction: ['the']
+
+
+{'SubjectEntity': 'Galicia', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['vila real'], ['bragança', 'braganca'], ['viana do castelo'], ['castile and león', 'castile and leon', 'leon'], ['asturias'], ['braga']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Giza Governorate', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['suez governorate', 'suez'], ['beheira', 'beheira governorate'], ['cairo', 'cairo governorate'], ['red sea', 'red sea governorate'], ['qalyubia governorate', 'qalyubia'], ['faiyum governorate', 'faiyum'], ['matrouh governorate', 'matrouh'], ['new valley governorate', 'new valley'], ['minya', 'minya governorate'], ['beni suef governorate', 'beni suef'], ['monufia governorate', 'monufia']]
+GPT-3 Prediction: ['the']
+
+
+{'SubjectEntity': 'Győr', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['rabapatona', 'rábapatona'], ['ikreny', 'ikrény'], ['vének', 'venek'], ['vamosszabadi', 'vámosszabadi'], ['töltéstava', 'toltestava'], ['bony', 'bőny'], ['gyorujbarat', 'győrújbarát'], ['kisbajcs'], ['gyorszemere', 'győrszemere'], ['trávnik', 'travnik'], ['gonyu', 'gönyű'], ['koroncó', 'koronco'], ['abda'], ['gyorujfalu', 'győrújfalu'], ['nagyszentjanos', 'nagyszentjános']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Hanoi', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['bắc ninh', 'bac ninh'], ['phú thọ', 'phu tho'], ['ha nam', 'hà nam'], ['bac giang', 'bắc giang'], ['vinh phuc', 'vĩnh phúc'], ['hoa binh', 'hòa bình'], ['thai nguyen', 'thái nguyên'], ['hưng yên', 'hung yen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Hesse', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['thuringia'], ['rhineland-palatinate'], ['north rhine-westphalia', 'rhine-westphalia'], ['baden-wurttemberg', 'baden-württemberg'], ['bavaria'], ['lower saxony']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Iowa', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['illinois'], ['dakota', 'south dakota'], ['minnesota'], ['wisconsin'], ['nebraska'], ['missouri']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Land of Valencia', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['region of murcia', 'murcia'], ['castile-la mancha'], ['aragon'], ['catalonia']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Lombardy', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['veneto'], ['canton of ticino', 'ticino'], ['grisons'], ['trentino-south tyrol'], ['piedmont'], ['emilia-romagna']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Los Lagos Region', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['rio negro', 'río negro province'], ['neuquen', 'neuquén province'], ['aysen', 'aysén region'], ['los rios', 'los ríos region'], ['chubut', 'chubut province']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Luxembourg District', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['meurthe-et-moselle'], ['luxembourg'], ['moselle']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Massachusetts', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['new hampshire'], ['connecticut'], ['vermont'], ['rhode island'], ['new york']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Nebraska', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['missouri'], ['dakota', 'south dakota'], ['wyoming'], ['iowa'], ['kansas'], ['colorado']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'New Hampshire', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['quebec'], ['maine'], ['massachusetts'], ['vermont']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'New Jersey', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['pennsylvania'], ['delaware'], ['new york']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': "O'Higgins Region", 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['maule', 'maule region'], ['mendoza'], ['valparaíso region', 'valparaiso'], ['santiago metropolitan', 'santiago metropolitan region']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Obwalden', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nidwalden'], ['schwyz'], ['canton of bern'], ['canton of lucerne', 'lucerne'], ['uri']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Ohio', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['pennsylvania'], ['indiana'], ['kentucky'], ['virginia', 'west virginia'], ['ontario'], ['michigan']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Päijänne Tavastia', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['pirkanmaa'], ['finland', 'central finland'], ['savonia', 'southern savonia'], ['tavastia proper'], ['kymenlaakso'], ['uusimaa']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Rhineland-Palatinate', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['north rhine-westphalia', 'rhine-westphalia'], ['province of liege'], ['lorraine'], ['hesse'], ['saarland'], ['baden-wurttemberg', 'baden-württemberg'], ['wallonia'], ['grand est'], ['bas-rhin'], ['moselle']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Río Negro Department', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['flores', 'flores department'], ['paysandu', 'paysandú department'], ['soriano department', 'soriano'], ['durazno', 'durazno department'], ['entre rios', 'entre ríos province'], ['tacuarembo', 'tacuarembó department']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Salto Department', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['tacuarembo', 'tacuarembó department'], ['entre rios', 'entre ríos province'], ['corrientes'], ['rivera', 'rivera department'], ['artigas department', 'artigas'], ['paysandu', 'paysandú department']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'San José Department', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['colonia department', 'colonia'], ['soriano department', 'soriano'], ['florida', 'florida department'], ['flores', 'flores department'], ['canelones', 'canelones department'], ['montevideo department', 'montevideo']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Santiago Metropolitan Region', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['valparaíso region', 'valparaiso'], ['mendoza'], ["o'higgins", "o'higgins region"]]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Scotland', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['england']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Soriano Department', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['entre rios', 'entre ríos province'], ['rio negro', 'río negro department'], ['colonia department', 'colonia'], ['san josé department', 'san jose'], ['flores', 'flores department']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Tacuarembó Department', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['rivera', 'rivera department'], ['salto department', 'salto'], ['rio negro', 'río negro department'], ['paysandu', 'paysandú department'], ['cerro largo', 'cerro largo department'], ['durazno', 'durazno department']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Tavastia Proper', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['finland proper', 'finland'], ['uusimaa'], ['paijanne tavastia', 'päijänne tavastia'], ['pirkanmaa']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Tokyo', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['kanagawa prefecture', 'kanagawa'], ['yamanashi prefecture', 'yamanashi'], ['saitama prefecture', 'saitama'], ['chiba', 'chiba prefecture']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Virginia', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['district of columbia', 'columbia'], ['kentucky'], ['tennessee'], ['north carolina', 'carolina'], ['maryland'], ['virginia', 'west virginia']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Zagreb', 'Relation': 'StateSharesBorderState', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['krapina-zagorje', 'krapina-zagorje county'], ['zagreb', 'zagreb county']]
+GPT-3 Prediction: []
+
+
