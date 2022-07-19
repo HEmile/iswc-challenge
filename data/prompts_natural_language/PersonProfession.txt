@@ -1,0 +1,13 @@
+What is Danny DeVito's profession?
+['Comedian', 'Film Director', 'Voice Actor', 'Actor', 'Film Producer', 'Film Actor', 'Dub Actor', 'Activist', 'Television Actor']
+
+What is David Guetta's profession?
+['DJ']
+
+What is Gary Lineker's profession?
+['Commentator', 'Association Football Player', 'Journalist', 'Broadcaster']
+
+What is Gwyneth Paltrow's profession?
+['Film Actor','Musician']
+
+What is {subject_entity}'s profession?

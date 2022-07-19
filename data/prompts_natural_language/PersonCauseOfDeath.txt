@@ -1,0 +1,13 @@
+How did André Leon Talley die?
+['Infarction']
+
+How did Angela Merkel die?
+[]
+
+How did Bob Saget die?
+['Injury', 'Blunt Trauma']
+
+How did Jamal Khashoggi die?
+['Murder']
+
+How did {subject_entity} die?

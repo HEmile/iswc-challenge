@@ -3,8 +3,9 @@ import json
 import logging
 import time
 from pathlib import Path
+
 from tqdm.auto import tqdm
-from integrity_checking import logical_integrity
+
 from utils.file_io import read_lm_kbc_jsonl
 from utils.model import gpt3, clean_up, convert_nan
 
@@ -113,8 +114,8 @@ Which languages does Aamir Khan speak?
 Which languages does Pharrell Williams speak?
 ['English']
 
-Which languages does Shakira speak?
-['Catalan', 'English', 'Portuguese', 'Spanish']
+Which languages does Xabi Alonso speak?
+['German', 'Basque', 'Spanish', 'English']
 
 Which languages does Shakira speak?
 ['Catalan', 'English', 'Portuguese', 'Spanish', 'Italian', 'French']
@@ -125,7 +126,7 @@ Which languages does {subject_entity} speak?
     elif relation == "PersonProfession":
         prompt = f"""
 What is Danny DeVito's profession?
-['Comedian', 'Film Director', 'Voice Actor', 'Actor', 'Film Producer', 'Film Actor', 'Dub Actor', 'Activist', 'Television Actor' ]
+['Comedian', 'Film Director', 'Voice Actor', 'Actor', 'Film Producer', 'Film Actor', 'Dub Actor', 'Activist', 'Television Actor']
  
 What is David Guetta's profession?
 ['DJ']
@@ -174,13 +175,13 @@ Where is or was {subject_entity} employed?
     elif relation == "PersonPlaceOfDeath":
         prompt = f"""
 What is the place of death of Barack Obama?
-['None']
+[]
 
 What is the place of death of Ennio Morricone?
 ['Rome']
 
 What is the place of death of Elon Musk?
-['None']
+[]
 
 What is the place of death of Prince?
 ['Chanhassen']
@@ -194,7 +195,7 @@ How did André Leon Talley die?
 ['Infarction']
 
 How did Angela Merkel die?
-[]
+['None']
 
 How did Bob Saget die?
 ['Injury', 'Blunt Trauma']
@@ -202,7 +203,7 @@ How did Bob Saget die?
 How did Jamal Khashoggi die?
 ['Murder']
 
-How did {subject_entity} die? 
+How did {subject_entity} die?
 """
 
     elif relation == "CompanyParentOrganization":
@@ -214,7 +215,7 @@ What is the parent company of Sony?
 ['Sony Group']
 
 What is the parent company of Saab?
-['Saab Group', 'Saab-Scania', 'Spyker N.V.', 'National Electric Vehicle Sweden'', 'General Motors']
+['Saab Group', 'Saab-Scania', 'Spyker N.V.', 'National Electric Vehicle Sweden', 'General Motors']
 
 What is the parent company of Max Motors?
 ['None']
@@ -224,7 +225,30 @@ What is the parent company of {subject_entity}?
     return prompt
 
 
-def probe_lm(input: Path, model: str, output: Path, batch_size=20):
+def load_prompt(subject_entity, relation, simple=False):
+    """
+        Function that loads the prompts from the .txt files
+
+    :param subject_entity:
+    :param relation:
+    :param simple: Set to True if you want to load the triple-based prompts (a.k.a. simple prompts)
+    :return:
+    """
+    if simple:
+        prompt_path = Path('data/prompts_triple_based')
+    else:
+        prompt_path = Path('data/prompts_natural_language')
+
+    prompt_path = Path.joinpath(prompt_path, f"{relation}.txt")
+    with open(prompt_path, "r") as f:
+        prompt = f.read()
+
+    prompt = prompt.format(subject_entity=subject_entity)
+
+    return prompt
+
+
+def probe_lm(input: Path, model: str, output: Path, simple=False, batch_size=20):
     ### for every subject-entity in the entities list, we probe the LM using the below sample prompts
 
     # Load the input file
@@ -246,7 +270,7 @@ def probe_lm(input: Path, model: str, output: Path, batch_size=20):
 
             ### creating a specific prompt for the given relation
             logger.info(f"Creating prompts...")
-            prompts.append(create_prompt(row['SubjectEntity'], row['Relation']))
+            prompts.append(load_prompt(row['SubjectEntity'], row['Relation'], simple))
 
         ### probing the language model and obtaining the ranked tokens in the masked_position
         logger.info(f"Running the model...")
@@ -256,8 +280,7 @@ def probe_lm(input: Path, model: str, output: Path, batch_size=20):
         for row, prediction in zip(batch, predictions):
             prediction['text'] = clean_up(prediction['text'])
             prediction['text'] = convert_nan(prediction['text'])
-#         logical_integrity(relation, batch, predictions)
-            # TODO: Check Logic consistency (Emile, Sel)
+            #         logical_integrity(relation, batch, predictions)
 
             result = {
                 "SubjectEntity": row['SubjectEntity'],
@@ -283,12 +306,14 @@ def main():
         description="Probe a Language Model and Run the Baseline Method on Prompt Outputs"
     )
     parser.add_argument(
+        "-i",
         "--input",
         type=str,
         default="data/dev.jsonl",
         help="input file containing the subject-entities for each relation to probe the language model",
     )
     parser.add_argument(
+        "-o",
         "--output",
         type=str,
         default="predictions/gpt3.pred.jsonl",
@@ -302,10 +327,16 @@ def main():
         help="The models provided by OpenAI. \
         Options: 'text-davinci-002', 'text-curie-001', 'text-babbage-001', 'text-ada-001'"
     )
+    parser.add_argument(
+        "--simple",
+        type=bool,
+        default=False,
+        help="Simple vs natural language based prompts",
+    )
     args = parser.parse_args()
     print(args)
 
-    probe_lm(args.input, args.model, args.output)
+    probe_lm(args.input, args.model, args.output, args.simple)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,84 @@
+CompanyParentOrganization (average f1: 0.68): 16 cases
+
+
+
+{'SubjectEntity': 'Cadillac', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['general motors']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Changan Automobile', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['china south industries group', 'china south industries']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Gaz', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['gaz group', 'gaz']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Gucci', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['kering']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Hanomag', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['komatsu limited', 'komatsu']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Hyundai Motor Company', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['hyundai']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Kia', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['hyundai motor', 'hyundai motor group', 'hyundai']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Lada Zapad Tolyatti', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['avtovaz']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Lagonda', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['aston martin lagonda', 'aston martin', 'aston', 'martin']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Lotus Cars', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['geely']]
+GPT-3 Prediction: ['Lotus']
+
+
+{'SubjectEntity': 'NSU', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['volkswagen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Peugeot', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['stellantis']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Scripps-Booth', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['general motors', 'gm']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Simca', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['chrysler europe', 'chrysler']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Volkswagen', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['volkswagen group', 'volkswagen']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Yamaha Motor Company', 'Relation': 'CompanyParentOrganization', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['yamaha corporation', 'yamaha']]
+GPT-3 Prediction: ['Japan']
+
+

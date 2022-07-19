@@ -1,0 +1,13 @@
+What countries does the river Drava cross?
+['Hungary', 'Italy', 'Austria', 'Slovenia', 'Croatia']
+
+What countries does the river Huai river cross?
+['China']
+
+What countries does the river Paraná river cross?
+['Bolivia', 'Paraguay', 'Argentina', 'Brazil']
+
+What countries does the river Oise cross?
+['Belgium', 'France']
+
+What countries does the river {subject_entity} cross?

@@ -1,0 +1,179 @@
+CountryBordersWithCountry (average f1: 0.122): 35 cases
+
+
+
+{'SubjectEntity': 'Andorra', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['france'], ['spain']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Angola', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['republic of the congo', 'congo'], ['congo', 'democratic republic of the congo'], ['gabon'], ['namibia'], ['zambia']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Australia', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['papua new guinea'], ['indonesia'], ['east timor', 'timor'], ['new zealand']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Bahrain', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['iran'], ['saudi arabia']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Bulgaria', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['greece'], ['romania'], ['serbia'], ['north macedonia', 'macedonia'], ['turkey']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Central African Republic', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['republic of the congo', 'congo'], ['sudan'], ['cameroon'], ['south sudan', 'sudan'], ['chad'], ['congo', 'democratic republic of the congo']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Comoros', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['seychelles'], ['mozambique'], ['madagascar'], ['tanzania'], ['france']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Costa Rica', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['nicaragua'], ['panama']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Cuba', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['usa', 'united states of america']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Estonia', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['russia'], ['latvia']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Gambia', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['senegal']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Georgia', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['turkey'], ['azerbaijan'], ['armenia'], ['russia']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Germany', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['czechia', 'czech republic'], ['france'], ['netherlands'], ['austria'], ['denmark'], ['belgium'], ['luxembourg'], ['poland'], ['switzerland']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Ghana', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ivory coast'], ['togo'], ['burkina faso']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Grenada', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['venezuela']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Guyana', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['brazil'], ['suriname'], ['venezuela']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Ivory Coast', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['liberia'], ['guinea'], ['ghana'], ['mali'], ['burkina faso']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Japan', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['korea', 'south korea'], ['usa', 'united states of america'], ['philippines'], ['taiwan'], ['russia'], ['china', "people's republic of china"]]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Kingdom of Denmark', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['united kingdom', 'uk'], ['germany'], ['iceland'], ['poland'], ['canada'], ['sweden'], ['norway']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Kingdom of the Netherlands', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['belgium'], ['france'], ['germany'], ['venezuela']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Morocco', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['sahara', 'western sahara'], ['mauritania'], ['algeria'], ['spain']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Mozambique', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['comoros'], ['zambia'], ['africa', 'south africa'], ['tanzania'], ['eswatini'], ['malawi'], ['zimbabwe']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Myanmar', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['china', "people's republic of china"], ['india'], ['bangladesh'], ['thailand'], ['laos']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Poland', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ukraine'], ['russia'], ['germany'], ['czechia', 'czech republic'], ['belarus'], ['slovakia'], ['lithuania']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Portugal', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['castile and leon', 'castile and león'], ['spain']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Saint Vincent and the Grenadines', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['venezuela']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Samoa', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['usa', 'united states of america']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'San Marino', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['italy']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Saudi Arabia', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['iraq'], ['jordan'], ['yemen'], ['bahrain'], ['kuwait'], ['egypt'], ['qatar'], ['iran'], ['oman'], ['united arab emirates', 'uae']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Thailand', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['laos'], ['cambodia'], ['malaysia'], ['myanmar']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Togo', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ghana'], ['benin'], ['burkina faso']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Turkey', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['armenia'], ['georgia'], ['azerbaijan'], ['syria'], ['greece'], ['iran'], ['bulgaria'], ['iraq']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'United kingdom', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['ireland', 'republic of ireland']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Uzbekistan', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['afghanistan'], ['turkmenistan'], ['tajikistan'], ['kazakhstan'], ['kyrgyzstan']]
+GPT-3 Prediction: []
+
+
+{'SubjectEntity': 'Zimbabwe', 'Relation': 'CountryBordersWithCountry', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['africa', 'south africa'], ['zambia'], ['mozambique'], ['botswana']]
+GPT-3 Prediction: []
+
+

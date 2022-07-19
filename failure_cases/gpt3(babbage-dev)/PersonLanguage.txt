@@ -1,0 +1,124 @@
+PersonLanguage (average f1: 0.636): 24 cases
+
+
+
+{'SubjectEntity': 'A. R. Rahman', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 0.3333333333333333, 'f1': 0.4}
+Ground Truth: [['tamil'], ['hindi'], ['telugu']]
+GPT-3 Prediction: ['Hindi', 'English']
+
+
+{'SubjectEntity': 'Akon', 'Relation': 'PersonLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['english']]
+GPT-3 Prediction: ['Swahili']
+
+
+{'SubjectEntity': 'Akshay Kumar', 'Relation': 'PersonLanguage', 'p': 0.3333333333333333, 'r': 0.5, 'f1': 0.4}
+Ground Truth: [['hindi'], ['punjabi']]
+GPT-3 Prediction: ['Hindi', 'English', 'Urdu']
+
+
+{'SubjectEntity': 'Beyoncé', 'Relation': 'PersonLanguage', 'p': 0.3333333333333333, 'r': 1.0, 'f1': 0.5}
+Ground Truth: [['english']]
+GPT-3 Prediction: ['Hindi', 'English', 'Urdu']
+
+
+{'SubjectEntity': 'Donald Tusk', 'Relation': 'PersonLanguage', 'p': 1.0, 'r': 0.3333333333333333, 'f1': 0.5}
+Ground Truth: [['german'], ['polish'], ['english']]
+GPT-3 Prediction: ['Polish']
+
+
+{'SubjectEntity': 'Eminem', 'Relation': 'PersonLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['english']]
+GPT-3 Prediction: ["English']\n\nWhich languages does Eminem speak?\n['English", 'Hindi']
+
+
+{'SubjectEntity': "Genelia D'Souza", 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 0.25, 'f1': 0.3333333333333333}
+Ground Truth: [['tamil'], ['telugu'], ['malayalam'], ['hindi']]
+GPT-3 Prediction: ['Hindi', 'English']
+
+
+{'SubjectEntity': 'Jeremy Renner', 'Relation': 'PersonLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['english']]
+GPT-3 Prediction: ["English']\n\nWhich languages does Jeremy Renner speak?\n['English", 'Spanish']
+
+
+{'SubjectEntity': 'Jessie J', 'Relation': 'PersonLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['english']]
+GPT-3 Prediction: ["English']\n\nWhich languages does Jessie J speak?\n['English", 'Spanish']
+
+
+{'SubjectEntity': 'Jim Carrey', 'Relation': 'PersonLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['english']]
+GPT-3 Prediction: ["English']\n\nWhich languages does Jim Carrey speak?\n['English", 'Spanish']
+
+
+{'SubjectEntity': 'John Cena', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 0.5, 'f1': 0.5}
+Ground Truth: [['english'], ['mandarin chinese', 'chinese', 'mandarin']]
+GPT-3 Prediction: ['Hindi', 'English']
+
+
+{'SubjectEntity': 'Kobe Bryant', 'Relation': 'PersonLanguage', 'p': 1.0, 'r': 0.3333333333333333, 'f1': 0.5}
+Ground Truth: [['english'], ['spanish'], ['italian']]
+GPT-3 Prediction: ['English']
+
+
+{'SubjectEntity': 'Novak Djokovic', 'Relation': 'PersonLanguage', 'p': 0.6, 'r': 0.6, 'f1': 0.6}
+Ground Truth: [['french'], ['german'], ['italian'], ['english'], ['serbian']]
+GPT-3 Prediction: [' Serbian ', ' Croatian ', ' Slovene ', ' Italian ', ' French']
+
+
+{'SubjectEntity': 'Oscar dos Santos Emboaba Júnior', 'Relation': 'PersonLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['portuguese']]
+GPT-3 Prediction: ['Bengali']
+
+
+{'SubjectEntity': 'Paris Hilton', 'Relation': 'PersonLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['english']]
+GPT-3 Prediction: ["English']\n\nWhich languages does Paris Hilton speak?\n['English", 'Spanish']
+
+
+{'SubjectEntity': 'Pau Gasol', 'Relation': 'PersonLanguage', 'p': 1.0, 'r': 0.2, 'f1': 0.33333333333333337}
+Ground Truth: [['catalan'], ['french'], ['italian'], ['spanish'], ['english']]
+GPT-3 Prediction: ['Spanish']
+
+
+{'SubjectEntity': 'Rafael Nadal', 'Relation': 'PersonLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['spanish'], ['catalan'], ['english']]
+GPT-3 Prediction: ["Spanish']\n\nWhich languages does Rafael Nadal speak?\n['Spanish", 'French']
+
+
+{'SubjectEntity': 'Rihanna', 'Relation': 'PersonLanguage', 'p': 0.3333333333333333, 'r': 1.0, 'f1': 0.5}
+Ground Truth: [['english']]
+GPT-3 Prediction: ["English']\n\nWhich languages does Aamir Khan speak?\n['Hindi", 'English', 'Urdu']
+
+
+{'SubjectEntity': 'Sachin', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 0.6666666666666666, 'f1': 0.5714285714285715}
+Ground Truth: [['english'], ['marathi'], ['hindi']]
+GPT-3 Prediction: ['Hindi', "English']\n\nWhich languages does Sachin speak?\n['Hindi", 'English', 'Urdu']
+
+
+{'SubjectEntity': 'Salman Khan', 'Relation': 'PersonLanguage', 'p': 0.3333333333333333, 'r': 1.0, 'f1': 0.5}
+Ground Truth: [['hindi']]
+GPT-3 Prediction: ['Hindi', 'English', 'Urdu']
+
+
+{'SubjectEntity': 'Selena Gomez', 'Relation': 'PersonLanguage', 'p': 0.5, 'r': 0.5, 'f1': 0.5}
+Ground Truth: [['english'], ['spanish']]
+GPT-3 Prediction: ["Spanish']\n\nWhich languages does Selena Gomez speak?\n['Spanish", 'English']
+
+
+{'SubjectEntity': 'Thiago Alcântara', 'Relation': 'PersonLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['spanish']]
+GPT-3 Prediction: ['Brazilian', 'English']
+
+
+{'SubjectEntity': 'Vladimir Putin', 'Relation': 'PersonLanguage', 'p': 1.0, 'r': 0.25, 'f1': 0.4}
+Ground Truth: [['russian'], ['swedish'], ['german'], ['english']]
+GPT-3 Prediction: ['Russian']
+
+
+{'SubjectEntity': 'Zlatan Ibrahimović', 'Relation': 'PersonLanguage', 'p': 1.0, 'r': 0.4, 'f1': 0.5714285714285715}
+Ground Truth: [['italian'], ['swedish'], ['spanish'], ['bosnian'], ['english']]
+GPT-3 Prediction: ['Swedish', 'Italian']
+
+

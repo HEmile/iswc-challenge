@@ -1,0 +1,13 @@
+Which are the official languages of Suriname?
+['Dutch']
+
+Which are the official languages of Canada?
+['English', 'French']
+
+Which are the official languages of Singapore?
+['English', 'Malay', 'Mandarin', 'Tamil']
+
+Which are the official languages of Sri Lanka?
+['Sinhala', 'Tamil']
+
+Which are the official languages of {subject_entity}?

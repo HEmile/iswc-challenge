@@ -1,0 +1,13 @@
+Which languages does Aamir Khan speak?
+['Hindi', 'English', 'Urdu']
+
+Which languages does Pharrell Williams speak?
+['English']
+
+Which languages does Xabi Alonso speak?
+['German', 'Basque', 'Spanish', 'English']
+
+Which languages does Shakira speak?
+['Catalan', 'English', 'Portuguese', 'Spanish', 'Italian', 'French']
+
+Which languages does {subject_entity} speak?

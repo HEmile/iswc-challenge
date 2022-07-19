@@ -1,0 +1,99 @@
+CountryOfficialLanguage (average f1: 0.788): 19 cases
+
+
+
+{'SubjectEntity': 'Afghanistan', 'Relation': 'CountryOfficialLanguage', 'p': 1.0, 'r': 0.2222222222222222, 'f1': 0.3636363636363636}
+Ground Truth: [['nuristani'], ['pashto'], ['uzbek'], ['turkmen'], ['arabic'], ['pashayi'], ['dari'], ['pamir'], ['baluchi']]
+GPT-3 Prediction: ['Pashto', 'Dari']
+
+
+{'SubjectEntity': 'Botswana', 'Relation': 'CountryOfficialLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['english']]
+GPT-3 Prediction: ['Setswana']
+
+
+{'SubjectEntity': 'Brunei', 'Relation': 'CountryOfficialLanguage', 'p': 1.0, 'r': 0.5, 'f1': 0.6666666666666666}
+Ground Truth: [['english'], ['malay']]
+GPT-3 Prediction: ['Malay']
+
+
+{'SubjectEntity': 'Burkina Faso', 'Relation': 'CountryOfficialLanguage', 'p': 0.25, 'r': 1.0, 'f1': 0.4}
+Ground Truth: [['french']]
+GPT-3 Prediction: ['French', 'Fula', 'Mossi', 'Dioula']
+
+
+{'SubjectEntity': 'Burundi', 'Relation': 'CountryOfficialLanguage', 'p': 0.6666666666666666, 'r': 0.6666666666666666, 'f1': 0.6666666666666666}
+Ground Truth: [['english'], ['kirundi'], ['french']]
+GPT-3 Prediction: ['Kirundi', 'French', 'Swahili']
+
+
+{'SubjectEntity': 'Grenada', 'Relation': 'CountryOfficialLanguage', 'p': 1.0, 'r': 0.5, 'f1': 0.6666666666666666}
+Ground Truth: [['grenadian creole english', 'creole', 'grenadian'], ['english']]
+GPT-3 Prediction: ['English']
+
+
+{'SubjectEntity': 'Israel', 'Relation': 'CountryOfficialLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['hebrew']]
+GPT-3 Prediction: ['Hebrew', 'Arabic']
+
+
+{'SubjectEntity': 'Jordan', 'Relation': 'CountryOfficialLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['arabic']]
+GPT-3 Prediction: ['Arabic', 'English']
+
+
+{'SubjectEntity': 'Liechtenstein', 'Relation': 'CountryOfficialLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['german']]
+GPT-3 Prediction: ['German', 'Alemannic']
+
+
+{'SubjectEntity': 'Maldives', 'Relation': 'CountryOfficialLanguage', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+Ground Truth: [['maldivian']]
+GPT-3 Prediction: ['Dhivehi']
+
+
+{'SubjectEntity': 'Mozambique', 'Relation': 'CountryOfficialLanguage', 'p': 0.05, 'r': 1.0, 'f1': 0.09523809523809523}
+Ground Truth: [['portuguese']]
+GPT-3 Prediction: ['Portuguese', 'Emakhuwa', 'Xichangana', 'Cisena', 'Echuwabo', 'Macua', 'Ndau', 'Shangaan', 'Sena', 'Tswa', 'Tsonga', 'Chopi', 'Kuvi', 'Lomwe', 'Makhuwa', 'Maravi', 'Nyanja', 'Senhala', 'Swahili', "Tonga', "]
+
+
+{'SubjectEntity': 'Niger', 'Relation': 'CountryOfficialLanguage', 'p': 0.3333333333333333, 'r': 1.0, 'f1': 0.5}
+Ground Truth: [['french']]
+GPT-3 Prediction: ['French', 'Hausa', 'Zarma']
+
+
+{'SubjectEntity': 'North Macedonia', 'Relation': 'CountryOfficialLanguage', 'p': 1.0, 'r': 0.5, 'f1': 0.6666666666666666}
+Ground Truth: [['albanian'], ['macedonian']]
+GPT-3 Prediction: ['Macedonian']
+
+
+{'SubjectEntity': 'Norway', 'Relation': 'CountryOfficialLanguage', 'p': 1.0, 'r': 0.5, 'f1': 0.6666666666666666}
+Ground Truth: [['norwegian'], ['nynorsk'], ['bokmal', 'bokmål'], ['sami', 'sámi']]
+GPT-3 Prediction: ['Norwegian', 'Sami']
+
+
+{'SubjectEntity': 'Panama', 'Relation': 'CountryOfficialLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['spanish']]
+GPT-3 Prediction: ['Spanish', 'English']
+
+
+{'SubjectEntity': "People's Republic of China", 'Relation': 'CountryOfficialLanguage', 'p': 1.0, 'r': 0.5, 'f1': 0.6666666666666666}
+Ground Truth: [['chinese'], ['standard mandarin', 'mandarin']]
+GPT-3 Prediction: ['Mandarin']
+
+
+{'SubjectEntity': 'Sierra Leone', 'Relation': 'CountryOfficialLanguage', 'p': 0.5, 'r': 1.0, 'f1': 0.6666666666666666}
+Ground Truth: [['english']]
+GPT-3 Prediction: ['English', 'Krio']
+
+
+{'SubjectEntity': 'Taiwan', 'Relation': 'CountryOfficialLanguage', 'p': 0.5, 'r': 0.2857142857142857, 'f1': 0.36363636363636365}
+Ground Truth: [['hakka'], ['paiwan'], ['formosan'], ['taiwanese hokkien', 'taiwanese', 'hokkien'], ['amis'], ['taiwanese', 'standard taiwanese mandarin', 'mandarin'], ['austronesian']]
+GPT-3 Prediction: ['Mandarin', 'Hakka', 'Min Nan', 'English']
+
+
+{'SubjectEntity': 'Zimbabwe', 'Relation': 'CountryOfficialLanguage', 'p': 0.75, 'r': 0.4, 'f1': 0.5217391304347827}
+Ground Truth: [['english'], ['shona'], ['sesotho'], ['kalanga'], ['chewa'], ['venda'], ['ndau'], ['khoisan'], ['tsonga'], ['barwe'], ['northern ndebele', 'ndebele'], ['tswana'], ['nambya'], ['xhosa'], ['tonga']]
+GPT-3 Prediction: ['Shona', 'Ndebele', 'English', 'Chewa', 'Tonga', 'Venda', 'Shangaan', 'Sotho']
+
+

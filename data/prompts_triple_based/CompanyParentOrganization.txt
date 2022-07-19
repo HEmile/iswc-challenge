@@ -1,0 +1,9 @@
+Microsoft CompanyParentOrganization: ['None']
+
+Sony CompanyParentOrganization: ['Sony Group']
+
+Saab CompanyParentOrganization: ['Saab Group', 'Saab-Scania', 'Spyker N.V.', 'National Electric Vehicle Sweden'', 'General Motors']
+
+Max Motors CompanyParentOrganization: ['None']
+
+{subject_entity} CompanyParentOrganization:

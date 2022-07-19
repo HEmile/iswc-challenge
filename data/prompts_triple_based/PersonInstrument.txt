@@ -1,0 +1,9 @@
+Liam Gallagher PersonInstrument: ['Maraca', 'Guitar']
+
+Jay Park PersonInstrument: []
+
+Axl Rose PersonInstrument: ['Guitar', 'Piano', 'Pander', 'Bass']
+
+Neil Young PersonInstrument: ['Guitar']
+
+{subject_entity} PersonInstrument:
