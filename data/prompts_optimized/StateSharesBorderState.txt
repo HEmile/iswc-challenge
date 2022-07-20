@@ -1,9 +1,13 @@
-San Marino StateSharesBorderState: ['San Leo', 'Acquaviva', 'Borgo Maggiore', 'Chiesanuova', 'Fiorentino']
+What states border San Marino?
+['San Leo', 'Acquaviva', 'Borgo Maggiore', 'Chiesanuova', 'Fiorentino']
 
-Whales StateSharesBorderState: ['England']
+What states border Whales?
+['England']
 
-Liguria StateSharesBorderState: ['Tuscany', 'Auvergne-Rhoone-Alpes', 'Piedmont', 'Emilia-Romagna']
+What states border Liguria?
+['Tuscany', 'Auvergne-Rhoone-Alpes', 'Piedmont', 'Emilia-Romagna']
 
-Mecklenberg-Western Pomerania StateSharesBorderState: ['Brandenburg', 'Pomeranian', 'Schleswig-Holstein', 'Lower Saxony']
+What states border Mecklenberg-Western Pomerania?
+['Brandenburg', 'Pomeranian', 'Schleswig-Holstein', 'Lower Saxony']
 
-{subject_entity} StateSharesBorderState:
+What states border {subject_entity}?

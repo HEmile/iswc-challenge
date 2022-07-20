@@ -1,0 +1,139 @@
+RiverBasinsCountry (average f1: 0.381): 27 cases
+
+
+
+SubjectEntity: Alagón river
+Ground Truth: ['spain']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Apurímac river
+Ground Truth: ['peru']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Brenta
+Ground Truth: ['italy']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Dahme
+Ground Truth: ['germany']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Danube
+Ground Truth: ['austria', 'bulgaria', 'croatia', 'germany', 'hungary', 'moldova', 'romania', 'serbia', 'slovakia', 'ukraine']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Didi Liakhvi river
+Ground Truth: ['georgia']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Gadar river
+Ground Truth: ['iran']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Gambia river
+Ground Truth: ['gambia', 'guinea', 'senegal', 'the gambia']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Han river
+Ground Truth: ['korea', 'korea', 'north korea', 'south korea']
+GPT-3 Prediction: ['china']
+
+
+SubjectEntity: Inn
+Ground Truth: ['austria', 'germany', 'switzerland']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Kura river
+Ground Truth: ['azerbaijan', 'georgia', 'turkey']
+GPT-3 Prediction: ['russia']
+
+
+SubjectEntity: Lielupe
+Ground Truth: ['latvia', 'lithuania']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Limpopo river
+Ground Truth: ['africa', 'botswana', 'mozambique', 'south africa', 'zimbabwe']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Morava
+Ground Truth: ['austria', 'czech republic', 'czechia', 'slovakia']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Neman
+Ground Truth: ['belarus', 'latvia', 'lithuania', 'russia']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Neris
+Ground Truth: ['belarus', 'latvia', 'lithuania']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Niger river
+Ground Truth: ['benin', 'guinea', 'mali', 'niger', 'nigeria']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Paraguay river
+Ground Truth: ['argentina', 'brazil', 'paraguay']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Red river of the south
+Ground Truth: ['texas', 'united states of america', 'usa']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Sakarya river
+Ground Truth: ['turkey']
+GPT-3 Prediction: []
+
+
+SubjectEntity: San
+Ground Truth: ['poland', 'ukraine']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Shatt al-Arab
+Ground Truth: ['iran', 'iraq', 'kuwait', 'saudi arabia', 'syria', 'turkey']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Siret river
+Ground Truth: ['romania', 'ukraine']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Tisza
+Ground Truth: ['hungary', 'romania', 'serbia', 'slovakia', 'ukraine']
+GPT-3 Prediction: ['hungary']
+
+
+SubjectEntity: Torne river
+Ground Truth: ['finland', 'norway', 'sweden']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Uruguay river
+Ground Truth: ['argentina', 'brazil', 'uruguay']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Yantra
+Ground Truth: ['bulgaria']
+GPT-3 Prediction: []
+
+

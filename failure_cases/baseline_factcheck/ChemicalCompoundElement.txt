@@ -1,0 +1,219 @@
+ChemicalCompoundElement (average f1: 0.083): 43 cases
+
+
+
+SubjectEntity: Acetone
+Ground Truth: ['carbon', 'hydrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Adenosine Diphosphate Ribose
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen', 'phosphorus']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Aluminium Chlorohydrate
+Ground Truth: ['aluminium', 'chlorine', 'hydrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Aminomethylpropanol
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Ammonia
+Ground Truth: ['hydrogen', 'nitrogen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Atracurium Besylate
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen', 'sulfur']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Azathioprine
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen', 'sulfur']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Azulene
+Ground Truth: ['carbon', 'hydrogen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Cetyl Alcohol
+Ground Truth: ['carbon', 'hydrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Chlorophyll F
+Ground Truth: ['carbon', 'hydrogen', 'magnesium', 'nitrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Cupric Phosphate
+Ground Truth: ['copper', 'oxygen', 'phosphorus']
+GPT-3 Prediction: ['phosphate']
+
+
+SubjectEntity: Ecdysone
+Ground Truth: ['carbon', 'hydrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Ethyl Acetoacetate
+Ground Truth: ['carbon', 'hydrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Flavin Adenine Dinucleotide
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen', 'phosphorus']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Glucagon
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen', 'sulfur']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Glutathione
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen', 'sulfur']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Heptadecane
+Ground Truth: ['carbon', 'hydrogen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Heroin
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Hexadecane
+Ground Truth: ['carbon', 'hydrogen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Hydrazine
+Ground Truth: ['hydrogen', 'nitrogen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Hydroxocobalamin
+Ground Truth: ['carbon', 'cobalt', 'hydrogen', 'nitrogen', 'oxygen', 'phosphorus']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Hyponitrous Acid
+Ground Truth: ['hydrogen', 'nitrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Imatinib
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Lysergic Acid Diethylamide
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Maleic Acid
+Ground Truth: ['carbon', 'hydrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Mercuric Fluoride
+Ground Truth: ['fluorine', 'mercury']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Mercurous Fluoride
+Ground Truth: ['fluorine', 'mercury']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Metformin
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Methacrylic Acid
+Ground Truth: ['carbon', 'hydrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Motilin
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen', 'sulfur']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Mustard Gas
+Ground Truth: ['carbon', 'chlorine', 'hydrogen', 'sulfur']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Nonadecane
+Ground Truth: ['carbon', 'hydrogen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Pethidine
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Rubidium Hydroxide
+Ground Truth: ['hydrogen', 'oxygen', 'rubidium']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Sodium Hydroxide
+Ground Truth: ['hydrogen', 'oxygen', 'sodium']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Sodium Tripolyphosphate
+Ground Truth: ['oxygen', 'phosphorus', 'sodium']
+GPT-3 Prediction: []
+
+
+SubjectEntity: TNT
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen']
+GPT-3 Prediction: ['tnt']
+
+
+SubjectEntity: Tabun
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen', 'phosphorus']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Tenoxicam
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen', 'oxygen', 'sulfur']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Triethylamine
+Ground Truth: ['carbon', 'hydrogen', 'nitrogen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Triphenylphosphine
+Ground Truth: ['carbon', 'hydrogen', 'phosphorus']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Vinylidene Fluoride
+Ground Truth: ['carbon', 'fluorine', 'hydrogen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Zeaxanthin
+Ground Truth: ['carbon', 'hydrogen', 'oxygen']
+GPT-3 Prediction: []
+
+

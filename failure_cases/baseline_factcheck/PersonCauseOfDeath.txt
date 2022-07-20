@@ -1,0 +1,124 @@
+PersonCauseOfDeath (average f1: 0.52): 24 cases
+
+
+
+SubjectEntity: Ahmed Zewail
+Ground Truth: ['lymphoma', 'spinal cord lymphoma']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Avicii
+Ground Truth: ['exsanguination']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Christina Grimmie
+Ground Truth: ['ballistic trauma', 'trauma']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Cory Monteith
+Ground Truth: ['drug overdose', 'overdose']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Dilip Kumar
+Ground Truth: ['cancer', 'prostate cancer']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Ennio Morricone
+Ground Truth: ['femoral fracture', 'fracture']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Frank Sinatra
+Ground Truth: ['infarction', 'myocardial infarction']
+GPT-3 Prediction: []
+
+
+SubjectEntity: George H. W. Bush
+Ground Truth: ['parkinson', "parkinson's disease"]
+GPT-3 Prediction: ['cancer']
+
+
+SubjectEntity: George Harrison
+Ground Truth: ['cancer', 'lung cancer']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Haruma Miura
+Ground Truth: ['hanging']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Hugh Hefner
+Ground Truth: ['sepsis']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Idriss Déby
+Ground Truth: ['ballistic trauma', 'trauma']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Jim Rohn
+Ground Truth: ['fibrosis', 'pulmonary fibrosis']
+GPT-3 Prediction: []
+
+
+SubjectEntity: John Magufuli
+Ground Truth: ['arrhythmia', 'heart arrhythmia']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Johnny Cash
+Ground Truth: ['diabetes']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Larry King
+Ground Truth: ['sepsis']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Maurane
+Ground Truth: ['falling']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Maya Angelou
+Ground Truth: ['disease']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Mikhail Zadornov
+Ground Truth: ['brain cancer', 'cancer']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Miles Davis
+Ground Truth: ['pneumonia', 'stroke']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Nelson Mandela
+Ground Truth: ['respiratory disease']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Rishi Kapoor
+Ground Truth: ['leukemia']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Roddy Piper
+Ground Truth: ['cardiac arrest']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Roy Orbison
+Ground Truth: ['infarction', 'myocardial infarction']
+GPT-3 Prediction: []
+
+

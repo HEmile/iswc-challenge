@@ -123,20 +123,20 @@ python evaluate.py -p "predictions/gpt3(davinci-dev-language-none).pred.jsonl" -
 
 ### Final decision per relation type
 
-| Relation                                    | Prompt type<br/>     |
-|-------------------------------|:----------------|
-| ChemicalCompoundElement              | triple          |
-| CompanyParentOrganization            | triple, none    |
-| CountryBordersWithCountry           | language, empty |
-| CountryOfficialLanguage              | triple          |
-| PersonCauseOfDeath               | triple, none    |
-| PersonEmployer                      | language        |
-| PersonInstrument                     | triple, none    |
-| PersonLanguage                       | triple          |
-| PersonPlaceOfDeath                  | language, empty |
-| PersonProfession                | language        |
-| RiverBasinsCountry               | triple          |
-| StateSharesBorderState         | triple          |
+| Relation                                    | Prompt type<br/> |
+|-------------------------------|:-----------------|
+| ChemicalCompoundElement              | triple           |
+| CompanyParentOrganization            | triple, none     |
+| CountryBordersWithCountry           | language, empty  |
+| CountryOfficialLanguage              | triple           |
+| PersonCauseOfDeath               | triple, none     |
+| PersonEmployer                      | language         |
+| PersonInstrument                     | triple, none     |
+| PersonLanguage                       | triple           |
+| PersonPlaceOfDeath                  | language, empty  |
+| PersonProfession                | language         |
+| RiverBasinsCountry               | triple           |
+| StateSharesBorderState         | language         |
 
 ## Language Model Size - Scaling
 
