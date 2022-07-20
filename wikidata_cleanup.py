@@ -1,5 +1,6 @@
 # Go trough the output, check wheter what is produced is an alias for something and if it is, replace it by the prefered label
 import argparse
+import bz2
 from collections import OrderedDict, defaultdict
 import json
 import pathlib
@@ -43,7 +44,7 @@ class Database:
 class WikiDataCleaner:
     def __init__(self, alias_file: pathlib.Path) -> None:
         self.database = Database()
-        with open(alias_file) as f:
+        with bz2.open(alias_file, mode='rt') as f:
             for line in f:
                 # {"r":["CountryBordersWithCountry","RiverBasinsCountry"],"l":"Belgium","a":["Kingdom of Belgium","BEL","be","🇧🇪","BE"],"c":240}
                 entity_info = json.loads(line)
@@ -90,6 +91,7 @@ def wikidata_clean(input_file: pathlib.Path, output_file: pathlib.Path, cleaning
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
+        "-i",
         "--input-file",
         type=str,
         default="./predictions/gpt3.pred.jsonl",
@@ -106,7 +108,7 @@ def main():
         "-c",
         "--cleaning-rules",
         type=str,
-        default="./aliases_classes.txt",
+        default="./aliases.jsonl.bz2",
         help="File with aliases (required)",
     )
 
