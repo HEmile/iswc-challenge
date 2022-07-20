@@ -195,7 +195,7 @@ How did André Leon Talley die?
 ['Infarction']
 
 How did Angela Merkel die?
-['None']
+[]
 
 How did Bob Saget die?
 ['Injury', 'Blunt Trauma']
@@ -209,7 +209,7 @@ How did {subject_entity} die?
     elif relation == "CompanyParentOrganization":
         prompt = f"""
 What is the parent company of Microsoft?
-['None']
+[]
 
 What is the parent company of Sony?
 ['Sony Group']
@@ -218,14 +218,14 @@ What is the parent company of Saab?
 ['Saab Group', 'Saab-Scania', 'Spyker N.V.', 'National Electric Vehicle Sweden', 'General Motors']
 
 What is the parent company of Max Motors?
-['None']
+[]
 
 What is the parent company of {subject_entity}?
 """
     return prompt
 
 
-def load_prompt(subject_entity, relation, simple=False):
+def load_prompt(subject_entity, relation, prompt_type='triple'):
     """
         Function that loads the prompts from the .txt files
 
@@ -234,10 +234,12 @@ def load_prompt(subject_entity, relation, simple=False):
     :param simple: Set to True if you want to load the triple-based prompts (a.k.a. simple prompts)
     :return:
     """
-    if simple:
+    if prompt_type == 'triple':
         prompt_path = Path('data/prompts_triple_based')
-    else:
+    elif prompt_type == 'language':
         prompt_path = Path('data/prompts_natural_language')
+    else:
+        prompt_path = Path('data/prompts_optimized')
 
     prompt_path = Path.joinpath(prompt_path, f"{relation}.txt")
     with open(prompt_path, "r") as f:
@@ -248,7 +250,7 @@ def load_prompt(subject_entity, relation, simple=False):
     return prompt
 
 
-def probe_lm(input: Path, model: str, output: Path, simple=False, batch_size=20):
+def probe_lm(input: Path, model: str, output: Path, prompt_type='triple', batch_size=20):
     ### for every subject-entity in the entities list, we probe the LM using the below sample prompts
 
     # Load the input file
@@ -270,7 +272,7 @@ def probe_lm(input: Path, model: str, output: Path, simple=False, batch_size=20)
 
             ### creating a specific prompt for the given relation
             logger.info(f"Creating prompts...")
-            prompts.append(load_prompt(row['SubjectEntity'], row['Relation'], simple))
+            prompts.append(load_prompt(row['SubjectEntity'], row['Relation'], prompt_type))
 
         ### probing the language model and obtaining the ranked tokens in the masked_position
         logger.info(f"Running the model...")
@@ -280,7 +282,6 @@ def probe_lm(input: Path, model: str, output: Path, simple=False, batch_size=20)
         for row, prediction in zip(batch, predictions):
             prediction['text'] = clean_up(prediction['text'])
             prediction['text'] = convert_nan(prediction['text'])
-            #         logical_integrity(relation, batch, predictions)
 
             result = {
                 "SubjectEntity": row['SubjectEntity'],
@@ -328,15 +329,16 @@ def main():
         Options: 'text-davinci-002', 'text-curie-001', 'text-babbage-001', 'text-ada-001'"
     )
     parser.add_argument(
-        "--simple",
-        type=bool,
-        default=False,
-        help="Simple vs natural language based prompts",
+        "--prompt_type",
+        type=str,
+        default="triple",
+        help="Simple vs natural language vs optimized based prompts\
+        Options: 'triple', 'language', 'optimized'",
     )
     args = parser.parse_args()
     print(args)
 
-    probe_lm(args.input, args.model, args.output, args.simple)
+    probe_lm(args.input, args.model, args.output, args.prompt_type)
 
 
 if __name__ == "__main__":

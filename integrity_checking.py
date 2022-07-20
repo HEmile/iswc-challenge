@@ -177,6 +177,7 @@ def fact_checking(input_file, output_file):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument(
+        "-i",
         "--input_file",
         type=str,
         default="./predictions/gpt3.pred.jsonl",

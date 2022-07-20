@@ -26,19 +26,16 @@ python evaluate.py -p "predictions/baseline.pred.jsonl" -g "data/dev.jsonl"
 ```
 
 For running and evaluating our proposed GPT3 approach, make sure you set your `OPENAI_API_KEY` in the environmental
-variables. Then, run :
+variables. This will use the default values for training, i.e. `text-davinci-002` model, `data/dev.jsonl` as input
+and `predictions/gpt3.pred.jsonl` as output. Run :
 
 ```bash
 python gpt3_baseline
 python evaluate -p "predictions/gpt3.pred.jsonl" -g "data/dev.jsonl"
 ```
 
-This will use the default values for training, i.e. `text-davinci-002` model, `data/dev.jsonl` as input
-and `predictions/gpt3.pred.jsonl` as output.
-
-For the scaling experiment, you need to change the flag `model` to the respective model.
-
-The options include: `['text-davinci-002', 'text-curie-001', 'text-babbage-001', 'text-ada-001']`
+For the scaling experiment, you need to change the flag `model` to the respective model. The options
+include: `['text-davinci-002', 'text-curie-001', 'text-babbage-001', 'text-ada-001']`
 
 ```bash
 python gpt3_baseline -i "data/dev.jsonl" -o "predictions/gpt3-ada.pred.jsonl" --model "text-ada-001"

@@ -1,0 +1,109 @@
+PersonLanguage (average f1: 0.793): 21 cases
+
+
+
+SubjectEntity: A. R. Rahman
+Ground Truth: ['hindi', 'tamil', 'telugu']
+GPT-3 Prediction: ['english', 'hindi', 'malayalam', 'tamil', 'telugu']
+
+
+SubjectEntity: Abdullah Gül
+Ground Truth: ['turkish']
+GPT-3 Prediction: ['english', 'french', 'turkish']
+
+
+SubjectEntity: Akon
+Ground Truth: ['english']
+GPT-3 Prediction: ['english', 'french', 'wolof']
+
+
+SubjectEntity: Avril Lavigne
+Ground Truth: ['english']
+GPT-3 Prediction: ['english', 'french']
+
+
+SubjectEntity: Blaise Matuidi
+Ground Truth: ['french']
+GPT-3 Prediction: ['english', 'french', 'italian', 'spanish']
+
+
+SubjectEntity: Genelia D'Souza
+Ground Truth: ['hindi', 'malayalam', 'tamil', 'telugu']
+GPT-3 Prediction: ['english', 'hindi', 'marathi', 'telugu']
+
+
+SubjectEntity: Henrique Capriles Radonski
+Ground Truth: ['spanish']
+GPT-3 Prediction: ['english', 'portuguese', 'spanish']
+
+
+SubjectEntity: Hugo Chávez
+Ground Truth: ['spanish']
+GPT-3 Prediction: ['english', 'spanish']
+
+
+SubjectEntity: John Cena
+Ground Truth: ['chinese', 'english', 'mandarin', 'mandarin chinese']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Jose Michimani
+Ground Truth: ['english']
+GPT-3 Prediction: ['aymara', 'quechua', 'spanish']
+
+
+SubjectEntity: Mohammed bin Rashid Al Maktoum
+Ground Truth: ['arabic', 'english']
+GPT-3 Prediction: ['arabic', 'english', 'hindi', 'persian', 'urdu']
+
+
+SubjectEntity: Oscar dos Santos Emboaba Júnior
+Ground Truth: ['portuguese']
+GPT-3 Prediction: ['english', 'portuguese']
+
+
+SubjectEntity: Patrick Stewart
+Ground Truth: ['english']
+GPT-3 Prediction: ['english', 'french']
+
+
+SubjectEntity: Pau Gasol
+Ground Truth: ['catalan', 'english', 'french', 'italian', 'spanish']
+GPT-3 Prediction: ['catalan', 'english', 'spanish']
+
+
+SubjectEntity: Paulo Coelho
+Ground Truth: ['portuguese']
+GPT-3 Prediction: ['english', 'french', 'portuguese', 'spanish']
+
+
+SubjectEntity: Rihanna
+Ground Truth: ['english']
+GPT-3 Prediction: ['creole', 'english']
+
+
+SubjectEntity: Salman Khan
+Ground Truth: ['hindi']
+GPT-3 Prediction: ['hindi', 'urdu']
+
+
+SubjectEntity: Samir Nasri
+Ground Truth: ['french']
+GPT-3 Prediction: ['arabic', 'english', 'french']
+
+
+SubjectEntity: Thiago Alcântara
+Ground Truth: ['spanish']
+GPT-3 Prediction: ['catalan', 'english', 'portuguese', 'spanish']
+
+
+SubjectEntity: Vladimir Putin
+Ground Truth: ['english', 'german', 'russian', 'swedish']
+GPT-3 Prediction: ['english', 'french', 'german', 'russian']
+
+
+SubjectEntity: Zlatan Ibrahimović
+Ground Truth: ['bosnian', 'english', 'italian', 'spanish', 'swedish']
+GPT-3 Prediction: ['bosnian', 'croatian', 'english', 'french', 'italian', 'montenegrin', 'portuguese', 'serbian', 'spanish', 'swahili']
+
+

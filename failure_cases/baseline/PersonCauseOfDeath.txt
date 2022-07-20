@@ -2,147 +2,147 @@ PersonCauseOfDeath (average f1: 0.42): 29 cases
 
 
 
-{'SubjectEntity': 'Ahmed Zewail', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['lymphoma', 'spinal cord lymphoma']]
+SubjectEntity: Ahmed Zewail
+Ground Truth: ['lymphoma', 'spinal cord lymphoma']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Avicii', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['exsanguination']]
+SubjectEntity: Avicii
+Ground Truth: ['exsanguination']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Benjamin Netanyahu', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+SubjectEntity: Benjamin Netanyahu
 Ground Truth: []
 GPT-3 Prediction: ['cancer']
 
 
-{'SubjectEntity': 'Boris Johnson', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+SubjectEntity: Boris Johnson
 Ground Truth: []
 GPT-3 Prediction: ['cancer']
 
 
-{'SubjectEntity': 'Christina Grimmie', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['ballistic trauma', 'trauma']]
+SubjectEntity: Christina Grimmie
+Ground Truth: ['ballistic trauma', 'trauma']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Cory Monteith', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['drug overdose', 'overdose']]
+SubjectEntity: Cory Monteith
+Ground Truth: ['drug overdose', 'overdose']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Dilip Kumar', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['cancer', 'prostate cancer']]
+SubjectEntity: Dilip Kumar
+Ground Truth: ['cancer', 'prostate cancer']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Ennio Morricone', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['femoral fracture', 'fracture']]
+SubjectEntity: Ennio Morricone
+Ground Truth: ['femoral fracture', 'fracture']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Frank Sinatra', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['myocardial infarction', 'infarction']]
+SubjectEntity: Frank Sinatra
+Ground Truth: ['infarction', 'myocardial infarction']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'George H. W. Bush', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [["parkinson's disease", 'parkinson']]
+SubjectEntity: George H. W. Bush
+Ground Truth: ['parkinson', "parkinson's disease"]
 GPT-3 Prediction: ['cancer']
 
 
-{'SubjectEntity': 'George Harrison', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['cancer', 'lung cancer']]
+SubjectEntity: George Harrison
+Ground Truth: ['cancer', 'lung cancer']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Haruma Miura', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['hanging']]
+SubjectEntity: Haruma Miura
+Ground Truth: ['hanging']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Hu Jintao', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+SubjectEntity: Hu Jintao
 Ground Truth: []
 GPT-3 Prediction: ['illness']
 
 
-{'SubjectEntity': 'Hugh Hefner', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['sepsis']]
+SubjectEntity: Hugh Hefner
+Ground Truth: ['sepsis']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Idriss Déby', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['ballistic trauma', 'trauma']]
+SubjectEntity: Idriss Déby
+Ground Truth: ['ballistic trauma', 'trauma']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Jim Rohn', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['pulmonary fibrosis', 'fibrosis']]
+SubjectEntity: Jim Rohn
+Ground Truth: ['fibrosis', 'pulmonary fibrosis']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'John Magufuli', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['arrhythmia', 'heart arrhythmia']]
+SubjectEntity: John Magufuli
+Ground Truth: ['arrhythmia', 'heart arrhythmia']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Johnny Cash', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['diabetes']]
+SubjectEntity: Johnny Cash
+Ground Truth: ['diabetes']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Larry King', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['sepsis']]
+SubjectEntity: Larry King
+Ground Truth: ['sepsis']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Maurane', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['falling']]
+SubjectEntity: Maurane
+Ground Truth: ['falling']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Maya Angelou', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['disease']]
+SubjectEntity: Maya Angelou
+Ground Truth: ['disease']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Michelle Obama', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+SubjectEntity: Michelle Obama
 Ground Truth: []
 GPT-3 Prediction: ['cancer']
 
 
-{'SubjectEntity': 'Mikhail Zadornov', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['brain cancer', 'cancer']]
+SubjectEntity: Mikhail Zadornov
+Ground Truth: ['brain cancer', 'cancer']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Miles Davis', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['stroke'], ['pneumonia']]
+SubjectEntity: Miles Davis
+Ground Truth: ['pneumonia', 'stroke']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Nelson Mandela', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['respiratory disease']]
+SubjectEntity: Nelson Mandela
+Ground Truth: ['respiratory disease']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Rishi Kapoor', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['leukemia']]
+SubjectEntity: Rishi Kapoor
+Ground Truth: ['leukemia']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Roddy Piper', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['cardiac arrest']]
+SubjectEntity: Roddy Piper
+Ground Truth: ['cardiac arrest']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Roy Orbison', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
-Ground Truth: [['myocardial infarction', 'infarction']]
+SubjectEntity: Roy Orbison
+Ground Truth: ['infarction', 'myocardial infarction']
 GPT-3 Prediction: []
 
 
-{'SubjectEntity': 'Sandra Bullock', 'Relation': 'PersonCauseOfDeath', 'p': 0.0, 'r': 0.0, 'f1': 0.0}
+SubjectEntity: Sandra Bullock
 Ground Truth: []
 GPT-3 Prediction: ['cancer']
 

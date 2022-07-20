@@ -1,0 +1,74 @@
+CountryBordersWithCountry (average f1: 0.749): 14 cases
+
+
+
+SubjectEntity: Australia
+Ground Truth: ['east timor', 'indonesia', 'new zealand', 'papua new guinea', 'timor']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Bahrain
+Ground Truth: ['iran', 'saudi arabia']
+GPT-3 Prediction: ['qatar']
+
+
+SubjectEntity: Comoros
+Ground Truth: ['france', 'madagascar', 'mozambique', 'seychelles', 'tanzania']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Cuba
+Ground Truth: ['united states of america', 'usa']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Dominican Republic
+Ground Truth: ['haiti', 'united states of america', 'usa', 'venezuela']
+GPT-3 Prediction: ['haiti']
+
+
+SubjectEntity: Ghana
+Ground Truth: ['burkina faso', 'ivory coast', 'togo']
+GPT-3 Prediction: ['burkina faso', 'cote divoire', 'la cote divoire', 'togo']
+
+
+SubjectEntity: Grenada
+Ground Truth: ['venezuela']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Japan
+Ground Truth: ['china', 'korea', "people's republic of china", 'philippines', 'russia', 'south korea', 'taiwan', 'united states of america', 'usa']
+GPT-3 Prediction: ['north korea', 'russia']
+
+
+SubjectEntity: Kingdom of Denmark
+Ground Truth: ['canada', 'germany', 'iceland', 'norway', 'poland', 'sweden', 'uk', 'united kingdom']
+GPT-3 Prediction: ['germany']
+
+
+SubjectEntity: Kingdom of the Netherlands
+Ground Truth: ['belgium', 'france', 'germany', 'venezuela']
+GPT-3 Prediction: ['belgium', 'germany']
+
+
+SubjectEntity: Portugal
+Ground Truth: ['castile and leon', 'castile and león', 'spain']
+GPT-3 Prediction: ['spain']
+
+
+SubjectEntity: Saint Vincent and the Grenadines
+Ground Truth: ['venezuela']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Samoa
+Ground Truth: ['united states of america', 'usa']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Venezuela
+Ground Truth: ['brazil', 'colombia', 'dominica', 'dominican republic', 'france', 'grenada', 'guyana', 'kingdom of the netherlands', 'netherlands', 'saint kitts and nevis', 'saint lucia', 'saint vincent and the grenadines', 'trinidad and tobago', 'uk', 'united kingdom', 'united states of america', 'usa']
+GPT-3 Prediction: ['brazil', 'colombia', 'guyana']
+
+

@@ -1,0 +1,114 @@
+CountryOfficialLanguage (average f1: 0.785): 22 cases
+
+
+
+SubjectEntity: Afghanistan
+Ground Truth: ['arabic', 'baluchi', 'dari', 'nuristani', 'pamir', 'pashayi', 'pashto', 'turkmen', 'uzbek']
+GPT-3 Prediction: ['dari', 'pashto']
+
+
+SubjectEntity: Botswana
+Ground Truth: ['english']
+GPT-3 Prediction: ['english', 'setswana']
+
+
+SubjectEntity: Burkina Faso
+Ground Truth: ['french']
+GPT-3 Prediction: ['dioula', 'french', 'fula', 'mossi']
+
+
+SubjectEntity: Burundi
+Ground Truth: ['english', 'french', 'kirundi']
+GPT-3 Prediction: ['french', 'kirundi', 'swahili']
+
+
+SubjectEntity: Croatia
+Ground Truth: ['croatian']
+GPT-3 Prediction: ['croatian', 'serbian']
+
+
+SubjectEntity: Grenada
+Ground Truth: ['creole', 'english', 'grenadian', 'grenadian creole english']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Israel
+Ground Truth: ['hebrew']
+GPT-3 Prediction: ['arabic', 'hebrew']
+
+
+SubjectEntity: Jamaica
+Ground Truth: ['english']
+GPT-3 Prediction: ['english', 'patois']
+
+
+SubjectEntity: Jordan
+Ground Truth: ['arabic']
+GPT-3 Prediction: ['arabic', 'english']
+
+
+SubjectEntity: Latvia
+Ground Truth: ['latvian']
+GPT-3 Prediction: ['latvian', 'russian']
+
+
+SubjectEntity: Liechtenstein
+Ground Truth: ['german']
+GPT-3 Prediction: ['alemannic', 'german']
+
+
+SubjectEntity: Maldives
+Ground Truth: ['maldivian']
+GPT-3 Prediction: ['dhivehi']
+
+
+SubjectEntity: Mozambique
+Ground Truth: ['portuguese']
+GPT-3 Prediction: ['cisena', 'echuwabo', 'emakhuwa', 'portuguese', 'xichangana']
+
+
+SubjectEntity: Niger
+Ground Truth: ['french']
+GPT-3 Prediction: ['french', 'hausa', 'zarma']
+
+
+SubjectEntity: North Macedonia
+Ground Truth: ['albanian', 'macedonian']
+GPT-3 Prediction: ['albanian', 'macedonian', 'romani', 'serbian', 'turkish']
+
+
+SubjectEntity: Norway
+Ground Truth: ['bokmal', 'bokmål', 'norwegian', 'nynorsk', 'sami', 'sámi']
+GPT-3 Prediction: ['norwegian', 'sami']
+
+
+SubjectEntity: Panama
+Ground Truth: ['spanish']
+GPT-3 Prediction: ['english', 'spanish']
+
+
+SubjectEntity: People's Republic of China
+Ground Truth: ['chinese', 'mandarin', 'standard mandarin']
+GPT-3 Prediction: ['mandarin']
+
+
+SubjectEntity: Qatar
+Ground Truth: ['arabic']
+GPT-3 Prediction: ['arabic', 'english']
+
+
+SubjectEntity: Sierra Leone
+Ground Truth: ['english']
+GPT-3 Prediction: ['english', 'krio']
+
+
+SubjectEntity: Taiwan
+Ground Truth: ['amis', 'austronesian', 'formosan', 'hakka', 'hokkien', 'mandarin', 'paiwan', 'standard taiwanese mandarin', 'taiwanese', 'taiwanese', 'taiwanese hokkien']
+GPT-3 Prediction: ['hakka', 'mandarin', 'taiwanese']
+
+
+SubjectEntity: Zimbabwe
+Ground Truth: ['barwe', 'chewa', 'english', 'kalanga', 'khoisan', 'nambya', 'ndau', 'ndebele', 'northern ndebele', 'sesotho', 'shona', 'tonga', 'tsonga', 'tswana', 'venda', 'xhosa']
+GPT-3 Prediction: ['english', 'ndebele', 'shona']
+
+

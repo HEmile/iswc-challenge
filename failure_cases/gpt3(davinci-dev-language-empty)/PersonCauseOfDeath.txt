@@ -1,0 +1,129 @@
+PersonCauseOfDeath (average f1: 0.5): 25 cases
+
+
+
+SubjectEntity: Ahmed Zewail
+Ground Truth: ['lymphoma', 'spinal cord lymphoma']
+GPT-3 Prediction: ['cancer']
+
+
+SubjectEntity: Avicii
+Ground Truth: ['exsanguination']
+GPT-3 Prediction: ['suicide']
+
+
+SubjectEntity: Boris Johnson
+Ground Truth: []
+GPT-3 Prediction: ['infarction']
+
+
+SubjectEntity: Christina Grimmie
+Ground Truth: ['ballistic trauma', 'trauma']
+GPT-3 Prediction: ['murder']
+
+
+SubjectEntity: Dilip Kumar
+Ground Truth: ['cancer', 'prostate cancer']
+GPT-3 Prediction: ['natural causes']
+
+
+SubjectEntity: Ennio Morricone
+Ground Truth: ['femoral fracture', 'fracture']
+GPT-3 Prediction: ['infarction']
+
+
+SubjectEntity: Frank Sinatra
+Ground Truth: ['infarction', 'myocardial infarction']
+GPT-3 Prediction: ['heart attack']
+
+
+SubjectEntity: George H. W. Bush
+Ground Truth: ['parkinson', "parkinson's disease"]
+GPT-3 Prediction: ['infarction']
+
+
+SubjectEntity: Haruma Miura
+Ground Truth: ['hanging']
+GPT-3 Prediction: ['suicide']
+
+
+SubjectEntity: Hugh Hefner
+Ground Truth: ['sepsis']
+GPT-3 Prediction: ['natural causes']
+
+
+SubjectEntity: Idriss Déby
+Ground Truth: ['ballistic trauma', 'trauma']
+GPT-3 Prediction: ['injury']
+
+
+SubjectEntity: Indra Nooyi
+Ground Truth: []
+GPT-3 Prediction: ['infarction']
+
+
+SubjectEntity: Jim Rohn
+Ground Truth: ['fibrosis', 'pulmonary fibrosis']
+GPT-3 Prediction: ['pneumonia']
+
+
+SubjectEntity: John Magufuli
+Ground Truth: ['arrhythmia', 'heart arrhythmia']
+GPT-3 Prediction: ['covid-19']
+
+
+SubjectEntity: Johnny Cash
+Ground Truth: ['diabetes']
+GPT-3 Prediction: ['infarction']
+
+
+SubjectEntity: Larry King
+Ground Truth: ['sepsis']
+GPT-3 Prediction: ['infarction']
+
+
+SubjectEntity: Maurane
+Ground Truth: ['falling']
+GPT-3 Prediction: ['cancer']
+
+
+SubjectEntity: Maya Angelou
+Ground Truth: ['disease']
+GPT-3 Prediction: ['natural causes']
+
+
+SubjectEntity: Miles Davis
+Ground Truth: ['pneumonia', 'stroke']
+GPT-3 Prediction: ['infarction']
+
+
+SubjectEntity: Nelson Mandela
+Ground Truth: ['respiratory disease']
+GPT-3 Prediction: ['respiratory infection']
+
+
+SubjectEntity: Rishi Kapoor
+Ground Truth: ['leukemia']
+GPT-3 Prediction: ['cancer']
+
+
+SubjectEntity: Roddy Piper
+Ground Truth: ['cardiac arrest']
+GPT-3 Prediction: ['heart attack']
+
+
+SubjectEntity: Ronaldinho
+Ground Truth: []
+GPT-3 Prediction: ['drowning']
+
+
+SubjectEntity: Roy Orbison
+Ground Truth: ['infarction', 'myocardial infarction']
+GPT-3 Prediction: ['heart attack']
+
+
+SubjectEntity: Russell Crowe
+Ground Truth: []
+GPT-3 Prediction: ['blunt trauma', 'injury']
+
+

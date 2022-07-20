@@ -1,0 +1,9 @@
+Suriname CountryOfficialLanguage: ['Dutch']
+
+Canada CountryOfficialLanguage: ['English', 'French']
+
+Singapore CountryOfficialLanguage: ['English', 'Malay', 'Mandarin', 'Tamil']
+
+Sri Lanka CountryOfficialLanguage: ['Sinhala', 'Tamil']
+
+{subject_entity} CountryOfficialLanguage:

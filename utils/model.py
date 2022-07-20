@@ -30,6 +30,7 @@ def gpt3(prompts, model="text-davinci-002"):
 def clean_up(probe_outputs):
     """ functions to clean up api output """
     probe_outputs = probe_outputs.strip()
+    probe_outputs = probe_outputs.split('\n')[0]
     probe_outputs = probe_outputs[2:-2].split("', '")
     return probe_outputs
 
