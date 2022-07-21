@@ -1,0 +1,154 @@
+PersonEmployer (average f1: 0.226): 30 cases
+
+
+
+SubjectEntity: Adam Savage
+Ground Truth: ['academy of art university']
+GPT-3 Prediction: ['ilmxlab', 'mythbusters', 'tested.com']
+
+
+SubjectEntity: Aylin Nazlıaka
+Ground Truth: ['bilkent university']
+GPT-3 Prediction: ['hürriyet']
+
+
+SubjectEntity: Bob Iger
+Ground Truth: ['american broadcasting', 'american broadcasting company', 'the walt disney company', 'walt disney']
+GPT-3 Prediction: ["abc','disney"]
+
+
+SubjectEntity: Chelsea Clinton
+Ground Truth: ['columbia university']
+GPT-3 Prediction: ['avenue capital group', 'clinton foundation', 'mckinsey & company', 'new york university']
+
+
+SubjectEntity: Devin Nunes
+Ground Truth: ['united states department of agriculture']
+GPT-3 Prediction: ['united states house permanent select committee on intelligence', 'united states house of representatives']
+
+
+SubjectEntity: Douglas G. Hurley
+Ground Truth: ['national aeronautics and space administration']
+GPT-3 Prediction: ['nasa', 'united states marine corps']
+
+
+SubjectEntity: Edd China
+Ground Truth: ['discovery channel']
+GPT-3 Prediction: ['for the love of cars', 'renovation game', 'wheeler dealers']
+
+
+SubjectEntity: François Legault
+Ground Truth: ['air transat', 'ernst & young', 'nolisair', 'provigo', 'quebecair']
+GPT-3 Prediction: ['caisse de dépôt et placement du québec', 'cogeco', 'national bank of canada']
+
+
+SubjectEntity: Guido van Rossum
+Ground Truth: ['microsoft']
+GPT-3 Prediction: ['dropbox', 'google']
+
+
+SubjectEntity: Harsh Goenka
+Ground Truth: ['rpg', 'rpg group']
+GPT-3 Prediction: ['rpg enterprises']
+
+
+SubjectEntity: Joel Spolsky
+Ground Truth: ['microsoft']
+GPT-3 Prediction: ['expert labs', 'fog creek software', 'stack overflow']
+
+
+SubjectEntity: John Doerr
+Ground Truth: ['kleiner perkins caufield', 'kleiner perkins caufield & byers']
+GPT-3 Prediction: ['intel', 'kleiner perkins']
+
+
+SubjectEntity: John McAfee
+Ground Truth: ['booz allen hamilton', 'computer sciences corporation', 'goddard institute for space studies', 'lockheed corporation', 'lockheedoration', 'mcafee', 'mcafee, llc', 'univac', 'xerox']
+GPT-3 Prediction: ['lockheed martin', 'mcafee', 'nasa', 'tribal voice']
+
+
+SubjectEntity: Kanye West
+Ground Truth: ['gap', 'gap inc.']
+GPT-3 Prediction: ['def jam recordings', 'good music', 'roc-a-fella records']
+
+
+SubjectEntity: Karen L. Nyberg
+Ground Truth: ['national aeronautics and space administration']
+GPT-3 Prediction: ['nasa', 'university of north dakota']
+
+
+SubjectEntity: Kent Beck
+Ground Truth: ['meta platforms']
+GPT-3 Prediction: ['facebook', 'odeo', 'square, inc.', 'three rivers institute']
+
+
+SubjectEntity: Kristalina Georgieva
+Ground Truth: ['sofia university']
+GPT-3 Prediction: ['european commission', 'world bank group']
+
+
+SubjectEntity: Lana Rhoades
+Ground Truth: ['bang bros', 'brazzers', 'evil angel', 'naughty america', 'tushy']
+GPT-3 Prediction: ['mile high media']
+
+
+SubjectEntity: Michael Bloomberg
+Ground Truth: ['bloomberg', 'bloomberg family foundation', 'salomon brothers']
+GPT-3 Prediction: ['bloomberg l.p.']
+
+
+SubjectEntity: Michael J. Massimino
+Ground Truth: ['georgia institute of technology', 'ibm', 'national aeronautics and space administration', 'rice university']
+GPT-3 Prediction: ['columbia university', 'lehigh university', 'nasa']
+
+
+SubjectEntity: Muhammad Yunus
+Ground Truth: ['la trobe university', 'middle tennessee state university', 'university of dhaka']
+GPT-3 Prediction: ['chittagong university', 'grameen bank']
+
+
+SubjectEntity: Naftali Bennett
+Ground Truth: ["prime minister's office", 'soluto']
+GPT-3 Prediction: ["the jewish home','the jewish home-national union','the jewish home-national union-national religious party"]
+
+
+SubjectEntity: Nicole Stott
+Ground Truth: ['national aeronautics and space administration', 'pratt & whitney']
+GPT-3 Prediction: ['lockheed martin', 'nasa']
+
+
+SubjectEntity: Oleksandr Turchynov
+Ground Truth: ['arcelormittal kryvyi rih']
+GPT-3 Prediction: ['national bank of ukraine', 'national security and defense council of ukraine', 'ukrainian parliament']
+
+
+SubjectEntity: Serena Williams
+Ground Truth: ['unicef']
+GPT-3 Prediction: ['olympic games', 'us open', 'wimbledon']
+
+
+SubjectEntity: Sergio Melnick
+Ground Truth: ['adolfo ibáñez university', 'ucla', 'universidad mayor', 'university of california, los angeles', 'university of chile']
+GPT-3 Prediction: ['google']
+
+
+SubjectEntity: Shane Kimbrough
+Ground Truth: ['national aeronautics and space administration', 'united states military academy']
+GPT-3 Prediction: ['nasa', 'united states army']
+
+
+SubjectEntity: Turki Al-Sheikh
+Ground Truth: ['royal court']
+GPT-3 Prediction: ['general entertainment authority']
+
+
+SubjectEntity: Wendell Pierce
+Ground Truth: ['nosep yo']
+GPT-3 Prediction: ['hbo', 'the michael j. fox show', 'the wire', 'treme']
+
+
+SubjectEntity: Wishnutama
+Ground Truth: ['detik.com', 'indosiar', 'kumparan', 'net.', 'new england cable news', 'trans tv', 'trans7', 'whdh']
+GPT-3 Prediction: ['trans tv']
+
+

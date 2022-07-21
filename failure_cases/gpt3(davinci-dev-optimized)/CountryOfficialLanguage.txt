@@ -1,0 +1,79 @@
+CountryOfficialLanguage (average f1: 0.833): 15 cases
+
+
+
+SubjectEntity: Afghanistan
+Ground Truth: ['arabic', 'baluchi', 'dari', 'nuristani', 'pamir', 'pashayi', 'pashto', 'turkmen', 'uzbek']
+GPT-3 Prediction: ['dari', 'pashto']
+
+
+SubjectEntity: Botswana
+Ground Truth: ['english']
+GPT-3 Prediction: ['tswana']
+
+
+SubjectEntity: Brunei
+Ground Truth: ['english', 'malay']
+GPT-3 Prediction: ['malay']
+
+
+SubjectEntity: Burundi
+Ground Truth: ['english', 'french', 'kirundi']
+GPT-3 Prediction: ['french', 'kirundi', 'swahili']
+
+
+SubjectEntity: East Timor
+Ground Truth: ['portuguese', 'tetum']
+GPT-3 Prediction: ['indonesian', 'portuguese', 'tetum']
+
+
+SubjectEntity: Grenada
+Ground Truth: ['creole', 'english', 'grenadian', 'grenadian creole english']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Israel
+Ground Truth: ['hebrew']
+GPT-3 Prediction: ['arabic', 'hebrew']
+
+
+SubjectEntity: Maldives
+Ground Truth: ['maldivian']
+GPT-3 Prediction: ['dhivehi']
+
+
+SubjectEntity: North Macedonia
+Ground Truth: ['albanian', 'macedonian']
+GPT-3 Prediction: ['macedonian']
+
+
+SubjectEntity: Norway
+Ground Truth: ['bokmal', 'bokmål', 'norwegian', 'nynorsk', 'sami', 'sámi']
+GPT-3 Prediction: ['norwegian']
+
+
+SubjectEntity: Pakistan
+Ground Truth: ['arabic', 'english', 'urdu']
+GPT-3 Prediction: ['urdu']
+
+
+SubjectEntity: People's Republic of China
+Ground Truth: ['chinese', 'mandarin', 'standard mandarin']
+GPT-3 Prediction: ['mandarin']
+
+
+SubjectEntity: Taiwan
+Ground Truth: ['amis', 'austronesian', 'formosan', 'hakka', 'hokkien', 'mandarin', 'paiwan', 'standard taiwanese mandarin', 'taiwanese', 'taiwanese', 'taiwanese hokkien']
+GPT-3 Prediction: ['mandarin']
+
+
+SubjectEntity: Tajikistan
+Ground Truth: ['russian', 'tajik']
+GPT-3 Prediction: ['tajik']
+
+
+SubjectEntity: Zimbabwe
+Ground Truth: ['barwe', 'chewa', 'english', 'kalanga', 'khoisan', 'nambya', 'ndau', 'ndebele', 'northern ndebele', 'sesotho', 'shona', 'tonga', 'tsonga', 'tswana', 'venda', 'xhosa']
+GPT-3 Prediction: ['english', 'ndebele', 'shona']
+
+

@@ -1,0 +1,9 @@
+Aamir Khan PersonLanguage: ['Hindi', 'English', 'Urdu']
+
+Pharrell Williams PersonLanguage: ['English']
+
+Xabi Alonso PersonLanguage: ['German', 'Basque', 'Spanish', 'English']
+
+Shakira PersonLanguage: ['Catalan', 'English', 'Portuguese', 'Spanish', 'Italian', 'French']
+
+{subject_entity} PersonLanguage:

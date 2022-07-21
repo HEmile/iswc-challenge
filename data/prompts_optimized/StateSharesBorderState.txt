@@ -1,0 +1,13 @@
+What states border San Marino?
+['San Leo', 'Acquaviva', 'Borgo Maggiore', 'Chiesanuova', 'Fiorentino']
+
+What states border Whales?
+['England']
+
+What states border Liguria?
+['Tuscany', 'Auvergne-Rhoone-Alpes', 'Piedmont', 'Emilia-Romagna']
+
+What states border Mecklenberg-Western Pomerania?
+['Brandenburg', 'Pomeranian', 'Schleswig-Holstein', 'Lower Saxony']
+
+What states border {subject_entity}?

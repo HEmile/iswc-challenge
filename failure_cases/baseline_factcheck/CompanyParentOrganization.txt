@@ -1,0 +1,84 @@
+CompanyParentOrganization (average f1: 0.68): 16 cases
+
+
+
+SubjectEntity: Cadillac
+Ground Truth: ['general motors']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Changan Automobile
+Ground Truth: ['china south industries', 'china south industries group']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Gaz
+Ground Truth: ['gaz', 'gaz group']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Gucci
+Ground Truth: ['kering']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Hanomag
+Ground Truth: ['komatsu', 'komatsu limited']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Hyundai Motor Company
+Ground Truth: ['hyundai']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Kia
+Ground Truth: ['hyundai', 'hyundai motor', 'hyundai motor group']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Lada Zapad Tolyatti
+Ground Truth: ['avtovaz']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Lagonda
+Ground Truth: ['aston', 'aston martin', 'aston martin lagonda', 'martin']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Lotus Cars
+Ground Truth: ['geely']
+GPT-3 Prediction: []
+
+
+SubjectEntity: NSU
+Ground Truth: ['volkswagen']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Peugeot
+Ground Truth: ['stellantis']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Scripps-Booth
+Ground Truth: ['general motors', 'gm']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Simca
+Ground Truth: ['chrysler', 'chrysler europe']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Volkswagen
+Ground Truth: ['volkswagen', 'volkswagen group']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Yamaha Motor Company
+Ground Truth: ['yamaha', 'yamaha corporation']
+GPT-3 Prediction: []
+
+

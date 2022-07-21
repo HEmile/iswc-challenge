@@ -2,7 +2,7 @@ Which instruments does Liam Gallagher play?
 ['Maraca', 'Guitar']
 
 Which instruments does Jay Park play?
-[]
+['None']
 
 Which instruments does Axl Rose play?
 ['Guitar', 'Piano', 'Pander', 'Bass']

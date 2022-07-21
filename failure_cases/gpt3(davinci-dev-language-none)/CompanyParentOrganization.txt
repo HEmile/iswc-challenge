@@ -1,0 +1,154 @@
+CompanyParentOrganization (average f1: 0.388): 30 cases
+
+
+
+SubjectEntity: Aixam
+Ground Truth: []
+GPT-3 Prediction: ['aixam-mega', 'groupe ligier']
+
+
+SubjectEntity: Alex von Falkenhausen Motorenbau
+Ground Truth: []
+GPT-3 Prediction: ['bmw']
+
+
+SubjectEntity: Alvis Car and Engineering Company Ltd
+Ground Truth: []
+GPT-3 Prediction: ['alvis plc']
+
+
+SubjectEntity: Aston Martin lagonda
+Ground Truth: []
+GPT-3 Prediction: ['aston martin lagonda global holdings plc']
+
+
+SubjectEntity: Austro-Daimler
+Ground Truth: []
+GPT-3 Prediction: ['daimler ag']
+
+
+SubjectEntity: Automobilwerk Eisenach
+Ground Truth: []
+GPT-3 Prediction: ['bmw']
+
+
+SubjectEntity: Bell
+Ground Truth: []
+GPT-3 Prediction: ['bell aliant', 'bell canada', 'bell fibe tv', 'bell mts', 'bell media', 'bell mobility', 'bell tv', 'cravetv', 'much (tv channel)', 'northerntel', 'sogetel', 'the movie network']
+
+
+SubjectEntity: Bertone
+Ground Truth: []
+GPT-3 Prediction: ['nuovo industriale bertone spa']
+
+
+SubjectEntity: Changan Automobile
+Ground Truth: ['china south industries', 'china south industries group']
+GPT-3 Prediction: ['changan group']
+
+
+SubjectEntity: Delage
+Ground Truth: []
+GPT-3 Prediction: ['delage cars']
+
+
+SubjectEntity: Duesenberg
+Ground Truth: []
+GPT-3 Prediction: ['duesenberg motors company']
+
+
+SubjectEntity: Fábrica Nacional de Motores
+Ground Truth: []
+GPT-3 Prediction: ['fiat chrysler automobiles']
+
+
+SubjectEntity: Gaz
+Ground Truth: ['gaz', 'gaz group']
+GPT-3 Prediction: ['gazprom']
+
+
+SubjectEntity: Hanomag
+Ground Truth: ['komatsu', 'komatsu limited']
+GPT-3 Prediction: ['hanomag-henschel']
+
+
+SubjectEntity: Hyundai Motor Company
+Ground Truth: ['hyundai']
+GPT-3 Prediction: ['hyundai motor group']
+
+
+SubjectEntity: Industrieverband Fahrzeugbau
+Ground Truth: []
+GPT-3 Prediction: ['industrieverband fahrzeugbau (ivm)']
+
+
+SubjectEntity: Industrija Motornih Vozil
+Ground Truth: []
+GPT-3 Prediction: ['industrija motornih vozil']
+
+
+SubjectEntity: Jensen Motors
+Ground Truth: []
+GPT-3 Prediction: ['jensen group', 'jensen holdings']
+
+
+SubjectEntity: Lotus Cars
+Ground Truth: ['geely']
+GPT-3 Prediction: ['proton']
+
+
+SubjectEntity: MG Car Company Limited
+Ground Truth: []
+GPT-3 Prediction: ['saic motor corporation limited']
+
+
+SubjectEntity: Moskvitch
+Ground Truth: []
+GPT-3 Prediction: ['ojsc gaz']
+
+
+SubjectEntity: NSU
+Ground Truth: ['volkswagen']
+GPT-3 Prediction: ['volkswagen group']
+
+
+SubjectEntity: Nardi
+Ground Truth: []
+GPT-3 Prediction: ['nardi spa']
+
+
+SubjectEntity: Peugeot
+Ground Truth: ['stellantis']
+GPT-3 Prediction: ['groupe psa']
+
+
+SubjectEntity: Saipa
+Ground Truth: []
+GPT-3 Prediction: ['iran khodro']
+
+
+SubjectEntity: Scripps-Booth
+Ground Truth: ['general motors', 'gm']
+GPT-3 Prediction: ['discovery communications', 'scripps networks interactive']
+
+
+SubjectEntity: Società Torinese Automobili Elettrici
+Ground Truth: []
+GPT-3 Prediction: ['sta']
+
+
+SubjectEntity: Towarzystwo Budowy Samochodów AS
+Ground Truth: []
+GPT-3 Prediction: ['tatra a.s.']
+
+
+SubjectEntity: Valmet Automotive
+Ground Truth: []
+GPT-3 Prediction: ['valmet']
+
+
+SubjectEntity: Élan Motorsport Technologies
+Ground Truth: []
+GPT-3 Prediction: ['élan group']
+
+

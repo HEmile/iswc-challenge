@@ -1,0 +1,9 @@
+Drava RiverBasinsCountry: ['Hungary', 'Italy', 'Austria', 'Slovenia', 'Croatia']
+
+Huai river RiverBasinsCountry: ['China']
+
+Paraná river RiverBasinsCountry: ['Bolivia', 'Paraguay', 'Argentina', 'Brazil']
+
+Oise RiverBasinsCountry: ['Belgium', 'France']
+
+{subject_entity} RiverBasinsCountry:

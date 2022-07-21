@@ -2,7 +2,7 @@ How did André Leon Talley die?
 ['Infarction']
 
 How did Angela Merkel die?
-[]
+['None']
 
 How did Bob Saget die?
 ['Injury', 'Blunt Trauma']

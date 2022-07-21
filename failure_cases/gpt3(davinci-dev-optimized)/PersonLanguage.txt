@@ -1,0 +1,99 @@
+PersonLanguage (average f1: 0.83): 19 cases
+
+
+
+SubjectEntity: A. R. Rahman
+Ground Truth: ['hindi', 'tamil', 'telugu']
+GPT-3 Prediction: ['english', 'hindi', 'kannada', 'malayalam', 'tamil', 'telugu']
+
+
+SubjectEntity: Abdullah Gül
+Ground Truth: ['turkish']
+GPT-3 Prediction: ['english', 'turkish']
+
+
+SubjectEntity: Akon
+Ground Truth: ['english']
+GPT-3 Prediction: ['english', 'french', 'wolof']
+
+
+SubjectEntity: Akshay Kumar
+Ground Truth: ['hindi', 'punjabi']
+GPT-3 Prediction: ['english', 'hindi']
+
+
+SubjectEntity: Barack Obama
+Ground Truth: ['english', 'indonesian']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Blaise Matuidi
+Ground Truth: ['french']
+GPT-3 Prediction: ['english', 'french', 'italian', 'spanish']
+
+
+SubjectEntity: Emma Watson
+Ground Truth: ['english', 'french']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Genelia D'Souza
+Ground Truth: ['hindi', 'malayalam', 'tamil', 'telugu']
+GPT-3 Prediction: ['english', 'hindi', 'marathi', 'telugu']
+
+
+SubjectEntity: John Cena
+Ground Truth: ['chinese', 'english', 'mandarin', 'mandarin chinese']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Jose Michimani
+Ground Truth: ['english']
+GPT-3 Prediction: ['quechua', 'spanish']
+
+
+SubjectEntity: Kobe Bryant
+Ground Truth: ['english', 'italian', 'spanish']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Oscar dos Santos Emboaba Júnior
+Ground Truth: ['portuguese']
+GPT-3 Prediction: ['portuguese', 'spanish']
+
+
+SubjectEntity: Pau Gasol
+Ground Truth: ['catalan', 'english', 'french', 'italian', 'spanish']
+GPT-3 Prediction: ['catalan', 'english', 'spanish']
+
+
+SubjectEntity: Paulo Coelho
+Ground Truth: ['portuguese']
+GPT-3 Prediction: ['english', 'french', 'portuguese', 'spanish']
+
+
+SubjectEntity: Salman Khan
+Ground Truth: ['hindi']
+GPT-3 Prediction: ['hindi', 'urdu']
+
+
+SubjectEntity: Samir Nasri
+Ground Truth: ['french']
+GPT-3 Prediction: ['arabic', 'french']
+
+
+SubjectEntity: Selena Gomez
+Ground Truth: ['english', 'spanish']
+GPT-3 Prediction: ['english']
+
+
+SubjectEntity: Thiago Alcântara
+Ground Truth: ['spanish']
+GPT-3 Prediction: ['catalan', 'english', 'german', 'portuguese', 'spanish']
+
+
+SubjectEntity: Zlatan Ibrahimović
+Ground Truth: ['bosnian', 'english', 'italian', 'spanish', 'swedish']
+GPT-3 Prediction: ['bosnian', 'croatian', 'english', 'french', 'italian', 'serbian', 'spanish', 'swedish']
+
+
