@@ -1,15 +1,10 @@
-CompanyParentOrganization (average f1: 0.76): 12 cases
+CompanyParentOrganization (average f1: 0.8): 10 cases
 
 
 
 SubjectEntity: Aston Martin lagonda
 Ground Truth: []
 GPT-3 Prediction: ['ford motor company', 'investindustrial']
-
-
-SubjectEntity: Bell
-Ground Truth: []
-GPT-3 Prediction: ['bell textron inc.']
 
 
 SubjectEntity: Changan Automobile
@@ -55,10 +50,5 @@ GPT-3 Prediction: ['']
 SubjectEntity: Simca
 Ground Truth: ['chrysler', 'chrysler europe']
 GPT-3 Prediction: []
-
-
-SubjectEntity: Valmet Automotive
-Ground Truth: []
-GPT-3 Prediction: ['valmet']
 
 

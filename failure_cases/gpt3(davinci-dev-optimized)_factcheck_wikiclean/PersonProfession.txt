@@ -1,0 +1,119 @@
+PersonProfession (average f1: 0.584): 23 cases
+
+
+
+SubjectEntity: Al Gore
+Ground Truth: ['activist', 'businessperson', 'climate activist', 'environmentalist', 'financier', 'journalist', 'politician', 'writer']
+GPT-3 Prediction: ['author', 'businessperson', 'inventor', 'investor', 'lawyer', 'philanthropist', 'politician', 'environmentalist']
+
+
+SubjectEntity: Elon Musk
+Ground Truth: ['engineer', 'entrepreneur', 'inventor', 'programmer']
+GPT-3 Prediction: ['businessperson', 'engineer', 'inventor', 'investor', 'philanthropist', 'product-designer']
+
+
+SubjectEntity: Ezra Klein
+Ground Truth: ['blogger', 'columnist', 'journalist', 'podcaster', 'political pundit', 'politician', 'producer', 'television producer', 'writer']
+GPT-3 Prediction: ['author', 'blogger', 'editor', 'journalist', 'podcaster']
+
+
+SubjectEntity: J. K. Rowling
+Ground Truth: ['author', "children's writer", 'executive producer', 'film producer', 'novelist', 'producer', 'producer', 'screenwriter', 'writer', 'writer']
+GPT-3 Prediction: ['author', 'film producer', 'philanthropist', 'screenwriter', 'television producer']
+
+
+SubjectEntity: Jay-Z
+Ground Truth: ['actor', 'businessperson', 'composer', 'designer', 'director', 'drug trafficker', 'entrepreneur', 'executive', 'fashion designer', 'film director', 'film producer', 'investor', 'music executive', 'philanthropist', 'producer', 'producer', 'producer', 'rapper', 'record producer', 'singer', 'songwriter', 'sports agent', 'television producer']
+GPT-3 Prediction: ['actor', 'businessperson', 'film producer', 'music producer', 'rapper', 'record producer', 'screenwriter', 'singer', 'songwriter', 'television producer', 'musician']
+
+
+SubjectEntity: Jim Carrey
+Ground Truth: ['activist', 'actor', 'actor', 'actor', 'anti-vaccine activist', 'comedian', 'film producer', 'painter', 'producer', 'screenwriter', 'television actor', 'voice actor']
+GPT-3 Prediction: ['actor', 'comedian', 'comedy actor', 'film actor', 'television actor', 'voice actor']
+
+
+SubjectEntity: Jose Michimani
+Ground Truth: ['actor', 'actor', 'actor', 'artist', 'composer', 'film actor', 'musician', 'recording artist', 'salsa musician', 'singer', 'television actor']
+GPT-3 Prediction: ['association football manager']
+
+
+SubjectEntity: Khloé Kardashian
+Ground Truth: ['actor', 'actor', 'actor', 'author', 'celebrity', 'designer', 'entrepreneur', 'fashion designer', 'film actor', 'film producer', 'manufacturer', 'model', 'novelist', 'producer', 'radio personality', 'socialite', 'television actor', 'writer']
+GPT-3 Prediction: ['businessperson', 'fashion designer', 'model', 'television personality', 'television producer']
+
+
+SubjectEntity: Lady Gaga
+Ground Truth: ['singer', 'songwriter']
+GPT-3 Prediction: ['actress', 'dancer', 'philanthropist', 'record producer', 'singer', 'songwriter']
+
+
+SubjectEntity: Lewis Hamilton
+Ground Truth: ['driver', 'driver', 'formula one driver', 'racing automobile driver']
+GPT-3 Prediction: ['racing driver']
+
+
+SubjectEntity: Mohamed Morsi
+Ground Truth: ['engineer', 'materials scientist', 'politician', 'scientist', 'teacher', 'university teacher']
+GPT-3 Prediction: ['politician']
+
+
+SubjectEntity: Narendra Modi
+Ground Truth: ['bibliographer', 'politician', 'social worker', 'writer']
+GPT-3 Prediction: ['politician', 'prime minister']
+
+
+SubjectEntity: Paulo Coelho
+Ground Truth: ['actor', 'blogger', 'composer', 'lawyer', 'lyricist', 'novelist', 'poet', 'poet lawyer', 'researcher', 'science fiction writer', 'songwriter', 'writer', 'writer']
+GPT-3 Prediction: ['columnist', 'essayist', 'journalist', 'lyricist', 'novelist', 'playwright', 'screenwriter', 'translator']
+
+
+SubjectEntity: Rachel Maddow
+Ground Truth: ['journalist']
+GPT-3 Prediction: ['author', 'television journalist', 'pundit', 'radio personality', 'television presenter']
+
+
+SubjectEntity: Ricky Martin
+Ground Truth: ['actor', 'actor', 'composer', 'model', 'musician', 'singer', 'stage actor', 'television actor', 'writer']
+GPT-3 Prediction: ['actor', 'choreographer', 'dancer', 'film actor', 'musician', 'record producer', 'singer', 'songwriter', 'television actor', 'television producer']
+
+
+SubjectEntity: Rob Kardashian
+Ground Truth: ['actor', 'businessperson', 'model', 'socialite', 'television actor']
+GPT-3 Prediction: ['businessperson', 'fashion designer', 'television personality']
+
+
+SubjectEntity: Robert Downey Jr.
+Ground Truth: ['actor', 'actor', 'actor', 'director', 'film director', 'film producer', 'musician', 'producer', 'screenwriter', 'singer', 'singer', 'singer-songwriter', 'songwriter', 'television actor', 'voice actor']
+GPT-3 Prediction: ['film actor', 'radio actor', 'stage actor', 'television actor', 'voice actor']
+
+
+SubjectEntity: Serena Williams
+Ground Truth: ['actor', 'autobiographer', 'businessperson', 'designer', 'player', 'tennis player', 'writer']
+GPT-3 Prediction: ['tennis player']
+
+
+SubjectEntity: Stephen King
+Ground Truth: ['actor', 'columnist', 'director', 'director', 'film director', 'journalist', 'novelist', 'producer', 'science fiction writer', 'screenwriter', 'teacher', 'television producer', 'writer', 'writer']
+GPT-3 Prediction: ['actor', 'author', 'composer', 'film producer', 'screenwriter', 'television producer']
+
+
+SubjectEntity: Tiger Woods
+Ground Truth: ['animal trainer', 'golfer', 'writer']
+GPT-3 Prediction: ['golfer']
+
+
+SubjectEntity: Vladimir Putin
+Ground Truth: ['agent', 'coach', 'intelligence agent', 'judoka', 'lawyer', 'military personnel', 'performer', 'politician', 'stunt performer']
+GPT-3 Prediction: ['politician', 'president', 'prime minister']
+
+
+SubjectEntity: Zac Efron
+Ground Truth: ['actor', 'actor', 'actor', 'actor', 'actor', 'disc jockey', 'dj', 'film actor', 'film producer', 'producer', 'singer', 'stage actor', 'television actor', 'voice actor']
+GPT-3 Prediction: ['film actor', 'singer', 'television actor']
+
+
+SubjectEntity: will.i.am
+Ground Truth: ['actor', 'businessperson', 'comics writer', 'composer', 'dancer', 'disc jockey', 'dj', 'educator', 'entrepreneur', 'film producer', 'film score composer', 'guitarist', 'music producer', 'philanthropist', 'producer', 'producer', 'rapper', 'singer', 'singer-songwriter', 'songwriter', 'songwriter', 'voice actor', 'writer']
+GPT-3 Prediction: ['actor', 'film actor', 'film producer', 'music arranger', 'music video director', 'musician', 'rapper', 'record producer', 'singer', 'songwriter', 'television actor', 'television director', 'television producer', 'disc jockey']
+
+

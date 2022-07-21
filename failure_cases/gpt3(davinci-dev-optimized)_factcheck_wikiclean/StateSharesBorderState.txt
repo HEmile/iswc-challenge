@@ -1,4 +1,4 @@
-StateSharesBorderState (average f1: 0.522): 26 cases
+StateSharesBorderState (average f1: 0.531): 25 cases
 
 
 
@@ -9,7 +9,7 @@ GPT-3 Prediction: ['castilla-la mancha', 'extremadura', 'murcia', 'valencian com
 
 SubjectEntity: Basel-Stadt
 Ground Truth: ['alsace', 'baden-wurttemberg', 'baden-württemberg', 'basel-landschaft', 'haut-rhin']
-GPT-3 Prediction: ['france', 'germany', 'solothurn']
+GPT-3 Prediction: ['canton of solothurn', 'france', 'germany']
 
 
 SubjectEntity: Basque Autonomous Community
@@ -17,24 +17,24 @@ Ground Truth: ['cantabria', 'castile and leon', 'castile and león', 'la rioja',
 GPT-3 Prediction: ['aragon', 'france', 'la rioja', 'navarre']
 
 
+SubjectEntity: Bavaria
+Ground Truth: ['austria', 'baden-wurttemberg', 'baden-württemberg', 'bohemian', 'canton of st. gallen', 'hesse', 'karlovy vary', 'karlovy vary region', 'plzen', 'plzeň region', 'salzburg', 'saxony', 'south bohemian region', 'st. gallen', 'thuringia', 'tyrol', 'upper austria', 'vorarlberg']
+GPT-3 Prediction: ['austria', 'baden-wurttemberg', 'czech republic', 'hesse', 'saxony', 'switzerland', 'thuringia']
+
+
 SubjectEntity: Biobío Region
 Ground Truth: ['araucania', 'araucanía region', 'neuquen', 'neuquén province', 'nuble', 'ñuble region']
 GPT-3 Prediction: ['araucanía region', 'los ríos region', 'maule region']
 
 
-SubjectEntity: Canton of Neuchâtel
-Ground Truth: ['canton of bern', 'canton of fribourg', 'canton of jura', 'canton of vaud', 'doubs', 'franche-comte', 'franche-comté', 'jura', 'vaud']
-GPT-3 Prediction: ['bern', 'jura', 'vaud']
-
-
 SubjectEntity: Canton of Vaud
 Ground Truth: ['ain', 'auvergne-rhone-alpes', 'auvergne-rhône-alpes', 'canton of bern', 'canton of fribourg', 'canton of geneva', 'canton of neuchâtel', 'canton of valais', 'doubs', 'franche-comte', 'franche-comté', 'geneva', 'haute-savoie', 'jura', 'neuchatel', 'rhone-alpes', 'rhône-alpes']
-GPT-3 Prediction: ['france', 'geneva', 'italy']
+GPT-3 Prediction: ['canton of geneva', 'france', 'italy']
 
 
 SubjectEntity: Canton of Zürich
 Ground Truth: ['aargau', 'baden-wurttemberg', 'baden-württemberg', 'canton aargau', 'canton of schaffhausen', 'canton of st. gallen', 'canton of zug', 'schaffhausen', 'schwyz', 'st. gallen', 'thurgau', 'zug']
-GPT-3 Prediction: ['aargau', 'glarus', 'schwyz', 'st. gallen', 'uri']
+GPT-3 Prediction: ['canton aargau', 'canton of st. gallen', 'glarus', 'schwyz', 'uri']
 
 
 SubjectEntity: Flores Department
@@ -75,11 +75,6 @@ GPT-3 Prediction: ['belgium', 'france', 'germany']
 SubjectEntity: O'Higgins Region
 Ground Truth: ['maule', 'maule region', 'mendoza', 'santiago metropolitan', 'santiago metropolitan region', 'valparaiso', 'valparaíso region']
 GPT-3 Prediction: ['araucanía region', 'bío-bío region', 'maule region']
-
-
-SubjectEntity: Obwalden
-Ground Truth: ['canton of bern', 'canton of lucerne', 'lucerne', 'nidwalden', 'schwyz', 'uri']
-GPT-3 Prediction: ['bern', 'nidwalden', 'uri', 'valais']
 
 
 SubjectEntity: Päijänne Tavastia

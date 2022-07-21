@@ -8,6 +8,6 @@ Which countries neighbour Serbia?
 ['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
 
 Which countries neighbour Fiji?
-[]
+['None']
 
 Which countries neighbour {subject_entity}?

@@ -1,10 +1,15 @@
-CompanyParentOrganization (average f1: 0.63): 19 cases
+CompanyParentOrganization (average f1: 0.59): 21 cases
 
+
+
+SubjectEntity: Aixam
+Ground Truth: []
+GPT-3 Prediction: ['groupe ligier']
 
 
 SubjectEntity: Alvis Car and Engineering Company Ltd
 Ground Truth: []
-GPT-3 Prediction: ['alvis plc', 'alvis plc', 'red arrow diversified products']
+GPT-3 Prediction: ['alvis plc']
 
 
 SubjectEntity: Aston Martin lagonda
@@ -37,11 +42,6 @@ Ground Truth: ['china south industries', 'china south industries group']
 GPT-3 Prediction: ['changan group']
 
 
-SubjectEntity: Duesenberg
-Ground Truth: []
-GPT-3 Prediction: ['duesenberg motors company']
-
-
 SubjectEntity: Hanomag
 Ground Truth: ['komatsu', 'komatsu limited']
 GPT-3 Prediction: ['volkswagen group']
@@ -59,7 +59,12 @@ GPT-3 Prediction: ['proton']
 
 SubjectEntity: MG Car Company Limited
 Ground Truth: []
-GPT-3 Prediction: ['saic motor corporation limited']
+GPT-3 Prediction: ['morris garages', 'saic motor']
+
+
+SubjectEntity: Moskvitch
+Ground Truth: []
+GPT-3 Prediction: ['ofai']
 
 
 SubjectEntity: NSU
@@ -69,7 +74,7 @@ GPT-3 Prediction: ['volkswagen group']
 
 SubjectEntity: Peugeot
 Ground Truth: ['stellantis']
-GPT-3 Prediction: ['peugeot s.a.']
+GPT-3 Prediction: ['peugeot citroën', 'peugeot s.a.']
 
 
 SubjectEntity: Saipa
@@ -85,6 +90,11 @@ GPT-3 Prediction: ['']
 SubjectEntity: Simca
 Ground Truth: ['chrysler', 'chrysler europe']
 GPT-3 Prediction: ['chrysler europe', 'psa peugeot citroën', 'peugeot']
+
+
+SubjectEntity: Società Torinese Automobili Elettrici
+Ground Truth: []
+GPT-3 Prediction: ['staer s.p.a.']
 
 
 SubjectEntity: Valmet Automotive

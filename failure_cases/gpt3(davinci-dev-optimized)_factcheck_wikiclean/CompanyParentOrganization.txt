@@ -1,20 +1,10 @@
-CompanyParentOrganization (average f1: 0.77): 12 cases
+CompanyParentOrganization (average f1: 0.82): 9 cases
 
-
-
-SubjectEntity: Alex von Falkenhausen Motorenbau
-Ground Truth: []
-GPT-3 Prediction: ['bmw']
 
 
 SubjectEntity: Aston Martin lagonda
 Ground Truth: []
-GPT-3 Prediction: ['ford motor company', 'investindustrial', 'kuwait investment authority']
-
-
-SubjectEntity: Austro-Daimler
-Ground Truth: []
-GPT-3 Prediction: ['daimler ag']
+GPT-3 Prediction: ['ford motor company', 'investindustrial']
 
 
 SubjectEntity: Changan Automobile
@@ -32,24 +22,19 @@ Ground Truth: ['hyundai']
 GPT-3 Prediction: ['hyundai motor group']
 
 
-SubjectEntity: Lotus Cars
-Ground Truth: ['geely']
-GPT-3 Prediction: ['geely holding group', 'proton holdings berhad']
-
-
 SubjectEntity: MG Car Company Limited
 Ground Truth: []
-GPT-3 Prediction: ['saic motor corporation limited']
+GPT-3 Prediction: ['saic motor']
 
 
 SubjectEntity: NSU
 Ground Truth: ['volkswagen']
-GPT-3 Prediction: ['audi ag', 'volkswagen group']
+GPT-3 Prediction: ['volkswagen group']
 
 
 SubjectEntity: Peugeot
 Ground Truth: ['stellantis']
-GPT-3 Prediction: ['psa peugeot citroën', 'peugeot s.a.']
+GPT-3 Prediction: ['groupe psa']
 
 
 SubjectEntity: Scripps-Booth
@@ -59,6 +44,6 @@ GPT-3 Prediction: ['']
 
 SubjectEntity: Simca
 Ground Truth: ['chrysler', 'chrysler europe']
-GPT-3 Prediction: ['chrysler europe', 'psa peugeot citroën', 'peugeot']
+GPT-3 Prediction: []
 
 

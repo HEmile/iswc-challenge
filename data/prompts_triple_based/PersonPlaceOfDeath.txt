@@ -1,8 +1,8 @@
-Barack Obama PersonPlaceOfDeath: []
+Barack Obama PersonPlaceOfDeath: ['None']
 
 Ennio Morricone PersonPlaceOfDeath: ['Rome']
 
-Elon Musk PersonPlaceOfDeath: []
+Elon Musk PersonPlaceOfDeath: ['None']
 
 Prince PersonPlaceOfDeath: ['Chanhassen']
 

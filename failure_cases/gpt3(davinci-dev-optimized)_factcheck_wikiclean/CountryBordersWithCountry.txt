@@ -1,0 +1,79 @@
+CountryBordersWithCountry (average f1: 0.79): 15 cases
+
+
+
+SubjectEntity: Angola
+Ground Truth: ['congo', 'congo', 'democratic republic of the congo', 'gabon', 'namibia', 'republic of the congo', 'zambia']
+GPT-3 Prediction: ['botswana', 'cape verde', 'democratic republic of the congo', 'namibia', 'zambia']
+
+
+SubjectEntity: Bahrain
+Ground Truth: ['iran', 'saudi arabia']
+GPT-3 Prediction: ['qatar', 'saudi arabia', 'united arab emirates']
+
+
+SubjectEntity: Barbados
+Ground Truth: []
+GPT-3 Prediction: ['guyana', 'saint lucia', 'saint vincent and the grenadines', 'trinidad and tobago', 'venezuela']
+
+
+SubjectEntity: Comoros
+Ground Truth: ['france', 'madagascar', 'mozambique', 'seychelles', 'tanzania']
+GPT-3 Prediction: ['madagascar', 'mayotte', 'mozambique', 'seychelles']
+
+
+SubjectEntity: Cuba
+Ground Truth: ['united states of america', 'usa']
+GPT-3 Prediction: ['cayman islands', 'haiti', 'jamaica', 'mexico', 'the bahamas', 'united states of america']
+
+
+SubjectEntity: Dominican Republic
+Ground Truth: ['haiti', 'united states of america', 'usa', 'venezuela']
+GPT-3 Prediction: ['haiti', 'puerto rico']
+
+
+SubjectEntity: Gambia
+Ground Truth: ['senegal']
+GPT-3 Prediction: ['guinea', 'guinea-bissau', 'senegal']
+
+
+SubjectEntity: Ghana
+Ground Truth: ['burkina faso', 'ivory coast', 'togo']
+GPT-3 Prediction: ['benin', 'burkina faso', 'cote divoire', 'togo']
+
+
+SubjectEntity: Grenada
+Ground Truth: ['venezuela']
+GPT-3 Prediction: ['trinidad and tobago', 'venezuela']
+
+
+SubjectEntity: Japan
+Ground Truth: ['china', 'korea', "people's republic of china", 'philippines', 'russia', 'south korea', 'taiwan', 'united states of america', 'usa']
+GPT-3 Prediction: ['north korea', "people's republic of china", 'russia', 'south korea']
+
+
+SubjectEntity: Kingdom of Denmark
+Ground Truth: ['canada', 'germany', 'iceland', 'norway', 'poland', 'sweden', 'uk', 'united kingdom']
+GPT-3 Prediction: ['germany', 'norway', 'sweden']
+
+
+SubjectEntity: Portugal
+Ground Truth: ['castile and leon', 'castile and león', 'spain']
+GPT-3 Prediction: ['spain']
+
+
+SubjectEntity: Saint Vincent and the Grenadines
+Ground Truth: ['venezuela']
+GPT-3 Prediction: ['barbados', 'grenada', 'saint lucia']
+
+
+SubjectEntity: Samoa
+Ground Truth: ['united states of america', 'usa']
+GPT-3 Prediction: ['']
+
+
+SubjectEntity: Venezuela
+Ground Truth: ['brazil', 'colombia', 'dominica', 'dominican republic', 'france', 'grenada', 'guyana', 'kingdom of the netherlands', 'netherlands', 'saint kitts and nevis', 'saint lucia', 'saint vincent and the grenadines', 'trinidad and tobago', 'uk', 'united kingdom', 'united states of america', 'usa']
+GPT-3 Prediction: ['brazil', 'colombia', 'guyana']
+
+

@@ -39,9 +39,9 @@ python evaluate.py -p "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" 
 #### predictions/gpt3(davinci-dev-triple-empty).pred.jsonl
 
 | Relation                  | p     | r     | f1    |
-| ------------------------- | :---- | :---- | :---- |
+| ------------------------- |:------|:------|:------|
 | ChemicalCompoundElement   | 0.976 | 0.919 | 0.940 |
-| CompanyParentOrganization | 0.627 | 0.640 | 0.630 |
+| CompanyParentOrganization | 0.587 | 0.600 | 0.590 |
 | CountryBordersWithCountry | 0.865 | 0.733 | 0.766 |
 | CountryOfficialLanguage   | 0.933 | 0.810 | 0.833 |
 | PersonCauseOfDeath        | 0.560 | 0.550 | 0.553 |
@@ -52,7 +52,7 @@ python evaluate.py -p "predictions/gpt3(davinci-dev-language-empty).pred.jsonl" 
 | PersonProfession          | 0.669 | 0.527 | 0.556 |
 | RiverBasinsCountry        | 0.845 | 0.868 | 0.832 |
 | StateSharesBorderState    | 0.587 | 0.407 | 0.472 |
-| *** Average ***           | 0.711 | 0.662 | 0.663 |
+| *** Average ***           | 0.707 | 0.658 | 0.660 |
 
 #### predictions/gpt3(davinci-dev-language-empty).pred.jsonl
 
@@ -88,9 +88,9 @@ python evaluate.py -p "predictions/gpt3(davinci-dev-language-none).pred.jsonl" -
 #### predictions/gpt3(davinci-dev-triple-none).pred.jsonl
 
 | Relation                  | p     | r     | f1    |
-| ------------------------- | :---- | :---- | :---- |
+| ------------------------- |:------|:------|:------|
 | ChemicalCompoundElement   | 0.976 | 0.919 | 0.940 |
-| CompanyParentOrganization | 0.627 | 0.640 | 0.630 |
+| CompanyParentOrganization | 0.767 | 0.780 | 0.770 |
 | CountryBordersWithCountry | 0.826 | 0.719 | 0.749 |
 | CountryOfficialLanguage   | 0.933 | 0.810 | 0.833 |
 | PersonCauseOfDeath        | 0.600 | 0.590 | 0.593 |
@@ -101,7 +101,7 @@ python evaluate.py -p "predictions/gpt3(davinci-dev-language-none).pred.jsonl" -
 | PersonProfession          | 0.669 | 0.527 | 0.556 |
 | RiverBasinsCountry        | 0.845 | 0.868 | 0.832 |
 | StateSharesBorderState    | 0.587 | 0.407 | 0.472 |
-| *** Average ***           | 0.712 | 0.665 | 0.667 |
+| *** Average ***           | 0.724 | 0.677 | 0.679 |
 
 #### predictions/gpt3(davinci-dev-language-none).pred.jsonl
 
@@ -153,7 +153,7 @@ python opt_baseline.py -o "predictions/opt(13-dev-optimized).pred.jsonl" -i "dat
 python opt_baseline.py -o "predictions/opt(30-dev-optimized).pred.jsonl" -i "data/dev.jsonl" -m "facebook/opt-30b"
 ```
 
-#### [TO REDO] predictions/gpt3(ada-dev).pred.jsonl
+#### [TO REDO] predictions/gpt3(ada-dev).pred.jsonl 
 
 | Relation                  | p     | r     | f1    |
 | ------------------------- | :---- | :---- | :---- |
@@ -209,21 +209,21 @@ python opt_baseline.py -o "predictions/opt(30-dev-optimized).pred.jsonl" -i "dat
 
 #### predictions/gpt3(davinci-dev).pred.jsonl
 
-| Relation                  | p     | r     | f1    |
-| ------------------------- | :---- | :---- | :---- |
-| ChemicalCompoundElement   | 0.976 | 0.919 | 0.940 |
-| CompanyParentOrganization | 0.725 | 0.740 | 0.728 |
-| CountryBordersWithCountry | 0.809 | 0.800 | 0.785 |
-| CountryOfficialLanguage   | 0.933 | 0.810 | 0.833 |
-| PersonCauseOfDeath        | 0.600 | 0.590 | 0.593 |
-| PersonEmployer            | 0.281 | 0.333 | 0.271 |
-| PersonInstrument          | 0.600 | 0.561 | 0.568 |
-| PersonLanguage            | 0.843 | 0.894 | 0.830 |
-| PersonPlaceOfDeath        | 0.840 | 0.840 | 0.840 |
-| PersonProfession          | 0.709 | 0.536 | 0.581 |
-| RiverBasinsCountry        | 0.845 | 0.868 | 0.832 |
-| StateSharesBorderState    | 0.582 | 0.403 | 0.468 |
-| *** Average ***           | 0.729 | 0.691 | 0.689 |
+| Relation                  | p     | r     | f1   |
+|---------------------------|:------|:------|:-----|
+|ChemicalCompoundElement    |0.976  | 0.919 | 0.940|
+|CompanyParentOrganization  |0.767  | 0.780 | 0.770 |
+|CountryBordersWithCountry  |0.809  | 0.800 | 0.785|
+|CountryOfficialLanguage    |0.933  | 0.810 | 0.833|
+|PersonCauseOfDeath         |0.600  | 0.590 | 0.593|
+|PersonEmployer             |0.281  | 0.333 | 0.271|
+|PersonInstrument           |0.600  | 0.561 | 0.568|
+|PersonLanguage             |0.843  | 0.894 | 0.830|
+|PersonPlaceOfDeath         |0.840  | 0.840 | 0.840|
+|PersonProfession           |0.709  | 0.536 | 0.581|
+|RiverBasinsCountry         |0.845  | 0.868 | 0.832|
+|StateSharesBorderState     |0.628  | 0.462 | 0.522 |
+|*** Average ***            |0.736  | 0.699 | 0.697 |
 
 ## Fact Checking
 
@@ -231,21 +231,21 @@ python opt_baseline.py -o "predictions/opt(30-dev-optimized).pred.jsonl" -i "dat
 python integrity_checking.py -o "predictions/gpt3(davinci-dev-optimized)_factcheck.pred.jsonl" -i "predictions/gpt3(davinci-dev-optimized).pred.jsonl"
 ```
 
-| Relation                  | p     | r     | f1    |
-| ------------------------- | :---- | :---- | :---- |
-| ChemicalCompoundElement   | 0.976 | 0.919 | 0.940 |
-| CompanyParentOrganization | 0.760 | 0.760 | 0.760 |
-| CountryBordersWithCountry | 0.809 | 0.800 | 0.785 |
-| CountryOfficialLanguage   | 0.933 | 0.810 | 0.833 |
-| PersonCauseOfDeath        | 0.600 | 0.590 | 0.593 |
-| PersonEmployer            | 0.281 | 0.333 | 0.271 |
-| PersonInstrument          | 0.563 | 0.522 | 0.534 |
-| PersonLanguage            | 0.913 | 0.829 | 0.842 |
-| PersonPlaceOfDeath        | 0.840 | 0.840 | 0.840 |
-| PersonProfession          | 0.709 | 0.536 | 0.581 |
-| RiverBasinsCountry        | 0.845 | 0.868 | 0.832 |
-| StateSharesBorderState    | 0.582 | 0.403 | 0.468 |
-| *** Average ***           | 0.734 | 0.684 | 0.690 |
+| Relation                          | p     | r      |  f1|
+|---------------------------|:------|:-------|:------|
+|ChemicalCompoundElement    |0.976  | 0.919  |0.940|
+|CompanyParentOrganization  |0.800  | 0.800  | 0.800 |
+|CountryBordersWithCountry  |0.809  | 0.800  |0.785|
+|CountryOfficialLanguage    |0.933  | 0.810  |0.833|
+|PersonCauseOfDeath         |0.600  | 0.590  |0.593|
+|PersonEmployer             |0.281  | 0.333  |0.271|
+|PersonInstrument           |0.563  | 0.522  |0.534|
+|PersonLanguage             |0.913  | 0.829  |0.842|
+|PersonPlaceOfDeath         |0.840  | 0.840  |0.840|
+|PersonProfession           |0.709  | 0.536  |0.581|
+|RiverBasinsCountry         |0.845  | 0.868  |0.832|
+|StateSharesBorderState     |0.628  | 0.462 | 0.522 |
+|*** Average ***            |0.741 |  0.692 | 0.698 |
 
 ## Alias Fetcher
 
@@ -259,9 +259,9 @@ python evaluate.py -p "predictions/gpt3(davinci-dev-optimized)_factcheck_wikicle
 ```
 
 |                           | p     | r     | f1    |
-| ------------------------- | :---- | :---- | :---- |
+| ------------------------- |:------|:------|:------|
 | ChemicalCompoundElement   | 0.986 | 0.929 | 0.950 |
-| CompanyParentOrganization | 0.780 | 0.780 | 0.780 |
+| CompanyParentOrganization | 0.820 | 0.820 | 0.820 |
 | CountryBordersWithCountry | 0.811 | 0.820 | 0.790 |
 | CountryOfficialLanguage   | 0.933 | 0.810 | 0.833 |
 | PersonCauseOfDeath        | 0.640 | 0.630 | 0.633 |
@@ -272,4 +272,4 @@ python evaluate.py -p "predictions/gpt3(davinci-dev-optimized)_factcheck_wikicle
 | PersonProfession          | 0.712 | 0.539 | 0.584 |
 | RiverBasinsCountry        | 0.865 | 0.878 | 0.846 |
 | StateSharesBorderState    | 0.621 | 0.430 | 0.499 |
-| *** Average ***           | 0.750 | 0.702 | 0.706 |
+| *** Average ***           | 0.755 | 0.709 | 0.712 |

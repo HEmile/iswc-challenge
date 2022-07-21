@@ -4,6 +4,6 @@ North Korea CountryBordersWithCountry: ['South Korea', 'China', 'Russia']
 
 Serbia CountryBordersWithCountry: ['Montenegro', 'Kosovo', 'Bosnia and Herzegovina', 'Hungary', 'Croatia', 'Bulgaria',  'Macedonia', 'Albania', 'Romania']
 
-Fiji CountryBordersWithCountry: []
+Fiji CountryBordersWithCountry: ['None']
 
 {subject_entity} CountryBordersWithCountry:
