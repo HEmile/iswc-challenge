@@ -1,0 +1,254 @@
+PersonEmployer (average f1: 0.0): 50 cases
+
+
+
+SubjectEntity: Adam Savage
+Ground Truth: ['academy of art university']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Alexis Ohanian
+Ground Truth: ['initialized capital', 'reddit', 'reddit inc.']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Amber Rudd
+Ground Truth: ['j.p. morgan', 'j.p. morgan & co.', 'jp morgan']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Aylin Nazlıaka
+Ground Truth: ['bilkent university']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Bill Browder
+Ground Truth: ['boston consulting', 'boston consulting group', 'hermitage capital management', 'salomon brothers']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Bob Iger
+Ground Truth: ['american broadcasting', 'american broadcasting company', 'the walt disney company', 'walt disney']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Chelsea Clinton
+Ground Truth: ['columbia university']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Chris Anderson
+Ground Truth: ['wired']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Chris Sacca
+Ground Truth: ['google']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Cindy McCain
+Ground Truth: ['agua fria high school', 'hensley', 'hensley & co.']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Dana White
+Ground Truth: ['ultimate fighting championship']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Devin Nunes
+Ground Truth: ['united states department of agriculture']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Dick Costolo
+Ground Truth: ['google', 'twitter', 'twitter, inc.']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Donny Deutsch
+Ground Truth: ['deutsch', 'deutsch inc.']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Doug Ducey
+Ground Truth: ['cold stone creamery', 'hensley', 'hensley & co.', 'procter & gamble']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Douglas G. Hurley
+Ground Truth: ['national aeronautics and space administration']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Edd China
+Ground Truth: ['discovery channel']
+GPT-3 Prediction: []
+
+
+SubjectEntity: François Legault
+Ground Truth: ['air transat', 'ernst & young', 'nolisair', 'provigo', 'quebecair']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Guido van Rossum
+Ground Truth: ['microsoft']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Harsh Goenka
+Ground Truth: ['rpg', 'rpg group']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Heizō Takenaka
+Ground Truth: ['kansai university', 'keio university', 'osaka university']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Joel Spolsky
+Ground Truth: ['microsoft']
+GPT-3 Prediction: []
+
+
+SubjectEntity: John Doerr
+Ground Truth: ['kleiner perkins caufield', 'kleiner perkins caufield & byers']
+GPT-3 Prediction: []
+
+
+SubjectEntity: John McAfee
+Ground Truth: ['booz allen hamilton', 'computer sciences corporation', 'goddard institute for space studies', 'lockheed corporation', 'lockheedoration', 'mcafee', 'mcafee, llc', 'univac', 'xerox']
+GPT-3 Prediction: []
+
+
+SubjectEntity: John Romero
+Ground Truth: ['id software', 'softdisk']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Kanye West
+Ground Truth: ['gap', 'gap inc.']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Karen L. Nyberg
+Ground Truth: ['national aeronautics and space administration']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Kent Beck
+Ground Truth: ['meta platforms']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Kristalina Georgieva
+Ground Truth: ['sofia university']
+GPT-3 Prediction: []
+
+
+SubjectEntity: L. Brent Bozell III
+Ground Truth: ['catholic league', 'foramerica', 'media research center', 'national conservative political action committee', 'parents television council']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Lana Rhoades
+Ground Truth: ['bang bros', 'brazzers', 'evil angel', 'naughty america', 'tushy']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Marcos Pontes
+Ground Truth: ['brazilian air force']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Michael Bloomberg
+Ground Truth: ['bloomberg', 'bloomberg family foundation', 'salomon brothers']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Michael J. Massimino
+Ground Truth: ['georgia institute of technology', 'ibm', 'national aeronautics and space administration', 'rice university']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Mike Pompeo
+Ground Truth: ['central intelligence agency']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Muhammad Yunus
+Ground Truth: ['la trobe university', 'middle tennessee state university', 'university of dhaka']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Naftali Bennett
+Ground Truth: ["prime minister's office", 'soluto']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Nandan Nilekani
+Ground Truth: ['igate patni', 'infosys']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Nicole Stott
+Ground Truth: ['national aeronautics and space administration', 'pratt & whitney']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Oleksandr Turchynov
+Ground Truth: ['arcelormittal kryvyi rih']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Oprah Winfrey
+Ground Truth: ['harpo', 'harpo productions', 'wjz', 'wjz-tv', 'wls', 'wls-tv', 'wtvf', 'wvol']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Pedro Duque
+Ground Truth: ['deimos imaging', 'european space agency']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Reid Hoffman
+Ground Truth: ['chaosium', 'linkedin', 'paypal']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Serena Williams
+Ground Truth: ['unicef']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Sergio Melnick
+Ground Truth: ['adolfo ibáñez university', 'ucla', 'universidad mayor', 'university of california, los angeles', 'university of chile']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Shane Kimbrough
+Ground Truth: ['national aeronautics and space administration', 'united states military academy']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Steve Forbes
+Ground Truth: ['business today', 'forbes']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Turki Al-Sheikh
+Ground Truth: ['royal court']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Wendell Pierce
+Ground Truth: ['nosep yo']
+GPT-3 Prediction: []
+
+
+SubjectEntity: Wishnutama
+Ground Truth: ['detik.com', 'indosiar', 'kumparan', 'net.', 'new england cable news', 'trans tv', 'trans7', 'whdh']
+GPT-3 Prediction: []
+
+
